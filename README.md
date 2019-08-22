@@ -21,6 +21,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## YouTube Channels
 
+* [Angie Speaks](https://www.youtube.com/channel/UCUtloyZ_Iu4BJekIqPLc_fQ<Paste>))
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
 * [Flea Market Socialist](https://www.youtube.com/channel/UCT669OCFMjwMzUdpoXl2FIw)
 * [Gutian](https://www.youtube.com/channel/UCe4N2GAyLMCt1LPMvIAuoVQ)
