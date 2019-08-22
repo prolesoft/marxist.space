@@ -51,4 +51,4 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [r/communism101 FAQ](https://www.reddit.com/r/communism101/comments/2pl8tv/rcommunism101s_frequently_asked_questions/)
 
 
-[MIT](./LICENSE.md)
+[License: MIT](./LICENSE.md)
