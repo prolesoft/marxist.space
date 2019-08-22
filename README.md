@@ -9,6 +9,11 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 [![Support with PayPal](https://img.shields.io/badge/paypal-donate-yellow.png)](https://paypal.me/zacanger) [![Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/zacanger) [![ko-fi](https://img.shields.io/badge/donate-KoFi-yellow.svg)](https://ko-fi.com/U7U2110VB)
 
+## Misc Resources
+
+* [Michael Parenti Lectures (playlist)](https://www.youtube.com/playlist?list=PLXIlvfed_WgkHz6aXkTXeWQb3E8WnNxbb)
+* [dessalines essays](https://github.com/dessalines/essays)
+
 ## Libraries
 
 * [Marxists.org](https://marxists.org)
