@@ -11,6 +11,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Misc Resources
 
+* [Sunbeam City wiki](https://wiki.sunbeam.city/doku.php?id=start) solarpunk coop
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
 * [dessalines essays](https://github.com/dessalines/essays)
 
@@ -34,24 +35,33 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [Philosophy Tube](https://www.youtube.com/channel/UC2PA-AKmVpU6NKCGtZq_rKQ)
 * [RE-EDUCATION](https://www.youtube.com/channel/UC02Mk2QHR9myF3VMrVYbCAA)
 * [Red Star Videos](https://www.youtube.com/channel/UCPF2TnvBH88EKgmS-TAMM4w)
+* [Shaun](https://www.youtube.com/channel/UCJ6o36XL0CpYb6U5dNBiXHQ)
 * [Thought Slime](https://www.youtube.com/channel/UCrr7y8rEXb7_RiVniwvzk9w)
 * [Xexizy](https://www.youtube.com/channel/UCDULjo1v2Hivuu4h4LZSTUQ)
 * [azureScapegoat](https://www.youtube.com/channel/UCXIN3HIH0eon5hVYYpnoNuQ)
 * [hbomberguy](https://www.youtube.com/channel/UClt01z1wHHT7c5lKcU8pxRQ)
 
-## Periodicals
+## News and Periodicals
 
+* [Anticonquista](https://anticonquista.com/)
 * [CounterPunch](https://www.counterpunch.org/)
+* [Monthly Review](https://monthlyreview.org/)
 * [The Anarchist Library](https://theanarchistlibrary.org/special/index)
 * [The Grayzone](https://thegrayzone.com/)
 * [Workers World](https://www.workers.org/)
 * [libcom](https://libcom.org/)
+* [teleSUR English](https://www.telesurenglish.net/)
 
-## Social
+## Reddit
 
-* [Sunbeam City wiki](https://wiki.sunbeam.city/doku.php?id=start)
-* [r/communism Mega-Megathread](https://www.reddit.com/r/communism/comments/co1pfl/the_megamegathread/)
-* [r/communism101 FAQ](https://www.reddit.com/r/communism101/comments/2pl8tv/rcommunism101s_frequently_asked_questions/)
-
+* [BreadTube](https://www.reddit.com/r/BreadTube/) leftist youtube
+* [Communism](https://www.reddit.com/r/communism/)
+  * [r/communism Mega-Megathread](https://www.reddit.com/r/communism/comments/co1pfl/the_megamegathread/)
+* [Communism101](https://www.reddit.com/r/communism101/)
+  * [r/communism101 FAQ](https://www.reddit.com/r/communism101/comments/2pl8tv/rcommunism101s_frequently_asked_questions/)
+* [DebateCommunisum](https://www.reddit.com/r/DebateCommunism/)
+* [LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism/)
+* [LeftWithoutEdge](https://www.reddit.com/r/LeftWithoutEdge/)
+* [Socialism](https://www.reddit.com/r/socialism/)
 
 [License: MIT](./LICENSE.md)
