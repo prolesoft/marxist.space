@@ -1,20 +1,20 @@
-## Soviet Union Reading List
+# Soviet Union Reading List
 
 Original source:
 
 * <https://www.reddit.com/r/LateStageCapitalism/comments/993hjk/aint_that_the_truth/>
 * <https://docs.google.com/document/d/1qeYeYeLN7uKxfMdoe7TAmOMD2fmgyZdU_urvW6eAsRg/mobilebasic>
 
-Useful Websites and Collections
+## Useful Websites and Collections
 
 *   [Seventeen Moments in Soviet History](http://soviethistory.msu.edu/)
 *   [Lenin Internet Archive](https://www.marxists.org/archive/lenin/index.htm)
 *   [Josef Stalin Internet Archive](https://www.marxists.org/reference/archive/stalin/index.htm)
 *   [Trotsky Internet Archive](https://www.marxists.org/archive/trotsky/index.htm)
 
-The Lenin Era
+## The Lenin Era
 
-General
+### General
 
 *   [Lenin: A Biography](https://archive.org/details/LeninBiography1983)
 *   [1918 Constitution of RSFSR](https://www.marxists.org/history/ussr/government/constitution/1918/index.htm)
@@ -47,10 +47,10 @@ General
 *   [Lenin's Last Struggle](https://drive.google.com/open?id%253D1POsCXB8bXXL4EpM5zMOeljBP-xAQFY9l)
 *   [From Tsarism to the New Economic Policy](https://drive.google.com/open?id%253D1Gcer70s86if0zVqpmk95OemnJYbDj3sZ)
 
-The Russian Revolution
+### The Russian Revolution
 
 *   [October Revolution - Espresso Stalinist](https://espressostalinist.com/the-real-stalin-series/october-revolution/)
-*   # Brief History of the October Revolution, [Text](https://mltheory.wordpress.com/2017/11/08/brief-history-of-the-october-revolution/)and [Video](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.youtube.com/watch?v%253D99EYJVIULOE%2526ab_channel%253DTheFinnishBolshevik)
+*   Brief History of the October Revolution, [Text](https://mltheory.wordpress.com/2017/11/08/brief-history-of-the-october-revolution/) and [Video](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.youtube.com/watch?v%253D99EYJVIULOE%2526ab_channel%253DTheFinnishBolshevik)
 
 *   [The Great Soviet Encyclopedia on the Great October Socialist Revolution](https://espressostalinist.com/2017/11/07/the-great-soviet-encyclopedia-on-the-great-october-socialist-revolution/)
 *   [The Soviets of Workers’ and Soldiers’ Deputies on the Eve of the October Revolution](https://archive.org/details/SovietsEveOctRev)
@@ -114,7 +114,7 @@ The Russian Revolution
 *   [Bolshevik Revolution 1917-1923 Volume 3](https://drive.google.com/open?id%253D1z9qUXeY4U_oGnplnMqXgDaic_6yEnWvl)
 *   [October](https://drive.google.com/open?id%253D1TXPoi5XgrInSi6k2i4I3KLA85HxanPRV)
 
-Post-Revolution Soviet Union
+### Post-Revolution Soviet Union
 
 *   [Class Struggles in the USSR, First Period: 1917-1923](http://www.marx2mao.com/Other/CSSUi76NB.html)
 *   [America's Siberian Adventure (1918-1920)](https://www.marxists.org/archive/graves/1931/siberian-adventure/index.htm)
@@ -126,7 +126,7 @@ Post-Revolution Soviet Union
 *   [Time of NEP - Espresso Stalinist](https://espressostalinist.com/the-real-stalin-series/time-of-nep/)
 *   [Revolutionary corpse: Why and how Russia still preserves Lenin in its heart](https://www.rt.com/news/409110-lenin-preserved-mausoleum-row/)
 *   [The workers and peasants of Russia and Ukraine, how do they live?](https://archive.org/details/workerspeasantso00soucrich)
-*   # [An History Of Soviet Russia Socialism In One Country, 1924-1926](https://archive.org/details/historyofsovietr009909mbp)
+*   [An History Of Soviet Russia Socialism In One Country, 1924-1926](https://archive.org/details/historyofsovietr009909mbp)
 
 *   [The Industrial Revival in Soviet Russia](https://archive.org/details/industrialreviv00steigoog)
 *   [Labor Laws of Soviet Russia](https://archive.org/details/LaborLawsOfSovietRussia)
@@ -150,9 +150,9 @@ Post-Revolution Soviet Union
 *   [The Interregnum](https://drive.google.com/open?id%253D1ofwhZvyrJCs-rig7wa8Ge9YR1m2IfOu7)
 *   Socialism in One Country, [1](https://drive.google.com/open?id%253D1s7NJZv_4Hsr9bo9Q69iQTUaJjLtPjv-4), [2](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://drive.google.com/open?id%253D1msup9wYQAfnPDSjOErO_yBg7CFEkD8yz), [3-1](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://drive.google.com/open?id%253D1m2VLrkztcXayGP1CbKcuLtXViR-QNKTM), [3-2](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://drive.google.com/open?id%253D153_hThmiVIOvEZffkVAhDJEe_p8mraVF)
 
-The Stalin Era
+## The Stalin Era
 
-General
+### General
 
 *   [An Introduction to Stalin](https://anti-imperialism.org/2012/11/02/an-introduction-to-stalin/)
 *   [Another View of Stalin - Ludo Martens](https://stalinsocietypk.files.wordpress.com/2013/05/another-view-of-stalin1.pdf)
@@ -184,7 +184,7 @@ General
 *   [The Swastika and the Sickle: Or why Lenin and the USSR were not as evil as the Nazis](https://web.archive.org/web/20170523154431/https://reddit.com/r/badhistory/comments/6cvg5d/the_swastika_and_the_sickle_or_why_lenin_and_the/)
 *   [The Continuing Revolution in Stalin-Era Soviet History](http://www.lalkar.org/article/97/the-continuing-revolution-in-stalin-era-soviet-history)
 *   [Refutation of bourgeois attempts at falsification of the glorious achievements of Soviet communism](http://www.lalkar.org/article/425/refutationof-bourgeois-attempts-at-falsification-of-the-glorious-achievements-of-sovietcommunism)
-*   # Responding to Xexizy on “Not-real-Socialism” - FinnishBolshevik, [Text](https://mltheory.wordpress.com/2017/09/05/responding-to-xexizy-on-not-real-socialism/)and [Video](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.youtube.com/watch?v%253Dlro-8GOpmSk%2526ab_channel%253DTheFinnishBolshevik)
+*   Responding to Xexizy on “Not-real-Socialism” - FinnishBolshevik, [Text](https://mltheory.wordpress.com/2017/09/05/responding-to-xexizy-on-not-real-socialism/) and [Video](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.youtube.com/watch?v%253Dlro-8GOpmSk%2526ab_channel%253DTheFinnishBolshevik)
 
 *   [eaterofclouds on “](https://www.reddit.com/r/DebateCommunism/comments/72ubwk/defending_stalin_is_unacceptable_most_of_all_by/dnlloyz/)[Defending Stalin is unacceptable, most of all by communists](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.reddit.com/r/DebateCommunism/comments/72ubwk/defending_stalin_is_unacceptable_most_of_all_by/dnlloyz/)[”](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.reddit.com/r/DebateCommunism/comments/72ubwk/defending_stalin_is_unacceptable_most_of_all_by/dnlloyz/)
 *   [Soviet Prosperity - Molotov](https://mltheory.files.wordpress.com/2017/06/molotov_1935_soviet_prosperity_report.pdf)
@@ -224,7 +224,7 @@ General
 *   [Stalin's Letters to Molotov](https://drive.google.com/open?id%253D1bHm34HsTzI-4ASeuqfYUcAtTL4rLyYy5)
 *   [The Stalin-Kaganovich Correspondence](https://drive.google.com/open?id%253D1EM_7nogZ5PvYVjKd8uwVuyZZp6MG1yf1)
 
-On Stalin Himself
+### On Stalin Himself
 
 *   [Stalin’s Personal Belongings](http://englishrussia.com/2014/08/02/stalins-personal-belongings/)
 *   [With Stalin: Memoirs from my Meetings with Stalin](https://www.marxists.org/reference/archive/hoxha/works/stalin/intro.htm)
@@ -244,7 +244,7 @@ On Stalin Himself
 *   [Stalin’s Theological Education](https://stalinsmoustache.org/2018/04/02/stalins-theological-education/)
 *   [Stalin - Ian Grey](https://drive.google.com/open?id%253D1t1KDEEQrXLHgxIfLkIVS8jbtGkUOFpmb)
 
-Collectivisation and the Famine of 1932-33 or the “Holodomor”
+### Collectivisation and the Famine of 1932-33 or the “Holodomor”
 
 *   [Overview of the Famine of 1932-33](https://www.reddit.com/r/communism/comments/5uufyn/struggling_with_holomodor/ddxfppb/)
 *   [Holodomor, myth and reality - FinnishBolshevik](https://mltheory.wordpress.com/2014/06/07/facts-about-the-holodomor-and-why-its-fake/)
@@ -287,10 +287,10 @@ Collectivisation and the Famine of 1932-33 or the “Holodomor”
 *   [Collective Farms of the Soviet Union, 1929-1940](http://community.dur.ac.uk/a.k.harrington/collfarm.html)
 *   [The Best Sons of the Fatherland](https://drive.google.com/open?id%253D1In3NclM_xLulYG8c2sb3FPWVVd6BHNMx)
 
-Industrialisation
+### Industrialisation
 
 *   [Industrialisation - Espresso Stalinist](https://espressostalinist.com/the-real-stalin-series/industrialisation/)
-*   # The Results of the 1st & 2nd Five-Year Plans, [Text](https://mltheory.wordpress.com/2016/08/07/the-results-of-the-1st-2nd-soviet-five-year-plans-soviet-industrial-revolution/)and [Video](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.youtube.com/watch?v%253De4YDkWzQZAw%2526feature%253Dyoutu.be%2526ab_channel%253DTheFinnishBolshevik)
+*   The Results of the 1st & 2nd Five-Year Plans, [Text](https://mltheory.wordpress.com/2016/08/07/the-results-of-the-1st-2nd-soviet-five-year-plans-soviet-industrial-revolution/) and [Video](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.youtube.com/watch?v%253De4YDkWzQZAw%2526feature%253Dyoutu.be%2526ab_channel%253DTheFinnishBolshevik)
 
 *   Farm to Factory: The Soviet Industrial Revolution, [Text](https://maoistrebelnews.com/2017/01/11/farm-to-factory-the-soviet-industrial-revolution/) and[ Video](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.youtube.com/watch?v%253DMrw54F4Vu78%2526feature%253Dyoutu.be%2526ab_channel%253DJasonUnruhe)
 *   [A Reassessment of the Soviet Industrial Revolution](http://citeseerx.ist.psu.edu/viewdoc/download?doi%253D10.1.1.507.8966%2526rep%253Drep1%2526type%253Dpdf)
@@ -301,7 +301,7 @@ Industrialisation
 *   [Speech at the Session of the Supreme Council of the Union of Soviet Socialist Republics](http://www.marxistsfr.org/archive/molotov/1938/stalin-speech.htm)
 *   [The Success of the First 5 Year Plan - V.M. Molotov](https://mltheory.files.wordpress.com/2017/06/molotov_1931_the_success_of_the_5_year_plan.pdf)
 
-Moscow Trials and the Great Purge
+### Moscow Trials and the Great Purge
 
 *   [Moscow Trials - Espresso Stalinist](https://espressostalinist.com/the-real-stalin-series/moscow-trials/)
 *   The Moscow Trials (Part 1: The Investigation), [Text](https://mltheory.wordpress.com/2017/07/11/the-moscow-trials-part-1-the-investigation/)and [Video](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.youtube.com/watch?v%253DTBY_aDd5knE%2526ab_channel%253DTheFinnishBolshevik)
@@ -349,7 +349,7 @@ Moscow Trials and the Great Purge
 *   [The Great Soviet Encyclopedia on Trotskyism](http://www.cyberussr.com/rus/trotsky-bse-e.html)
 *   [Wreckers on Trial](http://www.redstarpublishers.org/wreckersIP.pdf)
 
-Gulag System
+### Gulag System
 
 *   [Short Overview of Gulags](https://www.reddit.com/r/DebateCommunism/comments/7aeilv/to_anyone_willing_to_defend_gulags/dp9fxu6/)
 *   [GULag - Espresso Stalinist](https://espressostalinist.com/the-real-stalin-series/gulag/)
@@ -365,7 +365,7 @@ Gulag System
 *   [Gulags: what were the ACTUAL reason for them, how do you get into one? How does democracy work under the communist system?](https://www.reddit.com/r/communism101/comments/82f8o9/gulags_what_were_the_actual_reason_for_them_how/dv9oysy/)
 *   [CIA has published some documents which confirm what the USSR told everyone about the gulags; neither "pro-democratics" in prison nor they were all made to work and starve until death.](https://www.reddit.com/r/communism/comments/9vi3zj/spanish_cia_has_published_some_documents_which/)
 
-On Stalin’s Supposed Anti Semitism
+### On Stalin’s Supposed Anti Semitism
 
 *   [The Doctors' Plot](http://ml-review.ca/aml/AllianceIssues/All30v.htm)
 *   [Soviet Nations - Espresso Stalinist](https://espressostalinist.com/the-real-stalin-series/soviet-nations/)
@@ -375,14 +375,14 @@ On Stalin’s Supposed Anti Semitism
 *   [The Jewish Anti-Fascist Committee and the Anti-Jewish Plot](https://espressostalinist.com/2014/08/23/the-jewish-anti-fascist-committee-and-the-anti-jewish-plot/)
 *   [Ilya Erenburg, "Answer to a Letter"](https://msuweb.montclair.edu/~furrg/pol/erenburganswer.pdf)
 
-On the Forced Deportations
+### On the Forced Deportations
 
 *   [Bill Bland on the Enforced Resettlements in the Soviet Union](https://espressostalinist.com/2011/07/20/bill-bland-on-the-enforced-resettlements-in-the-soviet-union/)
 *   [Deportation of Nations - Espresso Stalinist](https://espressostalinist.com/the-real-stalin-series/deportation-of-nations/)
 
-Post-Stalin Period
+## Post-Stalin Period
 
-General
+### General
 
 *   [Stalin’s Death and the Fight for the Leadership of the CPSU](http://www.revolutionarydemocracy.org/rdv15/stalin.htm)
 *   [After Stalin - Espresso Stalinist](https://espressostalinist.com/the-real-stalin-series/after-stalin/)
@@ -418,7 +418,7 @@ General
 *   [The Myth of Capitalism Reborn: A Marxist Critique of Theories of Capitalist Restoration in the USSR](https://archive.org/details/TheMythOfCapitalismReborn)
 *   [Soviet History in the Gorbachev Revolution](https://drive.google.com/open?id%253D1MHF8Nhf67N52QhZ8L5PBrFwrRLZvOOQY)
 
-Collapse of the USSR
+### Collapse of the USSR
 
 *   [Majority in former Soviet states believe breakup was harmful mistake – poll](https://www.rt.com/news/ussr-collapse-mistake-poll-585/)
 *   [GDP of Russia during the Fall of the USSR](https://upload.wikimedia.org/wikipedia/commons/9/92/Soviet_Union_GDP_per_capita.gif)
@@ -433,7 +433,7 @@ Collapse of the USSR
 *   [Gorbachev Created The Artificial Shortage Of Food: Conditions For The Murder Of The USSR](https://www.fort-russ.com/2016/04/gorbachev-created-artificial-shortage/)
 *   [Are there ways to measure "how much power did ”Russia“ lose when the Soviet Union broke up?"](https://history.stackexchange.com/questions/8084/are-there-ways-to-measure-how-much-power-did-russia-lose-when-the-soviet-unio)
 
-Post-USSR
+### Post-USSR
 
 *   [About 60 percent of Russians see communism as good system - poll](https://www.rbth.com/news/2013/10/12/about_60_percent_of_russians_see_communism_as_good_system_-_poll_30755.html)
 *   [Majority of Russians Regret Soviet Collapse, Poll Says](https://themoscowtimes.com/news/majority-of-russians-regret-soviet-collapse-poll-says-60039)
@@ -461,9 +461,9 @@ Post-USSR
 *   [Nostalgia for the Soviet Union Hits 14-Year High in Russia, Poll Says](https://themoscowtimes.com/news/nostalgia-for-soviet-union-hits-14-year-high-russia-poll-says-63884)
 *   [Stalin’s Approval Rating Among Russians Hits Record High](https://www.themoscowtimes.com/2019/04/16/stalins-approval-rating-among-russians-hits-record-high-poll-a65245)
 
-Soviet Society
+## Soviet Society
 
-General
+### General
 
 *   [The Social and State Structure of the U.S.S.R.](https://archive.org/details/TheSocialAndStateStructureOfTheUSSR)
 *   [Is the Red Flag Flying? The Political Economy of the Soviet Union](https://archive.org/details/IsTheRedFlagFlying)
@@ -543,7 +543,7 @@ General
 *   [Housing in the USSR](https://stalinsocietygb.wordpress.com/2017/01/13/housing-in-the-ussr/)
 *   [Criminal Code of the RSFSR 1934](http://www.cyberussr.com/rus/uk-rsfsr.html)
 *   [Criminal Code of the RSFSR 1950](http://www.cyberussr.com/rus/50uk-toc-e.html)
-*   # The USSR and Homosexuality, [Part I](https://thesanghakommune.org/2016/12/28/the-ussr-and-homosexuality-article-21/), [Part II](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://thesanghakommune.org/2017/01/01/the-ussr-and-homosexuality-part-ii-czarist-article-995/), [Part III](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://thesanghakommune.org/2017/01/05/the-ussr-and-homosexuality-part-iii-rsfsr-article-154a/)
+*   The USSR and Homosexuality, [Part I](https://thesanghakommune.org/2016/12/28/the-ussr-and-homosexuality-article-21/), [Part II](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://thesanghakommune.org/2017/01/01/the-ussr-and-homosexuality-part-ii-czarist-article-995/), [Part III](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://thesanghakommune.org/2017/01/05/the-ussr-and-homosexuality-part-iii-rsfsr-article-154a/)
 
 *   [Moscow 1937: My Visit Described for My Friends](http://www.revolutionarydemocracy.org/archive/feucht.htm)
 *   [Soviet vs. American Diets](https://www.cia.gov/library/readingroom/docs/CIA-RDP84B00274R000300150009-5.pdf)
@@ -568,7 +568,7 @@ General
 *   [Where the Old Are Young - Long Life in the Soviet Caucasus](https://archive.org/details/whereoldareyoung)
 *   [In Place of Profit: Social Incentives in the Soviet Union](https://archive.org/details/InPlaceOfProfit/page/n1)
 
-Soviet Democracy
+### Soviet Democracy
 
 *   [How Soviet Democracy Worked in the 1930s](http://www.revolutionarydemocracy.org/rdv11n2/darcy.htm)
 *   [Soviet Democracy and Bourgeois Sovietology](https://archive.org/details/SovietDemocracyAndBourgeoisSovietology)
@@ -593,7 +593,7 @@ Soviet Democracy
 *   [The CPSU in a Soviet Election Campaign](https://www.docdroid.net/25FEQ8G/the-cpsu-in-a-soviet-election-campaign.pdf)
 *   [Soviet Democracy - Harry F. Ward](https://ucf.digital.flvc.org/islandora/object/ucf%25253A4773/datastream/OBJ/view)
 
-Women in the Soviet Union
+### Women in the Soviet Union
 
 *   [Women in the Stalin Era](https://drive.google.com/open?id%253D0Bxol-9w8EUprcEMzQ3k5Vy1JNFE)
 *   [The Soviet Woman — a Full and Equal Citizen of Her Country](https://www.marxists.org/archive/kollonta/1946/full.htm)
@@ -607,7 +607,7 @@ Women in the Soviet Union
 *   [The Position of Women in the USSR](https://drive.google.com/file/d/0B1ZP6ZurgOg-bFJpcGlqeDF0VVE/view)
 *   [Soviet Russia Had a Better Record of Training Women in STEM Than America Does Today](https://www.smithsonianmag.com/smart-news/soviet-russia-had-a-better-record-of-training-women-in-stem-than-america-does-today-180948141/)
 
-Education in the Soviet Union
+### Education in the Soviet Union
 
 *   [Education and Social Mobility in the Soviet Union 1921-1934](https://drive.google.com/open?id%253D0Bxol-9w8EUprMjFyUXhBdVFvZUE)
 *   [Public Education in the U.S.S.R.](http://www.revolutionarydemocracy.org/archive/PubEdUSSR.htm)
@@ -618,7 +618,7 @@ Education in the Soviet Union
 *   [On Communist Education - Kalinin](https://mltheory.files.wordpress.com/2017/06/kalinin_communist-education.pdf)
 *   [Public Education in the USSR](https://drive.google.com/file/d/0B1ZP6ZurgOg-b0x1bDBMWEF3SVk/view)
 
-Healthcare in the Soviet Union
+### Healthcare in the Soviet Union
 
 *   [The Soviet Union Looks To Its Health](https://otheraspect.wordpress.com/2016/08/06/the-soviet-union-looks-to-its-health/)
 *   [Health in the USSR - Lalkar](http://www.lalkar.org/article/1897/health-in-the-ussr)
@@ -627,7 +627,7 @@ Healthcare in the Soviet Union
 *   [The Health Crisis in the USSR: An Exchange](http://www.nybooks.com/articles/1981/11/05/the-health-crisis-in-the-ussr-an-exchange/)
 *   [Socialised Medicine in the Soviet Union](https://drive.google.com/file/d/0B1ZP6ZurgOg-VktLaF9JNFFxeDQ/view)
 
-Economy of the Soviet Union
+### Economy of the Soviet Union
 
 *   [Do Publicly Owned, Planned Economies Work?](https://gowans.wordpress.com/2012/12/21/do-publicly-owned-planned-economies-work/)
 *   [An Analysis of Russian Economy](https://www.marxists.org/archive/dunayevskaya/works/1942/russian-economy/index.htm)
@@ -699,7 +699,7 @@ Economy of the Soviet Union
 *   [Soviet Economic Performance](https://drive.google.com/file/d/1-liY6HhriGVJVOsFhf-brOI0qHGiuTBd/view)
 *   How was the Soviet economy, [Part 1](https://gnoom63.livejournal.com/10591.html), [Part 2](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://gnoom63.livejournal.com/10881.html)
 
-Eyewitness Accounts of the USSR
+### Eyewitness Accounts of the USSR
 
 *   [A Visit to Russia: A Report of Durham Miners on their Visit to the U.S.S.R.](https://archive.org/details/AVisitToRussiaReportOfDurhamMiners)
 *   [A Visit to the USSR](https://www.reddit.com/r/fullstalinism/wiki/avisittotheussr)
@@ -720,7 +720,7 @@ Eyewitness Accounts of the USSR
 *   [People Come First](https://archive.org/details/PeopleComeFirst/page/n3)
 *   [Project Kuzbas: American Workers in Siberia](https://archive.org/details/ProjectKuzbas)
 
-Soviet Foreign Policy
+### Soviet Foreign Policy
 
 *   [Russia on the March - a study of Soviet Foreign Policy](https://www.marxists.org/archive/murphy-jt/1941/soviet/index.htm)
 *   [The Foreign Policies of Soviet Russia](https://archive.org/details/foreignpolicieso006529mbp)
@@ -743,15 +743,15 @@ Soviet Foreign Policy
 *   [Inequality in the U.S. was so bad, thousands of American women moved to Soviet Russia](https://timeline.com/american-women-moved-russia-5eec1b68cd34)
 *   [Mission to Moscow](https://drive.google.com/open?id%253D1cZQBpIxNOzxM6ciMM6VOX6lTCVQLcKbE)
 
-Alternative Views
+### Alternative Views
 
 *   [What Was the USSR? - Aufheben](https://libcom.org/files/Aufheben-%252520What%252520was%252520the%252520USSR.pdf)
 *   [Why Russia isn't socialist](http://www.sinistra.net/lib/pro/whyrusnsoc.html)
 *   [Back in the USSR: What life was like in the Soviet Union](https://static1.squarespace.com/static/56eddde762cd9413e151ac92/t/5a1ee5b6f9619ac2462a6d43/1511974373818/Back%252Bin%252Bthe%252BUSSR-final.pdf)
 
-The Communist Party of the Soviet Union
+## The Communist Party of the Soviet Union
 
-General
+### General
 
 *   [The CPSU - Molotov](https://mltheory.files.wordpress.com/2017/06/molotov_1929_the_communist_party_of_the_soviet_union.pdf)
 *   [Program of the CPSU](https://eurodos.home.xs4all.nl/docu/cpsu-texts/cpsu86-0.htm)
@@ -764,7 +764,7 @@ General
 *   [Guidelines for the Economic and Social Development of the USSR for 1986-1990 and for the Period Ending in 2000](https://archive.org/details/RyzkhovGuidelinesEconomic1986)
 *   [History of the Communist Part of the Soviet Union](https://archive.org/details/HistoryCPSU)
 
-RSDLP Congresses
+### RSDLP Congresses
 
 *   [Congresses of the R.S.D.L.P.](https://www.marxists.org/glossary/events/r/rsdlp.htm)
 *   [1903—Second Congress of  the Russian Social-democratic Labour Party](https://www.marxists.org/history/international/social-democracy/rsdlp/1903/index.htm)
@@ -773,7 +773,7 @@ RSDLP Congresses
 *   [The Fifth Congress of the R.S.D.L.P.](https://www.marxists.org/archive/lenin/works/1907/5thcong/index.htm)
 *   [The London Congress of the  Russian Social-Democratic Labour Party](https://www.marxists.org/reference/archive/stalin/works/1907/06/20_2.htm)
 
-RCP(B) Congresses
+### RCP(B) Congresses
 
 *   [Extraordinary Seventh Congress of the R.C.P.(B.)](https://www.marxists.org/archive/lenin/works/1918/7thcong/index.htm)
 *   [Eighth Congress of the R.C.P.(B.)](https://www.marxists.org/archive/lenin/works/1919/rcp8th/index.htm)
@@ -794,7 +794,7 @@ RCP(B) Congresses
 *   [The Fourteenth Congress of  the C.P.S.U.(B.)](https://www.marxists.org/reference/archive/stalin/works/1925/12/18.htm)
 *   [Fourteenth Congress of the All-Union Communist Party Bolshevik](http://encyclopedia2.thefreedictionary.com/Fourteenth%252BCongress%252Bof%252Bthe%252BAll-Union%252BCommunist%252BParty%252BBolshevik)
 
-CPSU Congresses
+### CPSU Congresses
 
 *   [The Fifteenth Congress of the C.P.S.U.(B.)](https://www.marxists.org/reference/archive/stalin/works/1927/12/02.htm)
 *   [Fifteenth Congress of the All-Union Communist Party Bolshevik](http://encyclopedia2.thefreedictionary.com/Fifteenth%252BCongress%252Bof%252Bthe%252BAll-Union%252BCommunist%252BParty%252BBolshevik)
