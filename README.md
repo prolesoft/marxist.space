@@ -1,3 +1,7 @@
+---
+title: marxist.space
+---
+
 # [marxist.space](https://marxist.space)
 
 Just a whole bunch of resources for MLs, ancoms, libsocs, and all the rest.

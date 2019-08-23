@@ -1,3 +1,7 @@
+---
+title: Soviet Union Reading List
+---
+
 ## [marxist.space](https://marxist.space)
 
 # Soviet Union Reading List
