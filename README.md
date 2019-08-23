@@ -19,9 +19,9 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [Marxists.org](https://marxists.org)
 * [Revolutionary Democracy archives](https://www.revolutionarydemocracy.org/archive/)
 
-  ## YouTube
+## YouTube
 
-* [BreadTube](https://breadtube.tv/) (curated {bread,left}tube)
+* [BreadTube](https://breadtube.tv/) (curated YouTube channels and videos)
 * [Angie Speaks](https://www.youtube.com/channel/UCUtloyZ_Iu4BJekIqPLc_fQ)
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
 * [ContraPoints](https://www.youtube.com/user/ContraPoints)
