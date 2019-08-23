@@ -12,7 +12,6 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 ## Misc Resources
 
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
-* [Michael Parenti Lectures (playlist)](https://www.youtube.com/playlist?list=PLXIlvfed_WgkHz6aXkTXeWQb3E8WnNxbb)
 * [dessalines essays](https://github.com/dessalines/essays)
 
 ## Libraries
@@ -20,14 +19,16 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [Marxists.org](https://marxists.org)
 * [Revolutionary Democracy archives](https://www.revolutionarydemocracy.org/archive/)
 
-## YouTube Channels
+  ## YouTube
 
+* [BreadTube](https://breadtube.tv/) (curated {bread,left}tube)
 * [Angie Speaks](https://www.youtube.com/channel/UCUtloyZ_Iu4BJekIqPLc_fQ)
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
 * [ContraPoints](https://www.youtube.com/user/ContraPoints)
 * [Flea Market Socialist](https://www.youtube.com/channel/UCT669OCFMjwMzUdpoXl2FIw)
 * [Gutian](https://www.youtube.com/channel/UCe4N2GAyLMCt1LPMvIAuoVQ)
 * [Mexie](https://www.youtube.com/channel/UCepkun0sH16b-mqxBN22ogA)
+* [Michael Parenti Lectures](https://www.youtube.com/playlist?list=PLXIlvfed_WgkHz6aXkTXeWQb3E8WnNxbb) (playlist)
 * [NonCompete](https://www.youtube.com/channel/UCkZFKKK-0YB0FvwoS8P7nHg)
 * [Peter Coffin](https://www.youtube.com/channel/UCT5jxI_OYY2r--TjAGXD03A)
 * [Philosophy Tube](https://www.youtube.com/channel/UC2PA-AKmVpU6NKCGtZq_rKQ)
