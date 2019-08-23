@@ -11,6 +11,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Misc Resources
 
+* [Soviet Union Reading List](./soviet-union-reading-list.md)
 * [Michael Parenti Lectures (playlist)](https://www.youtube.com/playlist?list=PLXIlvfed_WgkHz6aXkTXeWQb3E8WnNxbb)
 * [dessalines essays](https://github.com/dessalines/essays)
 
