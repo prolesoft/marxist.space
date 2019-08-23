@@ -24,6 +24,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 * [Angie Speaks](https://www.youtube.com/channel/UCUtloyZ_Iu4BJekIqPLc_fQ)
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
+* [ContraPoints](https://www.youtube.com/user/ContraPoints)
 * [Flea Market Socialist](https://www.youtube.com/channel/UCT669OCFMjwMzUdpoXl2FIw)
 * [Gutian](https://www.youtube.com/channel/UCe4N2GAyLMCt1LPMvIAuoVQ)
 * [Mexie](https://www.youtube.com/channel/UCepkun0sH16b-mqxBN22ogA)
