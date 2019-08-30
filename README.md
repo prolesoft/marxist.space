@@ -64,4 +64,4 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [LeftWithoutEdge](https://www.reddit.com/r/LeftWithoutEdge/)
 * [Socialism](https://www.reddit.com/r/socialism/)
 
-[License: MIT](./LICENSE.md)
+[License: LGPL-3.0](./LICENSE.md)
