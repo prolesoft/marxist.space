@@ -11,7 +11,6 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Misc Resources
 
-* [Sunbeam City wiki](https://wiki.sunbeam.city/doku.php?id=start) solarpunk coop
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
 * [dessalines essays](https://github.com/dessalines/essays)
 
@@ -63,5 +62,16 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism/)
 * [LeftWithoutEdge](https://www.reddit.com/r/LeftWithoutEdge/)
 * [Socialism](https://www.reddit.com/r/socialism/)
+
+## Alternative Social
+
+### Mastodon
+
+* [anarchism.space](https://anarchism.space/about)
+* [anticapitalist.party](https://anticapitalist.party/about)
+* [soc.ialis.me](https://soc.ialis.me/about)
+* [social.coop](https://social.coop/about)
+* [sunbeam.city](https://sunbeam.city/about) (also see the [wiki](https://wiki.sunbeam.city/doku.php?id=start))
+* [todon.nl](https://todon.nl/about)
 
 [License: LGPL-3.0](./LICENSE.md)
