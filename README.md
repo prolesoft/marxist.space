@@ -67,6 +67,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 ## Alternative Social
 
 * [Communism on Lemmy.ml](https://communism.lemmy.ml/) a FOSS, decentralized Reddit alternative
+* [Raddle](https://raddle.me/) a radical leftist Reddit-alike
 
 ### Mastodon
 
