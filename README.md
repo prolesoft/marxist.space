@@ -65,6 +65,8 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Alternative Social
 
+* [Communism on Lemmy.ml](https://communism.lemmy.ml/) a FOSS, decentralized Reddit alternative
+
 ### Mastodon
 
 * [anarchism.space](https://anarchism.space/about)
