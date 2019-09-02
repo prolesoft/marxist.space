@@ -11,6 +11,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Misc Resources
 
+* [Leftypedia](https://leftypedia.org/wiki/Main_Page)
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
 * [dessalines essays](https://github.com/dessalines/essays)
 
