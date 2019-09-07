@@ -11,6 +11,8 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Misc Resources
 
+* [Leftist Database](https://gitlab.com/flowToneJump/leftist-database/tree/master)
+  a collection of research and information for leftists
 * [Leftypedia](https://leftypedia.org/wiki/Main_Page)
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
 * [dessalines essays](https://github.com/dessalines/essays)
