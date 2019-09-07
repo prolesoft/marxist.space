@@ -40,6 +40,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [NonCompete](https://www.youtube.com/channel/UCkZFKKK-0YB0FvwoS8P7nHg)
 * [Peter Coffin](https://www.youtube.com/channel/UCT5jxI_OYY2r--TjAGXD03A)
 * [Philosophy Tube](https://www.youtube.com/channel/UC2PA-AKmVpU6NKCGtZq_rKQ)
+* [Premier Liles](https://www.youtube.com/channel/UCSX5GRWdk2Vxwqk0yRg7adg/videos)
 * [RE-EDUCATION](https://www.youtube.com/channel/UC02Mk2QHR9myF3VMrVYbCAA)
 * [Red Star Videos](https://www.youtube.com/channel/UCPF2TnvBH88EKgmS-TAMM4w)
 * [Shaun](https://www.youtube.com/channel/UCJ6o36XL0CpYb6U5dNBiXHQ)
