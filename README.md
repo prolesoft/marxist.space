@@ -61,13 +61,14 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Reddit
 
-* [BreadTube](https://www.reddit.com/r/BreadTube/) Lefty YouTube
 * [BeardTube](https://www.reddit.com/r/BeardTube/) BreadTube but with more communists (and beards)
-* [Communism](https://www.reddit.com/r/communism/) and
-  [Mega-Megathread](https://www.reddit.com/r/communism/comments/co1pfl/the_megamegathread/)
-* [Communism101](https://www.reddit.com/r/communism101/) and
-  [FAQ](https://www.reddit.com/r/communism101/comments/2pl8tv/rcommunism101s_frequently_asked_questions/)
+* [BreadTube](https://www.reddit.com/r/BreadTube/) Lefty YouTube
+* [Communism101](https://www.reddit.com/r/communism101/)
+  and [FAQ](https://www.reddit.com/r/communism101/comments/2pl8tv/rcommunism101s_frequently_asked_questions/)
+* [Communism](https://www.reddit.com/r/communism/)
+  and [Mega-Megathread](https://www.reddit.com/r/communism/comments/co1pfl/the_megamegathread/)
 * [DebateCommunisum](https://www.reddit.com/r/DebateCommunism/)
+* [FullCommunism](https://www.reddit.com/r/FULLCOMMUNISM)
 * [LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism/)
 * [LeftWithoutEdge](https://www.reddit.com/r/LeftWithoutEdge/)
 * [Socialism](https://www.reddit.com/r/socialism/)
