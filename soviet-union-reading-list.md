@@ -22,6 +22,7 @@ Original source:
 
 ### General
 
+*   [Political Economy](https://marxists.catbull.com/subject/economy/authors/pe/index.htm)
 *   [Lenin: A Biography](https://archive.org/details/LeninBiography1983)
 *   [1918 Constitution of RSFSR](https://www.marxists.org/history/ussr/government/constitution/1918/index.htm)
 *   [How Socialism Began: Russia under Lenin's Leadership 1917-1923](https://archive.org/details/HowSocialismBegan)
