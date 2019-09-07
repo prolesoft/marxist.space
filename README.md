@@ -47,6 +47,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 * [Anticonquista](https://anticonquista.com/)
 * [CounterPunch](https://www.counterpunch.org/)
+* [Liberation News](https://www.liberationnews.org/) (PSL)
 * [Monthly Review](https://monthlyreview.org/)
 * [The Anarchist Library](https://theanarchistlibrary.org/special/index)
 * [The Grayzone](https://thegrayzone.com/)
@@ -56,7 +57,8 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Reddit
 
-* [BreadTube](https://www.reddit.com/r/BreadTube/) leftist youtube
+* [BreadTube](https://www.reddit.com/r/BreadTube/) Lefty YouTube
+* [BeardTube](https://www.reddit.com/r/BeardTube/) BreadTube but with more communists (and beards)
 * [Communism](https://www.reddit.com/r/communism/) and
   [Mega-Megathread](https://www.reddit.com/r/communism/comments/co1pfl/the_megamegathread/)
 * [Communism101](https://www.reddit.com/r/communism101/) and
