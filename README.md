@@ -28,12 +28,13 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## YouTube
 
-* [BreadTube](https://breadtube.tv/) (curated YouTube channels and videos)
 * [Angie Speaks](https://www.youtube.com/channel/UCUtloyZ_Iu4BJekIqPLc_fQ)
+* [AzureScapegoat](https://www.youtube.com/channel/UCXIN3HIH0eon5hVYYpnoNuQ)
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
 * [ContraPoints](https://www.youtube.com/user/ContraPoints)
 * [Flea Market Socialist](https://www.youtube.com/channel/UCT669OCFMjwMzUdpoXl2FIw)
 * [Gutian](https://www.youtube.com/channel/UCe4N2GAyLMCt1LPMvIAuoVQ)
+* [Hbomberguy](https://www.youtube.com/channel/UClt01z1wHHT7c5lKcU8pxRQ)
 * [Mexie](https://www.youtube.com/channel/UCepkun0sH16b-mqxBN22ogA)
 * [Michael Parenti Lectures](https://www.youtube.com/playlist?list=PLXIlvfed_WgkHz6aXkTXeWQb3E8WnNxbb) (playlist)
 * [NonCompete](https://www.youtube.com/channel/UCkZFKKK-0YB0FvwoS8P7nHg)
@@ -42,10 +43,9 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [RE-EDUCATION](https://www.youtube.com/channel/UC02Mk2QHR9myF3VMrVYbCAA)
 * [Red Star Videos](https://www.youtube.com/channel/UCPF2TnvBH88EKgmS-TAMM4w)
 * [Shaun](https://www.youtube.com/channel/UCJ6o36XL0CpYb6U5dNBiXHQ)
+* [The Marxist Project](https://www.youtube.com/channel/UCNalGyK3DaK37GTLIHSwmyA)
 * [Thought Slime](https://www.youtube.com/channel/UCrr7y8rEXb7_RiVniwvzk9w)
 * [Xexizy](https://www.youtube.com/channel/UCDULjo1v2Hivuu4h4LZSTUQ)
-* [azureScapegoat](https://www.youtube.com/channel/UCXIN3HIH0eon5hVYYpnoNuQ)
-* [hbomberguy](https://www.youtube.com/channel/UClt01z1wHHT7c5lKcU8pxRQ)
 
 ## News and Periodicals
 
