@@ -55,13 +55,14 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 * [Anticonquista](https://anticonquista.com/)
 * [CounterPunch](https://www.counterpunch.org/)
+* [KarlMarx.Net](https://sites.google.com/a/karlmarx.net/open/)
+* [LibCom](https://libcom.org/)
 * [Liberation News](https://www.liberationnews.org/) (PSL)
 * [Monthly Review](https://monthlyreview.org/)
+* [TeleSUR English](https://www.telesurenglish.net/)
 * [The Anarchist Library](https://theanarchistlibrary.org/special/index)
 * [The Grayzone](https://thegrayzone.com/)
 * [Workers World](https://www.workers.org/)
-* [libcom](https://libcom.org/)
-* [teleSUR English](https://www.telesurenglish.net/)
 
 ## Reddit
 
