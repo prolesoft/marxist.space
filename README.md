@@ -15,9 +15,8 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
   a collection of research and information for leftists
 * [Leftypedia](https://leftypedia.org/wiki/Main_Page)
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
-* [dessalines essays](https://github.com/dessalines/essays)
+* [Dessalines/Essays](https://github.com/dessalines/essays) (also see the [partial table of contents](./dessalines-toc.md))
 
-## Audiobooks
 * [Dessalines's list](https://github.com/dessalines/essays/blob/master/audiobooks.md)
   (YouTube and torrents)
 
