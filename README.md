@@ -17,6 +17,8 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
 * [Dessalines/Essays](https://github.com/dessalines/essays) (also see the [partial table of contents](./dessalines-toc.md))
 
+## Audiobooks
+
 * [Dessalines's list](https://github.com/dessalines/essays/blob/master/audiobooks.md)
   (YouTube and torrents)
 
