@@ -19,8 +19,8 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Audiobooks
 
-* [Dessalines's list](https://github.com/dessalines/essays/blob/master/audiobooks.md)
-  (YouTube and torrents)
+* [Audible Socialism](https://www.youtube.com/channel/UCvfeZJmLFo2o90A0v3ce2_Q) (YouTube)
+* [Dessalines's list](https://github.com/dessalines/essays/blob/master/audiobooks.md) (YouTube and torrents)
 
 ## Libraries
 
