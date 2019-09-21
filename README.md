@@ -16,7 +16,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [Leftist Database](https://gitlab.com/flowToneJump/leftist-database/tree/master) a collection of research and information for leftists
 * [Leftypedia](https://leftypedia.org/wiki/Main_Page)
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
-* [DPRK Reading List](./dprk-reading-guide.md)
+* [DPRK Reading Guide](./dprk-reading-guide.md)
 * [Anti-Communist Myths Debunked](https://docs.google.com/document/d/1Gxwhh-vdeB--47HM-20cEVRC9eAMhrapbNf0Sk8VSOs/edit)
 
 ## Audiobooks
