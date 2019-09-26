@@ -60,6 +60,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [KarlMarx.Net](https://sites.google.com/a/karlmarx.net/open/)
 * [LibCom](https://libcom.org/)
 * [Liberation News](https://www.liberationnews.org/) (PSL)
+* [Liberation School](https://liberationschool.org/) (PSL)
 * [Monthly Review](https://monthlyreview.org/)
 * [TeleSUR English](https://www.telesurenglish.net/)
 * [The Anarchist Library](https://theanarchistlibrary.org/special/index)
