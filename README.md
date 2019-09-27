@@ -37,6 +37,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [AzureScapegoat](https://www.youtube.com/channel/UCXIN3HIH0eon5hVYYpnoNuQ)
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
 * [Black Internationalist](https://www.youtube.com/channel/UCZ1zgx9IxzrMf545npclq1Q)
+* [Black Red Guard](https://www.youtube.com/channel/UCpYZYH_1VTB9q8Leg0TrROA)
 * [Communist Current](https://www.youtube.com/channel/UChft9yG7LZTlrCczYoRvDtg)
 * [ContraPoints](https://www.youtube.com/user/ContraPoints)
 * [Danov](https://www.youtube.com/channel/UCd1Ze_UknxhxpK9Lvi5rjYw)
