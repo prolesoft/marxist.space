@@ -27,6 +27,8 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Libraries
 
+* [Banned Thought](http://www.bannedthought.net/)
+* [Marx2Mao](http://marx2mao.phpwebhosting.com/)
 * [Marxists.org](https://marxists.org)
 * [Revolutionary Democracy archives](https://www.revolutionarydemocracy.org/archive/)
 
