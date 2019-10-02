@@ -90,7 +90,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 ## Reddit
 
 * [BeardTube](https://www.reddit.com/r/BeardTube/) BreadTube but with more communists (and beards)
-* [BreadTube](https://www.reddit.com/r/BreadTube/) Lefty YouTube
+* [BreadTube](https://www.reddit.com/r/BreadTube/) Leftist YouTube, Anarchist/non-ML trend
 * [Communism101](https://www.reddit.com/r/communism101/)
   * [FAQ](https://www.reddit.com/r/communism101/comments/2pl8tv/rcommunism101s_frequently_asked_questions/)
 * [Communism](https://www.reddit.com/r/communism/)
@@ -100,8 +100,8 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [DebateCommunisum](https://www.reddit.com/r/DebateCommunism/)
 * [FullCommunism](https://www.reddit.com/r/FULLCOMMUNISM)
   * [Resources for debating reactionaries](https://www.reddit.com/r/FULLCOMMUNISM/comments/c60z5a/my_gift_to_you_a_giant_list_of_sources_for/)
-* [LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism/)
-* [LeftWithoutEdge](https://www.reddit.com/r/LeftWithoutEdge/)
+* [LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism/) Vaguely left of liberal
+* [LeftWithoutEdge](https://www.reddit.com/r/LeftWithoutEdge/) Vaguely left of liberal
 * [Socialism](https://www.reddit.com/r/socialism/)
 
 ## Alternative Social
