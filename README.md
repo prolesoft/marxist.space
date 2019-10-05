@@ -37,6 +37,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [Angie Speaks](https://www.youtube.com/channel/UCUtloyZ_Iu4BJekIqPLc_fQ)
 * [Austrian Maoist](https://www.youtube.com/channel/UCjN4A1eK-TRUpFlRIQo7VfA) (Maoist)
 * [AzureScapegoat](https://www.youtube.com/channel/UCXIN3HIH0eon5hVYYpnoNuQ)
+* [Bad Empanada](https://www.youtube.com/channel/UCUzmizB92LJ9oxf5T_snZNA)
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
 * [Black Internationalist](https://www.youtube.com/channel/UCZ1zgx9IxzrMf545npclq1Q)
 * [Black Red Guard](https://www.youtube.com/channel/UCpYZYH_1VTB9q8Leg0TrROA) (Maoist)
