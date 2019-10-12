@@ -16,6 +16,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [DPRK Reading Guide](./dprk-reading-guide.md)
 * [Dessalines/Essays](https://github.com/dessalines/essays) (also see the [partial table of contents](./dessalines-toc.md))
 * [Giant resource list](https://docs.google.com/document/d/11dtFGU9nTbl6TuTj1SDfDJPU1is4tgWwieYOzqACyHg/edit) (Google doc)
+* [Hong Kong Protest Info](https://bitbucket.org/TheCrypticMan/hong-kong-protests/wiki/browse/)
 * [Leftist Database](https://gitlab.com/flowToneJump/leftist-database/tree/master) a collection of research and information for leftists
 * [Leftypedia](https://leftypedia.org/wiki/Main_Page)
 * [Soviet Union Reading List](./soviet-union-reading-list.md)
@@ -29,6 +30,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 ## Libraries
 
 * [Banned Thought](http://www.bannedthought.net/)
+* DPRK (Korean Friendship Association) Library [one](https://www.korea-dpr.info/lib/) and [two](https://www.korea-dpr.com/e_library.html)
 * [Marx2Mao](http://marx2mao.phpwebhosting.com/)
 * [Marxists.org](https://marxists.org)
 * [Revolutionary Democracy archives](https://www.revolutionarydemocracy.org/archive/)
@@ -96,6 +98,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [BreadTube](https://www.reddit.com/r/BreadTube/) Leftist YouTube, Anarchist/non-ML trend
 * [Communism101](https://www.reddit.com/r/communism101/)
   * [FAQ](https://www.reddit.com/r/communism101/comments/2pl8tv/rcommunism101s_frequently_asked_questions/)
+  * [Wiki](https://www.reddit.com/r/communism101/wiki/index)
 * [Communism](https://www.reddit.com/r/communism/)
   * [Lists and Masterposts](https://www.reddit.com/r/communism/comments/cg2tu1/compilation_of_sourcelists_and_masterposts/)
   * [Mega-Megathread](https://www.reddit.com/r/communism/comments/co1pfl/the_megamegathread/)
@@ -103,6 +106,9 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [DebateCommunisum](https://www.reddit.com/r/DebateCommunism/)
 * [FullCommunism](https://www.reddit.com/r/FULLCOMMUNISM)
   * [Resources for debating reactionaries](https://www.reddit.com/r/FULLCOMMUNISM/comments/c60z5a/my_gift_to_you_a_giant_list_of_sources_for/)
+  * DPRK Megathreads:
+    * [Part One](https://www.reddit.com/r/FULLCOMMUNISM/comments/cc4703/dprk_megathread_part_1/)
+    * [Part Two](https://www.reddit.com/r/FULLCOMMUNISM/comments/cc47kx/dprk_megathread_part_2/)
 * [LateStageCapitalism](https://www.reddit.com/r/LateStageCapitalism/) Vaguely left of liberal
 * [LeftWithoutEdge](https://www.reddit.com/r/LeftWithoutEdge/) Vaguely left of liberal
 * [Socialism](https://www.reddit.com/r/socialism/)
