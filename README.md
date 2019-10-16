@@ -30,6 +30,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Libraries
 
+* [Anarchist Library](https://theanarchistlibrary.org/special/index)
 * [Banned Thought](http://www.bannedthought.net/)
 * DPRK (Korean Friendship Association) Library [one](https://www.korea-dpr.info/lib/) and [two](https://www.korea-dpr.com/e_library.html)
 * [Marx2Mao](http://marx2mao.phpwebhosting.com/)
@@ -79,19 +80,25 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## News and Periodicals
 
-* [In These Times](https://inthesetimes.com//) (Dem Soc)
-* [Anticonquista](https://anticonquista.com/)
+* [Anticonquista](https://anticonquista.com/) (LatAm and Caribbean Anti-Imperialist)
+* [China Daily](http://global.chinadaily.com.cn/) (China)
 * [CounterPunch](https://www.counterpunch.org/)
+* [FAIR](https://fair.org/)
+* [Freedom Socialist Party Newspaper](https://socialism.com/freedom-socialist-newspaper/) (Trostkyite)
+* [In These Times](https://inthesetimes.com/) (Dem Soc)
 * [KarlMarx.Net](https://sites.google.com/a/karlmarx.net/open/)
-* [LibCom](https://libcom.org/)
+* [LibCom](https://libcom.org/) (Libertarian Communist)
 * [Liberation News](https://www.liberationnews.org/) (PSL)
 * [Liberation School](https://liberationschool.org/) (PSL)
 * [Monthly Review](https://monthlyreview.org/)
+* [Posadists Today](https://posadiststoday.com/) (Posadist)
+* [Project Censored](https://www.projectcensored.org/)
+* [Real News Network](https://therealnews.com/)
 * [Red Sun](http://www.redsun.org/)
 * [TeleSUR English](https://www.telesurenglish.net/)
-* [The Anarchist Library](https://theanarchistlibrary.org/special/index)
 * [The Grayzone](https://thegrayzone.com/)
 * [Workers World](https://www.workers.org/)
+* [Xinua](http://www.xinhuanet.com/english/home.htm) (China)
 
 ## Reddit
 
