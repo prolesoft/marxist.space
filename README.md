@@ -96,6 +96,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [Project Censored](https://www.projectcensored.org/)
 * [Real News Network](https://therealnews.com/)
 * [Red Sun](http://www.redsun.org/)
+* [Redfish Media](https://redfish.media/)
 * [Shadowproof](https://shadowproof.com/)
 * [TeleSUR English](https://www.telesurenglish.net/)
 * [The Grayzone](https://thegrayzone.com/)
