@@ -11,6 +11,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Misc Resources
 
+* [TheoryChina](http://en.theorychina.org/)
 * [Anti-Communist Myths Debunked](https://docs.google.com/document/d/1Gxwhh-vdeB--47HM-20cEVRC9eAMhrapbNf0Sk8VSOs/edit) (Google doc)
 * [Collection of Reading Lists](https://docs.google.com/document/d/1k-OPPy9UM9ApPuWVIsPcvX3zQh1LUsVbPQocD9mUhyA/edit) (Google doc)
 * [DPRK Reading Guide](./dprk-reading-guide.md)
