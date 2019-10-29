@@ -31,11 +31,13 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 ## Libraries
 
-* [Anarchist Library](https://theanarchistlibrary.org/special/index)
+* [Anarchist Library](https://theanarchistlibrary.org/special/index) (Anarchist)
 * [Banned Thought](http://www.bannedthought.net/)
-* DPRK (Korean Friendship Association) Library [one](https://www.korea-dpr.info/lib/) and [two](https://www.korea-dpr.com/e_library.html)
+* [KFA Library 1](https://www.korea-dpr.info/lib/) (DPRK)
+* [KFA Library 2](https://www.korea-dpr.com/e_library.html) (DPRK)
 * [Marx2Mao](http://marx2mao.phpwebhosting.com/)
 * [Marxists.org](https://marxists.org)
+* [Redspark Library](http://library.redspark.nu/Main_Page) (Maoist)
 * [Revolutionary Democracy archives](https://www.revolutionarydemocracy.org/archive/)
 
 ## YouTube
@@ -98,6 +100,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 * [Real News Network](https://therealnews.com/)
 * [Red Sun](http://www.redsun.org/)
 * [Redfish Media](https://redfish.media/)
+* [Redspark](https://www.redspark.nu/en/) (Maoist)
 * [Shadowproof](https://shadowproof.com/)
 * [TeleSUR English](https://www.telesurenglish.net/)
 * [The Grayzone](https://thegrayzone.com/)
