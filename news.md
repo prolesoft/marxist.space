@@ -24,6 +24,7 @@ title: News and Periodicals
 * [Ministry of Foreign Affairs](http://www.mfa.gov.kp/en/) (DPRK)
 * [Monthly Review](https://monthlyreview.org/)
 * [Naenara](https://www.naenara.com.kp/) (DPRK)
+* [Pitchfork Cosmonaut](https://pitchforkcosmonaut.org/)
 * [Posadists Today](https://posadiststoday.com/) (Posadist)
 * [Project Censored](https://www.projectcensored.org/)
 * [Pyongyang Times](https://www.pyongyangtimes.com.kp/) (DPRK)
