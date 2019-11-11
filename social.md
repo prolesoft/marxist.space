@@ -6,8 +6,8 @@ title: Alternative Social
 
 # Alternative Social
 
-* [Communism on Lemmy.ml](https://communism.lemmy.ml/) a FOSS, decentralized Reddit alternative
-* [Raddle](https://raddle.me/) a radical leftist Reddit-alike
+* [Communism on Lemmy.ml](https://communism.lemmy.ml/) FOSS Reddit-alike primarily for Communists
+* [Raddle](https://raddle.me/) Reddit-alike for Anarchists
 
 ### Mastodon
 
