@@ -8,6 +8,7 @@ title: Alternative Social
 
 * [Communism on Lemmy.ml](https://communism.lemmy.ml/) FOSS Reddit-alike primarily for Communists
 * [Raddle](https://raddle.me/) Reddit-alike for Anarchists
+* [Bunckerchan](https://bunkerchan.xyz/) Full communism 4chan, I think?
 
 ### Mastodon
 
