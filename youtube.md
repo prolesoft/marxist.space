@@ -17,7 +17,6 @@ title: YouTube Channels
 * [ContraPoints](https://www.youtube.com/user/ContraPoints)
 * [Danov](https://www.youtube.com/channel/UCd1Ze_UknxhxpK9Lvi5rjYw) (ML)
 * [Empire Files](https://www.youtube.com/channel/UCG29FnXZm4F5U8xpqs1cs1Q)
-* [Finnish Bolshevik](https://www.youtube.com/channel/UCCvdjsJtifsZoShjcAAHZpA)
 * [Flea Market Socialist](https://www.youtube.com/channel/UCT669OCFMjwMzUdpoXl2FIw)
 * [Garbage Bin of Ideas](https://www.youtube.com/channel/UChKGZBVdKbiBGgn2yhhcmSA)
 * [Gutian](https://www.youtube.com/channel/UCe4N2GAyLMCt1LPMvIAuoVQ)
