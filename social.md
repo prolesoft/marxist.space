@@ -7,14 +7,8 @@ title: Alternative Social
 # Alternative Social
 
 * [Communism on Lemmy.ml](https://communism.lemmy.ml/) FOSS Reddit-alike primarily for Communists
-* [Raddle](https://raddle.me/) Reddit-alike for Anarchists
-* [Bunckerchan](https://bunkerchan.xyz/) Full communism 4chan, I think?
 
 ### Mastodon
 
-* [anarchism.space](https://anarchism.space/about)
-* [anticapitalist.party](https://anticapitalist.party/about)
-* [soc.ialis.me](https://soc.ialis.me/about)
-* [social.coop](https://social.coop/about)
-* [sunbeam.city](https://sunbeam.city/about) (also see the [wiki](https://wiki.sunbeam.city/doku.php?id=start))
-* [todon.nl](https://todon.nl/about)
+I have not yet found any Communist fediverse servers, only Anarchist ones.
+Please let me know if you know of any.

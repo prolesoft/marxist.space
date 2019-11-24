@@ -1,6 +1,6 @@
 # [marxist.space](https://marxist.space)
 
-Just a whole bunch of resources for MLs, ancoms, libsocs, and all the rest.
+Links to resources for ML(M)s.
 
 Missing something good? Put in a [pull
 request](https://github.com/zacanger/marxist.space/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)
