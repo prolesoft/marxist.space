@@ -6,7 +6,6 @@ title: Libraries
 
 # Libraries
 
-* [Anarchist Library](https://theanarchistlibrary.org/special/index) (Anarchist)
 * [Banned Thought](http://www.bannedthought.net/)
 * [KFA Library 1](https://www.korea-dpr.info/lib/) (DPRK)
 * [KFA Library 2](https://www.korea-dpr.com/e_library.html) (DPRK)
