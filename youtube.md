@@ -31,6 +31,7 @@ title: YouTube Channels
 * [Phuong DPRK Daily](https://www.youtube.com/channel/UCOzQqWFt3BWJ0ToEyPgmZqg)
 * [Polinkazh](https://www.youtube.com/channel/UCTVqVQpikHxgLaPf8kguMHg)
 * [Premier Liles](https://www.youtube.com/channel/UCSX5GRWdk2Vxwqk0yRg7adg/videos)
+* [Prolekult](https://www.youtube.com/channel/UCEBbylt9Rax3nOP_hyPnMPA)
 * [Red Star Videos](https://www.youtube.com/channel/UCPF2TnvBH88EKgmS-TAMM4w)
 * [Tankie Talk](https://www.youtube.com/channel/UCSrad2ah3GKKDLK3_j0hogg)
 * [TeleSUR English](https://www.youtube.com/user/telesurenglish)
