@@ -16,7 +16,6 @@ title: News and Periodicals
 * [KCNA Watch](https://kcnawatch.org/korea-central-tv-livestream/) (DPRK)
 * [KarlMarx.Net](https://sites.google.com/a/karlmarx.net/open/)
 * [Korean Central News Agency](https://www.kcna.kp) (DPRK)
-* [LibCom](https://libcom.org/) (Libertarian Communist)
 * [Liberation News](https://www.liberationnews.org/) (PSL)
 * [Liberation School](https://liberationschool.org/) (PSL)
 * [Media Ryugyong](http://mediaryugyong.com.kp/index.php/first/select_language/2/1) (DPRK)
