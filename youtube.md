@@ -14,6 +14,7 @@ title: YouTube Channels
 * [Black Red Guard](https://www.youtube.com/channel/UCpYZYH_1VTB9q8Leg0TrROA) (Maoist)
 * [Communist Current](https://www.youtube.com/channel/UChft9yG7LZTlrCczYoRvDtg)
 * [Danov](https://www.youtube.com/channel/UCd1Ze_UknxhxpK9Lvi5rjYw) (ML)
+* [Echo DPRK](https://www.youtube.com/channel/UCP5_cAbRgjsZjkhrHBq84xQ/videos) (DPRK)
 * [Empire Files](https://www.youtube.com/channel/UCG29FnXZm4F5U8xpqs1cs1Q)
 * [Flea Market Socialist](https://www.youtube.com/channel/UCT669OCFMjwMzUdpoXl2FIw)
 * [Garbage Bin of Ideas](https://www.youtube.com/channel/UChKGZBVdKbiBGgn2yhhcmSA)
