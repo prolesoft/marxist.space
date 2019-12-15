@@ -7,6 +7,7 @@ title: Libraries
 # Libraries
 
 * [Banned Thought](http://www.bannedthought.net/)
+* [DPRK Literature Archive](https://drive.google.com/drive/folders/0B48PXBn7S_-MMVlaZjlrOEdKWFk) (Google Drive link)
 * [KFA Library 1](https://www.korea-dpr.info/lib/) (DPRK)
 * [KFA Library 2](https://www.korea-dpr.com/e_library.html) (DPRK)
 * [Marx2Mao](http://marx2mao.phpwebhosting.com/)
