@@ -12,7 +12,6 @@ title: Misc Resources
 * [DPRK Reading Guide](https://drive.google.com/file/d/1QQn3q4OZwMh44qTmYhzHYSpokYoOEa_v/view) (Google doc)
 * [Dessalines Essays](https://github.com/dessalines/essays)
 * [Giant resource list](https://docs.google.com/document/d/11dtFGU9nTbl6TuTj1SDfDJPU1is4tgWwieYOzqACyHg/edit) (Google doc)
-* [Leftist Database](https://gitlab.com/flowToneJump/leftist-database/tree/master) a collection of research and information for leftists
 * [Leftypedia](https://leftypedia.org/wiki/Main_Page)
 * [Online University of the Left](http://ouleft.org/)
 * [Soviet Union Reading List](https://docs.google.com/document/d/1qeYeYeLN7uKxfMdoe7TAmOMD2fmgyZdU_urvW6eAsRg/mobilebasic) (Google doc)
