@@ -11,6 +11,7 @@ or yell at me on [Twitter](https://twitter.com/zacanger) or
 
 * [Current Events](./current-events)
 * [Misc Resources](./misc)
+* [Documentaries](./documentaries)
 * [Libraries](./libraries)
 * [Audiobooks](./audiobooks)
 * [YouTube Channels](./youtube)
