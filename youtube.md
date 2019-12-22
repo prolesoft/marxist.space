@@ -35,6 +35,5 @@ title: YouTube Channels
 * [Red Star Videos](https://www.youtube.com/channel/UCPF2TnvBH88EKgmS-TAMM4w)
 * [Tankie Talk](https://www.youtube.com/channel/UCSrad2ah3GKKDLK3_j0hogg)
 * [TeleSUR English](https://www.youtube.com/user/telesurenglish)
-* [Theory Pleeb](https://www.youtube.com/channel/UC5dMDMT8K1_X8TV1J7ALIxg)
 * [Tovarishch Endymion](https://www.youtube.com/channel/UCTG-iJm0HtjWVOAwN8sA4Xg)
 * [Xexizy](https://www.youtube.com/channel/UCDULjo1v2Hivuu4h4LZSTUQ)
