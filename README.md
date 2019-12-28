@@ -3,7 +3,7 @@
 Links to resources for ML(M)s.
 
 Missing something good? Put in a [pull
-request](https://github.com/marxistm/marxist.space/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)!
+request](https://github.com/marxism/marxist.space/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)!
 
 * [Beginner's Reading List](./beginners-reading-list)
 * [Current Events](./current-events)
