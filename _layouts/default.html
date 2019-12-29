@@ -62,6 +62,7 @@
 
       var inverted = false;
       var invertButton = document.getElementById('invert')
+      var body = document.querySelector('body');
       var invertStorageKey = 'marxist.space-inverted';
 
       function clearInvert () {
@@ -85,7 +86,6 @@
       }
 
       invertButton.onclick = function () {
-        var body = document.querySelector('body');
         if (inverted) {
           clearInvert();
         } else {
