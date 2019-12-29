@@ -8,6 +8,7 @@ request](https://github.com/marxism/marxist.space/pulls?q=is%3Apr+is%3Aopen+sort
 * [Beginner's Reading List](./beginners-reading-list)
 * [Current Events](./current-events)
 * [Misc Resources](./misc)
+* [Digital Security Guide](./security)
 * [Documentaries](./documentaries)
 * [Libraries](./libraries)
 * [Audiobooks](./audiobooks)
