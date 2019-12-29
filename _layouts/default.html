@@ -26,14 +26,8 @@
     </main>
     <script type="text/javascript">
       ;(function () {
-        var metas = document.getElementsByTagName('meta');
-
         function changeViewportContent (content) {
-          for (var i = 0; i < metas.length; i++) {
-            if (metas[i].name == 'viewport') {
-              metas[i].content = content;
-            }
-          }
+          document.querySelector('meta[name=viewport]').content = content;
         }
 
         function initialize () {
