@@ -15,7 +15,7 @@ All the recommendations here are just that: recommendations. Most users will not
 
 * [General](#general)
 * [Passwords](#passwords)
-* [Encrpytion](#encryption)
+* [Encryption](#encryption)
 * [OS](#os)
 * [Browsers](#browsers)
 * [Email](#email)
@@ -44,9 +44,9 @@ like [KeePassXC](https://keepassxc.org/) or [Bitwarden](https://bitwarden.com/) 
 regularly. Check for password/phrase security [here](https://howsecureismypassword.net/), and check regularly to see if your data has been involved in a leak
 [here](https://haveibeenpwned.com/) ([Firefox](#browsers) has this feature built in now).
 
-### Encrpytion
+### Encryption
 
-[Keybase](https://keybase.io/) is a featureful app that makes encrpyted files, messaging, group chat, teams, identiy proofs, and Git hosting all very easy to
+[Keybase](https://keybase.io/) is a featureful app that makes encrypted files, messaging, group chat, teams, identiy proofs, and Git hosting all very easy to
 use. It's also a US-based company, so is not an ideal option for very sensitive data.
 
 Using [GnuPG](https://gnupg.org/) (an implementation of PGP) takes more practice, but is worth it for encrypting files manually and sending encypted emails.
@@ -61,7 +61,7 @@ vendor lock in (and a huge price tag).
 
 For extreme needs, you should look into [Tails](https://tails.boum.org/) or [Qubes](https://www.qubes-os.org/).
 
-Whichever OS you use, you absolutely need to enable Full-Disk Encrpytion:
+Whichever OS you use, you absolutely need to enable Full-Disk Encryption
 
 * [Linux](https://wiki.archlinux.org/index.php/Disk_encryption)
     * Most Linux distributions will offer setting up FDE at install time, which is easier.
