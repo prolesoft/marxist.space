@@ -15,6 +15,7 @@ All the recommendations here are just that: recommendations. Most users will not
 
 * [General](#general)
 * [Passwords](#passwords)
+* [Encrpytion](#encryption)
 * [OS](#os)
 * [Browsers](#browsers)
 * [Email](#email)
@@ -27,10 +28,6 @@ All the recommendations here are just that: recommendations. Most users will not
 * [Documents](#documents)
 * [Sync](#sync)
 * [Links](#links)
-
-#### TODO
-
-* crypto (keybase, pgp)
 
 ### General
 
@@ -46,6 +43,14 @@ Use [passphrases](https://www.xkcd.com/936/) over passwords if you need to be ab
 like [KeePassXC](https://keepassxc.org/) or [Bitwarden](https://bitwarden.com/) when you can. Never reuse passwords anywhere, and rotate your passwords
 regularly. Check for password/phrase security [here](https://howsecureismypassword.net/), and check regularly to see if your data has been involved in a leak
 [here](https://haveibeenpwned.com/) ([Firefox](#browsers) has this feature built in now).
+
+### Encrpytion
+
+[Keybase](https://keybase.io/) is a featureful app that makes encrpyted files, messaging, group chat, teams, identiy proofs, and Git hosting all very easy to
+use. It's also a US-based company, so is not an ideal option for very sensitive data.
+
+Using [GnuPG](https://gnupg.org/) (an implementation of PGP) takes more practice, but is worth it for encrypting files manually and sending encypted emails.
+Check out [this guide](https://github.com/bfrg/gpg-guide) to getting up and running with GPG.
 
 ### OS
 
@@ -88,7 +93,7 @@ See the links at the bottom of the page for more recommendations.
 ### Messaging
 
 Use [Signal](https://signal.org/) for an SMS/KakaoTalk/WhatsApp alternative, and [Riot/Matrix](https://about.riot.im/) for group chat.
-Use [Keybase](https://keybase.io/) for both, if you're already using Keybase for other needs (see [Encryption](#encryption)).
+Use [Keybase](#encryption) for both, if you're already using Keybase for other needs.
 
 ### MFA
 
@@ -135,7 +140,7 @@ LibreOffice when you can't.
 
 Dropbox is a US company, and stores your data on their servers.
 Prefer a self-hosted alternative like [Seafile](https://github.com/haiwen/seafile), [Syncthing](https://github.com/syncthing/syncthing),
-or [Syncany](https://github.com/syncany/syncany).
+[Syncany](https://github.com/syncany/syncany), or [SparkleShare](https://www.sparkleshare.org/).
 [Encrypt](#encryption) any sensitive files.
 
 ### Links
