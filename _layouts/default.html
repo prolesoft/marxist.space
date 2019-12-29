@@ -53,7 +53,9 @@
 
       var hasStorage = (function () {
         try {
-          localStorage.setItem('marxist.space-test')
+          var testKey = 'marxist.space-test'
+          localStorage.setItem(testKey, 'testing')
+          localStorage.removeItem(testKey)
           return true
         } catch (_) {
           return false
