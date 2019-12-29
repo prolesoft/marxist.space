@@ -1,5 +1,4 @@
 theme: jekyll-theme-minimal
 url: "https://marxist.space"
 plugins:
-  - jekyll-seo-tag
   - jekyll-sitemap
