@@ -59,9 +59,9 @@ fork), and other hobbyist OSs and phones.
 ### Browser
 
 Avoid Chrome. Google's business model is surveillance, and their browser exists
-to collect your data. Also avoid Internet Explorere (it's unmaintained and
+to collect your data. Also avoid Internet Explorer (it's unmaintained and
 insecure), Microsoft Edge (because of the telemetry), and anything
-closed-source.
+closed-source or proprietary (which rules out Opera and Vivaldi).
 
 * [Tor Browser](https://www.torproject.org/download/) is likely to be the most secure option, but will be slow for everyday browsing.
 * [Firefox](https://www.mozilla.org/en-US/firefox/) is all-around the easiest option, and has tons of addons.
