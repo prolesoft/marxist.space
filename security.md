@@ -20,7 +20,9 @@ You should also use end to end encryption wherever possible.
 * [Email](#email)
 * [Messaging](#messaging)
 * [MFA](#mfa)
-* [Misc](#misc)
+* [Search](#search)
+* [Videos](#videos)
+* [DNS](#dns)
 * [Links](#links)
 
 #### TODO
@@ -29,8 +31,6 @@ You should also use end to end encryption wherever possible.
 * file sharing (temporary, encrypted)
 * text documents (no pdfs, .doc(x), encrypted)
 * social (no real names, temporary, no google/fb/twitter)
-* ??
-* dns
 * vpn
 * pi hole, etc
 
@@ -90,11 +90,19 @@ Enable [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) wherever
 [Authy](https://authy.com/) is a convenient MFA app that isn't tied to a specific device or external (Google, Apple) account.
 For a hardware device, check out [YubiKey](https://www.yubico.com/).
 
-### Misc
+### Search
 
 Use [DuckDuckGo](https://duckduckgo.com/), [Startpage](https://www.startpage.com/), or [Searx](https://searx.me/) for search.
 
+### Videos
+
 Use [youtube-dl](https://youtube-dl.org/) to watch videos from almost any website, and [Invidious](https://www.invidio.us/) to watch YouTube videos.
+
+### DNS
+
+Change your default DNS provider, which is probably your ISP or Google, to something like [BlahDNS](https://blahdns.com/) or [SecureDNS](https://securedns.eu/).
+See the links at the bottom of the page for more recommendations.
+Avoid DNS providers hosted or run in the US, providers that have logging, and providers that do not have DNSSEC.
 
 ### Links
 
