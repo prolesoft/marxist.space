@@ -20,6 +20,8 @@ title: Documentaries
 * [Red Ant Dream](https://www.youtube.com/watch?v=cVvThDX4bbQ)
 * [Seeing Red](https://www.youtube.com/watch?v=nhmGVnHxtf0)
 * [Soviet Storm: WWII In The East](https://www.youtube.com/playlist?list=PLiizh2ZxteI5aQoy4x7YBkZE8bN0NNB2W)
+* [The Act Of Killing](https://www.youtube.com/watch?v=-349HTKhPno)
+    * [The Look Of Silence](https://www.youtube.com/watch?v=9iNcQFPECDc) (companion film)
 * [The Murder of Fred Hampton](https://www.youtube.com/watch?v=d-7JIR1u9qw)
 * [The Revolution Will Not Be Televised](https://www.youtube.com/watch?v=iH5nzZU0qCc)
 * [The Unknown War](https://www.youtube.com/playlist?list=PLr7tdO3Zp0VFhTUH2LD9NYPzBh9uc3Kxb)
