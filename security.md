@@ -79,7 +79,7 @@ insecure), Microsoft Edge (because of the telemetry), and anything closed-source
 
 * [Firefox](https://www.mozilla.org/en-US/firefox/) is all-around the easiest option, and has tons of addons.
     * See [here](https://github.com/pyllyukko/user.js) for privacy settings tweaks.
-    * Recommended addons: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/), [DuckDuckGo](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/?src=search).
+    * Recommended addons: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/), [DuckDuckGo](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/), and [Smart HTTPS](https://addons.mozilla.org/en-US/firefox/addon/smart-https-revived/) or [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/).
 * [Waterfox](https://www.waterfox.net/) is an independent fork of Firefox.
 * [Brave](https://brave.com/) is Chrome-based, has built in ad and tracker blocking, and has a Tor mode. It also includes its own advertisements and a cryptocurrency, though.
 * [Tor Browser](https://www.torproject.org/download/) is a very secure option, but will be slow for everyday browsing, and Tor itself has had numerous flaws, besides being funded by the US military.
