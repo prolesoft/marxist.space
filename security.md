@@ -24,13 +24,13 @@ You should also use end to end encryption wherever possible.
 * [Videos](#videos)
 * [DNS](#dns)
 * [VPN](#vpn)
+* [Documents](#documents)
 * [Links](#links)
 
 #### TODO
 
 * crypto (keybase, pgp)
 * file sharing (temporary, encrypted)
-* text documents (no pdfs, .doc(x), encrypted)
 * social (no real names, temporary, no google/fb/twitter)
 * pi hole, etc
 
@@ -97,6 +97,7 @@ Use [DuckDuckGo](https://duckduckgo.com/), [Startpage](https://www.startpage.com
 ### Videos
 
 Use [youtube-dl](https://youtube-dl.org/) to watch videos from almost any website, and [Invidious](https://www.invidio.us/) to watch YouTube videos.
+Play videos locally with [MPV](https://mpv.io/).
 
 ### DNS
 
@@ -114,6 +115,13 @@ Use a VPN with no logging, that is not hosted or run by a company in the US:
 * [AirVPN](https://airvpn.org/)
 * [NordVPN](https://nordvpn.com/)
 
+### Documents
+
+Avoid proprietary and exploitable formats. That means no Microsoft Word `doc`/`docx` and no PDFs if possible.
+Plain text formats (`txt`, `md`, `html`, etc.) allow reading through any application and limit the chance of executing arbitrary code.
+Use plain text editors that are open source and not made by major US companies (avoid Google Docs, VS Code, Atom, etc.) as much as you can, and use LibreOffice when you can't.
+
+* text documents (no pdfs, .doc(x), encrypted)
 ### Links
 
 * [DNS Leak Test](https://dnsleaktest.com/)
