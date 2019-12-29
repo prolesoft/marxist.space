@@ -6,12 +6,12 @@ title: Digital Security Guide
 
 # Digital Security Guide
 
-Most major tech companies sell your data to advertisers and governments. You
-need to stay safe online, so you should be careful about what you use and how
+Most major tech companies sell your data to advertisers and governments. You need to stay safe online, so you should be careful about what you use and how
 you use it.
 
-You should try to avoid anything hosted in, or owned by, a company in the US.
-You should also use end to end encryption wherever possible.
+You should try to avoid anything hosted in, or owned by, a company in the US. You should also use end to end encryption wherever possible.
+
+All the recommendations here are just that: recommendations. Most users will not need to follow everything in this guide.
 
 ### Table of Contents
 
@@ -36,15 +36,12 @@ You should also use end to end encryption wherever possible.
 
 ### OS
 
-Prefer almost any OS over Windows. Windows is buggy, full of telemetry (read:
-Microsoft Spyware), and insecure. If you're tech savvy, learning Linux is a good
-route. You could try [Xubuntu](https://xubuntu.org/) as a good starter distro.
-If you're very tech-minded, you could try [OpenBSD](https://www.openbsd.org/) or
-[FreeBSD](https://www.freebsd.org/). Mac OS is also a better choice than
-Windows, but comes with some of the same vendor lock in (and a huge price tag).
+Prefer almost any OS over Windows. Windows is buggy, full of telemetry (read: Microsoft Spyware), and insecure. If you're tech savvy, learning Linux is a
+good route. You could try [Xubuntu](https://xubuntu.org/) as a good starter distro. If you're very tech-minded, you could try
+[OpenBSD](https://www.openbsd.org/) or [FreeBSD](https://www.freebsd.org/). Mac OS is also a better choice than Windows, but comes with some of the same
+vendor lock in (and a huge price tag).
 
-For extreme needs, you should look into [Tails](https://tails.boum.org/) or
-[Qubes](https://www.qubes-os.org/).
+For extreme needs, you should look into [Tails](https://tails.boum.org/) or [Qubes](https://www.qubes-os.org/).
 
 Whichever OS you use, you absolutely need to enable Full-Disk Encrpytion:
 
@@ -54,17 +51,13 @@ Whichever OS you use, you absolutely need to enable Full-Disk Encrpytion:
 * [Mac](https://support.apple.com/en-us/HT204837)
 * [Windows](https://support.microsoft.com/en-us/help/4028713/windows-10-turn-on-device-encryption)
 
-For mobile, both iOS and Android are okay options, as long as you keep them up
-to date and don't install anything requiring permissions it shouldn't need. In
-the Android world, you could also look into Lineage, UBPorts (Ubuntu Phone
-fork), and other hobbyist OSs and phones.
+For mobile, both iOS and Android are okay options, as long as you keep them up to date and don't install anything requiring permissions it shouldn't need. In
+the Android world, you could also look into Lineage, UBPorts (Ubuntu Phone fork), and other hobbyist OSs and phones.
 
 ### Browser
 
-Avoid Chrome. Google's business model is surveillance, and their browser exists
-to collect your data. Also avoid Internet Explorer (it's unmaintained and
-insecure), Microsoft Edge (because of the telemetry), and anything
-closed-source or proprietary (which rules out Opera and Vivaldi).
+Avoid Chrome. Google's business model is surveillance, and their browser exists to collect your data. Also avoid Internet Explorer (it's unmaintained and
+insecure), Microsoft Edge (because of the telemetry), and anything closed-source or proprietary (which rules out Opera and Vivaldi).
 
 * [Tor Browser](https://www.torproject.org/download/) is likely to be the most secure option, but will be slow for everyday browsing.
 * [Firefox](https://www.mozilla.org/en-US/firefox/) is all-around the easiest option, and has tons of addons.
