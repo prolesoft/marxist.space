@@ -59,9 +59,10 @@ a:hover small {
   color: #777;
 }
 
-.wrapper {
+main {
   width: 860px;
   margin: 0 auto;
+  padding-bottom: 24px;
 }
 
 blockquote {
@@ -113,11 +114,6 @@ strong {
   font-weight: 700;
 }
 
-section {
-  width: 500px;
-  padding-bottom: 50px;
-}
-
 small {
   font-size: 11px;
 }
@@ -130,17 +126,9 @@ hr {
 }
 
 @media print, screen and (max-width: 960px) {
-  div.wrapper {
+  main {
     width: auto;
-    margin: 0;
-  }
-
-  section {
     position: static;
-    width: auto;
-  }
-
-  section {
     padding: 20px 0;
     margin: 0 0 20px;
   }
