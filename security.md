@@ -49,7 +49,7 @@ For extreme needs, you should look into [Tails](https://tails.boum.org/) or
 Whichever OS you use, you absolutely need to enable Full-Disk Encrpytion:
 
 * [Linux](https://wiki.archlinux.org/index.php/Disk_encryption)
-  * Most Linux distributions will offer setting up FDE at install time, which is easier.
+    * Most Linux distributions will offer setting up FDE at install time, which is easier.
 * [BSD](https://forums.freebsd.org/threads/howto-quick-geli-encryption-guide.29652/)
 * [Mac](https://support.apple.com/en-us/HT204837)
 * [Windows](https://support.microsoft.com/en-us/help/4028713/windows-10-turn-on-device-encryption)
