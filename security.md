@@ -119,9 +119,10 @@ Use a VPN with no logging, that is not hosted or run by a company in the US:
 
 Avoid proprietary and exploitable formats. That means no Microsoft Word `doc`/`docx` and no PDFs if possible.
 Plain text formats (`txt`, `md`, `html`, etc.) allow reading through any application and limit the chance of executing arbitrary code.
-Use plain text editors that are open source and not made by major US companies (avoid Google Docs, VS Code, Atom, etc.) as much as you can, and use LibreOffice when you can't.
+Use plain text editors that are open source and not made by major US companies (avoid Google Docs, VS Code, Atom, etc.) as much as you can, and use
+LibreOffice when you can't.
+[Encrypt](#encryption) any documents that contain sensitive data, like information that could be used to identify someone, schedules, and addresses.
 
-* text documents (no pdfs, .doc(x), encrypted)
 ### Links
 
 * [DNS Leak Test](https://dnsleaktest.com/)
