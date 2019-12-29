@@ -18,6 +18,7 @@ You should also use end to end encryption wherever possible.
 * [OS](#os)
 * [Browser](#browser)
 * [Misc](#misc)
+* [Links](#links)
 
 TODO
 
@@ -74,3 +75,10 @@ closed-source.
 Use [DuckDuckGo](https://duckduckgo.com/), [Startpage](https://www.startpage.com/), or [Searx](https://searx.me/) for search.
 
 Use [youtube-dl](https://youtube-dl.org/) to watch videos from almost any website offline, and [Invidious](https://www.invidio.us/) to watch YouTube videos.
+
+### Links
+
+* [DNS Leak Test](https://dnsleaktest.com/)
+* [PrivacyTools](https://www.privacytools.io/) (List of software recommendations)
+* [ThinkPrivacy](https://www.thinkprivacy.io/) (Software recommendations blog)
+* [Dessaline's Favorite Apps and Services](https://github.com/dessalines/essays/blob/master/favorite_apps_and_services.md)
