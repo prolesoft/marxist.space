@@ -20,16 +20,16 @@ You should also use end to end encryption wherever possible.
 * [Misc](#misc)
 * [Links](#links)
 
-TODO
+#### TODO
 
-email (no google, MS, yahoo)
-crypto (keybase, pgp)
-messaging (signal)
-file sharing (temporary, encrypted)
-text documents (no pdfs, .doc(x), encrypted)
-social (no real names, temporary, no google/fb/twitter)
-mfa
-??
+* email (no google, MS, yahoo)
+* crypto (keybase, pgp)
+* messaging (signal)
+* file sharing (temporary, encrypted)
+* text documents (no pdfs, .doc(x), encrypted)
+* social (no real names, temporary, no google/fb/twitter)
+* mfa
+* ??
 
 ### OS
 
