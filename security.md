@@ -17,6 +17,7 @@ You should also use end to end encryption wherever possible.
 
 * [OS](#os)
 * [Browser](#browser)
+* [Email](#email)
 * [Messaging](#messaging)
 * [MFA](#mfa)
 * [Misc](#misc)
@@ -24,12 +25,14 @@ You should also use end to end encryption wherever possible.
 
 #### TODO
 
-* email (no google, MS, yahoo)
 * crypto (keybase, pgp)
 * file sharing (temporary, encrypted)
 * text documents (no pdfs, .doc(x), encrypted)
 * social (no real names, temporary, no google/fb/twitter)
 * ??
+* dns
+* vpn
+* pi hole, etc
 
 ### OS
 
@@ -69,6 +72,12 @@ closed-source or proprietary (which rules out Opera and Vivaldi).
     * Recommended addons: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/), [DuckDuckGo](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/?src=search).
 * [Waterfox](https://www.waterfox.net/) is an independent fork of Firefox.
 * [Brave](https://brave.com/) is Chrome-based, has built-in ad and tracker blocking, and has a Tor mode. It also includes its own advertisements and a cryptocurrency, though.
+
+### Email
+
+Avoid Google, Microsoft, Yahoo, and other US companies. Also try to avoid companies that want your real name.
+[Protonmail](https://protonmail.com/) is in Switzerland and has a free plan. [Tutanota](https://tutanota.com/) also has a free plan, and is in Germany.
+See the links at the bottom of the page for more recommendations.
 
 ### Messaging
 
