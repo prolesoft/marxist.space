@@ -77,12 +77,12 @@ the Android world, you could also look into Lineage, UBPorts (Ubuntu Phone fork)
 Avoid Chrome. Google's business model is surveillance, and their browser exists to collect your data. Also avoid Internet Explorer (it's unmaintained and
 insecure), Microsoft Edge (because of the telemetry), and anything closed-source or proprietary (which rules out Opera and Vivaldi).
 
-* [Tor Browser](https://www.torproject.org/download/) is likely to be the most secure option, but will be slow for everyday browsing.
 * [Firefox](https://www.mozilla.org/en-US/firefox/) is all-around the easiest option, and has tons of addons.
     * See [here](https://github.com/pyllyukko/user.js) for privacy settings tweaks.
     * Recommended addons: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/), [DuckDuckGo](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/?src=search).
 * [Waterfox](https://www.waterfox.net/) is an independent fork of Firefox.
 * [Brave](https://brave.com/) is Chrome-based, has built in ad and tracker blocking, and has a Tor mode. It also includes its own advertisements and a cryptocurrency, though.
+* [Tor Browser](https://www.torproject.org/download/) is a very secure option, but will be slow for everyday browsing, and Tor itself has had numerous flaws, besides being funded by the US military.
 
 ### Email
 
