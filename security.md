@@ -9,12 +9,11 @@ title: Digital Security Guide
 Most major tech companies sell your data to advertisers and governments. You need to stay safe online, so you should be careful about what you use and how
 you use it.
 
-You should try to avoid anything hosted in, or owned by, a company in the US. You should also use end to end encryption wherever possible.
-
 All the recommendations here are just that: recommendations. Most users will not need to follow everything in this guide.
 
 ### Table of Contents
 
+* [General](#general)
 * [Passwords](#passwords)
 * [OS](#os)
 * [Browsers](#browsers)
@@ -32,7 +31,14 @@ All the recommendations here are just that: recommendations. Most users will not
 #### TODO
 
 * crypto (keybase, pgp)
-* social (no real names, temporary, no google/fb/twitter)
+
+### General
+
+You should try to avoid anything hosted in, or owned by, a company in the US. You should also use end to end encryption wherever possible.
+
+Don't use your real name, real address, or information that could be linked to your identity in sensitive situations.
+This includes social media, photos, email addresses, location, and anything else that could be linked to your identity.
+If you host a website, use WHOIS privacy protection.
 
 ### Passwords
 
@@ -105,7 +111,7 @@ Change your default DNS provider, which is probably your ISP or Google, to somet
 See the links at the bottom of the page for more recommendations.
 Avoid DNS providers hosted or run in the US, providers that have logging, and providers that do not have DNSSEC.
 You can also use [Pi-hole](https://pi-hole.net/), [Unbound](https://forums.freebsd.org/threads/pi-hole-alternative.67704/),
-or other systems to block trackers, ads, and other bad IPs.
+or other systems to block trackers, ads, and other bad IPs. Lists to get you started are available [here](https://www.iblocklist.com/).
 
 ### VPN
 
@@ -137,4 +143,6 @@ or [Syncany](https://github.com/syncany/syncany).
 * [DNS Leak Test](https://dnsleaktest.com/)
 * [PrivacyTools](https://www.privacytools.io/) (List of software recommendations)
 * [ThinkPrivacy](https://www.thinkprivacy.io/) (Software recommendations blog)
+* [DNS Privacy Project](https://dnsprivacy.org/wiki/)
+* [EFF Tools](https://www.eff.org/pages/tools)
 * [Dessaline's Favorite Apps and Services](https://github.com/dessalines/essays/blob/master/favorite_apps_and_services.md)
