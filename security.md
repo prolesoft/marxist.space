@@ -17,6 +17,7 @@ You should also use end to end encryption wherever possible.
 
 * [OS](#os)
 * [Browser](#browser)
+* [Messaging](#messaging)
 * [Misc](#misc)
 * [Links](#links)
 
@@ -24,7 +25,6 @@ You should also use end to end encryption wherever possible.
 
 * email (no google, MS, yahoo)
 * crypto (keybase, pgp)
-* messaging (signal)
 * file sharing (temporary, encrypted)
 * text documents (no pdfs, .doc(x), encrypted)
 * social (no real names, temporary, no google/fb/twitter)
@@ -69,6 +69,11 @@ closed-source.
     * Recommended addons: [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/), [Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/), [DuckDuckGo](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/?src=search).
 * [Waterfox](https://www.waterfox.net/) is an independent fork of Firefox.
 * [Brave](https://brave.com/) is Chrome-based, has built-in ad and tracker blocking, and has a Tor mode. It also includes its own advertisements and a cryptocurrency, though.
+
+### Messaging
+
+Use [Signal](https://signal.org/) for an SMS/KakaoTalk/WhatsApp alternative, and [Riot/Matrix](https://about.riot.im/) for group chat.
+Use [Keybase](https://keybase.io/) for both, if you're already using Keybase for other needs (see [Encryption](#encryption)).
 
 ### Misc
 
