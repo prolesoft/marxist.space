@@ -85,7 +85,7 @@ For a hardware device, check out [YubiKey](https://www.yubico.com/).
 
 Use [DuckDuckGo](https://duckduckgo.com/), [Startpage](https://www.startpage.com/), or [Searx](https://searx.me/) for search.
 
-Use [youtube-dl](https://youtube-dl.org/) to watch videos from almost any website offline, and [Invidious](https://www.invidio.us/) to watch YouTube videos.
+Use [youtube-dl](https://youtube-dl.org/) to watch videos from almost any website, and [Invidious](https://www.invidio.us/) to watch YouTube videos.
 
 ### Links
 
