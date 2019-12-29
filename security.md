@@ -32,7 +32,6 @@ All the recommendations here are just that: recommendations. Most users will not
 
 * crypto (keybase, pgp)
 * social (no real names, temporary, no google/fb/twitter)
-* pi hole, etc
 
 ### OS
 
@@ -97,6 +96,8 @@ Play videos locally with [MPV](https://mpv.io/).
 Change your default DNS provider, which is probably your ISP or Google, to something like [BlahDNS](https://blahdns.com/) or [SecureDNS](https://securedns.eu/).
 See the links at the bottom of the page for more recommendations.
 Avoid DNS providers hosted or run in the US, providers that have logging, and providers that do not have DNSSEC.
+You can also use [Pi-hole](https://pi-hole.net/), [Unbound](https://forums.freebsd.org/threads/pi-hole-alternative.67704/),
+or other systems to block trackers, ads, and other bad IPs.
 
 ### VPN
 
