@@ -18,6 +18,7 @@ You should also use end to end encryption wherever possible.
 * [OS](#os)
 * [Browser](#browser)
 * [Messaging](#messaging)
+* [MFA](#mfa)
 * [Misc](#misc)
 * [Links](#links)
 
@@ -28,7 +29,6 @@ You should also use end to end encryption wherever possible.
 * file sharing (temporary, encrypted)
 * text documents (no pdfs, .doc(x), encrypted)
 * social (no real names, temporary, no google/fb/twitter)
-* mfa
 * ??
 
 ### OS
@@ -74,6 +74,12 @@ closed-source.
 
 Use [Signal](https://signal.org/) for an SMS/KakaoTalk/WhatsApp alternative, and [Riot/Matrix](https://about.riot.im/) for group chat.
 Use [Keybase](https://keybase.io/) for both, if you're already using Keybase for other needs (see [Encryption](#encryption)).
+
+### MFA
+
+Enable [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) wherever possible.
+[Authy](https://authy.com/) is a convenient MFA app that isn't tied to a specific device or external (Google, Apple) account.
+For a hardware device, check out [YubiKey](https://www.yubico.com/).
 
 ### Misc
 
