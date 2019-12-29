@@ -6,9 +6,9 @@ Missing something good? Put in a [pull
 request](https://github.com/marxism/marxist.space/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc)!
 
 * [Beginner's Reading List](./beginners-reading-list)
+* [Digital Security Guide](./security)
 * [Current Events](./current-events)
 * [Misc Resources](./misc)
-* [Digital Security Guide](./security)
 * [Documentaries](./documentaries)
 * [Libraries](./libraries)
 * [Audiobooks](./audiobooks)
