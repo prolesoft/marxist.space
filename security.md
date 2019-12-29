@@ -25,12 +25,12 @@ All the recommendations here are just that: recommendations. Most users will not
 * [DNS](#dns)
 * [VPN](#vpn)
 * [Documents](#documents)
+* [Sync](#sync)
 * [Links](#links)
 
 #### TODO
 
 * crypto (keybase, pgp)
-* file sharing (temporary, encrypted)
 * social (no real names, temporary, no google/fb/twitter)
 * pi hole, etc
 
@@ -115,6 +115,13 @@ Plain text formats (`txt`, `md`, `html`, etc.) allow reading through any applica
 Use plain text editors that are open source and not made by major US companies (avoid Google Docs, VS Code, Atom, etc.) as much as you can, and use
 LibreOffice when you can't.
 [Encrypt](#encryption) any documents that contain sensitive data, like information that could be used to identify someone, schedules, and addresses.
+
+### Sync
+
+Dropbox is a US company, and stores your data on their servers.
+Prefer a self-hosted alternative like [Seafile](https://github.com/haiwen/seafile), [Syncthing](https://github.com/syncthing/syncthing),
+or [Syncany](https://github.com/syncany/syncany).
+[Encrypt](#encryption) any sensitive files.
 
 ### Links
 
