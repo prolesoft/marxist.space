@@ -21,6 +21,7 @@
     <![endif]-->
   </head>
   <body>
+    <button id="invert">☾</button>
     <main>
       {{ content }}
     </main>
@@ -49,6 +50,21 @@
           document.addEventListener('touchend', gestureEnd, false);
         }
       })();
+
+      var inverted = false;
+      var invertButton = document.getElementById('invert')
+      invertButton.onClick = function () {
+        var body = document.querySelector('body');
+        if (inverted) {
+          body.style.background = '#fff';
+          body.style.filter = '';
+          invertButton.innerText = '☾';
+        } else {
+          body.style.background = '#222';
+          body.style.filter = 'invert(100%)';
+          invertButton.innerText = '☀';
+        }
+      }
     </script>
   </body>
 </html>
