@@ -23,6 +23,7 @@ You should also use end to end encryption wherever possible.
 * [Search](#search)
 * [Videos](#videos)
 * [DNS](#dns)
+* [VPN](#vpn)
 * [Links](#links)
 
 #### TODO
@@ -31,7 +32,6 @@ You should also use end to end encryption wherever possible.
 * file sharing (temporary, encrypted)
 * text documents (no pdfs, .doc(x), encrypted)
 * social (no real names, temporary, no google/fb/twitter)
-* vpn
 * pi hole, etc
 
 ### OS
@@ -103,6 +103,16 @@ Use [youtube-dl](https://youtube-dl.org/) to watch videos from almost any websit
 Change your default DNS provider, which is probably your ISP or Google, to something like [BlahDNS](https://blahdns.com/) or [SecureDNS](https://securedns.eu/).
 See the links at the bottom of the page for more recommendations.
 Avoid DNS providers hosted or run in the US, providers that have logging, and providers that do not have DNSSEC.
+
+### VPN
+
+Use a VPN with no logging, that is not hosted or run by a company in the US:
+
+* [Mullvad](https://mullvad.net/en/)
+* [ProtonVPN](https://protonvpn.com/)
+* [IVPN](https://www.ivpn.net/)
+* [AirVPN](https://airvpn.org/)
+* [NordVPN](https://nordvpn.com/)
 
 ### Links
 
