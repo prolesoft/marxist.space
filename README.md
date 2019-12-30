@@ -4,14 +4,14 @@ Links to resources for ML(M)s.
 
 # Table of Contents
 
+* [Alternative Social](./social)
+* [Audiobooks](./audiobooks)
 * [Beginner's Reading List](./beginners-reading-list)
-* [Digital Security Guide](./security)
 * [Current Events](./current-events)
-* [Misc Resources](./misc)
+* [Digital Security Guide](./security)
 * [Documentaries](./documentaries)
 * [Libraries](./libraries)
-* [Audiobooks](./audiobooks)
-* [YouTube Channels](./youtube)
+* [Misc Resources](./misc)
 * [News and Periodicals](./news)
 * [Reddit Links](./reddit)
-* [Alternative Social](./social)
+* [YouTube Channels](./youtube)
