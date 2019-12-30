@@ -21,7 +21,6 @@
     <![endif]-->
   </head>
   <body>
-    <button title="Dark Mode" id="invert">☾</button>
     <main>
       {{ content }}
     </main>
@@ -63,30 +62,44 @@
       })();
 
       var inverted = false;
-      var invertButton = document.getElementById('invert')
+      // Don't put the button on the page unless JS is enabled, since it wouldn't do anything
+      var invertButton = document.createElement('button');
+      invertButton.title = 'Dark Mode';
+      invertButton.id = 'invert';
+      invertButton.innerText = '☾';
       var body = document.querySelector('body');
+      body.prepend(invertButton);
       var invertStorageKey = 'marxist.space-inverted';
 
-      function clearInvert () {
-        body.style.background = '#fff';
-        body.style.filter = '';
-        invertButton.innerText = '☾';
-        invertButon.title = 'Dark Mode';
-        inverted = false;
+      function handleInvert (options) {
+        body.style.background = options.background;
+        body.style.filter = options.filter;
+        invertButton.innerText = options.innerText;
+        invertButton.title = options.title;
+        inverted = options.inverted;
         if (hasStorage) {
-          localStorage.setItem(invertStorageKey, JSON.stringify(false))
+          localStorage.setItem(invertStorageKey, JSON.stringify(options.inverted));
         }
       }
 
+      function clearInvert () {
+        handleInvert({
+          background: '#fff',
+          filter: '',
+          innerText: '☾',
+          title: 'Dark Mode',
+          inverted: false
+        });
+      }
+
       function setInvert () {
-        body.style.background = '#222';
-        body.style.filter = 'invert(100%)';
-        invertButton.innerText = '☀';
-        invertButton.title = 'Light Mode';
-        inverted = true;
-        if (hasStorage) {
-          localStorage.setItem(invertStorageKey, JSON.stringify(true))
-        }
+        handleInvert({
+          background: '#111',
+          filter: 'invert(100%)',
+          innerText: '☀',
+          title: 'Light Mode',
+          inverted: true
+        });
       }
 
       invertButton.onclick = function () {
