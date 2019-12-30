@@ -21,7 +21,7 @@
     <![endif]-->
   </head>
   <body>
-    <button id="invert">☾</button>
+    <button title="Dark Mode" id="invert">☾</button>
     <main>
       {{ content }}
     </main>
@@ -71,6 +71,7 @@
         body.style.background = '#fff';
         body.style.filter = '';
         invertButton.innerText = '☾';
+        invertButon.title = 'Dark Mode';
         inverted = false;
         if (hasStorage) {
           localStorage.setItem(invertStorageKey, JSON.stringify(false))
@@ -81,6 +82,7 @@
         body.style.background = '#222';
         body.style.filter = 'invert(100%)';
         invertButton.innerText = '☀';
+        invertButton.title = 'Light Mode';
         inverted = true;
         if (hasStorage) {
           localStorage.setItem(invertStorageKey, JSON.stringify(true))
