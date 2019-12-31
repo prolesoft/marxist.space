@@ -13,7 +13,6 @@ title: Reddit Links
 * [Communism](https://www.reddit.com/r/communism/)
     * [Lists and Masterposts](https://www.reddit.com/r/communism/comments/cg2tu1/compilation_of_sourcelists_and_masterposts/)
     * [Mega-Megathread](https://www.reddit.com/r/communism/comments/co1pfl/the_megamegathread/)
-    * [Wiki](https://www.reddit.com/r/communism/wiki/index)
     * ["Communism Doesn't Work"](https://www.reddit.com/r/communism/comments/ea6av0/how_to_respond_to_communism_doesnt_work/)
 * [DebateCommunisum](https://www.reddit.com/r/DebateCommunism/)
 * [FullCommunism](https://www.reddit.com/r/FULLCOMMUNISM)
