@@ -6,7 +6,6 @@ title: Documentaries
 
 # Documentaries
 
-* [A Place Called Chiapas](https://www.youtube.com/watch?v=HYgd9_Mr-LU)
 * [A Very Heavy Agenda](https://drive.google.com/drive/folders/1Ytll8_9XTHovwvxmY7KgTZYsRIbE8E9U)
 * [Afghan: The Soviet Experience](https://drive.google.com/file/d/1doCBDm2fqgxRBSjRdhAL_F0TrBSnTQ-N/view)
 * [Black Gods with Guns](https://www.youtube.com/watch?v=DxqK6eqwwLc)
