@@ -15,7 +15,6 @@ title: Documentaries
 * [How Yukong Moved The Mountains](https://www.youtube.com/playlist?list=PLMt0ncvnKoz3ar_f78qBeA29-0kwrsXvT)
 * [Local Citizens of Pyongyang in Seoul](https://www.youtube.com/watch?v=ktE_3PrJZO0)
 * [Malcom X - Make It Plain](https://www.youtube.com/watch?v=csWByunwVI8)
-* [Paul Robeson: Here I Stand](https://www.youtube.com/watch?v=BUki-v-NvoE)
 * [Red Ant Dream](https://www.youtube.com/watch?v=cVvThDX4bbQ)
 * [Seeing Red](https://www.youtube.com/watch?v=nhmGVnHxtf0)
 * [Soviet Storm: WWII In The East](https://www.youtube.com/playlist?list=PLiizh2ZxteI5aQoy4x7YBkZE8bN0NNB2W)
