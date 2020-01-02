@@ -13,6 +13,7 @@ title: Documentaries
 * [Fidel Castro, The Untold Story](https://www.youtube.com/watch?v=P2Obp6YS4SY)
 * [Grenada: The Future Coming Towards Us](https://www.youtube.com/watch?v=7z-AxNFx88o)
 * [How Yukong Moved The Mountains](https://www.youtube.com/playlist?list=PLMt0ncvnKoz3ar_f78qBeA29-0kwrsXvT)
+* [Lenin](https://www.youtube.com/playlist?list=PL35BC1713B4493483)
 * [Local Citizens of Pyongyang in Seoul](https://www.youtube.com/watch?v=ktE_3PrJZO0)
 * [Malcom X - Make It Plain](https://www.youtube.com/watch?v=csWByunwVI8)
 * [Red Ant Dream](https://www.youtube.com/watch?v=cVvThDX4bbQ)
