@@ -26,6 +26,7 @@ title: Current Events
 * <https://www.theodysseyonline.com/most-what-hear-about-china-red-scare-yellow-peril-propaganda>
 * <https://journal-neo.org/2019/01/30/is-china-building-a-police-state-or-countering-western-sponsored-terrorism/>
 * <https://thegrayzone.com/2019/12/21/china-detaining-millions-uyghurs-problems-claims-us-ngo-researcher/>
+* <https://newrepublic.com/article/155076/obscure-newspaper-fueling-far-right-europe>
 
 ### Hong Kong
 * <https://bitbucket.org/TheCrypticMan/hong-kong-protests/wiki/browse/>
