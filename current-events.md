@@ -36,3 +36,5 @@ title: Current Events
 
 * <https://github.com/dessalines/essays/blob/master/us_atrocities.md#middle-east>
 * <https://medium.com/@geoffgolberg/state-sponsored-twitter-accounts-pushing-for-war-with-iran-732d3482b847>
+* <https://nplusonemag.com/issue-26/reviews/why-are-we-in-the-middle-east/>
+* <https://www.youtube.com/watch?v=QYAlSNiFpTc>
