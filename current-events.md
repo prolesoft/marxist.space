@@ -29,4 +29,10 @@ title: Current Events
 * <https://newrepublic.com/article/155076/obscure-newspaper-fueling-far-right-europe>
 
 ### Hong Kong
+
 * <https://bitbucket.org/TheCrypticMan/hong-kong-protests/wiki/browse/>
+
+### Iran
+
+* <https://github.com/dessalines/essays/blob/master/us_atrocities.md#middle-east>
+* <https://medium.com/@geoffgolberg/state-sponsored-twitter-accounts-pushing-for-war-with-iran-732d3482b847>
