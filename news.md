@@ -23,6 +23,7 @@ title: News and Periodicals
 * [Monthly Review](https://monthlyreview.org/)
 * [Naenara](https://www.naenara.com.kp/) (DPRK)
 * [Organization for Positive Peace](https://forpositivepeace.org/)
+* [PRWatch](https://www.prwatch.org/) (Media Watchdog)
 * [Pitchfork Cosmonaut](https://pitchforkcosmonaut.org/)
 * [Project Censored](https://www.projectcensored.org/) (Media Watchdog)
 * [Pyongyang Times](https://www.pyongyangtimes.com.kp/) (DPRK)
