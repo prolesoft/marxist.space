@@ -14,6 +14,7 @@ title: Reddit Links
     * [Lists and Masterposts](https://www.reddit.com/r/communism/comments/cg2tu1/compilation_of_sourcelists_and_masterposts/)
     * [Mega-Megathread](https://www.reddit.com/r/communism/comments/co1pfl/the_megamegathread/)
     * ["Communism Doesn't Work"](https://www.reddit.com/r/communism/comments/ea6av0/how_to_respond_to_communism_doesnt_work/)
+    * [Study Plan](https://www.reddit.com/r/communism/comments/wisiw/basic_marxismleninism_study_plan/)
 * [DebateCommunisum](https://www.reddit.com/r/DebateCommunism/)
 * [FullCommunism](https://www.reddit.com/r/FULLCOMMUNISM)
     * [Resources for debating reactionaries](https://www.reddit.com/r/FULLCOMMUNISM/comments/c60z5a/my_gift_to_you_a_giant_list_of_sources_for/)
