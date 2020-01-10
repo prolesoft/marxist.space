@@ -16,3 +16,4 @@ title: Beginner's Reading List
 * [The Soul of Man under Socialism](https://www.marxists.org/reference/archive/wilde-oscar/soul-man/)
 * [Value, Price, and Profit](https://www.marxists.org/archive/marx/works/1865/value-price-profit/index.htm)
 * [Critique of the Gotha Programme](https://www.marxists.org/archive/marx/works/1875/gotha/)
+* [Dialectical and Historical Materialism](https://www.marxists.org/reference/archive/stalin/works/1938/09.htm)
