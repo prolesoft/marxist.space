@@ -6,6 +6,10 @@ title: Beginner's Reading List
 
 # Beginner's Reading List
 
+This is a general list of recommendations for newcomers to Communism.
+Everyone's path is different, and there's no right way to learn about Marxism, Communism, or any other subject.
+Feel free to read all of these, some of these, or none of these, in any order.
+
 * [Why Socialism?](https://monthlyreview.org/2009/05/01/why-socialism/)
 * [Glossary](https://www.socialism101.com/dictionary)
 * [Crash Course Socialism](https://github.com/dessalines/essays/blob/master/crash_course_socialism.md)
