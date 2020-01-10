@@ -39,3 +39,4 @@ title: Current Events
 * <https://nplusonemag.com/issue-26/reviews/why-are-we-in-the-middle-east/>
 * <https://www.youtube.com/watch?v=QYAlSNiFpTc>
 * <https://www.liberationnews.org/breaking-soleimani-was-in-iraq-to-ease-regional-tensions-then-trump-said-kill-him/>
+* <https://www.historyisaweapon.com/defcon1/iranprimer.html>
