@@ -13,5 +13,6 @@ title: Libraries
 * [Marx2Mao](http://marx2mao.phpwebhosting.com/)
 * [Marxists.org](https://marxists.org)
 * [Our Hidden History](https://ourhiddenhistory.org/)
+* [Read Marx Every Day](http://www.readmarxeveryday.org/)
 * [Redspark Library](http://library.redspark.nu/Main_Page) (Maoist)
 * [Revolutionary Democracy archives](https://www.revolutionarydemocracy.org/archive/)
