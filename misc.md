@@ -15,3 +15,4 @@ title: Misc Resources
 * [Online University of the Left](http://ouleft.org/)
 * [Soviet Union Reading List](https://docs.google.com/document/d/1qeYeYeLN7uKxfMdoe7TAmOMD2fmgyZdU_urvW6eAsRg/mobilebasic) (Google doc)
 * [TheoryChina](http://en.theorychina.org/)
+* [Catalyst Project](https://collectiveliberation.org/)
