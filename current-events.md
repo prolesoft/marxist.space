@@ -40,3 +40,4 @@ title: Current Events
 * <https://www.youtube.com/watch?v=QYAlSNiFpTc>
 * <https://www.liberationnews.org/breaking-soleimani-was-in-iraq-to-ease-regional-tensions-then-trump-said-kill-him/>
 * <https://www.historyisaweapon.com/defcon1/iranprimer.html>
+* <https://docs.google.com/document/d/1GmEGaiEYvxYe-8N31-l_aKs3xVD9eATZJhD__hVbptA/edit>
