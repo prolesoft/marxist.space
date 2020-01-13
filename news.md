@@ -11,6 +11,7 @@ title: News and Periodicals
 * [CounterPunch](https://www.counterpunch.org/)
 * [DPRK Today](https://www.dprktoday.com/) (DPRK)
 * [FAIR](https://fair.org/) (Watchdog)
+* [Fight Back News](https://www.fightbacknews.org/) (FRSO)
 * [Freedom Socialist Party Newspaper](https://socialism.com/freedom-socialist-newspaper/) (Trostkyite)
 * [Greanville Post](https://www.greanvillepost.com/)
 * [KCNA Watch](https://kcnawatch.org/korea-central-tv-livestream/) (DPRK)
