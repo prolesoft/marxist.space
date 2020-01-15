@@ -29,6 +29,7 @@ title: News and Periodicals
 * [Pitchfork Cosmonaut](https://pitchforkcosmonaut.org/)
 * [Project Censored](https://www.projectcensored.org/) (Watchdog)
 * [Pyongyang Times](https://www.pyongyangtimes.com.kp/) (DPRK)
+* [Qiushi](http://english.qstheory.cn/) (China)
 * [Red Sun](http://www.redsun.org/)
 * [Redfish Media](https://redfish.media/)
 * [Redspark](https://www.redspark.nu/en/) (Maoist)
