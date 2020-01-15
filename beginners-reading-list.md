@@ -22,7 +22,6 @@ Also see the r/communism
 * [Socialism: Utopian and Scientific](https://www.marxists.org/archive/marx/works/1880/soc-utop/index.htm)
 * [Wage Labour and Capital](https://www.marxists.org/archive/marx/works/1847/wage-labour/)
 * [Reform or Revolution](https://www.marxists.org/archive/luxemburg/1900/reform-revolution/)
-* [The Soul of Man under Socialism](https://www.marxists.org/reference/archive/wilde-oscar/soul-man/)
 * [Value, Price, and Profit](https://www.marxists.org/archive/marx/works/1865/value-price-profit/index.htm)
 * [Critique of the Gotha Programme](https://www.marxists.org/archive/marx/works/1875/gotha/)
 * [Dialectical and Historical Materialism](https://www.marxists.org/reference/archive/stalin/works/1938/09.htm)
