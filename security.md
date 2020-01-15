@@ -14,6 +14,7 @@ All the recommendations here are just that: recommendations. Most users will not
 ### Table of Contents
 
 * [General](#general)
+* [Unionizing](#unionizing)
 * [Passwords](#passwords)
 * [Encryption](#encryption)
 * [OS](#os)
@@ -36,6 +37,15 @@ You should try to avoid anything hosted in, or owned by, a company in the US. Yo
 Don't use your real name, real address, or information that could be linked to your identity in sensitive situations.
 This includes social media, photos, email addresses, location, and anything else that could be linked to your identity.
 If you host a website, use WHOIS privacy protection.
+
+### Unionizing
+
+This section is not a guide on unionizing, just security recommendations.
+
+Do not use company Email, Messaging (Slack, Hipchat, etc.), phones, computers, networks, or other resources for organization. A simple rule of thumb is: If
+the company pays for it, don't use it. You have no protection under labor law if you do. Check your company handbook/policies to see what they can access or
+claim they can access, because you may also want to avoid organizing on your own devices during work hours. Follow the other recommendations in this guide
+for what apps and services to use, especially when it comes to messaging and email.
 
 ### Passwords
 
