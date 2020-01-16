@@ -6,6 +6,14 @@ title: Current Events
 
 # Current Events
 
+### Bolivia
+
+* Linking the US to the coup:
+    * <https://www.cartamaior.com.br/?/Editoria/Pelo-Mundo/Bolivia-filtran-audios-de-lideres-opositores-llamando-a-un-golpe-de-estado-contra-Evo-Morales/6/45801>
+    * <https://www.telesurenglish.net/news/Bolivia-Audios-Linking-Civic-Ex-Military-and-US-in-Coup-Plans-20191105-0001.html>
+    * <https://www.jornada.com.mx/2019/11/12/politica/006n1pol?fbclid=IwAR3ViRE1tsfInGnqNlWqT8WfQMCupbxrYGamzsd0Nv_WwgQYJQjnWwUMQIw>
+    * <https://www.primeralinea.info/informe-revela-que-eeuu-hackeo-sistema-electoral-el-20-de-octubre/>
+
 ### Xinjiang/Uyghurs
 
 * <https://worldaffairs.blog/2019/07/05/xinjiang-and-uyghurs-what-youre-not-being-told/>
