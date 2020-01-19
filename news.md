@@ -14,6 +14,7 @@ title: News and Periodicals
 * [Fight Back News](https://www.fightbacknews.org/) (FRSO)
 * [Freedom Socialist Party Newspaper](https://socialism.com/freedom-socialist-newspaper/) (Trostkyite)
 * [Greanville Post](https://www.greanvillepost.com/)
+* [In Defense of Communism](https://www.idcommunism.com/)
 * [KCNA Watch](https://kcnawatch.org/korea-central-tv-livestream/) (DPRK)
 * [KarlMarx.Net](https://sites.google.com/a/karlmarx.net/open/)
 * [Korean Central News Agency](https://www.kcna.kp) (DPRK)
