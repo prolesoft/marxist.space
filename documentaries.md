@@ -17,7 +17,7 @@ title: Documentaries
 * [Local Citizens of Pyongyang in Seoul](https://www.youtube.com/watch?v=ktE_3PrJZO0)
 * [Malcom X - Make It Plain](https://www.youtube.com/watch?v=csWByunwVI8)
 * [Red Ant Dream](https://www.youtube.com/watch?v=cVvThDX4bbQ)
-* [Soviet Storm: WWII In The East](https://www.youtube.com/playlist?list=PLiizh2ZxteI5aQoy4x7YBkZE8bN0NNB2W)
+* [The Great Patriotic War](https://www.youtube.com/playlist?list=PLiizh2ZxteI5aQoy4x7YBkZE8bN0NNB2W)
 * [The Act Of Killing](https://www.youtube.com/watch?v=-349HTKhPno)
     * [The Look Of Silence](https://www.youtube.com/watch?v=9iNcQFPECDc) (companion film)
 * [The Murder of Fred Hampton](https://www.youtube.com/watch?v=d-7JIR1u9qw)
