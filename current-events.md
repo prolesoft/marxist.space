@@ -38,8 +38,11 @@ title: Current Events
 
 ### Hong Kong
 
-* <https://bitbucket.org/TheCrypticMan/hong-kong-protests/wiki/browse/>
 * <https://www.reddit.com/r/communism/comments/cpm5q1/we_need_a_serious_discussion_on_the_overwhelming/>
+* TheCrypticMan wikis:
+    * <https://bitbucket.org/TheCrypticMan/hong-kong-riots> (Down)
+    * <https://bitbucket.org/TheCrypticMan/hong-kong-protests> (Backup, also down)
+    * <https://www.reddit.com/r/Sino/wiki/faq/hong-kong-taiwan/summer-2019-protests> (Backup)
 
 ### Iran + Iraq
 
