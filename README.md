@@ -4,10 +4,10 @@ Links to resources for ML(M)s.
 
 # Table of Contents
 
+* [Current Events](./current-events)
 * [Alternative Social](./social)
 * [Audiobooks](./audiobooks)
 * [Beginner's Reading List](./beginners-reading-list)
-* [Current Events](./current-events)
 * [Digital Security Guide](./security)
 * [Documentaries](./documentaries)
 * [Libraries](./libraries)

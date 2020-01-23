@@ -39,6 +39,7 @@ title: Current Events
 ### Hong Kong
 
 * <https://bitbucket.org/TheCrypticMan/hong-kong-protests/wiki/browse/>
+* <https://www.reddit.com/r/communism/comments/cpm5q1/we_need_a_serious_discussion_on_the_overwhelming/>
 
 ### Iran + Iraq
 
