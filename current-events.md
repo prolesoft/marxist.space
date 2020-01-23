@@ -42,6 +42,7 @@ title: Current Events
 * TheCrypticMan wikis:
     * <https://bitbucket.org/TheCrypticMan/hong-kong-riots> (Removed by censors)
     * <https://bitbucket.org/TheCrypticMan/hong-kong-protests> (Backup, also removed)
+    * <https://github.com/TheCrypticMan/Essays/wiki/Hong-Kong-Protests> (Old version)
     * <https://www.reddit.com/r/Sino/wiki/faq/hong-kong-taiwan/summer-2019-protests> (Backup)
 
 ### Iran + Iraq
