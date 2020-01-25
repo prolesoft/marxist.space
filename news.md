@@ -10,6 +10,7 @@ title: News and Periodicals
 * [China Daily](http://global.chinadaily.com.cn/) (China)
 * [CounterPunch](https://www.counterpunch.org/)
 * [DPRK Today](https://www.dprktoday.com/) (DPRK)
+* [Dragon Report](http://dragonreport.com/Dragon_Report/home/home.html) (China)
 * [FAIR](https://fair.org/) (Watchdog)
 * [Fight Back News](https://www.fightbacknews.org/) (FRSO)
 * [Freedom Socialist Party Newspaper](https://socialism.com/freedom-socialist-newspaper/) (Trostkyite)
