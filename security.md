@@ -156,8 +156,9 @@ Prefer a self-hosted alternative like [Seafile](https://github.com/haiwen/seafil
 ### Links
 
 * [DNS Leak Test](https://dnsleaktest.com/)
+* [DNS Privacy Project](https://dnsprivacy.org/wiki/)
+* [Dessaline's Favorite Apps and Services](https://github.com/dessalines/essays/blob/master/favorite_apps_and_services.md)
+* [EFF Tools](https://www.eff.org/pages/tools)
+* [Messaging Services Comparison](https://github.com/dessalines/Messaging-Services-Comparison)
 * [PrivacyTools](https://www.privacytools.io/) (List of software recommendations)
 * [ThinkPrivacy](https://www.thinkprivacy.io/) (Software recommendations blog)
-* [DNS Privacy Project](https://dnsprivacy.org/wiki/)
-* [EFF Tools](https://www.eff.org/pages/tools)
-* [Dessaline's Favorite Apps and Services](https://github.com/dessalines/essays/blob/master/favorite_apps_and_services.md)
