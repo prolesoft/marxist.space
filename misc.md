@@ -16,3 +16,4 @@ title: Misc Resources
 * [Soviet Union Reading List](https://docs.google.com/document/d/1qeYeYeLN7uKxfMdoe7TAmOMD2fmgyZdU_urvW6eAsRg/mobilebasic) (Google doc)
 * [TheoryChina](http://en.theorychina.org/)
 * [Catalyst Project](https://collectiveliberation.org/)
+* [Socialism in Asia Master Source List](https://docs.google.com/document/d/1KMAZopkLyjP74vOssz6XAdPxvMh-1rJRptFnFD54bPg/edit?usp=sharing)
