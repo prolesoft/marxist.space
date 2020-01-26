@@ -5,6 +5,7 @@ Links to resources for ML(M)s.
 # Table of Contents
 
 * [Current Events](./current-events)
+* [Abolition](./abolition)
 * [Alternative Social](./social)
 * [Audiobooks](./audiobooks)
 * [Beginner's Reading List](./beginners-reading-list)
