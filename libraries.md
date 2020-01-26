@@ -1,5 +1,6 @@
 ---
 title: Libraries
+permalink: /libraries/
 ---
 
 ## [marxist.space](https://marxist.space)

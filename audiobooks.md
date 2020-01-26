@@ -1,5 +1,6 @@
 ---
 title: Audiobooks
+permalink: /audiobooks/
 ---
 
 ## [marxist.space](https://marxist.space)

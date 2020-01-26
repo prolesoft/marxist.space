@@ -1,5 +1,6 @@
 ---
 title: Current Events
+permalink: /current-events/
 ---
 
 ## [marxist.space](https://marxist.space)

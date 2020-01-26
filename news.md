@@ -1,5 +1,6 @@
 ---
 title: News and Periodicals
+permalink: /news/
 ---
 
 ## [marxist.space](https://marxist.space)

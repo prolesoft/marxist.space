@@ -1,5 +1,6 @@
 ---
 title: YouTube Channels
+permalink: /youtube/
 ---
 
 ## [marxist.space](https://marxist.space)

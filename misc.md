@@ -1,5 +1,6 @@
 ---
 title: Misc Resources
+permalink: /misc/
 ---
 
 ## [marxist.space](https://marxist.space)

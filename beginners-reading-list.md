@@ -1,5 +1,6 @@
 ---
 title: Beginner's Reading List
+permalink: /beginners-reading-list/
 ---
 
 ## [marxist.space](https://marxist.space)

@@ -1,5 +1,6 @@
 ---
 title: Reddit Links
+permalink: /reddit/
 ---
 
 ## [marxist.space](https://marxist.space)
