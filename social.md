@@ -11,5 +11,4 @@ permalink: /social/
 
 ### Mastodon
 
-I have not yet found any Communist fediverse servers, only Anarchist ones.
-Please let me know if you know of any.
+* [radical.town](https://radical.town/about)
