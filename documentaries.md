@@ -1,5 +1,6 @@
 ---
 title: Documentaries
+permalink: /documentaries/
 ---
 
 ## [marxist.space](https://marxist.space)

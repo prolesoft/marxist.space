@@ -1,5 +1,6 @@
 ---
 title: Alternative Social
+permalink: /social/
 ---
 
 ## [marxist.space](https://marxist.space)

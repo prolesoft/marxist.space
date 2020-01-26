@@ -1,5 +1,6 @@
 ---
 title: Digital Security Guide
+permalink: /security/
 ---
 
 ## [marxist.space](https://marxist.space)

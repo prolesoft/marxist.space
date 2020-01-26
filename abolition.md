@@ -1,5 +1,6 @@
 ---
 title: Abolition
+permalink: /abolition/
 ---
 
 ## [marxist.space](https://marxist.space)
