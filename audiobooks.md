@@ -13,5 +13,6 @@ permalink: /audiobooks/
 * [Dessalines's list](https://github.com/dessalines/essays/blob/master/audiobooks.md) (YouTube and torrents)
 * [LibriVox](https://librivox.org/) (public domain audiobooks)
 * [Marx Engels Lenin Institute Socialist AudioTexts](https://www.youtube.com/channel/UClhvYkhCbuwnVT_H0gFP3OA)
+* [Mega Archive](https://mega.nz/#F!kQoj3aAB!pzO-m_eoVvBv1bSMj60NdQ)
 * [Our Hidden History](https://ourhiddenhistory.org/)
     * [YouTube Channel](https://www.youtube.com/channel/UCbfzszfxZr4qmeZjZ_3R_Pw)
