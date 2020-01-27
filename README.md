@@ -9,6 +9,7 @@ Links to resources for ML(M)s.
 * [Alternative Social](./social)
 * [Audiobooks](./audiobooks)
 * [Beginner's Reading List](./beginners-reading-list)
+* [China Resources](./china)
 * [Digital Security Guide](./security)
 * [Documentaries](./documentaries)
 * [Libraries](./libraries)
