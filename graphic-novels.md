@@ -24,3 +24,5 @@ Try the first one for each, and if that doesn't work, try the next, and so on.
     * <https://anonymousfiles.io/8Hf8MJU1/>
     * <https://gofile.io/?c=weVZjW>
     * <https://file.io/rjvB6D>
+* Marx For Beginners
+    * <https://ia800204.us.archive.org/1/items/MarxForBeginners-English/marx_for_beginners.pdf>
