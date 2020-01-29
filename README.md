@@ -12,6 +12,7 @@ Links to resources for ML(M)s.
 * [China Resources](./china)
 * [Digital Security Guide](./security)
 * [Documentaries](./documentaries)
+* [Graphic Novels](./graphic-novels)
 * [Libraries](./libraries)
 * [Misc Resources](./misc)
 * [News and Periodicals](./news)
