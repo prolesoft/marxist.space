@@ -38,6 +38,7 @@ permalink: /news/
 * [Redspark](https://www.redspark.nu/en/) (Maoist)
 * [Rodong Sinmun](http://www.rodong.rep.kp/en/) (DPRK)
 * [Shadowproof](https://shadowproof.com/)
+* [Stephan Gowans](https://gowans.blog/) (Blog)
 * [TeleSUR English](https://www.telesurenglish.net/)
 * [The Grayzone](https://thegrayzone.com/)
 * [Voice Of Korea](https://www.vok.rep.kp/index.php?CHANNEL=2&lang=) (DPRK)
