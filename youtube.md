@@ -16,7 +16,6 @@ guide for tips on watching securely.
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
 * [Black Internationalist](https://www.youtube.com/channel/UCZ1zgx9IxzrMf545npclq1Q)
 * [Black Red Guard](https://www.youtube.com/channel/UCpYZYH_1VTB9q8Leg0TrROA) (Maoist)
-* [Communist Current](https://www.youtube.com/channel/UChft9yG7LZTlrCczYoRvDtg)
 * [Danov](https://www.youtube.com/channel/UCd1Ze_UknxhxpK9Lvi5rjYw) (ML)
 * [Echo DPRK](https://www.youtube.com/channel/UCP5_cAbRgjsZjkhrHBq84xQ) (DPRK)
 * [Empire Files](https://www.youtube.com/channel/UCG29FnXZm4F5U8xpqs1cs1Q)
