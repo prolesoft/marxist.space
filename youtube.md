@@ -7,6 +7,9 @@ permalink: /youtube/
 
 # YouTube Channels
 
+See the [videos section](https://marxist.space/security#videos) of the security
+guide for tips on watching securely.
+
 * [AfroMarxist](https://www.youtube.com/channel/UC2xX2FI6s4i9xz3t9qjayhg)
 * [Austrian Maoist](https://www.youtube.com/channel/UCjN4A1eK-TRUpFlRIQo7VfA) (Maoist)
 * [AzureScapegoat](https://www.youtube.com/channel/UCXIN3HIH0eon5hVYYpnoNuQ)
