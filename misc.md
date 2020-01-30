@@ -21,4 +21,3 @@ permalink: /misc/
 * [Why America is the World’s Most Uniquely Cruel Society](https://eand.co/why-is-america-the-worlds-most-uniquely-cruel-society-f67afc5c6b9a)
 * [US Trade War with China: Desperate Move to Save Western Empire](https://www.globalresearch.ca/us-trade-war-china-desperate-move-save-western-empire/5660991)
 * [How America will collapse (by 2025)](https://www.salon.com/2010/12/06/america_collapse_2025/)
-* [Never Forget: In 1985 US Police Dropped a Bomb on a Neighborhood; Killing 11 and Destroying 61 Homes](https://blackmainstreet.net/never-forget-1985-bombing-west-philedelphia-pa/)
