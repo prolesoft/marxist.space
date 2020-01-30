@@ -37,3 +37,4 @@ permalink: /china/
 * [Xinjiang vocational training centers: Tackling extremism with education and job opportunities](https://news.cgtn.com/news/3d3d774d34457a4d30457a6333566d54/share_p.html)
 * [Debunking imperialist propaganda wrt in Xinjiang, China - "Uighur mass concentration camps" (link list](https://docs.google.com/document/d/1XiHrkJ_zudQZP1hBIBCgJKKAfAILxEG0cmQGrNH8pIU/mobilebasic)
 * [Chinese "Imperialism"](https://old.reddit.com/r/communism/comments/dqrspr/chinese_imperialism/)
+* [US Trade War with China: Desperate Move to Save Western Empire](https://www.globalresearch.ca/us-trade-war-china-desperate-move-save-western-empire/5660991)
