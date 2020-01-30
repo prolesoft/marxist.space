@@ -12,7 +12,6 @@ guide for tips on watching securely.
 
 * [AfroMarxist](https://www.youtube.com/channel/UC2xX2FI6s4i9xz3t9qjayhg)
 * [Austrian Maoist](https://www.youtube.com/channel/UCjN4A1eK-TRUpFlRIQo7VfA) (Maoist)
-* [AzureScapegoat](https://www.youtube.com/channel/UCXIN3HIH0eon5hVYYpnoNuQ)
 * [BadMouseProductions](https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA)
 * [Black Internationalist](https://www.youtube.com/channel/UCZ1zgx9IxzrMf545npclq1Q)
 * [Black Red Guard](https://www.youtube.com/channel/UCpYZYH_1VTB9q8Leg0TrROA) (Maoist)
