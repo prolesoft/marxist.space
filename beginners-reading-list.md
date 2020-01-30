@@ -33,7 +33,6 @@ Also see the r/communism
 * [Pacifism - How to do the enemy's job for them](https://theredphoenixapl.org/2011/08/11/pacifism-how-to-do-the-enemys-job-for-them/)
 * [Left anticommunism, the Unkindest Cut](http://www.greanvillepost.com/2015/05/23/left-anticommunism-the-unkindest-cut/)
 * [Marx’s Theory of Surplus Value](https://www.ernestmandel.org/en/works/txt/1990/karlmarx/7.htm)
-* [Einstein, H. G. Wells, and Other Leading Figures who you didn’t know were Pro-Stalin](https://socialism-simplified.com/2018/12/28/einstein-h-g-wells-and-other-leading-figures-who-you-didnt-know-were-pro-stalin/)
 * [Why does Capitalism go into crisis?](http://www.marxist.com/why-does-capitalism-go-into-crisis.htm)
 * [What Maoism has to offer the world and why so many former non-communists think it’s dope](https://jiminykrix.wordpress.com/2016/09/14/what-maoism-has-to-offer-the-world-and-why-so-many-former-non-communists-think-its-dope/)
 * [Anticapitalism FAQ](http://anticapitalismfaq.com/)
