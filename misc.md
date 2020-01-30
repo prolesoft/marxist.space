@@ -15,7 +15,6 @@ permalink: /misc/
 * [Online University of the Left](http://ouleft.org/)
 * [Socialism in Asia Master Source List](https://docs.google.com/document/d/1KMAZopkLyjP74vOssz6XAdPxvMh-1rJRptFnFD54bPg/edit?usp=sharing) (Google doc)
 * [The European Union Is an Antidemocratic Disgrace](https://jacobinmag.com/2019/05/european-union-parliament-elections-antidemocratic)
-* [The dark side of the "Wende"](https://www.jungewelt.de/m/artikel/319309.the-dark-side-of-the-wende.html)
 * [Provoking Nuclear War by Media](http://www.counterpunch.org/2016/08/24/provoking-nuclear-war-by-media/)
 * [Pushing Ukraine to the Brink (about US interests in Middle East and Ukraine)](http://www.counterpunch.org/2014/07/09/pushing-ukraine-to-the-brink/)
 * [The Aesthetics of the Alt-Right](http://baltimore-art.com/2017/02/11/the-aesthetics-of-the-alt-right/)
