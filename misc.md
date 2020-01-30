@@ -17,4 +17,4 @@ permalink: /misc/
 * [Pushing Ukraine to the Brink (about US interests in Middle East and Ukraine)](http://www.counterpunch.org/2014/07/09/pushing-ukraine-to-the-brink/)
 * [Radical Coder's Communist articles](https://0xacab.org/snippets/802)
 * [Socialism in Asia Master Source List](https://docs.google.com/document/d/1KMAZopkLyjP74vOssz6XAdPxvMh-1rJRptFnFD54bPg/edit?usp=sharing) (Google doc)
-* [The Pentagon & Hollywood’s successful and deadly propaganda alliance](http://www.greanvillepost.com/2018/03/12/the-pentagon-hollywoods-successful-and-deadly-propaganda-alliance/)
+* [The Pentagon & Hollywood's successful and deadly propaganda alliance](http://www.greanvillepost.com/2018/03/12/the-pentagon-hollywoods-successful-and-deadly-propaganda-alliance/)
