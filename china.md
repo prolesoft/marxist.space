@@ -27,7 +27,6 @@ permalink: /china/
 * [What we don't hear about Tibet](https://www.theguardian.com/commentisfree/2009/feb/10/tibet-china-feudalism)
 * [Human Rights of Tibet](https://factandtruth.wordpress.com/human-rights-of-tibet/) (graphic)
 * [Why Do Chinese Billionaires Keep Ending Up in Prison?](https://www.theatlantic.com/international/archive/2013/01/why-do-chinese-billionaires-keep-ending-up-in-prison/272633/)
-* [No, the UN Did Not Report China Has ‘Massive Internment Camps’ for Uighur Muslims](https://thegrayzone.com/2018/08/23/un-did-not-report-china-internment-camps-uighur-muslims/)
 * [The Lies That The U.S. Empire Uses To Make People Hate And Fear China’s Government](https://medium.com/the-progressive-edge/the-lies-that-the-u-s-empire-uses-to-make-people-hate-and-fear-chinas-government-aeeedd645b5b)
 * [The US is already at war with China](https://www.thenation.com/article/the-us-is-already-at-war-with-china/)
 * [Why Hong Kong's extradition Bill is causing an outcry: From a grisly murder in Taiwan to mass protests](https://www.straitstimes.com/asia/east-asia/hong-kongs-extradition-bill-from-a-grisly-murder-to-mass-protests)
