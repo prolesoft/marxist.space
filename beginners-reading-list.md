@@ -36,6 +36,4 @@ Also see the r/communism
 * [Einstein, H. G. Wells, and Other Leading Figures who you didn’t know were Pro-Stalin](https://socialism-simplified.com/2018/12/28/einstein-h-g-wells-and-other-leading-figures-who-you-didnt-know-were-pro-stalin/)
 * [Why does Capitalism go into crisis?](http://www.marxist.com/why-does-capitalism-go-into-crisis.htm)
 * [What Maoism has to offer the world and why so many former non-communists think it’s dope](https://jiminykrix.wordpress.com/2016/09/14/what-maoism-has-to-offer-the-world-and-why-so-many-former-non-communists-think-its-dope/)
-* [Stop Kidding Yourself: The Police Were Created to Control Working Class and Poor People](https://www.lawcha.org/2014/12/29/stop-kidding-police-created-control-working-class-poor-people/)
 * [Anticapitalism FAQ](http://anticapitalismfaq.com/)
-* [Cops are Gangsters](http://kersplebedeb.com/posts/cops-are-gangsters/)
