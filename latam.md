@@ -8,7 +8,6 @@ permalink: /latam/
 # Latin America Resources
 
 * [How Democracy Works in Cuba](https://www.youtube.com/watch?v=2aMsi-A56ds)
-* [Why the Communist Party of Peru is reviled but Marcos and the Zapatistas are loved, Or, A Historical Defense of Revolutionary Violence, Pt. 2](https://rustbeltrevolution.tumblr.com/post/170666440025/why-the-communist-party-of-peru-is-reviled-but)
 * [US-Led Economic War, Not Socialism, Is Tearing Venezuela Apart](https://www.mintpressnews.com/us-led-economic-war-not-socialism-tearing-venezuela-apart/218335/)
 * [Venezuela Coverage Takes Us Back to Golden Age of Lying About Latin America](https://fair.org/home/venezuela-coverage-takes-us-back-to-golden-age-of-lying-about-latin-america/)
 * [Masterpost on the Zapatista Army of National Liberation (EZLN)](https://www.reddit.com/r/communism/comments/da8nbq/masterpost_on_the_zapatista_army_of_national/)

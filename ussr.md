@@ -9,7 +9,7 @@ permalink: /ussr/
 
 * [Soviet Union Reading List](https://docs.google.com/document/d/1qeYeYeLN7uKxfMdoe7TAmOMD2fmgyZdU_urvW6eAsRg/mobilebasic) (Google doc)
 * [US Meddling in 1996 Russian Elections in Support of Boris Yeltsin](http://www.globalresearch.ca/us-meddling-in-1996-russian-elections-in-support-of-boris-yeltsin/5568288)
-* [Trotsky’s Lies – What They Are, and What They Mean](https://espressostalinist.com/2017/01/27/grover-furr-trotskys-lies-what-they-are-and-what-they-mean/)
+* [Trotsky's Lies – What They Are, and What They Mean](https://espressostalinist.com/2017/01/27/grover-furr-trotskys-lies-what-they-are-and-what-they-mean/)
 * [The Myth of Trotsky as Tragic Hero](https://www.reddit.com/r/communism/comments/2f3m7t/the_myth_of_trotsky_as_tragic_hero/)
 * [What the Russian Revolution achieved and why it degenerated](http://www.socialist.net/what-the-russian-revolution-achieved-and-why-it-degenerated.htm)
 * [Oppressive and grey? No, growing up under communism was the happiest time of my life](http://www.dailymail.co.uk/news/article-1221064/Oppressive-grey-No-growing-communism-happiest-time-life.html)
