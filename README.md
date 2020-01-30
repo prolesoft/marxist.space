@@ -10,7 +10,7 @@ Links to resources for ML(M)s.
 * [Audiobooks](./audiobooks)
 * [Beginner's Reading List](./beginners-reading-list)
 * [China Resources](./china)
-* [DPRK Resources](./china)
+* [DPRK Resources](./dprk)
 * [Digital Security Guide](./security)
 * [Documentaries](./documentaries)
 * [Graphic Novels](./graphic-novels)
