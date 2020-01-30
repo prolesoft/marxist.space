@@ -18,8 +18,5 @@ permalink: /ussr/
 * How labor hours reduction brought about the collapse of the Soviet Union [part 1](https://therealmovement.wordpress.com/2017/11/14/according-to-the-central-intelligence-agency-we-almost-reached-communism-by-1980/) [part 2](https://therealmovement.wordpress.com/2017/11/17/how-the-argument-of-one-economist-helped-kill-the-soviet-union/) [part 3](https://therealmovement.wordpress.com/2017/11/21/how-labor-hours-reduction-brought-about-the-collapse-of-the-soviet-union/)
 * [Stalin planned to send a million troops to stop Hitler if Britain and France agreed](https://www.telegraph.co.uk/news/worldnews/europe/russia/3223834/Stalin-planned-to-send-a-million-troops-to-stop-Hitler-if-Britain-and-France-agreed-pact.html)
 * Chinese Analyses of Soviet Failure
-* [The Party](https://jamestown.org/program/chinese-analyses-of-soviet-failure-the-party/)
-* [Humanitarian Socialism](https://jamestown.org/program/chinese-analyses-of-soviet-failure-humanitarian-socialism/)
-* [The Dictatorship of the Proletariat](https://jamestown.org/program/chinese-analyses-of-soviet-failure-the-dictatorship-of-the-proletariat/)
 * [The Soviet Famine of 1931-33: Politically Motivated or Ecological Disaster?](http://www.international.ucla.edu/asia/article/3838)
 * [The Hoax of the 1932-33 Ukraine Famine](https://web.archive.org/web/20001003073504/http://www.plp.org/cd_sup/ukfam1.html)
