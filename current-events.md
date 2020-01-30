@@ -18,7 +18,7 @@ permalink: /current-events/
 ### Xinjiang/Uyghurs
 
 * <https://worldaffairs.blog/2019/07/05/xinjiang-and-uyghurs-what-youre-not-being-told/>
-* <https://docs.google.com/document/d/1XiHrkJ_zudQZP1hBIBCgJKKAfAILxEG0cmQGrNH8pIU/edit>
+* <https://docs.google.com/document/d/1XiHrkJ_zudQZP1hBIBCgJKKAfAILxEG0cmQGrNH8pIU/mobilebasic>
 * <https://medium.com/@leohezhao/xinjiang-facts-vs-fiction-bdc2aa403c91>
 * <https://www.quora.com/What-will-be-the-consequences-of-the-New-York-Times-expose-on-Xinjiang/answer/Jamin-Chen-1?ch=10&share=010b06f9&srid=hXpBn>
 * <https://rainershea.com/f/the-biggest-lie-of-2019-that-china-is-putting-muslims-in-%E2%80%9Ccamps%E2%80%9D>
@@ -36,6 +36,7 @@ permalink: /current-events/
 * <https://journal-neo.org/2019/01/30/is-china-building-a-police-state-or-countering-western-sponsored-terrorism/>
 * <https://thegrayzone.com/2019/12/21/china-detaining-millions-uyghurs-problems-claims-us-ngo-researcher/>
 * <https://newrepublic.com/article/155076/obscure-newspaper-fueling-far-right-europe>
+* <https://news.cgtn.com/news/3d3d774d34457a4d30457a6333566d54/share_p.html>
 
 ### Hong Kong
 
@@ -54,4 +55,4 @@ permalink: /current-events/
 * <https://www.youtube.com/watch?v=QYAlSNiFpTc>
 * <https://www.liberationnews.org/breaking-soleimani-was-in-iraq-to-ease-regional-tensions-then-trump-said-kill-him/>
 * <https://www.historyisaweapon.com/defcon1/iranprimer.html>
-* <https://docs.google.com/document/d/1GmEGaiEYvxYe-8N31-l_aKs3xVD9eATZJhD__hVbptA/edit>
+* <https://docs.google.com/document/d/1GmEGaiEYvxYe-8N31-l_aKs3xVD9eATZJhD__hVbptA/mobilebasic>
