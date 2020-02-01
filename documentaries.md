@@ -33,8 +33,3 @@ permalink: /documentaries/
 * [Tzar to Lenin](https://www.youtube.com/watch?v=egWLsEzaKiI)
 * [We Went To DPRK To Get A Haircut](https://www.youtube.com/watch?v=2BO83Ig-E8E)
 * [Yellow Vest Fever](https://youtube.com/watch?v=ZIA7sKcFN44)
-
-**Note** The links below have not yet been vetted
-
-* [The Propaganda Game](https://en.wikipedia.org/wiki/The_Propaganda_Game)
-* [Zapatistas: Crónica de una Rebelión](https://peertube.social/videos/watch/095ab314-5b94-432f-93e4-a3c83859795c)
