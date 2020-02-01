@@ -12,6 +12,7 @@ permalink: /documentaries/
 * [Afghan: The Soviet Experience](https://drive.google.com/file/d/1doCBDm2fqgxRBSjRdhAL_F0TrBSnTQ-N/view)
 * [Black Gods with Guns](https://www.youtube.com/watch?v=DxqK6eqwwLc)
 * [Black Panthers: Vanguard of the Revolution](https://www2.123-movies.com/movie/the-black-panthers-vanguard-of-the-revolution/)
+* [China: Time Of Xi](https://www.youtube.com/playlist?list=PLlhUKWQ5KKQr633F85NK5-menPlsWuAbB)
 * [Empire Files: How Palestine Became Colonized](https://youtube.com/watch?v=BT5L4YU_Fl4)
 * [Fidel Castro, The Untold Story](https://www.youtube.com/watch?v=P2Obp6YS4SY) ([mirror link](https://peertube.social/videos/watch/97e50d71-9a2c-4a18-bb3b-fe7ffffd9d61))
 * [Grenada: The Future Coming Towards Us](https://www.youtube.com/watch?v=7z-AxNFx88o)
@@ -37,4 +38,3 @@ permalink: /documentaries/
 
 * [The Propaganda Game](https://en.wikipedia.org/wiki/The_Propaganda_Game)
 * [Zapatistas: Crónica de una Rebelión](https://peertube.social/videos/watch/095ab314-5b94-432f-93e4-a3c83859795c)
-* [Discovery Channel China Time of Xi](https://youtube.com/watch?v=9xB1TvNL4m8)
