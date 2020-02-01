@@ -23,6 +23,7 @@ permalink: /documentaries/
 * [Semantics - The Rise and Fall of Muammar al Gaddafi](https://youtube.com/watch?v=qVHzAinRH4g)
 * [Soviet Storm/The Great Patriotic War](https://www.youtube.com/playlist?list=PLiizh2ZxteI5aQoy4x7YBkZE8bN0NNB2W)
 * [The Act Of Killing](https://www.youtube.com/watch?v=-349HTKhPno) and [The Look Of Silence](https://www.youtube.com/watch?v=9iNcQFPECDc) (companion film)
+* [The Antifascists](https://www.youtube.com/watch?v=XYHnd4boUoM)
 * [The Coming War on China](https://www.youtube.com/watch?v=GDl9ecICIYg)
 * [The Murder of Fred Hampton](https://www.youtube.com/watch?v=d-7JIR1u9qw)
 * [The Revolution Will Not Be Televised](https://www.youtube.com/watch?v=iH5nzZU0qCc)
@@ -36,7 +37,5 @@ permalink: /documentaries/
 
 * [The Propaganda Game](https://en.wikipedia.org/wiki/The_Propaganda_Game)
 * [Zapatistas: Crónica de una Rebelión](https://peertube.social/videos/watch/095ab314-5b94-432f-93e4-a3c83859795c)
-* [The Power of Community - How Cuba Survived Peak Oil](https://vimeo.com/8653921)
 * [Behind The Mask (IRA documentary)](https://peertube.social/videos/watch/51e72798-6b8b-47d2-88e4-4b5e113adb7d)
-* [The Antifascists](https://www.youtube.com/watch?v=XYHnd4boUoM)
 * [Discovery Channel China Time of Xi](https://youtube.com/watch?v=9xB1TvNL4m8)
