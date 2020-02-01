@@ -14,6 +14,7 @@ permalink: /libraries/
 * [Kim Il Sung Works](https://archive.org/details/kimilsungworks/mode/2up) (DPRK)
 * [Marx2Mao](http://marx2mao.phpwebhosting.com/)
 * [Marxists.org](https://marxists.org)
+* [Massive Google Drive Archive](https://www.reddit.com/r/communism/comments/ew0zn2/here_is_my_drive_full_of_sources/)
 * [Our Hidden History](https://ourhiddenhistory.org/)
 * [Publications of the DPRK](http://www.korean-books.com.kp/en/) (DPRK)
 * [Read Marx Every Day](http://www.readmarxeveryday.org/)
