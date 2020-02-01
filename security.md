@@ -103,7 +103,8 @@ See the links at the bottom of the page for more recommendations.
 
 ### Messaging
 
-You _need_ end-to-end encrpytion for anything sensitive. This means your communications should be encrypted in transit (TLS 1.2 at a minimum),
+You _need_ end-to-end encrpytion for anything sensitive. This means your communications should be encrypted in transit
+(TLS 1.2 is the only thing you should accept as of early 2020),
 and also encrypted at rest (on the server where they're stored) without the company running the messaging platform being able to read them.
 If communications are not E2EE, you should treat them as if they're public.
 
