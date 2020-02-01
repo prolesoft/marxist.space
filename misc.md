@@ -11,7 +11,6 @@ permalink: /misc/
 * [Collection of Reading Lists](https://docs.google.com/document/d/1k-OPPy9UM9ApPuWVIsPcvX3zQh1LUsVbPQocD9mUhyA/edit) (Google doc)
 * [Dessalines Essays](https://github.com/dessalines/essays)
 * [Dialectics for Kids](http://dialectics4kids.org/)
-* [Films For Action](https://www.filmsforaction.org/)
 * [Leftypedia](https://leftypedia.org/wiki/Main_Page)
 * [Online University of the Left](http://ouleft.org/)
 * [Provoking Nuclear War by Media](http://www.counterpunch.org/2016/08/24/provoking-nuclear-war-by-media/)
