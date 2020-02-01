@@ -28,8 +28,6 @@ Also see the r/communism
 * [Dialectical and Historical Materialism](https://www.marxists.org/reference/archive/stalin/works/1938/09.htm)
 * [The Three Sources and Three Component Parts of Marxism](https://www.marxists.org/archive/lenin/works/1913/mar/x01.htm)
 * [Do publicly owned, planned economies work?](https://gowans.blog/2012/12/21/do-publicly-owned-planned-economies-work/) ([Audio Format](https://youtube.com/playlist?list=PL0-IkmzWbjobDdDbSC_YgZfV94BQiRIB8))
-* [How Marxism Works](https://www.marxists.org/archive/harman/1979/marxism/index.html)
-* [The meaning of Marxism](https://www.amazon.com/Meaning-Marxism-Paul-DAmato/dp/1931859299)
 * [Pacifism: How to Do The Enemy's Job For Them](https://theredphoenixapl.org/2011/08/11/pacifism-how-to-do-the-enemys-job-for-them/)
 * [Left anticommunism, the Unkindest Cut](http://www.greanvillepost.com/2015/05/23/left-anticommunism-the-unkindest-cut/)
 * [Why does Capitalism go into crisis?](http://www.marxist.com/why-does-capitalism-go-into-crisis.htm)
