@@ -37,5 +37,4 @@ permalink: /documentaries/
 
 * [The Propaganda Game](https://en.wikipedia.org/wiki/The_Propaganda_Game)
 * [Zapatistas: Crónica de una Rebelión](https://peertube.social/videos/watch/095ab314-5b94-432f-93e4-a3c83859795c)
-* [Behind The Mask (IRA documentary)](https://peertube.social/videos/watch/51e72798-6b8b-47d2-88e4-4b5e113adb7d)
 * [Discovery Channel China Time of Xi](https://youtube.com/watch?v=9xB1TvNL4m8)
