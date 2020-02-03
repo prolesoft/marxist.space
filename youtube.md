@@ -39,4 +39,3 @@ guide for tips on watching securely.
 * [Tankie Talk](https://www.youtube.com/channel/UCSrad2ah3GKKDLK3_j0hogg)
 * [TeleSUR English](https://www.youtube.com/user/telesurenglish)
 * [Tovarishch Endymion](https://www.youtube.com/channel/UCTG-iJm0HtjWVOAwN8sA4Xg)
-* [Xexizy](https://www.youtube.com/channel/UCDULjo1v2Hivuu4h4LZSTUQ)
