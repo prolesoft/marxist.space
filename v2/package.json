@@ -1,0 +1,23 @@
+{
+  "name": "marxist.space",
+  "private": true,
+  "version": "0.0.1",
+  "description": "marxist.space v2",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd server && npm ci && cd ../client && npm ci",
+    "start": "./start.sh",
+    "test": "cd server && npm t && cd ../client && npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marxism/marxist.space.git"
+  },
+  "keywords": [],
+  "author": "Zac Anger <zac@zacanger.com> (https://zacanger.com)",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/marxism/marxist.space/issues"
+  },
+  "homepage": "https://github.com/marxism/marxist.space#readme"
+}

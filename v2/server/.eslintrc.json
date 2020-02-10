@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "plugins": [
+    "zacanger"
+  ],
+  "extends": [
+    "plugin:zacanger/recommended",
+    "plugin:zacanger/node",
+    "plugin:zacanger/typescript",
+    "plugin:zacanger/prettier-ts"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "warnOnUnsupportedTypeScriptVersion": false
+  },
+  "rules": {
+    "node/no-missing-import": 0,
+    "fp/no-nil": 0,
+    "fp/no-unused-expression": 0,
+    "fp/no-mutation": 0,
+    "fp/no-let": 0
+  }
+}

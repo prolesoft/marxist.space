@@ -1,0 +1,39 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app
+  labels:
+    com.example: app
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+    targetPort: 4000
+  selector:
+    com.example: app
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: app
+  labels:
+    com.example: app
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        com.example: app
+    spec:
+      restartPolicy: Always
+      containers:
+      - image: some-regeistry.com/example/app:latest
+        name: app
+        ports:
+        - containerPort: 4000
+        env:
+          - name: NODE_ENV
+            value: production
