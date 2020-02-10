@@ -1,23 +1,20 @@
-## [marxist.space](https://marxist.space)
+# marxist.space
 
-Links to resources for ML(M)s.
+```
+interface Resource {
+  href: string
+  title: string
+  tags: string[]
+  excerpts?: {
+    text: string
+    citation?: string
+  }
+}
+```
 
-# Table of Contents
+## TODO:
 
-* [Current Events](./current-events)
-* [Abolition](./abolition)
-* [Alternative Social](./social)
-* [Audiobooks](./audiobooks)
-* [Beginner's Reading List](./beginners-reading-list)
-* [China Resources](./china)
-* [DPRK Resources](./dprk)
-* [Digital Security Guide](./security)
-* [Documentaries](./documentaries)
-* [Graphic Novels](./graphic-novels)
-* [Latin America Resources](./latam)
-* [Libraries](./libraries)
-* [Misc Resources](./misc)
-* [News and Periodicals](./news)
-* [Reddit Links](./reddit)
-* [USSR Resources](./ussr)
-* [YouTube Channels](./youtube)
+* Change to single app/entry point (set up proxy for webpack dev server)
+* See github issues for more
+
+[LICENSE](./LICENSE.md)
