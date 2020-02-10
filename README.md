@@ -19,5 +19,5 @@ Links to resources for ML(M)s.
 * [Misc Resources](./misc)
 * [News and Periodicals](./news)
 * [Reddit Links](./reddit)
-* [USSR Resources](./china)
+* [USSR Resources](./ussr)
 * [YouTube Channels](./youtube)
