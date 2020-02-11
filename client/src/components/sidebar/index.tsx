@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import SidebarCategoryList from './category-list'
+import SidebarTagList from './tag-list'
 
 const Wrapper = styled.aside`
   display: flex;
@@ -18,7 +18,7 @@ const Wrapper = styled.aside`
 
 const Sidebar = () => (
   <Wrapper>
-    <SidebarCategoryList />
+    <SidebarTagList />
   </Wrapper>
 )
 

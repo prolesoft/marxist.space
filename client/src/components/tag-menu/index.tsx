@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import { Route } from 'react-router-dom'
-import CategoryMenuDropdown from './dropdown'
+import TagMenuDropdown from './dropdown'
 
 const Menu = styled.nav`
   display: none;
@@ -14,14 +14,14 @@ const Menu = styled.nav`
   }
 `
 
-const CategoryMenu = (props) => (
+const TagMenu = (props) => (
   <Menu>
     <Route
-      path="/a/:category"
+      path="/a/:tag"
       children={({ match, history }) => (
-        <CategoryMenuDropdown
+        <TagMenuDropdown
           // @ts-ignore
-          category={match ? match.params.category : 'all'}
+          tag={match ? match.params.tag : 'all'}
           history={history}
         />
       )}
@@ -29,4 +29,4 @@ const CategoryMenu = (props) => (
   </Menu>
 )
 
-export default CategoryMenu
+export default TagMenu

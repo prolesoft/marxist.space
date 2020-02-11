@@ -12,7 +12,7 @@ it('renders without crashing', () => {
 
 it('renders the information correctly', () => {
   const data = {
-    category: 'category',
+    tag: 'tag',
     created: '2018-11-05T05:02:38.544Z',
   }
 
@@ -24,6 +24,6 @@ it('renders the information correctly', () => {
   const links = wrapper.find('a')
   const timestamp = wrapper.find('span').at(1)
 
-  expect(links.at(1).text()).toEqual(`/a/${data.category}`)
+  expect(links.at(1).text()).toEqual(`/a/${data.tag}`)
   expect(timestamp.text()).toEqual(moment(data.created).fromNow())
 })

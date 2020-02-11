@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import categories from '../../categories'
+import tags from '../../tags'
 import SelectWrapper from '../shared/form/select-wrapper'
 
 const Dropdown = styled.select`
@@ -15,24 +15,24 @@ const Dropdown = styled.select`
 `
 
 type Props = {
-  category: string
+  tag: string
   history: {
     push: (string) => void
   }
 }
 
-class CategoryMenuDropdown extends React.Component<Props> {
-  mapCategories = () =>
-    ['all', ...categories].map((category, index) => (
-      <option key={index} value={category}>
-        {category}
+class TagMenuDropdown extends React.Component<Props> {
+  mapTags = () =>
+    ['all', ...tags].map((tag, index) => (
+      <option key={index} value={tag}>
+        {tag}
       </option>
     ))
 
   handleOnChange = (event) => {
-    const category = event.target.value
-    if (category !== this.props.category) {
-      const url = category === 'all' ? '/' : `/a/${category}`
+    const tag = event.target.value
+    if (tag !== this.props.tag) {
+      const url = tag === 'all' ? '/' : `/a/${tag}`
       this.props.history.push(url)
     }
   }
@@ -40,12 +40,12 @@ class CategoryMenuDropdown extends React.Component<Props> {
   render() {
     return (
       <SelectWrapper flex>
-        <Dropdown value={this.props.category} onChange={this.handleOnChange}>
-          {this.mapCategories()}
+        <Dropdown value={this.props.tag} onChange={this.handleOnChange}>
+          {this.mapTags()}
         </Dropdown>
       </SelectWrapper>
     )
   }
 }
 
-export default CategoryMenuDropdown
+export default TagMenuDropdown

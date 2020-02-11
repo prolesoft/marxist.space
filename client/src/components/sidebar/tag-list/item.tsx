@@ -16,13 +16,13 @@ const Item = styled(NavLink)`
   }
 `
 
-const SidebarCategoryListItem = ({ category }) => {
-  const isAll = category === 'all'
+const SidebarTagListItem = ({ tag }) => {
+  const isAll = tag === 'all'
   return (
-    <Item exact={isAll} to={isAll ? '/' : `/a/${category}`}>
-      {category}
+    <Item exact={isAll} to={isAll ? '/' : `/a/${tag}`}>
+      {tag}
     </Item>
   )
 }
 
-export default SidebarCategoryListItem
+export default SidebarTagListItem

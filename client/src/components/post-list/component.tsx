@@ -19,8 +19,8 @@ const List = styled.ul`
 
 class PostList extends React.Component {
   loadPosts = () => {
-    const { category } = this.props
-    return this.props.fetchPosts(category)
+    const { tag } = this.props
+    return this.props.fetchPosts(tag)
   }
 
   componentDidMount() {
@@ -29,7 +29,7 @@ class PostList extends React.Component {
 
   componentDidUpdate(prevProps) {
     if (
-      this.props.category !== prevProps.category
+      this.props.tag !== prevProps.tag
     ) {
       this.loadPosts()
     }

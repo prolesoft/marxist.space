@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 
 const PostContentDetail = (props) => (
   <Wrapper>
-    <Link to={`/a/${props.category}`}>/a/{props.category}</Link>
+    <Link to={`/a/${props.tag}`}>/a/{props.tag}</Link>
     <span>by</span>
     <span>{moment(props.created).fromNow()}</span>
   </Wrapper>
