@@ -18,7 +18,6 @@ cypress/videos
 keys
 node_modules
 ops/nginx-docker/web
-public
 server-coverage
 server/src/config/local*
 server/lib
