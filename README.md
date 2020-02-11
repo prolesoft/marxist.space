@@ -18,6 +18,7 @@ interface Resource {
 * Switch to yaml for "db"
 * Add search
 * Add tag aliases (ex: china <-> prc)
+* Refactor out redux
 * Make it work
 * See github issues for more
 
