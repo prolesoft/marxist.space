@@ -3,3 +3,9 @@ description: Links to resources for ML(M)s.
 url: "https://marxist.space"
 plugins:
   - jekyll-sitemap
+  - jekyll-readme-index
+  - jekyll-seo-tag
+defaults:
+  -
+    values:
+      layout: default
