@@ -15,11 +15,11 @@ interface Resource {
 ## TODO:
 
 * Change to single app/entry point (set up proxy for webpack dev server)
-* Switch to yaml for "db"
 * Add search
 * Add tag aliases (ex: china <-> prc)
 * Refactor out redux
 * Make it work
+* Port blog over
 * See github issues for more
 
 [LICENSE](./LICENSE.md)

@@ -1,0 +1,16 @@
+resources:
+  - href: 'https://marxist.space'
+    title: marxist.space
+    tags:
+      - testing
+      - misc
+      - resources
+  - href: 'https://duckduckgo.com'
+    title: Duck Duck Go
+    tags:
+      - search
+      - testing
+    excerpts:
+      text: Do a search bro
+      citation: asdf
+db: []

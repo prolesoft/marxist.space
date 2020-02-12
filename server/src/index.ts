@@ -64,9 +64,6 @@ const main = () => {
     console.log(`example listening on ${port}`)
   })
 
-  // Docker gives containers 10 seconds to handle SIGTERM
-  // before sending SIGKILL. Close all current connections
-  // graceully and exit with 0.
   process.on('SIGTERM', () => {
     server.close(() => {
       process.exit(0)
