@@ -3,8 +3,6 @@ title: Libraries
 permalink: /libraries/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Libraries
 
 * [Banned Thought](http://www.bannedthought.net/)

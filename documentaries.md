@@ -3,8 +3,6 @@ title: Documentaries
 permalink: /documentaries/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Documentaries
 
 * [13th](https://en.wikipedia.org/wiki/13TH_(film))

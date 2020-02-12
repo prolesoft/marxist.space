@@ -3,8 +3,6 @@ title: USSR Resources
 permalink: /ussr/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # USSR Resources
 
 * [Soviet Union Reading List](https://docs.google.com/document/d/1qeYeYeLN7uKxfMdoe7TAmOMD2fmgyZdU_urvW6eAsRg/mobilebasic) (Google doc)

@@ -3,8 +3,6 @@ title: Digital Security Guide
 permalink: /security/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Digital Security Guide
 
 Most major tech companies sell your data to advertisers and governments. You need to stay safe online, so you should be careful about what you use and how
