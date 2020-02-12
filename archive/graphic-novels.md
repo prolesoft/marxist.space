@@ -3,8 +3,6 @@ title: Graphic Novels
 permalink: /graphic-novels/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Graphic Novels
 
 These each have multiple links in case any go down.

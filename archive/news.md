@@ -3,8 +3,6 @@ title: News and Periodicals
 permalink: /news/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # News and Periodicals
 
 * [Anticonquista](https://anticonquista.com/) (LatAm and Caribbean Anti-Imperialist)

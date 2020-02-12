@@ -3,8 +3,6 @@ title: Latin America Resources
 permalink: /latam/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Latin America Resources
 
 * [How Democracy Works in Cuba](https://www.youtube.com/watch?v=2aMsi-A56ds)
