@@ -3,8 +3,6 @@ title: Misc Resources
 permalink: /misc/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Misc Resources
 
 * [Anti-Communist Myths Debunked](https://docs.google.com/document/d/1Gxwhh-vdeB--47HM-20cEVRC9eAMhrapbNf0Sk8VSOs/edit) (Google doc)

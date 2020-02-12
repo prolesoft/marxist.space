@@ -3,8 +3,6 @@ title: China Resources
 permalink: /china/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # China Resources
 
 * [China Megathread](https://www.reddit.com/r/communism/comments/c2b7ma/china_megathread_everything_a_leftist_must_know/)
