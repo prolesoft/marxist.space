@@ -3,8 +3,6 @@ title: Reddit Links
 permalink: /reddit/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Reddit Links
 
 * [BeardTube](https://www.reddit.com/r/BeardTube/) BreadTube but with more communists (and beards)

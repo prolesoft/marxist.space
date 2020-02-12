@@ -3,8 +3,6 @@ title: DPRK Resources
 permalink: /dprk/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # DPRK Resources
 
 * ["Something which most other developing countries would envy": The DPRK's healthcare system](https://leftistcritic.wordpress.com/2017/06/28/something-which-most-other-developing-countries-would-envy-the-dprks-healthcare-system/)

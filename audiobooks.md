@@ -3,8 +3,6 @@ title: Audiobooks
 permalink: /audiobooks/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Audiobooks
 
 * [Audible Socialism](https://www.youtube.com/channel/UCvfeZJmLFo2o90A0v3ce2_Q) (YouTube)

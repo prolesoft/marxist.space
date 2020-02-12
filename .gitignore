@@ -113,3 +113,4 @@ core
 .terraform/
 *.tfstate*
 *.tfvars
+/_site
