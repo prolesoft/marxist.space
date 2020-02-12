@@ -29,11 +29,11 @@ const validChars = (value) => checkValidChars(value)
 const trimmed = (value) => checkIfTrimmed(value)
 
 export const required = (value) => (value ? undefined : 'required')
-export const postType = (value) =>
-  value === 'link' || value === 'text' ? undefined : 'must be link or text post'
+export const resourceType = (value) =>
+  value === 'link' || value === 'text' ? undefined : 'must be link or text resource'
 export const titleValidator = (value) =>
   required(value) || checkMaxLength(value, 100)
-export const textPostValidator = (value) =>
+export const textResourceValidator = (value) =>
   required(value) || checkMinLength(value, 4)
 export const urlValidator = (value) => required(value) || validUrl(value)
-export const typeValidator = (value) => required(value) || postType(value)
+export const typeValidator = (value) => required(value) || resourceType(value)

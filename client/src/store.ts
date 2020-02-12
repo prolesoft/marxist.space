@@ -1,8 +1,9 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux'
 import thunk from 'redux-thunk'
 import error from './reducers/error'
-import posts from './reducers/posts'
+import resources from './reducers/resources'
 import theme from './reducers/theme'
+import tags from './reducers/tags'
 import errorMiddleware from './middleware/error'
 import themeMiddleware from './middleware/theme'
 
@@ -10,8 +11,6 @@ import themeMiddleware from './middleware/theme'
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
 export default createStore(
-  combineReducers({ error, posts, theme }),
-  composeEnhancers(
-    applyMiddleware(thunk, errorMiddleware, themeMiddleware)
-  )
+  combineReducers({ error, resources, tags, theme }),
+  composeEnhancers(applyMiddleware(thunk, errorMiddleware, themeMiddleware))
 )

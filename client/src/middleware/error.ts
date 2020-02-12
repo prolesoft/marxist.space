@@ -1,23 +1,23 @@
 import {
-  FETCH_POSTS_SUCCESS,
-  FETCH_POSTS_ERROR,
-  FETCH_POST_SUCCESS,
-  FETCH_POST_ERROR,
-} from '../actions/posts'
+  FETCH_RESOURCES_SUCCESS,
+  FETCH_RESOURCES_ERROR,
+  FETCH_RESOURCE_SUCCESS,
+  FETCH_RESOURCE_ERROR,
+} from '../actions/resources'
 import { hideErrorClearTimeout, showErrorWithTimeout } from '../actions/error'
 
 export default (store) => (next) => (action) => {
   next(action)
   switch (action.type) {
-    case FETCH_POSTS_SUCCESS:
-    case FETCH_POST_SUCCESS:
+    case FETCH_RESOURCES_SUCCESS:
+    case FETCH_RESOURCE_SUCCESS:
       if (store.getState().error) {
         store.dispatch(hideErrorClearTimeout())
       }
       break
 
-    case FETCH_POSTS_ERROR:
-    case FETCH_POST_ERROR:
+    case FETCH_RESOURCES_ERROR:
+    case FETCH_RESOURCE_ERROR:
       store.dispatch(showErrorWithTimeout(action.error))
       break
 

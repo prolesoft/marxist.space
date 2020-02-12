@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import tags from '../../tags'
 import SelectWrapper from '../shared/form/select-wrapper'
+import { connect } from 'react-redux'
+import { fetchTags } from '../../actions/tags'
 
 const Dropdown = styled.select`
   border: none;
@@ -15,7 +16,7 @@ const Dropdown = styled.select`
 `
 
 type Props = {
-  tag: string
+  tags: string[0]
   history: {
     push: (string) => void
   }
@@ -23,7 +24,7 @@ type Props = {
 
 class TagMenuDropdown extends React.Component<Props> {
   mapTags = () =>
-    ['all', ...tags].map((tag, index) => (
+    ['all', ...this.props.tags].map((tag, index) => (
       <option key={index} value={tag}>
         {tag}
       </option>
@@ -37,10 +38,17 @@ class TagMenuDropdown extends React.Component<Props> {
     }
   }
 
+  componentDidMount() {
+    this.props.fetchTags()
+  }
+
   render() {
-    return (
+    return this.props.isFetching ? null : (
       <SelectWrapper flex>
-        <Dropdown value={this.props.tag} onChange={this.handleOnChange}>
+        <Dropdown
+          value={this.props.tags.toString()}
+          onChange={this.handleOnChange}
+        >
           {this.mapTags()}
         </Dropdown>
       </SelectWrapper>
@@ -48,4 +56,11 @@ class TagMenuDropdown extends React.Component<Props> {
   }
 }
 
-export default TagMenuDropdown
+const mapStateToProps = (state) => ({
+  tags: state.tags.items,
+  isFetching: state.tags.isFetching,
+})
+
+const mapDispatchToProps = { fetchTags }
+
+export default connect(mapStateToProps, mapDispatchToProps)(TagMenuDropdown)

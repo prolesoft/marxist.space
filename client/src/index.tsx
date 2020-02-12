@@ -1,14 +1,13 @@
-import './config/moment'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 import store from './store'
-import AppContainer from './components/app/container'
+import App from './components/app'
 import * as serviceWorker from './service-worker'
 
 ReactDOM.render(
   <Provider store={store}>
-    <AppContainer />
+    <App />
   </Provider>,
   document.getElementById('root')
 )

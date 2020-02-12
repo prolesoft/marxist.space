@@ -1,25 +1,27 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import { smallFont } from '../shared/helpers'
 
 const Wrapper = styled.div`
-  ${smallFont};
-
+  display: flex;
+  margin-top: -1px;
   border: 1px solid ${(props) => props.theme.border};
-  border-radius: 2px;
-  padding: 48px 0;
+  ${(props) => props.round && 'border-radius: 0 0 2px 2px'};
+  padding: 8px;
   background-color: ${(props) => props.theme.foreground};
-  text-align: center;
+  font-size: 13px;
   color: ${(props) => props.theme.mutedText};
 
   @media (max-width: 768px) {
-    margin-top: -1px';
     border-left: none;
     border-right: none;
-    border-radius: 0;
   }
 `
 
-const Empty = () => <Wrapper>There's nothing here</Wrapper>
+const ResourceDetailInfoBar = ({ views }) => (
+  <Wrapper>
+    <span>{views} views</span>
+    <span>&nbsp;|&nbsp;</span>
+  </Wrapper>
+)
 
-export default Empty
+export default ResourceDetailInfoBar

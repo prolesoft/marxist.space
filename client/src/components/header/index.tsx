@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import HeaderLogo from './logo'
-import HeaderDarkButtonContainer from './dark-button/container'
+import DarkButton from './dark-button'
 import HeaderNavLink from './nav-link'
 
 const Wrapper = styled.header`
@@ -31,8 +31,8 @@ const Wrapper = styled.header`
 const Header = () => (
   <Wrapper>
     <HeaderLogo />
-    <HeaderDarkButtonContainer />
-    <HeaderNavLink to="/foo">Foo</HeaderNavLink>
+    <DarkButton />
+    <HeaderNavLink to="/blog">Blog</HeaderNavLink>
   </Wrapper>
 )
 

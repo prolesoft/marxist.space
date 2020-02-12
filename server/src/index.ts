@@ -2,9 +2,8 @@ import * as http from 'http'
 import { resolve } from 'path'
 import * as Koa from 'koa'
 import * as Router from '@koa/router'
-import serve from 'koa-simple-static'
 import * as mid from 'koa-mid'
-import * as cors from 'koa-cors'
+import serve from 'koa-simple-static'
 import * as db from './db'
 
 export const app: Koa = new Koa()
@@ -17,18 +16,19 @@ const router = new Router({
 })
 
 router.get('/tags', async (ctx) => {
-  ctx.type = 'application/json'
   ctx.body = JSON.stringify(db.getTags())
 })
 
-router.get('/all', async (ctx) => {
-  ctx.type = 'application/json'
-  ctx.body = JSON.stringify(db.getAll())
+router.get('/filter', async (ctx) => {
+  ctx.body = JSON.stringify(db.filterByTags(ctx.query.tags.split(',')))
 })
 
-router.get('/params-example/:anything', async (ctx) => {
-  ctx.type = 'application/json'
-  ctx.body = JSON.stringify(ctx.params.anything)
+router.get('/search', async (ctx) => {
+  ctx.body = JSON.stringify(db.fullTextSearch(ctx.query.text))
+})
+
+router.get('/all', async (ctx) => {
+  ctx.body = JSON.stringify(db.getAll())
 })
 
 const errorHandler = async (ctx, next) => {
@@ -41,15 +41,15 @@ const errorHandler = async (ctx, next) => {
   }
 }
 
+const setType = async (ctx, next) => {
+  ctx.type = 'application/json'
+  await next()
+}
+
+app.use(setType)
 app.use(mid)
-// TODO: prod configuration
-app.use(cors())
+app.use(serve({ dir: resolve(__dirname, '..', 'static') }))
 app.use(router.routes())
-app.use(
-  serve({
-    dir: resolve(__dirname, '..', 'public'),
-  })
-)
 app.use(errorHandler)
 
 const handler = app.callback()

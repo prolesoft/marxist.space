@@ -11,12 +11,12 @@ interface Resource {
 
 ## TODO:
 
-* Change to single app/entry point (set up proxy for webpack dev server)
-* Add search
-* Add tag aliases (ex: china <-> prc)
-* Refactor out redux
+* Fix TS on client
+* Make build work
+* Move deps and consolidate to single root
+* Add search to client
 * Make it work
-* Port blog over
+* Move blog to main project site
 * See github issues for more
 
 [LICENSE](./LICENSE.md)
