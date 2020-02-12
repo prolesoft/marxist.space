@@ -3,8 +3,6 @@ title: YouTube Channels
 permalink: /youtube/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # YouTube Channels
 
 See the [videos section](https://marxist.space/security#videos) of the security

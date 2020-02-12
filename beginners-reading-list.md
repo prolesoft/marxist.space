@@ -3,8 +3,6 @@ title: Beginner's Reading List
 permalink: /beginners-reading-list/
 ---
 
-## [marxist.space](https://marxist.space)
-
 # Beginner's Reading List
 
 This is a general list of recommendations for newcomers to Communism.

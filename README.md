@@ -1,6 +1,8 @@
-## [marxist.space](https://marxist.space)
-
 Links to resources for ML(M)s.
+
+### [Developer Journal](./posts)
+
+Read about the changes being made to this site as they're being developed.
 
 # Table of Contents
 
