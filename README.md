@@ -5,10 +5,7 @@ interface Resource {
   href: string
   title: string
   tags: string[]
-  excerpts?: {
-    text: string
-    citation?: string
-  }
+  excerpts?: string[]
 }
 ```
 

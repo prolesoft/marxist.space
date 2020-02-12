@@ -40,6 +40,7 @@ export const search = (type, search, db) => {
         .find({ [type]: query[0] })
         .value()
     }
+    // TODO: more search types here, + tag aliases
   } catch (_) {
     // error
   }

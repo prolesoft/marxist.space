@@ -11,6 +11,4 @@ resources:
       - search
       - testing
     excerpts:
-      text: Do a search bro
-      citation: asdf
-db: []
+      - Do a search bro
