@@ -1,6 +1,6 @@
 Links to resources for ML(M)s.
 
-### [Developer Journal](./posts)
+### [Developer Journal](https://prolesoft.github.io/posts/)
 
 Read about the changes being made to this site as they're being developed.
 
