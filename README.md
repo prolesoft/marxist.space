@@ -16,7 +16,6 @@ interface Resource {
 * Move deps and consolidate to single root
 * Add search to client
 * Make it work
-* Move blog to main project site
 * See github issues for more
 
 [LICENSE](./LICENSE.md)

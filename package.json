@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marxism/marxist.space.git"
+    "url": "git+https://github.com/prolesoft/marxist.space.git"
   },
   "keywords": [],
   "author": "Zac Anger <zac@zacanger.com> (https://zacanger.com)",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/marxism/marxist.space/issues"
+    "url": "https://github.com/prolesoft/marxist.space/issues"
   },
-  "homepage": "https://github.com/marxism/marxist.space#readme"
+  "homepage": "https://github.com/prolesoft/marxist.space#readme"
 }

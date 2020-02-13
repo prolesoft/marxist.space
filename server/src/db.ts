@@ -16,9 +16,10 @@ const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
 
 const tagAliases = [
   ['china', 'prc'],
-  ['uyghur', 'uighur', 'uyghurs', 'uighurs'],
-  ['north korea', 'dprk', 'korea'],
-  ['soviet union', 'ussr'],
+  ['uyghur', 'uighur', 'uyghurs', 'uighurs', 'xinjiang'],
+  ['abolition', 'police', 'prison', 'prisons', 'cops']
+  ['north-korea', 'dprk', 'korea'],
+  ['soviet-union', 'ussr', 'soviets'],
 ]
 
 const addTagAliases = (tags: string[]): string[] => {
