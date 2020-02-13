@@ -26,7 +26,4 @@ export const HeaderDarkButton = (props) => (
 
 const mapDispatchToProps = { toggleDarkTheme }
 
-export default connect(
-  null,
-  mapDispatchToProps
-)(HeaderDarkButton)
+export default connect(null, mapDispatchToProps)(HeaderDarkButton)

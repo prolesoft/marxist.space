@@ -18,3 +18,7 @@ tmp
 /db
 core
 /_site
+/public/index.html
+/public/static
+/public/*.js
+/public/asset-manifest.json

@@ -6,8 +6,10 @@
   "main": "index.js",
   "scripts": {
     "install-all": "cd server && npm ci && cd ../client && npm ci",
-    "start": "./start.sh",
-    "test": "cd server && npm t && cd ../client && npm t"
+    "lint-db": "yamllint db.yml",
+    "start": "./scripts/start.sh",
+    "build": "./scripts/build.sh",
+    "test": "cd server && npm t && cd ../client && npm t && npm run lint-db"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/prolesoft/marxist.space/issues"
   },
-  "homepage": "https://github.com/prolesoft/marxist.space#readme"
+  "homepage": "https://github.com/prolesoft/marxist.space#readme",
+  "devDependencies": {
+    "yaml-lint": "^1.2.4"
+  }
 }

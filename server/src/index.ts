@@ -48,7 +48,7 @@ const setType = async (ctx, next) => {
 
 app.use(setType)
 app.use(mid)
-app.use(serve({ dir: resolve(__dirname, '..', 'static') }))
+app.use(serve({ dir: resolve(__dirname, '..', '..', 'public') }))
 app.use(router.routes())
 app.use(errorHandler)
 

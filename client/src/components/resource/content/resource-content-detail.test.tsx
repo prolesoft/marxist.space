@@ -20,7 +20,6 @@ it('renders the information correctly', () => {
     </MemoryRouter>
   )
   const links = wrapper.find('a')
-  const timestamp = wrapper.find('span').at(1)
 
   expect(links.at(1).text()).toEqual(`/a/${data.tag}`)
 })

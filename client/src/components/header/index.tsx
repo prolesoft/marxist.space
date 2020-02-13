@@ -32,7 +32,7 @@ const Header = () => (
   <Wrapper>
     <HeaderLogo />
     <DarkButton />
-    <HeaderNavLink to="/blog">Blog</HeaderNavLink>
+    <HeaderNavLink to="/about">About</HeaderNavLink>
   </Wrapper>
 )
 

@@ -77,6 +77,5 @@ export class ErrorNotification extends React.Component {
   }
 }
 
-
 const mapStateToProps = (state) => ({ error: state.error })
 export default connect(mapStateToProps)(ErrorNotification)

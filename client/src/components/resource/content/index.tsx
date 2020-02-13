@@ -30,7 +30,14 @@ const renderContent = (props) => {
   }
 }
 
-const ResourceContent = ({ href, title, type, text, showFullResource, ...details }) => (
+const ResourceContent = ({
+  href,
+  title,
+  type,
+  text,
+  showFullResource,
+  ...details
+}) => (
   <Wrapper>
     <ResourceContentTitle
       href={href}

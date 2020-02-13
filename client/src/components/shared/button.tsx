@@ -22,7 +22,7 @@ const Button = styled.button`
   }
 
   :focus {
-    box-shadow: 0 0 0 2px ${(props) => props.theme.accent + '4d'};
+    box-shadow: 0 0 0 2px ${(props) => `${props.theme.accent}4d`};
   }
 `
 

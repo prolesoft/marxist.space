@@ -12,12 +12,16 @@ it('renders without crashing', () => {
 })
 
 it('renders a resource', () => {
-  const wrapper = shallow(<ResourceDetail fetchResource={(fn) => fn} resource />)
+  const wrapper = shallow(
+    <ResourceDetail fetchResource={(fn) => fn} resource />
+  )
   expect(wrapper.contains(<ResourceDetailResource />)).toEqual(true)
 })
 
 it('renders a loading indicator while fetching', () => {
-  const wrapper = shallow(<ResourceDetail fetchResource={(fn) => fn} isFetching />)
+  const wrapper = shallow(
+    <ResourceDetail fetchResource={(fn) => fn} isFetching />
+  )
   expect(wrapper.contains(<LoadingIndicatorBox />)).toEqual(true)
 })
 

@@ -38,7 +38,7 @@ const Label = styled.label`
 `
 
 const RadioGroupOption = (props) => (
-  <>
+  <React.Fragment>
     <input
       type="radio"
       name="radiogroup"
@@ -48,7 +48,7 @@ const RadioGroupOption = (props) => (
     <Label htmlFor={props.value} active={props.active}>
       {props.label}
     </Label>
-  </>
+  </React.Fragment>
 )
 
 export default RadioGroupOption

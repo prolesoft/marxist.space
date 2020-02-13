@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 const fs = require('fs')
 const path = require('path')
 const webpack = require('webpack')
@@ -245,11 +247,7 @@ module.exports = function(webpackEnv) {
                     },
                   ],
                 ],
-                // This is a feature of `babel-loader` for webpack (not Babel itself).
-                // It enables caching results in ./node_modules/.cache/babel-loader/
-                // directory for faster rebuilds.
-                cacheDirectory: true,
-                cacheCompression: isEnvProduction,
+                cacheCompression: false,
                 compact: isEnvProduction,
               },
             },
@@ -269,8 +267,7 @@ module.exports = function(webpackEnv) {
                     { helpers: true },
                   ],
                 ],
-                cacheDirectory: true,
-                cacheCompression: isEnvProduction,
+                cacheCompression: false,
 
                 // If an error happens in a package, it's possible to be
                 // because it was compiled. Thus, we don't want the browser
@@ -362,7 +359,7 @@ module.exports = function(webpackEnv) {
           clientsClaim: true,
           exclude: [/\.map$/, /asset-manifest\.json$/],
           importWorkboxFrom: 'cdn',
-          navigateFallback: publicUrl + '/index.html',
+          navigateFallback: `${publicUrl}/index.html`,
           navigateFallbackBlacklist: [
             // Exclude URLs starting with /_, as they're likely an API call
             new RegExp('^/_'),
@@ -372,7 +369,8 @@ module.exports = function(webpackEnv) {
           ],
         }),
       // TypeScript type checking
-      (useTypeScript && false) &&
+      useTypeScript &&
+        false &&
         new ForkTsCheckerWebpackPlugin({
           typescript: resolve.sync('typescript', {
             basedir: paths.appNodeModules,

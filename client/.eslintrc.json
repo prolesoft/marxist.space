@@ -6,14 +6,14 @@
     "warnOnUnsupportedTypeScriptVersion": false
   },
   "extends": [
-    "plugin:jane/recommended",
-    "plugin:jane/typescript",
-    "plugin:jane/prettier-ts",
-    "plugin:jane/react",
-    "plugin:jane/jest"
+    "plugin:zacanger/recommended",
+    "plugin:zacanger/typescript",
+    "plugin:zacanger/prettier-ts",
+    "plugin:zacanger/react",
+    "plugin:zacanger/jest"
   ],
   "plugins": [
-    "jane"
+    "zacanger"
   ],
   "globals": {
     "console": false,
@@ -25,20 +25,13 @@
     }
   },
   "rules": {
-    "@typescript-eslint/no-explicit-any": 0,
-    "@typescript-eslint/no-use-before-define": 0,
-    "@typescript-eslint/no-var-requires": 0,
-    "@typescript-eslint/restrict-plus-operands": 0,
-    "node/no-unpublished-import": 0,
-    "node/no-unpublished-require": 0,
-    "@typescript-eslint/no-unused-vars": [
-      2,
-      {
-        "ignoreRestSiblings": true,
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_"
-      }
-    ]
+    "fp/no-nil": 0,
+    "fp/no-unused-expression": 0,
+    "fp/no-class": 0,
+    "fp/no-mutation": 0,
+    "fp/no-let": 0,
+    "fp/no-mutation": 0,
+    "fp/no-this": 0
   },
   "overrides": [
     {

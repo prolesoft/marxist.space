@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+/* eslint-disable @typescript-eslint/no-var-requires, no-console */
 
 // Do this as the first thing so that any code reading it knows the right env.
 process.env.BABEL_ENV = 'production'
@@ -132,6 +132,7 @@ checkBrowsers(paths.appPath, isInteractive)
       if (warnings.length) {
         console.log(chalk.yellow('Compiled with warnings.\n'))
         console.log(warnings.join('\n\n'))
+        /* eslint-disable @typescript-eslint/restrict-plus-operands */
         console.log(
           '\nSearch for the ' +
             chalk.underline(chalk.yellow('keywords')) +
@@ -142,6 +143,7 @@ checkBrowsers(paths.appPath, isInteractive)
             chalk.cyan('// eslint-disable-next-line') +
             ' to the line before.\n'
         )
+        /* eslint-enable @typescript-eslint/restrict-plus-operands */
       } else {
         console.log(chalk.green('Compiled successfully.\n'))
       }

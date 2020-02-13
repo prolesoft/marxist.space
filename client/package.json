@@ -5,6 +5,7 @@
   "scripts": {
     "build": "node scripts/build.js",
     "start": "node scripts/start.js",
+    "postbuild": "rm -rf ../public/static && mv -f build/* ../public/",
     "test": "run-s -s test:ts test:lint test:jest",
     "test:jest": "node scripts/test.js",
     "test:lint": "eslint -c .eslintrc.json --report-unused-disable-directives --ext .js,.ts,.tsx config scripts src",
@@ -66,8 +67,8 @@
   "devDependencies": {
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
-    "eslint-plugin-jane": "7.0.1",
     "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-zacanger": "1.0.2",
     "npm-run-all": "4.1.5",
     "prettier": "1.19.1",
     "redux-mock-store": "1.5.4",

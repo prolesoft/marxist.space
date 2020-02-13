@@ -21,7 +21,9 @@ it("renders the resource's title, content preview, and details", () => {
 
 it('renders the full text of a text resource', () => {
   const text = 'example test resource'
-  const wrapper = shallow(<ResourceContent type="text" text={text} showFullResource />)
+  const wrapper = shallow(
+    <ResourceContent type="text" text={text} showFullResource />
+  )
   expect(wrapper.find(ResourceContentFullText).exists()).toEqual(true)
   expect(
     wrapper

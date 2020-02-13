@@ -34,6 +34,7 @@ class TagMenuDropdown extends React.Component<Props> {
     const tag = event.target.value
     if (tag !== this.props.tag) {
       const url = tag === 'all' ? '/' : `/a/${tag}`
+      // eslint-disable-next-line fp/no-mutating-methods
       this.props.history.push(url)
     }
   }

@@ -12,7 +12,10 @@ export class ResourceDetail extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.resource !== prevProps.resource && this.props.resource === null) {
+    if (
+      this.props.resource !== prevProps.resource &&
+      this.props.resource === null
+    ) {
       this.props.history.goBack()
     }
   }
@@ -26,10 +29,10 @@ export class ResourceDetail extends React.Component {
       return <Empty />
     }
     return (
-      <>
+      <React.Fragment>
         <ResourceDetailResource {...resource} />
         <InfoBar id={resource.id} views={resource.views} />
-      </>
+      </React.Fragment>
     )
   }
 }

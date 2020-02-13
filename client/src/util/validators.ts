@@ -23,14 +23,16 @@ export const validUrl = (value) => {
   }
 }
 
-const max = (len) => (value) => checkMaxLength(value, len)
-const min = (len) => (value) => checkMinLength(value, len)
-const validChars = (value) => checkValidChars(value)
-const trimmed = (value) => checkIfTrimmed(value)
+export const max = (len) => (value) => checkMaxLength(value, len)
+export const min = (len) => (value) => checkMinLength(value, len)
+export const validChars = (value) => checkValidChars(value)
+export const trimmed = (value) => checkIfTrimmed(value)
 
 export const required = (value) => (value ? undefined : 'required')
 export const resourceType = (value) =>
-  value === 'link' || value === 'text' ? undefined : 'must be link or text resource'
+  value === 'link' || value === 'text'
+    ? undefined
+    : 'must be link or text resource'
 export const titleValidator = (value) =>
   required(value) || checkMaxLength(value, 100)
 export const textResourceValidator = (value) =>

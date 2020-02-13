@@ -12,14 +12,14 @@ import Home from './home'
 const App = (props) => (
   <ThemeProvider theme={theme(props.dark)}>
     <Router history={history}>
-      <>
+      <React.Fragment>
         <GlobalStyle />
         <Route component={Header} />
         <Route component={ErrorNotification} />
         <Switch>
           <Route path="/" component={Home} />
         </Switch>
-      </>
+      </React.Fragment>
     </Router>
   </ThemeProvider>
 )

@@ -1,4 +1,7 @@
-import { FETCH_RESOURCES_ERROR, FETCH_RESOURCE_ERROR } from '../actions/resources'
+import {
+  FETCH_RESOURCES_ERROR,
+  FETCH_RESOURCE_ERROR,
+} from '../actions/resources'
 import { HIDE_ERROR } from '../actions/error'
 
 const initialState = null

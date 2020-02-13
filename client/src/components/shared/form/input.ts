@@ -7,7 +7,7 @@ const Input = styled.input`
   --border: ${(props) =>
     props.error ? props.theme.error : props.theme.accent};
   --shadow: ${(props) =>
-    props.error ? props.theme.error + '4d' : props.theme.accent + '4d'};
+    `${props.error ? props.theme.error : props.theme.accent}4d`};
 
   display: block;
   ${(props) =>

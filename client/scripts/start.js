@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+/* eslint-disable @typescript-eslint/no-var-requires, no-console */
 
 process.env.BABEL_ENV = 'development'
 process.env.NODE_ENV = 'development'

@@ -1,6 +1,7 @@
 import { createHash } from 'crypto'
 import { resolve } from 'path'
 import { readFileSync } from 'fs'
+import { omit } from 'lodash'
 import * as low from 'lowdb'
 import * as FileSync from 'lowdb/adapters/FileSync'
 import { safeDump, safeLoad } from 'js-yaml'
@@ -10,22 +11,43 @@ const getUrlHash = (url: string) =>
     .update(url)
     .digest('hex')
 
-const dbPath = resolve(__dirname, '..', 'db.yaml')
+const dbPath = resolve(__dirname, '..', '..', 'db.yml')
 
 const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
 
 const tagAliases = [
-  ['china', 'prc'],
-  ['uyghur', 'uighur', 'uyghurs', 'uighurs', 'xinjiang'],
-  ['abolition', 'police', 'prison', 'prisons', 'cops']
-  ['north-korea', 'dprk', 'korea'],
-  ['soviet-union', 'ussr', 'soviets'],
+  ['abolition', 'police', 'prison', 'cops', 'policing'],
+  ['anarchist', 'anarchism', 'anarchy'],
+  ['beginner', 'beginners'],
+  ['castro', 'fidel', 'cuba', 'che'],
+  ['china', 'prc', 'deng', 'xiaoping'],
+  ['debunked', 'debunk', 'debunking', 'myth'],
+  ['hk', 'hongkong', 'hong-kong', 'hong kong'],
+  ['deng', 'xiaoping'],
+  ['documentary', 'documentaries'],
+  ['glossary', 'definition', 'dictionary', 'dictionaries'],
+  ['health', 'healthcare', 'health care'],
+  ['israel', 'palestine'],
+  ['latin', 'latam'],
+  ['library', 'libraries'],
+  ['list', 'collection'],
+  ['mao', 'zedong', 'tsetung'],
+  ['ml', 'marxist-leninist', 'leninist', 'stalinist', 'marxist leninist', 'leninism', 'stalinism', 'marxism-leninism', 'marxism leninism'],
+  ['mlm', 'maoist', 'mao', 'maoism'],
+  ['news', 'periodical', 'periodicals', 'media', 'msm'],
+  ['north-korea', 'dprk', 'korea', 'juche'],
+  ['soviet-union', 'ussr', 'soviet'],
+  ['trostky', 'trot', 'troskyite', 'troskyism'],
+  ['uyghur', 'uighur', 'xinjiang'],
+  ['xi', 'jinping'],
+  ['zapatista', 'ezln'],
 ]
+// todo: better way of finding plural aliases
 
 const addTagAliases = (tags: string[]): string[] => {
   // @ts-ignore
   const possibleAliases = tagAliases
-    .filter((xs) => xs.find((x) => tags.includes(x)))
+    .filter((xs) => xs.find((x) => tags.includes(x) || tags.includes(`${x}s`)))
     // @ts-ignore
     .flat()
   return uniq([...tags, ...possibleAliases])
@@ -33,7 +55,8 @@ const addTagAliases = (tags: string[]): string[] => {
 
 const adapter = new FileSync(dbPath, {
   defaultValue: [],
-  serialize: safeDump,
+  serialize: (xs) =>
+    safeDump({ resources: xs.resources.map((r) => omit(r, 'id')) }),
   deserialize: (xs) => {
     const loaded = safeLoad(xs)
     const withIds = loaded.resources.map((a) => ({

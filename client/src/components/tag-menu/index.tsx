@@ -14,7 +14,7 @@ const Menu = styled.nav`
   }
 `
 
-const TagMenu = (props) => (
+const TagMenu = () => (
   <Menu>
     <Route
       path="/a/:tag"

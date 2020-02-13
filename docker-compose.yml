@@ -2,9 +2,11 @@ version: "3"
 services:
   server:
     image: node:12-alpine
-    working_dir: /server
+    working_dir: /marxist.space/server
     volumes:
-      - ./server:/server:cached
+      - ./server:/marxist.space/server:cached
+      - ./db.yml:/marxist.space/db.yml:cached
+      - ./public:/marxist.space/public:cached
     command: npm run dev
     environment:
       NODE_ENV: development
@@ -22,6 +24,7 @@ services:
     command: npm start
     environment:
       NODE_ENV: development
+      BABEL_DISABLE_CACHE: 1
     ports:
       - 3000:3000
     expose:

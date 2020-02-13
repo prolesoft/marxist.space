@@ -20,6 +20,7 @@ type Props = {
   className?: string
   wide?: boolean
   loading?: boolean
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSubmit: any
 }
 

@@ -1,1 +1,1 @@
-module.exports = require('eslint-plugin-jane/prettier-ts')
+module.exports = require('eslint-plugin-zacanger/prettier-ts')
