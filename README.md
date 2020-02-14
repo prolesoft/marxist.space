@@ -13,7 +13,7 @@ Read about the changes being made to this site as they're being developed.
 * [Beginner's Reading List](./beginners-reading-list)
 * [China Resources](./china)
 * [DPRK Resources](./dprk)
-* [Digital Security Guide](./security)
+* [Digital Security Guide](https://prolesoft.github.io/2019/12/19/digital-security-guide.html)
 * [Documentaries](./documentaries)
 * [Graphic Novels](./graphic-novels)
 * [Latin America Resources](./latam)
