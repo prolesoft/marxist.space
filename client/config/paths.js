@@ -23,12 +23,8 @@ const ensureSlash = (inputPath, needsSlash) => {
 const getPublicUrl = (appPackageJson) =>
   envPublicUrl || require(appPackageJson).homepage
 
-// We use `PUBLIC_URL` environment variable or "homepage" field to infer
-// "public path" at which the app is served.
-// Webpack needs to know it to put the right <script> hrefs into HTML even in
-// single-page apps that may serve index.html for nested URLs like /todos/42.
-// We can't use a relative path in HTML because we don't want to load something
-// like /todos/42/static/js/bundle.7289d.js. We have to know the root.
+// Find the root using PUBLIC_URL or homepage to get public path
+// for script tags for Webpack to inject
 const getServedPath = (appPackageJson) => {
   const publicUrl = getPublicUrl(appPackageJson)
   const servedUrl =
@@ -64,7 +60,6 @@ const resolveModule = (resolveFn, filePath) => {
 }
 
 module.exports = {
-  dotenv: resolveApp('.env'),
   appPath: resolveApp('.'),
   appBuild: resolveApp('build'),
   appPublic: resolveApp('public'),
@@ -73,9 +68,6 @@ module.exports = {
   appPackageJson: resolveApp('package.json'),
   appSrc: resolveApp('src'),
   appTsConfig: resolveApp('tsconfig.json'),
-  yarnLockFile: resolveApp('yarn.lock'),
-  testsSetup: resolveModule(resolveApp, 'src/setupTests'),
-  proxySetup: resolveApp('src/setupProxy.js'),
   appNodeModules: resolveApp('node_modules'),
   publicUrl: getPublicUrl(resolveApp('package.json')),
   servedPath: getServedPath(resolveApp('package.json')),

@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import { Link } from 'react-router-dom'
 import { overflow, link } from '../../shared/helpers'
 
 const Wrapper = styled.div`
@@ -10,37 +9,35 @@ const Wrapper = styled.div`
     ${overflow};
 
     display: block;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 21px;
     font-weight: 500;
     text-decoration: none;
     color: ${(props) => props.theme.normalText};
-    ${(props) => props.full && 'white-space: unset'};
   }
 
   a {
     ${link({ underline: true })};
   }
+
+  small {
+    font-size: 12px;
+  }
 `
 
-const renderTitle = (props) => {
-  switch (props.type) {
-    case 'link':
-      return <a href={props.href}>{props.title}</a>
-
-    case 'text':
-      if (props.full) {
-        return <span>{props.title}</span>
-      }
-      return <Link to={`/a/${props.tag}/${props.id}`}>{props.title}</Link>
-
-    default:
-      break
-  }
+type Props = {
+  title: string
+  href: string
+  subtitle?: string
 }
 
-const ResourceContentTitle = (props) => (
-  <Wrapper full={props.full}>{renderTitle(props)}</Wrapper>
+const Title = ({ title, href, subtitle }: Props) => (
+  <Wrapper>
+    <a target="_blank" rel="nofollow noopener noreferrer" href={href}>
+      {title}
+      {subtitle ? <small>{subtitle}</small> : null}
+    </a>
+  </Wrapper>
 )
 
-export default ResourceContentTitle
+export default Title

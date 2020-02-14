@@ -3,6 +3,24 @@ import styled from 'styled-components/macro'
 import HeaderLogo from './logo'
 import DarkButton from './dark-button'
 import HeaderNavLink from './nav-link'
+import Search from '../search'
+import Button from '../shared/button'
+import { headerItem } from '../shared/helpers'
+
+const scrollToBottom = () => {
+  window.scrollTo(0, document.body.scrollHeight)
+}
+
+const JumpButton = styled(Button)`
+  ${headerItem}
+
+  background: ${(props) => props.theme.pageBackground};
+  color: ${(props) => props.theme.normalText};
+
+  @media (min-width: 580px) {
+    display: none;
+  }
+`
 
 const Wrapper = styled.header`
   position: sticky;
@@ -31,6 +49,8 @@ const Wrapper = styled.header`
 const Header = () => (
   <Wrapper>
     <HeaderLogo />
+    <Search header />
+    <JumpButton onClick={scrollToBottom}>Search/Filter</JumpButton>
     <DarkButton />
     <HeaderNavLink to="/about">About</HeaderNavLink>
   </Wrapper>

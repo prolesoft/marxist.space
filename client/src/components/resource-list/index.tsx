@@ -3,8 +3,13 @@ import styled from 'styled-components/macro'
 import ResourceListItem from './item'
 import LoadingIndicatorBox from '../shared/loading-indicator/box'
 import Empty from '../shared/empty'
+import { Resource } from '../../interfaces'
 import { connect } from 'react-redux'
-import { fetchResources } from '../../actions/resources'
+import {
+  fetchResources,
+  filterResources,
+  searchResources,
+} from '../../actions/resources'
 
 const List = styled.ul`
   list-style: none;
@@ -19,10 +24,28 @@ const List = styled.ul`
   }
 `
 
-export class ResourceList extends React.Component {
+type ResourceListProps = {
+  fetchResources: () => void
+  filterResources: (tags: string[]) => void
+  filters?: string[]
+  isFetching: boolean
+  resources: Resource[]
+  search?: string
+  searchResources: (text: string) => void
+}
+
+export class ResourceList extends React.Component<ResourceListProps> {
   loadResources = () => {
-    const { tag } = this.props
-    return this.props.fetchResources(tag)
+    const { filters, search } = this.props
+    if (search && search.length) {
+      return this.props.searchResources(search)
+    }
+
+    if (filters && filters.length) {
+      return this.props.filterResources(filters)
+    }
+
+    return this.props.fetchResources()
   }
 
   componentDidMount() {
@@ -30,7 +53,10 @@ export class ResourceList extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.tag !== prevProps.tag) {
+    if (
+      this.props.filters !== prevProps.filters ||
+      this.props.search !== prevProps.search
+    ) {
       this.loadResources()
     }
   }
@@ -54,8 +80,10 @@ export class ResourceList extends React.Component {
 const mapStateToProps = (state) => ({
   resources: state.resources.items,
   isFetching: state.resources.isFetching,
+  filters: state.filterSearch.tags,
+  search: state.filterSearch.search,
 })
 
-const mapDispatchToProps = { fetchResources }
+const mapDispatchToProps = { fetchResources, filterResources, searchResources }
 
 export default connect(mapStateToProps, mapDispatchToProps)(ResourceList)

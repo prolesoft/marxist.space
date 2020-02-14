@@ -1,6 +1,5 @@
 import { createHash } from 'crypto'
 import { resolve } from 'path'
-import { readFileSync } from 'fs'
 import { omit } from 'lodash'
 import * as low from 'lowdb'
 import * as FileSync from 'lowdb/adapters/FileSync'
@@ -32,7 +31,17 @@ const tagAliases = [
   ['library', 'libraries'],
   ['list', 'collection'],
   ['mao', 'zedong', 'tsetung'],
-  ['ml', 'marxist-leninist', 'leninist', 'stalinist', 'marxist leninist', 'leninism', 'stalinism', 'marxism-leninism', 'marxism leninism'],
+  [
+    'ml',
+    'marxist-leninist',
+    'leninist',
+    'stalinist',
+    'marxist leninist',
+    'leninism',
+    'stalinism',
+    'marxism-leninism',
+    'marxism leninism',
+  ],
   ['mlm', 'maoist', 'mao', 'maoism'],
   ['news', 'periodical', 'periodicals', 'media', 'msm'],
   ['north-korea', 'dprk', 'korea', 'juche'],
@@ -42,7 +51,6 @@ const tagAliases = [
   ['xi', 'jinping'],
   ['zapatista', 'ezln'],
 ]
-// todo: better way of finding plural aliases
 
 const addTagAliases = (tags: string[]): string[] => {
   // @ts-ignore

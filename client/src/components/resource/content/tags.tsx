@@ -1,10 +1,8 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import { Link } from 'react-router-dom'
-import { link } from '../../shared/helpers'
 
 const Wrapper = styled.div`
-  font-size: 13px;
+  font-size: 12px;
   margin-top: auto;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -14,19 +12,19 @@ const Wrapper = styled.div`
     margin-right: 4px;
   }
 
-  & > a {
-    ${link};
-  }
-
   & > span {
     color: ${(props) => props.theme.mutedText};
   }
 `
 
-const ResourceContentDetail = (props) => (
+type Props = {
+  tags: string[]
+}
+
+const Tags = (props: Props) => (
   <Wrapper>
-    <Link to={`/a/${props.href}`}>{JSON.stringify(props)}</Link>
+    <span>Tags: {props.tags.join(' ')}</span>
   </Wrapper>
 )
 
-export default ResourceContentDetail
+export default Tags

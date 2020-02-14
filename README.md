@@ -2,7 +2,9 @@
 
 ## Adding Resources
 
-Add your links to the bottom of `db.yaml`. This is the type of a resource:
+Add your links to the top of `db.yaml` under the line `resources:`.
+
+This is the type of a resource:
 
 ```
 interface Resource {
@@ -26,17 +28,29 @@ npm start
 
 # You can also develop without Docker. You'll need Node LTS or Latest and npm.
 cd server && npm run dev
-cd client && npm start
+cd client
+# Edit proxy in package.json to be http://localhost:9090
+npm start
 ```
 
 Go to <http://localhost:3000>
 
+## Building + Prod
 
-## TODO:
+```shell
+npm run install-all
+npm run build
+cd server && npm start
+```
 
-* Fix TS on client
-* Add search to client
-* Make it work
-* See github issues for more
+Check out <http://localhost:9090>
 
-[LICENSE](./LICENSE.md)
+## Credits and Tech
+
+Built with React, Koa, TypeScript, Lowdb, Node, and Docker.
+A portion of the front-end code is copy-pasted from
+[Asperitas](https://github.com/d11z/asperitas) (MIT licensed).
+
+This is a [ProleSoft](https://prolesoft.github.io) project.
+
+[LICENSE (LGPL-3.0)](./LICENSE.md)

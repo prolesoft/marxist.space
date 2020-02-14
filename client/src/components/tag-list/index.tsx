@@ -1,25 +1,28 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import SidebarTagList from './tag-list'
+import TagList from './tag-list'
 
 const Wrapper = styled.aside`
-  display: flex;
-  flex-direction: column;
-  flex-basis: 240px;
-  margin-left: 24px;
+  margin-bottom: 16px;
+  margin-right: 16px;
   border: 1px solid ${(props) => props.theme.border};
   border-radius: 2px;
   background-color: ${(props) => props.theme.foreground};
 
+  @media (min-width: 769px) {
+    max-width: 300px;
+  }
+
   @media (max-width: 768px) {
-    display: none;
+    margin-right: 0;
+    margin-top: 16px;
   }
 `
 
-const Sidebar = () => (
+const TagListWrapper = () => (
   <Wrapper>
-    <SidebarTagList />
+    <TagList />
   </Wrapper>
 )
 
-export default Sidebar
+export default TagListWrapper

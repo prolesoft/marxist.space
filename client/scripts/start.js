@@ -50,8 +50,6 @@ if (process.env.HOST) {
   console.log()
 }
 
-// We require that you explictly set browsers and do not fall back to
-// browserslist defaults.
 const { checkBrowsers } = require('react-dev-utils/browsersHelper')
 checkBrowsers(paths.appPath, isInteractive)
   .then(() => choosePort(HOST, DEFAULT_PORT))
@@ -79,7 +77,7 @@ checkBrowsers(paths.appPath, isInteractive)
       if (isInteractive) {
         clearConsole()
       }
-      console.log(chalk.cyan('Starting the development server...\n'))
+      console.log(chalk.cyan('Starting the development server\n'))
       openBrowser(urls.localUrlForBrowser)
     })
     ;['SIGINT', 'SIGTERM'].forEach((sig) => {

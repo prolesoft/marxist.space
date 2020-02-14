@@ -16,12 +16,9 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     min-height: 100%;
-    padding-bottom: 48px;
-    font-family: 'IBM Plex Sans', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    padding-bottom: 24px;
+    font-family: 'Proxima Nova', 'Montserrat', 'Helvetica Neue', 'Noto Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
-  }
-
-  body {
     background-color: ${(props) => props.theme.pageBackground};
   }
 `

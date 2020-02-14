@@ -59,7 +59,11 @@ const Wrapper = styled.div`
   }
 `
 
-export class ErrorNotification extends React.Component {
+type ErrorNotificationProps = {
+  error: Error
+}
+
+export class ErrorNotification extends React.Component<ErrorNotificationProps> {
   render() {
     return (
       <TransitionGroup component={null}>

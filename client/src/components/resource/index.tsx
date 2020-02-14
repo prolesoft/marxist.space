@@ -8,9 +8,9 @@ const Wrapper = styled.div`
   background-color: ${(props) => props.theme.foreground};
 `
 
-const Resource = ({ id, full, ...content }) => (
+const Resource = (props) => (
   <Wrapper>
-    <ResourceContent showFullResource={full} id={id} {...content} />
+    <ResourceContent {...props} />
   </Wrapper>
 )
 

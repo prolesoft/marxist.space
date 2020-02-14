@@ -8,6 +8,7 @@ import * as db from './db'
 
 export const app: Koa = new Koa()
 
+const publicDir = resolve(__dirname, '..', '..', 'public')
 const isTest = process.env.NODE_ENV === 'test'
 const port = process.env.PORT || 9090
 
@@ -48,7 +49,7 @@ const setType = async (ctx, next) => {
 
 app.use(setType)
 app.use(mid)
-app.use(serve({ dir: resolve(__dirname, '..', '..', 'public') }))
+app.use(serve({ dir: publicDir }))
 app.use(router.routes())
 app.use(errorHandler)
 
@@ -61,7 +62,7 @@ const server = http.createServer((req, res) => {
 const main = () => {
   server.listen(port, () => {
     // eslint-disable-next-line no-console
-    console.log(`example listening on ${port}`)
+    console.log(`marxist.space listening on ${port}`)
   })
 
   process.on('SIGTERM', () => {

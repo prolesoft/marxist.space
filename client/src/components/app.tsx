@@ -8,6 +8,7 @@ import GlobalStyle from '../global-style'
 import Header from './header'
 import ErrorNotification from './error-notification'
 import Home from './home'
+import About from './about'
 
 const App = (props) => (
   <ThemeProvider theme={theme(props.dark)}>
@@ -17,6 +18,7 @@ const App = (props) => (
         <Route component={Header} />
         <Route component={ErrorNotification} />
         <Switch>
+          <Route path="/about" component={About} />
           <Route path="/" component={Home} />
         </Switch>
       </React.Fragment>

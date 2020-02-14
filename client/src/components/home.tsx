@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import { Route } from 'react-router-dom'
-import TagMenu from './tag-menu'
 import ResourceList from './resource-list'
-import ResourceDetail from './resource-detail'
-import Sidebar from './sidebar'
+import TagList from './tag-list'
+import Search from './search'
 
 export const HomeMainSection = styled.main`
   flex: 1;
@@ -29,22 +28,10 @@ const Wrapper = styled.div`
 const Home = () => (
   <Wrapper>
     <HomeMainSection>
-      <Route component={TagMenu} />
       <Route exact path="/" component={ResourceList} />
-      <Route
-        exact
-        path="/a/:tag"
-        render={({ match }) => <ResourceList tag={match.params.tag} />}
-      />
-      <Route
-        exact
-        path="/a/:tag/:resource"
-        render={({ match, history }) => (
-          <ResourceDetail id={match.params.resource} history={history} />
-        )}
-      />
     </HomeMainSection>
-    <Route component={Sidebar} />
+    <TagList />
+    <Search />
   </Wrapper>
 )
 

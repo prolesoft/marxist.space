@@ -2,9 +2,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const paths = require('./paths')
 
-// Make sure that including paths.js after env.js will read .env variables.
 // eslint-disable-next-line fp/no-delete
 delete require.cache[require.resolve('./paths')]
 
@@ -14,24 +12,6 @@ if (!NODE_ENV) {
     'The NODE_ENV environment variable is required but was not specified.'
   )
 }
-
-// https://github.com/bkeepers/dotenv#what-other-env-files-can-i-use
-const dotenvFiles = [
-  `${paths.dotenv}.${NODE_ENV}.local`,
-  `${paths.dotenv}.${NODE_ENV}`,
-  NODE_ENV !== 'test' && `${paths.dotenv}.local`,
-  paths.dotenv,
-].filter(Boolean)
-
-dotenvFiles.forEach((dotenvFile) => {
-  if (fs.existsSync(dotenvFile)) {
-    require('dotenv-expand')(
-      require('dotenv').config({
-        path: dotenvFile,
-      })
-    )
-  }
-})
 
 const appDirectory = fs.realpathSync(process.cwd())
 process.env.NODE_PATH = (process.env.NODE_PATH || '')

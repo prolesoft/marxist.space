@@ -7,7 +7,7 @@
     "build": "tsc",
     "dev": "nodemon",
     "start": "NODE_ENV=production PORT=9090 forever start -a -l f.log -e e.log -o o.log index.js",
-    "test": "run-s -s test:ts test:lint test:jest",
+    "test": "run-s -s test:ts test:lint",
     "test:jest": "jest",
     "test:lint": "eslint -c .eslintrc.json src/**/*.ts",
     "test:ts": "tsc --noEmit"

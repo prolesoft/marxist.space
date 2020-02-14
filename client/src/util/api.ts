@@ -4,8 +4,11 @@ const baseUrl = '/api'
 
 const getJson = (url) => _getJson(`${baseUrl}/${url}`)
 
-export const getResources = () => getJson('all')
+export const fetchResources = () => getJson('all')
 
-export const getResource = (id) => getJson(`resource/${id}`)
+export const fetchTags = () => getJson('tags')
 
-export const getTags = () => getJson('tags')
+export const searchResources = (text = '') => getJson(`search?text=${text}`)
+
+export const filterResources = (tags: string[] = []) =>
+  getJson(`filter?tags=${tags.join(',')}`)

@@ -2,10 +2,10 @@
   "name": "marxist.space",
   "private": true,
   "version": "0.0.1",
-  "description": "marxist.space v2",
+  "description": "marxist.space",
   "main": "index.js",
   "scripts": {
-    "install-all": "cd server && npm ci && cd ../client && npm ci",
+    "install-all": "npm ci && cd server && npm ci && cd ../client && npm ci",
     "lint-db": "yamllint db.yml",
     "start": "./scripts/start.sh",
     "build": "./scripts/build.sh",
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/prolesoft/marxist.space#readme",
   "devDependencies": {
-    "yaml-lint": "^1.2.4"
+    "yaml-lint": "1.2.4"
   }
 }
