@@ -1369,3 +1369,16 @@ resources:
       - china
       - xinjiang
       - uyghur
+  - href: https://docs.google.com/document/d/1ido70LgXsEhxcnyXE7RVS0wYJZc6aeVTpujCUPQgTrE/edit
+    title: Ultimate Research Document
+    subtitle: Google doc
+    tags:
+      - list
+      - collection
+  - href: https://docs.google.com/document/d/1kwDGZFH2-jFr4xZ2ynxQkihYwIVh_uZlp1-Q73uXzso/edit
+    title: Massive Reading List
+    subtitle: Google doc
+    tags:
+      - list
+      - collection
+      - beginners
