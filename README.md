@@ -55,7 +55,7 @@ npm run install-all
 cd server
 npm start
 # In another terminal
-cd server
+cd client
 npm start
 ```
 
