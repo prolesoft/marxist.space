@@ -9,7 +9,7 @@
     "lint-db": "yamllint db.yml",
     "start": "./scripts/start.sh",
     "build": "./scripts/build.sh",
-    "test": "cd server && npm t && cd ../client && npm t && npm run lint-db"
+    "test": "npm run lint-db && cd server && npm t && cd ../client && npm t"
   },
   "repository": {
     "type": "git",

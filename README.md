@@ -1,5 +1,7 @@
 # marxist.space
 
+[![CircleCI](https://circleci.com/gh/prolesoft/marxist.space.svg?style=svg)](https://circleci.com/gh/prolesoft/marxist.space) [![Maintainability](https://api.codeclimate.com/v1/badges/af5ebb6ca8951512bec3/maintainability)](https://codeclimate.com/github/prolesoft/marxist.space/maintainability)
+
 ## Adding Resources
 
 Add your links to the top of `db.yaml` under the line `resources:`.

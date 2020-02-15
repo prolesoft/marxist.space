@@ -6,7 +6,7 @@ export const AboutMainSection = styled.main`
   flex: 1;
   min-width: 0;
   margin-left: 16px;
-  margin-right: 16px
+  margin-right: 16px;
 
   a {
     ${link};
