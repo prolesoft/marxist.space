@@ -1,27 +1,27 @@
 {
   "name": "marxist.space",
-  "private": true,
-  "version": "2.0.3",
   "description": "marxist.space",
+  "version": "2.0.3",
+  "private": true,
+  "author": "Zac Anger <zac@zacanger.com> (https://zacanger.com)",
+  "license": "LGPL-3.0",
   "main": "index.js",
   "scripts": {
+    "build": "./scripts/build.sh",
     "install-all": "npm ci && cd server && npm ci && cd ../client && npm ci",
     "lint-db": "yamllint db.yml",
     "start": "./scripts/start.sh",
-    "build": "./scripts/build.sh",
     "test": "npm run lint-db && cd server && npm t && cd ../client && npm t"
   },
+  "homepage": "https://github.com/prolesoft/marxist.space#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prolesoft/marxist.space.git"
   },
-  "keywords": [],
-  "author": "Zac Anger <zac@zacanger.com> (https://zacanger.com)",
-  "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/prolesoft/marxist.space/issues"
   },
-  "homepage": "https://github.com/prolesoft/marxist.space#readme",
+  "keywords": [],
   "devDependencies": {
     "yaml-lint": "1.2.4"
   }

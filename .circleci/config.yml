@@ -8,6 +8,7 @@ jobs:
     steps:
       - checkout
       - run: npm run install-all && npm t
+      - run: bash <(curl -s https://codecov.io/bash)
 
   deploy:
     docker:
