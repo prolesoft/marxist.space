@@ -5,14 +5,14 @@ import * as low from 'lowdb'
 import * as FileSync from 'lowdb/adapters/FileSync'
 import { safeDump, safeLoad } from 'js-yaml'
 
-const getUrlHash = (url: string) =>
+export const getUrlHash = (url: string) =>
   createHash('md5')
     .update(url)
     .digest('hex')
 
 const dbPath = resolve(__dirname, '..', '..', 'db.yml')
 
-const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
+export const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
 
 const tagAliases = [
   ['abolition', 'police', 'prison', 'cops', 'policing'],
