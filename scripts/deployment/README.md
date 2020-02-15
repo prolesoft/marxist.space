@@ -4,4 +4,12 @@ start` in `/server` (not recommended).
 `nginx.conf` is an example for running behind Nginx with certificates (I use
 LetsEncrypt/Certbot for that).
 
-TODO: Maybe Docker and Kubernetes examples.
+To build a Docker image, run `npm run build-docker` from the project root. You
+can run this with `docker run -p 9090:9090 marxist.space:[tag]`, where `tag`
+will be either the current Git tag, or short commit sha (check `docker images`
+after building).
+
+There's also an example Kubernetes deployment (`k8s.yml`). You'll need to
+push your built image somewhere (Docker Hub or a private image repository)
+and adjust the `image` field, as well as tweak the load balancer and other
+settings.

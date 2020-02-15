@@ -61,7 +61,8 @@ cd server && npm start
 
 Check out <http://localhost:9090>
 
-See [this doc](./scripts/deployment/README.md) for details on deploying.
+See [this doc](./scripts/deployment/README.md) for details on deploying and
+Docker and Kubernetes usage.
 
 ## Credits and Tech
 
