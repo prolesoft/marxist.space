@@ -1,6 +1,8 @@
 # marxist.space
 
-[![CircleCI](https://circleci.com/gh/prolesoft/marxist.space.svg?style=svg)](https://circleci.com/gh/prolesoft/marxist.space) [![codecov](https://codecov.io/gh/prolesoft/marxist.space/branch/master/graph/badge.svg)](https://codecov.io/gh/prolesoft/marxist.space) [![Maintainability](https://api.codeclimate.com/v1/badges/af5ebb6ca8951512bec3/maintainability)](https://codeclimate.com/github/prolesoft/marxist.space/maintainability)
+[![CircleCI](https://circleci.com/gh/prolesoft/marxist.space.svg?style=svg)](https://circleci.com/gh/prolesoft/marxist.space) [![codecov](https://codecov.io/gh/prolesoft/marxist.space/branch/master/graph/badge.svg)](https://codecov.io/gh/prolesoft/marxist.space) [![Maintainability](https://api.codeclimate.com/v1/badges/af5ebb6ca8951512bec3/maintainability)](https://codeclimate.com/github/prolesoft/marxist.space/maintainability) [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+
+A [ProleSoft](https://prolesoft.github.io) project.
 
 ## Adding Resources
 
@@ -41,17 +43,25 @@ git clone git@github.com:prolesoft/marxist.space.git
 cd marxist.space
 npm run install-all
 npm start
+```
 
-# You can also develop without Docker. You'll need Node LTS or Latest and npm.
-cd server && npm run dev
-cd client
+You can also develop without Docker. You'll need Node LTS or Latest and npm.
+
+```shell
+git clone git@github.com:prolesoft/marxist.space.git
+cd marxist.space
+npm run install-all
 # Edit proxy in package.json to be http://localhost:9090
+cd server
+npm start
+# In another terminal
+cd server
 npm start
 ```
 
 Go to <http://localhost:3000>
 
-## Building + Prod
+## Building and Running
 
 ```shell
 npm run install-all
@@ -61,15 +71,11 @@ cd server && npm start
 
 Check out <http://localhost:9090>
 
-See [this doc](./scripts/deployment/README.md) for details on deploying and
-Docker and Kubernetes usage.
+See [this doc](./scripts/deployment/README.md) for details on deploying, running
+in Docker, and running in Kubernetes.
 
 ## Credits and Tech
 
 Built with React, Koa, TypeScript, Lowdb, Node, and Docker.
 A portion of the front-end code is copy-pasted from
 [Asperitas](https://github.com/d11z/asperitas) (MIT licensed).
-
-This is a [ProleSoft](https://prolesoft.github.io) project.
-
-[LICENSE (LGPL-3.0)](./LICENSE.md)
