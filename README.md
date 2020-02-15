@@ -45,6 +45,8 @@ cd server && npm start
 
 Check out <http://localhost:9090>
 
+See [./scripts/deploying/README.md](this doc) for details on deploying.
+
 ## Credits and Tech
 
 Built with React, Koa, TypeScript, Lowdb, Node, and Docker.
