@@ -12,8 +12,7 @@ jobs:
             ssh -o "StrictHostKeyChecking no" root@188.166.76.76
             "cd /root/marxist.space && \
                git fetch && \
-               git reset --hard origin/feat/v2 && \
-               git pull && \
+               git reset --hard origin/master && \
                npm run install-all && \
                npm run build && \
                cd server && \
