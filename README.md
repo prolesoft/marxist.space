@@ -4,7 +4,7 @@
 
 ## Adding Resources
 
-Add your links to the top of `db.yaml` under the line `resources:`.
+Add your links to the top of `db.yml` under the line `resources:`.
 
 This is the type of a resource:
 
@@ -16,6 +16,20 @@ interface Resource {
   tags: string[]
   excerpts?: string[]
 }
+```
+
+An example would be:
+
+```yaml
+resources: # this line is already there, needs to stay at the top
+  - href: https://example.com
+    title: Example Domain
+    subtitle: It's an Example # subtitle is optional
+    tags:
+      - best
+      - website
+    excerpts: # this list is optional
+      - This domin is for use in illustrative examples in documents.
 ```
 
 ## Developing
