@@ -13,7 +13,8 @@ const Logo = styled(Link)`
   text-decoration: none;
 
   @media (max-width: 425px) {
-    display: none;
+    font-size: 12px;
+    margin: 0;
   }
 `
 
