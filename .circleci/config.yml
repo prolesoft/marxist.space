@@ -1,0 +1,33 @@
+version: 2
+
+jobs:
+  deploy:
+    docker:
+      - image: circleci/node:13
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - deploy:
+          command: >
+            ssh -o "StrictHostKeyChecking no" root@188.166.76.76
+            "cd /root/marxist.space && \
+               git fetch && \
+               git reset --hard origin/feat/v2 && \
+               git pull && \
+               npm run install-all && \
+               npm run build && \
+               cd server && \
+               ./node_modules/.bin/forever restart 0 && \
+               sleep 2 && \
+               ./node_modules/.bin/forever logs 0"
+
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v.*/

@@ -1,25 +1,58 @@
-Links to resources for ML(M)s.
+# marxist.space
 
-### [Developer Journal](https://prolesoft.github.io/posts/)
+## Adding Resources
 
-Read about the changes being made to this site as they're being developed.
+Add your links to the top of `db.yaml` under the line `resources:`.
 
-# Table of Contents
+This is the type of a resource:
 
-* [Current Events](./current-events)
-* [Abolition](./abolition)
-* [Alternative Social](./social)
-* [Audiobooks](./audiobooks)
-* [Beginner's Reading List](./beginners-reading-list)
-* [China Resources](./china)
-* [DPRK Resources](./dprk)
-* [Digital Security Guide](https://prolesoft.github.io/2019/12/19/digital-security-guide.html)
-* [Documentaries](./documentaries)
-* [Graphic Novels](./graphic-novels)
-* [Latin America Resources](./latam)
-* [Libraries](./libraries)
-* [Misc Resources](./misc)
-* [News and Periodicals](./news)
-* [Reddit Links](./reddit)
-* [USSR Resources](./ussr)
-* [YouTube Channels](./youtube)
+```
+interface Resource {
+  href: string
+  title: string
+  subtitle?: string
+  tags: string[]
+  excerpts?: string[]
+}
+```
+
+## Developing
+
+Prerequisites: Docker
+
+```shell
+git clone git@github.com:prolesoft/marxist.space.git
+cd marxist.space
+npm run install-all
+npm start
+
+# You can also develop without Docker. You'll need Node LTS or Latest and npm.
+cd server && npm run dev
+cd client
+# Edit proxy in package.json to be http://localhost:9090
+npm start
+```
+
+Go to <http://localhost:3000>
+
+## Building + Prod
+
+```shell
+npm run install-all
+npm run build
+cd server && npm start
+```
+
+Check out <http://localhost:9090>
+
+See [./scripts/deploying/README.md](this doc) for details on deploying.
+
+## Credits and Tech
+
+Built with React, Koa, TypeScript, Lowdb, Node, and Docker.
+A portion of the front-end code is copy-pasted from
+[Asperitas](https://github.com/d11z/asperitas) (MIT licensed).
+
+This is a [ProleSoft](https://prolesoft.github.io) project.
+
+[LICENSE (LGPL-3.0)](./LICENSE.md)
