@@ -74,6 +74,15 @@ Check out <http://localhost:9090>
 See [this doc](./scripts/deployment/README.md) for details on deploying, running
 in Docker, and running in Kubernetes.
 
+## Contributing
+
+See [CONTRIBUTING](./.github/CONTRIBUTING.md) and the
+[open issues](https://github.com/prolesoft/marxist.space/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+
+There's also a [mirror](https://yerbamate.dev/decadesinweeks/marxist.space)
+for those who would rather not use GitHub, and patches can be emailed directly
+to marxist.space@protonmail.com.
+
 ## Credits and Tech
 
 Built with React, Koa, TypeScript, Lowdb, Node, and Docker.
