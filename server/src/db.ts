@@ -14,13 +14,7 @@ const fuseOptions = {
   distance: 100,
   maxPatternLength: 32,
   minMatchCharLength: 3,
-  keys: [
-    'href',
-    'title',
-    'tags',
-    'excerpts',
-    'subtitle',
-  ],
+  keys: ['href', 'title', 'tags', 'excerpts', 'subtitle'],
 }
 
 export const getUrlHash = (url: string) =>
