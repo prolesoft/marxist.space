@@ -10,6 +10,7 @@ export const AboutMainSection = styled.main`
 
   a {
     ${link};
+    text-decoration: underline;
   }
 
   p {
