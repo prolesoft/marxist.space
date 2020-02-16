@@ -87,6 +87,13 @@ const About = () => (
           title="Matrix"
         />
       </p>
+      <p>
+        <ExternalLink
+          href="https://stats.uptimerobot.com/5Alqxc0QYg"
+          title="Status Page"
+        />
+        .
+      </p>
     </AboutMainSection>
   </Wrapper>
 )
