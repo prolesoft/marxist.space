@@ -147,6 +147,7 @@ resources:
       - list
       - china
       - xiaoping
+      - xi
       - collection
       - maoism
   - href: 'https://0xacab.org/snippets/802'
@@ -785,7 +786,7 @@ resources:
     tags:
       - reddit
       - china
-      - xiaoping
+      - xi
       - debunked
   - href: 'https://www.reddit.com/r/socialism/'
     title: Socialism
@@ -819,7 +820,6 @@ resources:
     tags:
       - news
       - china
-      - xiaoping
   - href: 'https://www.counterpunch.org/'
     title: CounterPunch
     tags:
@@ -846,7 +846,6 @@ resources:
     tags:
       - news
       - china
-      - xiaoping
   - href: 'https://www.kcna.kp'
     title: Korean Central News Agency
     tags:
@@ -923,7 +922,7 @@ resources:
       - news
       - theory
       - china
-      - xiaoping
+      - xi
   - href: 'http://www.redsun.org/'
     title: Red Sun
     tags:
@@ -973,7 +972,6 @@ resources:
     tags:
       - news
       - china
-      - xiaoping
   - href: >-
       https://www.reddit.com/r/communism/comments/c2b7ma/china_megathread_everything_a_leftist_must_know/
     title: China Megathread
@@ -981,6 +979,8 @@ resources:
       - china
       - reddit
       - xiaoping
+      - mao
+      - xi
   - href: >-
       https://drive.google.com/file/d/15I2LRlK-VofmD1FWmXS1ERltTwuYFZcC/view
       (Google doc)
@@ -990,6 +990,8 @@ resources:
       - collection
       - china
       - xiaoping
+      - xi
+      - mao
   - href: 'https://cpcchina.chinadaily.com.cn/2010-10/21/content_13918311.htm'
     title: Building a Socialism with a Specifically Chinese Character
     tags:
@@ -1002,18 +1004,19 @@ resources:
       - china
       - reddit
       - xiaoping
+      - xi
   - href: >-
       https://foreignpolicy.com/2018/11/16/chinas-orwellian-social-credit-score-isnt-real/
     title: China's Orwellian Social Credit Score Isn't Real
     tags:
       - china
-      - xiaoping
+      - xi
   - href: >-
       https://www.workers.org/2015/07/21/china-rising-wages-and-worker-militancy/
     title: 'China, rising wages and worker militancy'
     tags:
       - china
-      - xiaoping
+      - xi
   - href: 'https://www.reddit.com/r/communism/comments/dqrspr/chinese_imperialism/'
     title: Chinese "Imperialism"
     tags:
@@ -1026,7 +1029,6 @@ resources:
     tags:
       - china
       - mao
-      - xiaoping
       - maoism
   - href: >-
       https://www.telesurenglish.net/opinion/China-Is-Most-Promising-Hope-for-Third-World-Fidel-20171128-0017.html
@@ -1042,6 +1044,7 @@ resources:
       - china
       - reddit
       - xiaoping
+      - xi
   - href: 'http://www.unz.com/plee/how-it-all-began-the-belgrade-embassy-bombing/'
     title: 'How It All Began: The Belgrade Embassy Bombing'
     tags:
@@ -1054,9 +1057,11 @@ resources:
       - china
       - reddit
       - xiaoping
+      - mao
+      - xi
   - href: >-
       https://medium.com/@leohezhao/notes-for-30th-anniversary-of-tiananmen-incident-f098ef6efbc2
-    title: Notes for 30th Anniversary of TianAnMen Incident
+    title: Notes for 30th Anniversary of Tiananmen Incident
     tags:
       - china
       - xiaoping
@@ -1065,41 +1070,41 @@ resources:
     tags:
       - china
       - xiaoping
+      - xi
   - href: 'https://www.thenation.com/article/the-us-is-already-at-war-with-china/'
     title: The US is already at war with China
     tags:
       - china
-      - xiaoping
+      - xi
   - href: 'http://en.theorychina.org/'
     title: TheoryChina
     tags:
       - china
       - theory
-      - xiaoping
   - href: >-
       https://medium.com/@wolf.aldrich/three-questions-about-china-and-the-communist-party-of-china-7056e40b40f3
     title: Three questions about China and the Communist Party of China
     tags:
       - china
       - xiaoping
+      - xi
   - href: >-
       https://www.globalresearch.ca/us-trade-war-china-desperate-move-save-western-empire/5660991
     title: 'US Trade War with China: Desperate Move to Save Western Empire'
     tags:
       - china
-      - xiaoping
+      - xi
   - href: >-
       https://www.theguardian.com/commentisfree/2009/feb/10/tibet-china-feudalism
     title: What we don't hear about Tibet
     tags:
       - china
-      - xiaoping
   - href: >-
       https://www.theatlantic.com/international/archive/2013/01/why-do-chinese-billionaires-keep-ending-up-in-prison/272633/
     title: Why Do Chinese Billionaires Keep Ending Up in Prison?
     tags:
       - china
-      - xiaoping
+      - xi
   - href: 'https://linx.li/sopikyte.pdf'
     title: Mao For Beginners (mirror)
     tags:
@@ -1209,7 +1214,6 @@ resources:
       - documentary
       - china
       - jinping
-      - xiaoping
       - xi
   - href: 'https://youtube.com/watch?v=BT5L4YU_Fl4'
     title: 'Empire Files: How Palestine Became Colonized'
@@ -1238,6 +1242,7 @@ resources:
       - documentary
       - china
       - xiaoping
+      - mao
   - href: 'https://www.youtube.com/playlist?list=PL35BC1713B4493483'
     title: Lenin
     tags:
@@ -1287,7 +1292,7 @@ resources:
     tags:
       - documentary
       - china
-      - xiaoping
+      - xi
   - href: 'https://www.youtube.com/watch?v=d-7JIR1u9qw'
     title: The Murder of Fred Hampton
     tags:
@@ -1357,7 +1362,7 @@ resources:
     tags:
       - china
       - reddit
-      - xiaoping
+      - xi
       - hongkong
   - href: 'https://bitbucket.org/TheCrypticMan/hong-kong-riots'
     title: TheCrypticMan Wiki
@@ -1365,7 +1370,7 @@ resources:
     tags:
       - china
       - reddit
-      - xiaoping
+      - xi
       - hongkong
   - href: 'https://bitbucket.org/TheCrypticMan/hong-kong-protests'
     title: TheCrypticMan Wiki
@@ -1373,7 +1378,7 @@ resources:
     tags:
       - china
       - reddit
-      - xiaoping
+      - xi
       - hongkong
   - href: 'https://github.com/TheCrypticMan/Essays/wiki/Hong-Kong-Protests'
     title: TheCrypticMan Wiki
@@ -1381,7 +1386,6 @@ resources:
     tags:
       - china
       - reddit
-      - xiaoping
       - hongkong
   - href: >-
       https://www.reddit.com/r/Sino/wiki/faq/hong-kong-taiwan/summer-2019-protests
@@ -1390,16 +1394,14 @@ resources:
     tags:
       - china
       - reddit
-      - xiaoping
       - hongkong
   - href: >-
       https://worldaffairs.blog/2019/07/05/xinjiang-and-uyghurs-what-youre-not-being-told/
-    title: 'Xinjiang and Uyghers, What You''re Not Being Told'
+    title: "Xinjiang and Uyghers, What You're Not Being Told"
     tags:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://docs.google.com/document/d/1XiHrkJ_zudQZP1hBIBCgJKKAfAILxEG0cmQGrNH8pIU/mobilebasic
     title: 'Resource Complitaion: Debunking imperialist propaganda WRT to Xinjiang'
@@ -1407,7 +1409,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
       - debunked
   - href: 'https://medium.com/@leohezhao/xinjiang-facts-vs-fiction-bdc2aa403c91'
     title: 'Xinjiang: Facts vs Fiction'
@@ -1415,7 +1416,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://www.quora.com/What-will-be-the-consequences-of-the-New-York-Times-expose-on-Xinjiang/answer/Jamin-Chen-1?ch=10&share=010b06f9&srid=hXpBn
     title: Translation of documents in NYT "expose"
@@ -1423,7 +1423,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://rainershea.com/f/the-biggest-lie-of-2019-that-china-is-putting-muslims-in-%E2%80%9Ccamps%E2%80%9D
     title: 'The biggest lie of 2019: China putting Muslims in "Camps"'
@@ -1431,7 +1430,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://thegrayzone.com/2019/09/30/reports-china-organ-harvesting-cult-falun-gong/
     title: Reports on China organ harvesting come from far-right cult Falun Gong
@@ -1439,7 +1437,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://www.irishtimes.com/news/world/asia-pacific/china-defends-xinjiang-camps-as-it-takes-reporters-on-tour-1.3750070
     title: China defends Xinjiang camps
@@ -1447,7 +1444,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://www.newcoldwar.org/the-uyghur-issue-how-dare-the-us-lecture-china-about-the-rights-of-muslims
     title: How Dare the US Lecture China About the Rights of Muslims?
@@ -1455,7 +1451,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://journal-neo.org/2019/11/20/nyts-leaked-chinese-files-story-covers-for-terrorism/
     title: NYT "Leaked" Chinese Files Story Covers For Terrorism
@@ -1463,14 +1458,12 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: 'http://www.xinhuanet.com/english/2019-10/30/c_138515796.htm'
     title: Dozens of Countries Oppose US Interfering in China's Internal Affairs
     tags:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://www.thejakartapost.com/academia/2018/09/25/xinjiang-what-a-wonderful-place.html
     title: 'Xinjiang, What A Wonderful Place'
@@ -1478,14 +1471,12 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: 'https://www.globaltimes.cn/content/1159357.shtml'
     title: Fifty Ambassadors Throw Weight Behind China on Xinjiang
     tags:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://thegrayzone.com/2018/08/23/un-did-not-report-china-internment-camps-uighur-muslims/
     title: UN Did Not Report China Has Internment Camps
@@ -1493,7 +1484,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://medium.com/@sunfeiyang/breaking-down-the-bbcs-visit-to-hotan-xinjiang-e284934a7aab
     title: Breaking Down the BBC'S Visit to Xinjiang
@@ -1501,14 +1491,12 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: 'https://www.globaltimes.cn/content/1134972.shtml'
     title: Foreign Diplomats Disover a True Xinjiang
     tags:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://www.theodysseyonline.com/most-what-hear-about-china-red-scare-yellow-peril-propaganda
     title: 'Most Of What We Hear About China Is Red Scare, Yellow Peril Propaganda'
@@ -1516,17 +1504,14 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://journal-neo.org/2019/01/30/is-china-building-a-police-state-or-countering-western-sponsored-terrorism/
     title: >-
-      Is China Builing A Police State, Or Countering Western-Sponsored
-      Terrorism?
+      Is China Builing A Police State, Or Countering Western-Sponsored Terrorism?
     tags:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://thegrayzone.com/2019/12/21/china-detaining-millions-uyghurs-problems-claims-us-ngo-researcher/
     title: >-
@@ -1536,7 +1521,6 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://newrepublic.com/article/155076/obscure-newspaper-fueling-far-right-europe
     title: The Obscure Newspaper Fueling the Far Right in Europe
@@ -1544,14 +1528,12 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: 'https://news.cgtn.com/news/3d3d774d34457a4d30457a6333566d54/share_p.html'
     title: Xinjiang Vocational Training Centers
     tags:
       - china
       - xinjiang
       - uyghur
-      - xiaoping
   - href: >-
       https://docs.google.com/document/d/1ido70LgXsEhxcnyXE7RVS0wYJZc6aeVTpujCUPQgTrE/edit
     title: Ultimate Research Document
