@@ -25,7 +25,8 @@
     "koa-mid": "3.0.5",
     "koa-simple-static": "4.0.2",
     "lodash": "4.17.15",
-    "lowdb": "1.0.0"
+    "lowdb": "1.0.0",
+    "pluralize": "8.0.0"
   },
   "devDependencies": {
     "@types/jest": "25.1.2",
@@ -35,6 +36,7 @@
     "@types/koa-compress": "2.0.9",
     "@types/koa__router": "8.0.2",
     "@types/node": "13.7.1",
+    "@types/pluralize": "0.0.29",
     "@types/supertest": "2.0.8",
     "coveralls": "3.0.9",
     "eslint": "6.8.0",
