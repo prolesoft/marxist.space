@@ -3,20 +3,15 @@ resources:
     title: Marxists.org
     tags:
       - library
-      - libraries
   - href: 'https://monthlyreview.org/2009/05/01/why-socialism/'
     title: Why Socialism?
     tags:
-      - beginners
       - beginner
   - href: 'https://www.youtube.com/channel/UCOzQqWFt3BWJ0ToEyPgmZqg'
     title: Phuong DPRK Daily
     tags:
       - youtube
       - dprk
-      - north-korea
-      - korea
-      - juche
   - href: 'https://communism.lemmy.ml'
     title: Communism on Lemmy.ml
     subtitle: FOSS Reddit-alike primarily for Communists
@@ -80,10 +75,7 @@ resources:
     subtitle: Google doc
     tags:
       - misc
-      - debunking
       - debunked
-      - debunk
-      - myth
   - href: >-
       https://docs.google.com/document/d/1k-OPPy9UM9ApPuWVIsPcvX3zQh1LUsVbPQocD9mUhyA/edit
     title: Collection of Reading Lists
@@ -104,16 +96,12 @@ resources:
     title: Dialectics for Kids
     tags:
       - dialectics
-      - beginners
       - beginner
   - href: 'https://msuweb.montclair.edu/~furrg/'
     title: Grover Furr's Website
     tags:
       - stalin
-      - debunking
       - debunked
-      - debunk
-      - myth
   - href: 'https://leftypedia.org/wiki/Main_Page'
     title: Lefypedia
     tags:
@@ -153,23 +141,14 @@ resources:
     tags:
       - asia
       - mao
-      - deng
       - dprk
-      - prc
       - vietnam
       - laos
       - list
       - china
-      - north-korea
-      - korea
-      - zedong
-      - tsetung
       - xiaoping
       - collection
-      - mlm
-      - maoist
       - maoism
-      - juche
   - href: 'https://0xacab.org/snippets/802'
     title: Radical Coder's Communist articles
     tags:
@@ -185,12 +164,8 @@ resources:
     title: Austrian Maoist
     tags:
       - youtube
-      - maoist
-      - mlm
       - mao
       - maoism
-      - zedong
-      - tsetung
   - href: 'https://www.youtube.com/channel/UCFEmOPY04flXH-QpMMAGeJA'
     title: BadMouseProductions
     tags:
@@ -202,21 +177,14 @@ resources:
   - href: 'https://www.youtube.com/channel/UCpYZYH_1VTB9q8Leg0TrROA)'
     title: Black Red Guard
     tags:
-      - maoist
       - youtube
-      - mlm
       - mao
       - maoism
-      - zedong
-      - tsetung
   - href: 'https://www.youtube.com/user/shanelawrence86'
     title: Juche Gang
     tags:
       - youtube
       - dprk
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.youtube.com/channel/UCNalGyK3DaK37GTLIHSwmyA'
     title: Marxist Project
     tags:
@@ -241,21 +209,15 @@ resources:
     tags:
       - youtube
       - dprk
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.youtube.com/channel/UCi7apW6MGw6u3UlsJclkN3Q'
     title: New Anticapitalist Film Gallery
     tags:
       - youtube
-      - documentaries
       - documentary
   - href: 'https://www.youtube.com/channel/UCkZFKKK-0YB0FvwoS8P7nHg'
     title: NonCompete
     tags:
       - youtube
-      - anarchist
-      - anarchism
       - anarchy
   - href: 'https://www.youtube.com/channel/UCTVqVQpikHxgLaPf8kguMHg'
     title: Polinkazh
@@ -268,7 +230,6 @@ resources:
   - href: 'https://www.youtube.com/channel/UCEBbylt9Rax3nOP_hyPnMPA'
     title: Prolekult
     tags:
-      - documentaries
       - youtube
       - documentary
   - href: 'https://www.youtube.com/channel/UCPF2TnvBH88EKgmS-TAMM4w'
@@ -284,10 +245,6 @@ resources:
     tags:
       - youtube
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.youtube.com/channel/UCTG-iJm0HtjWVOAwN8sA4Xg'
     title: Tovarishch Endymion
     tags:
@@ -301,9 +258,6 @@ resources:
     tags:
       - youtube
       - dprk
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.youtube.com/channel/UCG29FnXZm4F5U8xpqs1cs1Q'
     title: Empire Files
     tags:
@@ -335,20 +289,12 @@ resources:
     tags:
       - dprk
       - healthcare
-      - health
-      - health care
-      - north-korea
-      - korea
-      - juche
   - href: >-
       http://www.greanvillepost.com/2018/03/12/blocking-peace-in-korea-by-lying-about-the-past/
     title: Blocking Peace in Korea by Lying About the Past
     tags:
       - dprk
       - article
-      - north-korea
-      - korea
-      - juche
   - href: 'https://drive.google.com/file/d/1QQn3q4OZwMh44qTmYhzHYSpokYoOEa_v/view'
     title: DPRK Reading Guide
     subtitle: Google doc
@@ -356,17 +302,11 @@ resources:
       - list
       - dprk
       - collection
-      - north-korea
-      - korea
-      - juche
   - href: 'http://apjjf.org/2014/12/18/Henri-Feron/4113/article.html'
     title: Doom and Gloom or Economic Boom? The Myth of the 'North Korean Collapse'
     tags:
       - dprk
       - article
-      - north-korea
-      - korea
-      - juche
   - href: >-
       https://ingaza.wordpress.com/2017/10/28/photo-report-the-north-korea-neither-trump-nor-western-media-wants-the-world-to-see/
     title: >-
@@ -376,27 +316,18 @@ resources:
       - dprk
       - article
       - photo
-      - north-korea
-      - korea
-      - juche
   - href: >-
       https://www.reddit.com/r/communism/comments/7t51i4/south_korea_continues_to_violate_armistice
     title: South Korea continues to violate armistice agreement
     tags:
       - dprk
       - reddit
-      - north-korea
-      - korea
-      - juche
   - href: >-
       https://medium.com/@w.aldrich/the-50-s-in-south-korea-what-happened-60f629ac3272
     title: The secret truth about South Korea and what really happened in Daejeon
     tags:
       - dprk
       - article
-      - north-korea
-      - korea
-      - juche
   - href: >-
       https://anti-imperialism.org/2018/01/25/west-backs-another-hero-defector-gets-another-criminal/
     title: 'West Backs Another "Hero" Defector, Gets Another Criminal'
@@ -404,9 +335,6 @@ resources:
       - dprk
       - article
       - defector
-      - north-korea
-      - korea
-      - juche
   - href: >-
       https://www.theguardian.com/world/2015/oct/13/why-do-north-korean-defector-testimonies-so-often-fall-apart
     title: Why do North Korean defector testimonies so often fall apart?
@@ -414,34 +342,24 @@ resources:
       - dprk
       - article
       - defector
-      - north-korea
-      - korea
-      - juche
   - href: >-
       https://www.counterpunch.org/2017/09/04/what-the-media-isnt-telling-you-about-north-koreas-missile-tests/
     title: What the Media isn't Telling You About North Korea's Missile Tests
     tags:
       - dprk
       - article
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.youtube.com/watch?v=2aMsi-A56ds'
     title: How Democracy Works in Cuba
     tags:
       - cuba
       - latam
       - castro
-      - fidel
-      - che
-      - latin
   - href: >-
       https://www.mintpressnews.com/us-led-economic-war-not-socialism-tearing-venezuela-apart/218335/
     title: 'US-Led Economic War, Not Socialism, Is Tearing Venezuela Apart'
     tags:
       - venezuela
       - latam
-      - latin
   - href: >-
       https://fair.org/home/venezuela-coverage-takes-us-back-to-golden-age-of-lying-about-latin-america/
     title: >-
@@ -450,35 +368,25 @@ resources:
     tags:
       - venezuela
       - latam
-      - latin
   - href: 'https://www.marxists.org/history/cuba/archive/castro/1953/10/16.htm'
     title: History Will Absolve Me
     tags:
       - castro
       - cuba
       - latam
-      - fidel
-      - che
-      - latin
   - href: >-
       https://iaf-fai.org/2019/05/05/a-zapatista-response-to-the-ezln-is-not-anarchist/
     title: A Zapatista Response to "The EZLN Is NOT Anarchist"
     tags:
       - zapatista
       - latam
-      - ezln
       - anarchy
-      - anarchist
-      - anarchism
-      - latin
   - href: >-
       https://www.reddit.com/r/communism/comments/da8nbq/masterpost_on_the_zapatista_army_of_national/
     title: Masterpost on the Zapatista Army of National Liberation (EZLN)
     tags:
       - zapatista
       - latam
-      - ezln
-      - latin
   - href: 'https://en.wikipedia.org/wiki/13TH_(film)'
     title: 13th
     subtitle: Documentary
@@ -486,8 +394,6 @@ resources:
       - abolition
       - prison
       - police
-      - cops
-      - policing
   - href: >-
       https://theanarchistlibrary.org/library/angela-y-davis-are-prisons-obsolete
     title: Are Prisons Obsolete?
@@ -496,24 +402,18 @@ resources:
       - abolition
       - essay
       - police
-      - cops
-      - policing
   - href: 'https://collectiveliberation.org/'
     title: Catalyst Project
     tags:
       - prison
       - abolition
       - police
-      - cops
-      - policing
   - href: 'http://kersplebedeb.com/posts/cops-are-gangsters/'
     title: Cops are Gangsters
     tags:
       - police
       - abolition
       - prison
-      - cops
-      - policing
   - href: >-
       https://www.nytimes.com/2019/04/17/magazine/prison-abolition-ruth-wilson-gilmore.html
     title: Is Prison Necessary?
@@ -521,24 +421,18 @@ resources:
       - prison
       - abolition
       - police
-      - cops
-      - policing
   - href: 'https://killedbypolice.net/'
     title: Killed By Police
     tags:
       - police
       - abolition
       - prison
-      - cops
-      - policing
   - href: 'https://mappingpoliceviolence.org/'
     title: Mapping Police Violence
     tags:
       - police
       - abolition
       - prison
-      - cops
-      - policing
   - href: >-
       https://blackmainstreet.net/never-forget-1985-bombing-west-philedelphia-pa/
     title: >-
@@ -548,16 +442,12 @@ resources:
       - police
       - abolition
       - prison
-      - cops
-      - policing
   - href: 'https://drive.google.com/file/d/1dDNc5I-vLsY2eVRXZBNJz2OPbsw5lfT5/view'
     title: No New Jails Plan
     tags:
       - prison
       - abolition
       - police
-      - cops
-      - policing
   - href: >-
       https://www.lawcha.org/2014/12/29/stop-kidding-police-created-control-working-class-poor-people/
     title: >-
@@ -567,40 +457,30 @@ resources:
       - police
       - abolition
       - prison
-      - cops
-      - policing
   - href: 'http://criticalresistance.org/resources/the-abolitionist-toolkit/'
     title: The Abolitionist Toolkit
     tags:
       - prison
       - abolition
       - police
-      - cops
-      - policing
   - href: 'https://github.com/washingtonpost/data-police-shootings'
     title: Washington Post Police Shootings Data
     tags:
       - police
       - abolition
       - prison
-      - cops
-      - policing
   - href: 'https://www.teenvogue.com/story/what-is-prison-abolition-movement'
     title: What the Prison Abolition Movement Wants
     tags:
       - prison
       - abolition
       - police
-      - cops
-      - policing
   - href: 'https://aworldwithoutpolice.org/'
     title: World Without Police
     tags:
       - police
       - abolition
       - prison
-      - cops
-      - policing
   - href: >-
       https://github.com/dessalines/essays/blob/master/us_atrocities.md#middle-east
     title: US Atrocities in the Middle East
@@ -643,95 +523,63 @@ resources:
     title: Banned Thought
     tags:
       - library
-      - libraries
   - href: 'https://drive.google.com/drive/folders/0B48PXBn7S_-MMVlaZjlrOEdKWFk'
     title: DPRK Literature Archive
     tags:
       - library
       - dprk
-      - libraries
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.korea-dpr.info/lib/'
     title: KFA Library 1
     tags:
       - library
       - dprk
-      - libraries
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.korea-dpr.com/e_library.html'
     title: KFA Library 2
     tags:
       - library
       - dprk
-      - libraries
-      - north-korea
-      - korea
-      - juche
   - href: 'https://archive.org/details/kimilsungworks/mode/2up'
     title: Kim Il Sung Works
     tags:
       - library
       - dprk
-      - libraries
-      - north-korea
-      - korea
-      - juche
   - href: 'http://marx2mao.phpwebhosting.com/'
     title: Marx2Mao
     tags:
       - library
-      - libraries
   - href: 'https://drive.google.com/drive/folders/17LF3BwRsZx_Uj4VgztFX_TTYDEL4I5xz'
     title: Marxism Starter Kit
     tags:
       - library
-      - libraries
   - href: >-
       https://www.reddit.com/r/communism/comments/ew0zn2/here_is_my_drive_full_of_sources/
     title: Massive Google Drive Archive
     tags:
       - reddit
       - library
-      - libraries
   - href: 'https://ourhiddenhistory.org/'
     title: Our Hidden History
     tags:
       - library
-      - libraries
   - href: 'http://www.korean-books.com.kp/en/'
     title: Publications of the DPRK
     tags:
       - library
       - dprk
-      - libraries
-      - north-korea
-      - korea
-      - juche
   - href: 'http://www.readmarxeveryday.org/'
     title: Read Marx Every Day
     tags:
       - library
-      - libraries
   - href: 'http://library.redspark.nu/Main_Page'
     title: Redspark Library
     tags:
       - library
-      - maoist
-      - libraries
-      - mlm
       - mao
       - maoism
-      - zedong
-      - tsetung
   - href: 'https://www.revolutionarydemocracy.org/archive/'
     title: Revolutionary Democracy archives
     tags:
       - library
-      - libraries
   - href: 'http://www.international.ucla.edu/asia/article/3838'
     title: >-
       The Soviet Famine of 1931-33: Politically Motivated or Ecological
@@ -739,24 +587,18 @@ resources:
     tags:
       - ukraine
       - ussr
-      - soviet-union
-      - soviet
   - href: >-
       https://www.reddit.com/r/communism/comments/2f3m7t/the_myth_of_trotsky_as_tragic_hero/
     title: The Myth of Trotsky as Tragic Hero
     tags:
       - ussr
       - trotsky
-      - soviet-union
-      - soviet
   - href: >-
       https://web.archive.org/web/20001003073504/http://www.plp.org/cd_sup/ukfam1.html
     title: The Hoax of the 1932-33 Ukraine Famine
     tags:
       - ukraine
       - ussr
-      - soviet-union
-      - soviet
   - href: >-
       https://www.telegraph.co.uk/news/worldnews/europe/russia/3223834/Stalin-planned-to-send-a-million-troops-to-stop-Hitler-if-Britain-and-France-agreed-pact.html
     title: >-
@@ -765,8 +607,6 @@ resources:
     tags:
       - stalin
       - ussr
-      - soviet-union
-      - soviet
   - href: >-
       https://docs.google.com/document/d/1qeYeYeLN7uKxfMdoe7TAmOMD2fmgyZdU_urvW6eAsRg/mobilebasic
     title: Soviet Union Reading List
@@ -775,8 +615,6 @@ resources:
       - ussr
       - list
       - collection
-      - soviet-union
-      - soviet
   - href: >-
       https://theimmortalscience.wordpress.com/2017/02/27/the-state-and-revolution-an-overview/
     title: 'The State and Revolution: An Overview'
@@ -784,27 +622,21 @@ resources:
       - theory
       - beginner
       - lenin
-      - beginners
   - href: >-
       https://espressostalinist.com/2017/01/27/grover-furr-trotskys-lies-what-they-are-and-what-they-mean/
     title: 'Trotsky''s Lies – What They Are, and What They Mean'
     tags:
       - ussr
       - trotsky
-      - soviet-union
-      - soviet
   - href: >-
       http://www.globalresearch.ca/us-meddling-in-1996-russian-elections-in-support-of-boris-yeltsin/5568288
     title: US Meddling in 1996 Russian Elections in Support of Boris Yeltsin
     tags:
       - ussr
-      - soviet-union
-      - soviet
   - href: >-
       https://www.reddit.com/r/communism/comments/wisiw/basic_marxismleninism_study_plan/
     title: r/communism Study Plan
     tags:
-      - beginners
       - collection
       - list
       - theory
@@ -812,82 +644,66 @@ resources:
   - href: 'https://www.socialism101.com/dictionary'
     title: Socialism101 Dictionary
     tags:
-      - beginners
       - glossary
       - beginner
-      - definition
-      - dictionary
-      - dictionaries
   - href: 'https://github.com/dessalines/essays/blob/master/crash_course_socialism.md'
     title: Crash Course Socialism
     tags:
-      - beginners
       - beginner
   - href: 'https://www.marxists.org/archive/marx/works/1847/11/prin-com.htm'
     title: The Principles of Communism
     tags:
       - theory
-      - beginners
       - beginner
   - href: 'https://www.marxists.org/archive/lenin/works/1917/staterev/'
     title: The State And Revolution
     tags:
-      - beginners
       - theory
       - beginner
   - href: 'https://www.marxists.org/reference/archive/stalin/works/1906/12/x01.htm'
     title: Anarchism or Socialism
     tags:
       - theory
-      - beginners
       - beginner
   - href: 'https://www.marxists.org/archive/marx/works/1880/soc-utop/index.htm'
     title: 'Socialism: Utopian and Scientific'
     tags:
-      - beginners
       - theory
       - beginner
   - href: 'https://www.marxists.org/archive/marx/works/1847/wage-labour/'
     title: Wage Labour and Capital
     tags:
-      - beginners
       - theory
       - beginner
   - href: 'https://www.marxists.org/archive/luxemburg/1900/reform-revolution/'
     title: Reform or Revolution
     tags:
-      - beginners
       - theory
       - beginner
   - href: >-
       https://www.marxists.org/archive/marx/works/1865/value-price-profit/index.htm
     title: 'Value, Price, and Profit'
     tags:
-      - beginners
       - theory
       - beginner
   - href: 'https://www.marxists.org/archive/marx/works/1875/gotha/'
     title: Critique of the Gotha Programme
     tags:
-      - beginners
       - theory
       - beginner
   - href: 'https://www.marxists.org/reference/archive/stalin/works/1938/09.htm'
     title: Dialectical and Historical Materialism
     tags:
-      - beginners
       - theory
       - beginner
   - href: 'https://www.marxists.org/archive/lenin/works/1913/mar/x01.htm'
     title: The Three Sources and Three Component Parts of Marxism
     tags:
-      - beginners
       - theory
       - beginner
   - href: 'http://anticapitalismfaq.com/'
     title: Anticapitalism FAQ
     tags:
-      - beginners
       - beginner
   - href: >-
       https://jiminykrix.wordpress.com/2016/09/14/what-maoism-has-to-offer-the-world-and-why-so-many-former-non-communists-think-its-dope/
@@ -895,47 +711,36 @@ resources:
       What Maoism has to offer the world and why so many former non-communists
       think it's dope
     tags:
-      - beginners
       - maoism
       - beginner
-      - mlm
-      - maoist
       - mao
-      - zedong
-      - tsetung
   - href: 'https://youtube.com/playlist?list=PL0-IkmzWbjobDdDbSC_YgZfV94BQiRIB8'
     title: 'Do publicly owned, planned economies work? (Audiobook)'
     tags:
-      - beginners
       - audiobooks
       - beginner
   - href: 'https://gowans.blog/2012/12/21/do-publicly-owned-planned-economies-work/'
     title: 'Do publicly owned, planned economies work?'
     tags:
-      - beginners
       - beginner
   - href: >-
       https://theredphoenixapl.org/2011/08/11/pacifism-how-to-do-the-enemys-job-for-them/
     title: 'Pacifism: How to Do The Enemy''s Job For Them'
     tags:
-      - beginners
       - beginner
   - href: >-
       http://www.greanvillepost.com/2015/05/23/left-anticommunism-the-unkindest-cut/
     title: 'Left anticommunism, the Unkindest Cut'
     tags:
-      - beginners
       - beginner
   - href: 'http://www.marxist.com/why-does-capitalism-go-into-crisis.htm'
     title: Why does Capitalism go into crisis?
     tags:
-      - beginners
       - beginner
   - href: 'https://www.reddit.com/r/communism101/'
     title: Communism101
     tags:
       - reddit
-      - beginners
       - beginner
   - href: 'https://www.reddit.com/r/communism/'
     title: Communism
@@ -946,10 +751,7 @@ resources:
     title: Communism Doesn't Work
     tags:
       - reddit
-      - debunk
       - debunked
-      - debunking
-      - myth
   - href: 'https://www.reddit.com/r/BeardTube/'
     title: BeardTube
     subtitle: BreadTube but with more communistm
@@ -965,40 +767,26 @@ resources:
     title: Resources for debating reactionaries
     tags:
       - reddit
-      - debunk
       - debunked
-      - debunking
-      - myth
   - href: >-
       https://www.reddit.com/r/FULLCOMMUNISM/comments/cc47kx/dprk_megathread_part_2/
     title: FullCommunism DPRK Megathread Part Two
     tags:
       - reddit
       - dprk
-      - north-korea
-      - korea
-      - juche
   - href: >-
       https://www.reddit.com/r/FULLCOMMUNISM/comments/cc4703/dprk_megathread_part_1/
     title: FullCommunism DPRK Megathread Part Two
     tags:
       - reddit
       - dprk
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.reddit.com/r/sino/wiki/fakenews-china'
     title: Sino Fake News Debunked
     tags:
       - reddit
       - china
-      - debunk
-      - prc
-      - deng
       - xiaoping
       - debunked
-      - debunking
-      - myth
   - href: 'https://www.reddit.com/r/socialism/'
     title: Socialism
     subtitle: 'Catchall Socialist sub, some demsocs and anarchists here'
@@ -1008,7 +796,6 @@ resources:
     title: Socialism101
     tags:
       - reddit
-      - beginners
       - beginner
   - href: 'https://www.reddit.com/r/prisonabolition/'
     title: Prison Abolition
@@ -1017,125 +804,64 @@ resources:
       - abolition
       - police
       - prison
-      - cops
-      - policing
   - href: 'https://sites.google.com/a/karlmarx.net/open/'
     title: KarlMarx.Net
     tags:
       - news
       - misc
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://anticonquista.com/'
     title: Anticonquista
     tags:
       - news
       - latam
-      - latin
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'http://global.chinadaily.com.cn/'
     title: China Daily
     tags:
       - news
       - china
-      - prc
-      - deng
       - xiaoping
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.counterpunch.org/'
     title: CounterPunch
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.dprktoday.com/'
     title: DPRK Today
     tags:
       - news
       - dprk
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.idcommunism.com/'
     title: In Defense of Communism
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.fightbacknews.org/'
     title: Fight Back News
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.greanvillepost.com/'
     title: Greanville Post
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'http://dragonreport.com/Dragon_Report/home/home.html'
     title: Dragon Report
     tags:
       - news
       - china
-      - prc
-      - deng
       - xiaoping
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.kcna.kp'
     title: Korean Central News Agency
     tags:
       - news
       - dprk
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - north-korea
-      - korea
-      - juche
   - href: 'https://fair.org/'
     title: FAIR
     tags:
       - news
       - watchdog
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.liberationnews.org/'
     title: Liberation news
     subtitle: PSL
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://liberationschool.org/'
     title: Liberation School
     subtitle: PSL
@@ -1146,170 +872,81 @@ resources:
     tags:
       - news
       - dprk
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - north-korea
-      - korea
-      - juche
   - href: 'http://www.mfa.gov.kp/en/'
     title: Ministry of Foreign Affairs
     tags:
       - news
       - dprk
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.mintpressnews.com/'
     title: MintPress News
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://monthlyreview.org/'
     title: Monthly Review
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.naenara.com.kp/'
     title: Naenara
     tags:
       - news
       - dprk
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - north-korea
-      - korea
-      - juche
   - href: 'https://forpositivepeace.org/'
     title: Organization for Positive Peace
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://therealnews.com/'
     title: Real News Network
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.prwatch.org/'
     title: PRWatch
     tags:
       - news
       - watchdog
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://pitchforkcosmonaut.org/'
     title: Pitchfork Cosmonaut
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.projectcensored.org/'
     title: Project Censored
     tags:
       - news
       - watchdog
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.pyongyangtimes.com.kp/'
     title: Pyongyang Times
     tags:
       - news
       - dprk
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - north-korea
-      - korea
-      - juche
   - href: 'http://english.qstheory.cn/'
     title: Qiushi
     tags:
       - news
       - theory
       - china
-      - prc
-      - deng
       - xiaoping
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'http://www.redsun.org/'
     title: Red Sun
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://redfish.media/'
     title: Redfish Media
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.redspark.nu/en/'
     title: Redspark
     tags:
       - news
-      - maoist
-      - mlm
       - mao
       - maoism
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - zedong
-      - tsetung
   - href: 'http://www.rodong.rep.kp/en/'
     title: Rodong Sinmun
     tags:
       - news
       - dprk
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - north-korea
-      - korea
-      - juche
   - href: 'https://shadowproof.com/'
     title: Shadowproof
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://gowans.blog/'
     title: Stephan Gowans Blog
     tags:
@@ -1318,58 +955,31 @@ resources:
     title: TeleSUR English
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://thegrayzone.com/'
     title: The Grayzone
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'https://www.vok.rep.kp/index.php?CHANNEL=2&lang='
     title: Voice Of Korea
     tags:
       - news
       - dprk
-      - periodical
-      - periodicals
-      - media
-      - msm
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.workers.org/'
     title: Workers World
     tags:
       - news
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: 'http://www.xinhuanet.com/english/home.htm'
     title: Xinhua
     tags:
       - news
       - china
-      - prc
-      - deng
       - xiaoping
-      - periodical
-      - periodicals
-      - media
-      - msm
   - href: >-
       https://www.reddit.com/r/communism/comments/c2b7ma/china_megathread_everything_a_leftist_must_know/
     title: China Megathread
     tags:
       - china
       - reddit
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://drive.google.com/file/d/15I2LRlK-VofmD1FWmXS1ERltTwuYFZcC/view
@@ -1379,15 +989,11 @@ resources:
       - list
       - collection
       - china
-      - prc
-      - deng
       - xiaoping
   - href: 'https://cpcchina.chinadaily.com.cn/2010-10/21/content_13918311.htm'
     title: Building a Socialism with a Specifically Chinese Character
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://www.reddit.com/r/communism/comments/5ku8dz/china_as_a_socialist_marxistleninist_state_a/
@@ -1395,32 +1001,24 @@ resources:
     tags:
       - china
       - reddit
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://foreignpolicy.com/2018/11/16/chinas-orwellian-social-credit-score-isnt-real/
     title: China's Orwellian Social Credit Score Isn't Real
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://www.workers.org/2015/07/21/china-rising-wages-and-worker-militancy/
     title: 'China, rising wages and worker militancy'
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: 'https://www.reddit.com/r/communism/comments/dqrspr/chinese_imperialism/'
     title: Chinese "Imperialism"
     tags:
       - china
       - reddit
-      - prc
-      - deng
       - xiaoping
   - href: >-
       http://monthlyreview.org/commentary/did-mao-really-kill-millions-in-the-great-leap-forward/
@@ -1428,13 +1026,7 @@ resources:
     tags:
       - china
       - mao
-      - prc
-      - deng
       - xiaoping
-      - zedong
-      - tsetung
-      - mlm
-      - maoist
       - maoism
   - href: >-
       https://www.telesurenglish.net/opinion/China-Is-Most-Promising-Hope-for-Third-World-Fidel-20171128-0017.html
@@ -1442,26 +1034,18 @@ resources:
     tags:
       - china
       - castro
-      - fidel
       - cuba
-      - che
-      - prc
-      - deng
       - xiaoping
   - href: 'https://www.reddit.com/r/communism101/comments/7vrdz2/china/dtv6z3t/'
     title: 'History of China: Is it Capitalist Now?'
     tags:
       - china
       - reddit
-      - prc
-      - deng
       - xiaoping
   - href: 'http://www.unz.com/plee/how-it-all-began-the-belgrade-embassy-bombing/'
     title: 'How It All Began: The Belgrade Embassy Bombing'
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://www.reddit.com/r/communism/comments/5vkthe/is_china_socialist_my_response_to_antichina_claims/
@@ -1469,388 +1053,278 @@ resources:
     tags:
       - china
       - reddit
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://medium.com/@leohezhao/notes-for-30th-anniversary-of-tiananmen-incident-f098ef6efbc2
     title: Notes for 30th Anniversary of TianAnMen Incident
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: 'http://www.greanvillepost.com/2015/08/20/the-myth-of-chinese-capitalism-2/'
     title: The Myth of Chinese Capitalism
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: 'https://www.thenation.com/article/the-us-is-already-at-war-with-china/'
     title: The US is already at war with China
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: 'http://en.theorychina.org/'
     title: TheoryChina
     tags:
       - china
       - theory
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://medium.com/@wolf.aldrich/three-questions-about-china-and-the-communist-party-of-china-7056e40b40f3
     title: Three questions about China and the Communist Party of China
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://www.globalresearch.ca/us-trade-war-china-desperate-move-save-western-empire/5660991
     title: 'US Trade War with China: Desperate Move to Save Western Empire'
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://www.theguardian.com/commentisfree/2009/feb/10/tibet-china-feudalism
     title: What we don't hear about Tibet
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: >-
       https://www.theatlantic.com/international/archive/2013/01/why-do-chinese-billionaires-keep-ending-up-in-prison/272633/
     title: Why Do Chinese Billionaires Keep Ending Up in Prison?
     tags:
       - china
-      - prc
-      - deng
       - xiaoping
   - href: 'https://linx.li/sopikyte.pdf'
     title: Mao For Beginners (mirror)
     tags:
       - graphic-novel
       - mao
-      - beginners
       - beginner
-      - zedong
-      - tsetung
-      - mlm
-      - maoist
       - maoism
   - href: 'https://gofile.io/?c=RgAis0'
     title: Mao For Beginners (mirror)
     tags:
       - graphic-novel
       - mao
-      - beginners
       - beginner
-      - zedong
-      - tsetung
-      - mlm
-      - maoist
       - maoism
   - href: 'https://file.io/kKTCpu'
     title: Mao For Beginners (mirror)
     tags:
       - graphic-novel
       - mao
-      - beginners
       - beginner
-      - zedong
-      - tsetung
-      - mlm
-      - maoist
       - maoism
   - href: 'https://anonymousfiles.io/5SH0kRU5/'
     title: Mao For Beginners (mirror)
     tags:
       - graphic-novel
       - mao
-      - beginners
       - beginner
-      - zedong
-      - tsetung
-      - mlm
-      - maoist
       - maoism
   - href: 'https://www100.zippyshare.com/v/S1nzDynl/file.html'
     title: Mao For Beginners (mirror)
     tags:
       - graphic-novel
       - mao
-      - beginners
       - beginner
-      - zedong
-      - tsetung
-      - mlm
-      - maoist
       - maoism
   - href: 'https://www.filehosting.org/file/details/844773/sopikyte.pdf'
     title: Mao For Beginners (mirror)
     tags:
       - graphic-novel
       - mao
-      - beginners
       - beginner
-      - zedong
-      - tsetung
-      - mlm
-      - maoist
       - maoism
   - href: >-
       https://ia800204.us.archive.org/1/items/MarxForBeginners-English/marx_for_beginners.pdf
     title: Marx For Beginners (mirror)
     tags:
       - graphic-novel
-      - beginners
       - beginner
   - href: 'https://file.io/rjvB6D'
     title: Lenin For Beginners (mirror)
     tags:
       - graphic-novel
-      - beginners
       - lenin
       - beginner
   - href: 'https://gofile.io/?c=weVZjW'
     title: Lenin For Beginners (mirror)
     tags:
       - graphic-novel
-      - beginners
       - lenin
       - beginner
   - href: 'https://www.filehosting.org/file/details/844774/du692tdj.pdf'
     title: Lenin For Beginners (mirror)
     tags:
       - graphic-novel
-      - beginners
       - lenin
       - beginner
   - href: 'https://linx.li/du692tdj.pdf'
     title: Lenin For Beginners (mirror)
     tags:
       - graphic-novel
-      - beginners
       - lenin
       - beginner
   - href: 'https://anonymousfiles.io/8Hf8MJU1/'
     title: Lenin For Beginners (mirror)
     tags:
       - graphic-novel
-      - beginners
       - lenin
       - beginner
   - href: 'https://www5.zippyshare.com/v/gjOnnA2K/file.html'
     title: Lenin For Beginners (mirror)
     tags:
       - graphic-novel
-      - beginners
       - lenin
       - beginner
   - href: 'https://drive.google.com/drive/folders/1Ytll8_9XTHovwvxmY7KgTZYsRIbE8E9U'
     title: A Very Heavy Agenda
     tags:
       - documentary
-      - media
-      - documentaries
       - news
-      - periodical
-      - periodicals
-      - msm
   - href: 'https://drive.google.com/file/d/1doCBDm2fqgxRBSjRdhAL_F0TrBSnTQ-N/view'
     title: 'Afghan: The Soviet Experience'
     tags:
       - documentary
       - middle-east
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=DxqK6eqwwLc'
     title: Black Gods with Guns
     tags:
       - documentary
-      - documentaries
   - href: >-
       https://www2.123-movies.com/movie/the-black-panthers-vanguard-of-the-revolution/
     title: 'Black Panthers: Vanguard of the Revolution'
     tags:
       - documentary
-      - documentaries
   - href: 'https://www.youtube.com/playlist?list=PLlhUKWQ5KKQr633F85NK5-menPlsWuAbB'
     title: 'China: Time Of Xi'
     tags:
       - documentary
       - china
       - jinping
-      - prc
-      - deng
       - xiaoping
-      - documentaries
       - xi
   - href: 'https://youtube.com/watch?v=BT5L4YU_Fl4'
     title: 'Empire Files: How Palestine Became Colonized'
     tags:
       - documentary
       - palestine
-      - documentaries
-      - israel
   - href: 'https://peertube.social/videos/watch/97e50d71-9a2c-4a18-bb3b-fe7ffffd9d61'
     title: 'Fidel Castro, The Untold Story'
     tags:
       - documentary
       - castro
       - cuba
-      - fidel
-      - che
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=P2Obp6YS4SY'
     title: 'Fidel Castro, The Untold Story'
     tags:
       - documentary
       - castro
       - cuba
-      - fidel
-      - che
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=7z-AxNFx88o'
     title: 'Grenada: The Future Coming Towards Us'
     tags:
       - documentary
-      - documentaries
   - href: 'https://www.youtube.com/playlist?list=PLMt0ncvnKoz3ar_f78qBeA29-0kwrsXvT'
     title: How Yukong Moved The Mountains
     tags:
       - documentary
       - china
-      - prc
-      - deng
       - xiaoping
-      - documentaries
   - href: 'https://www.youtube.com/playlist?list=PL35BC1713B4493483'
     title: Lenin
     tags:
       - documentary
       - lenin
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=ktE_3PrJZO0'
     title: Loyal Citizens of Pyongyang in Seoul
     tags:
       - documentary
       - dprk
-      - documentaries
-      - north-korea
-      - korea
-      - juche
   - href: 'https://www.youtube.com/watch?v=csWByunwVI8'
     title: Malcom X - Make It Plain
     tags:
       - documentary
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=cVvThDX4bbQ'
     title: Red Ant Dream
     tags:
       - documentary
-      - documentaries
   - href: 'https://youtube.com/watch?v=qVHzAinRH4g'
     title: Semantics - The Rise and Fall of Muammar al Gaddafi
     tags:
       - documentary
       - middle-east
-      - documentaries
   - href: 'https://www.youtube.com/playlist?list=PLiizh2ZxteI5aQoy4x7YBkZE8bN0NNB2W'
     title: Soviet Storm/The Great Patriotic War
     tags:
       - documentary
       - ussr
-      - documentaries
-      - soviet-union
-      - soviet
   - href: 'https://www.youtube.com/watch?v=-349HTKhPno'
     title: The Act Of Killing
     subtitle: Also see The Look Of Silence
     tags:
       - documentary
       - indonesia
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=9iNcQFPECDc'
     title: The Look Of Silence
     subtitle: Also see The Act Of Killing
     tags:
       - documentary
       - indonesia
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=XYHnd4boUoM'
     title: The Antifascists
     tags:
       - documentary
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=GDl9ecICIYg'
     title: The Coming War on China
     tags:
       - documentary
       - china
-      - prc
-      - deng
       - xiaoping
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=d-7JIR1u9qw'
     title: The Murder of Fred Hampton
     tags:
       - documentary
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=iH5nzZU0qCc'
     title: The Revolution Will Not Be Televised
     tags:
       - documentary
       - venezuela
-      - documentaries
   - href: 'https://www.youtube.com/playlist?list=PLr7tdO3Zp0VFhTUH2LD9NYPzBh9uc3Kxb'
     title: The Unknown War
     tags:
       - documentary
       - ussr
-      - documentaries
-      - soviet-union
-      - soviet
   - href: 'https://www.youtube.com/watch?v=G7Vlt41HPUE'
     title: 'Thomas Sankara, The Upright Man'
     tags:
       - documentary
-      - documentaries
   - href: 'https://vimeo.com/46137917'
     title: 'Thomas Sankara, The Upright Man'
     tags:
       - documentary
-      - documentaries
   - href: 'https://www.youtube.com/watch?v=egWLsEzaKiI'
     title: Tzar to Lenin
     tags:
       - documentary
       - ussr
       - lenin
-      - documentaries
-      - soviet-union
-      - soviet
   - href: 'https://www.youtube.com/watch?v=2BO83Ig-E8E'
     title: We Went To DPRK To Get A Haircut
     tags:
       - documentary
       - dprk
-      - documentaries
-      - north-korea
-      - korea
-      - juche
   - href: 'https://youtube.com/watch?v=ZIA7sKcFN44'
     title: Yellow Vest Fever
     tags:
       - documentary
-      - documentaries
   - href: >-
       https://www.cartamaior.com.br/?/Editoria/Pelo-Mundo/Bolivia-filtran-audios-de-lideres-opositores-llamando-a-un-golpe-de-estado-contra-Evo-Morales/6/45801
     title: >-
@@ -1882,67 +1356,42 @@ resources:
       and HK
     tags:
       - china
-      - hk
       - reddit
-      - prc
-      - deng
       - xiaoping
       - hongkong
-      - hong-kong
-      - hong kong
   - href: 'https://bitbucket.org/TheCrypticMan/hong-kong-riots'
     title: TheCrypticMan Wiki
     subtitle: 'Mirror, possibly removed by US censors'
     tags:
       - china
-      - hk
       - reddit
-      - prc
-      - deng
       - xiaoping
       - hongkong
-      - hong-kong
-      - hong kong
   - href: 'https://bitbucket.org/TheCrypticMan/hong-kong-protests'
     title: TheCrypticMan Wiki
     subtitle: 'Mirror, possibly removed by US censors'
     tags:
       - china
-      - hk
       - reddit
-      - prc
-      - deng
       - xiaoping
       - hongkong
-      - hong-kong
-      - hong kong
   - href: 'https://github.com/TheCrypticMan/Essays/wiki/Hong-Kong-Protests'
     title: TheCrypticMan Wiki
     subtitle: 'Mirror, possibly removed by US censors'
     tags:
       - china
-      - hk
       - reddit
-      - prc
-      - deng
       - xiaoping
       - hongkong
-      - hong-kong
-      - hong kong
   - href: >-
       https://www.reddit.com/r/Sino/wiki/faq/hong-kong-taiwan/summer-2019-protests
     title: TheCrypticMan Wiki
     subtitle: 'Mirror, possibly removed by US censors'
     tags:
       - china
-      - hk
       - reddit
-      - prc
-      - deng
       - xiaoping
       - hongkong
-      - hong-kong
-      - hong kong
   - href: >-
       https://worldaffairs.blog/2019/07/05/xinjiang-and-uyghurs-what-youre-not-being-told/
     title: 'Xinjiang and Uyghers, What You''re Not Being Told'
@@ -1950,10 +1399,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://docs.google.com/document/d/1XiHrkJ_zudQZP1hBIBCgJKKAfAILxEG0cmQGrNH8pIU/mobilebasic
     title: 'Resource Complitaion: Debunking imperialist propaganda WRT to Xinjiang'
@@ -1961,24 +1407,15 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - debunk
-      - prc
-      - deng
       - xiaoping
       - debunked
-      - debunking
-      - myth
-      - uighur
   - href: 'https://medium.com/@leohezhao/xinjiang-facts-vs-fiction-bdc2aa403c91'
     title: 'Xinjiang: Facts vs Fiction'
     tags:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://www.quora.com/What-will-be-the-consequences-of-the-New-York-Times-expose-on-Xinjiang/answer/Jamin-Chen-1?ch=10&share=010b06f9&srid=hXpBn
     title: Translation of documents in NYT "expose"
@@ -1986,10 +1423,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://rainershea.com/f/the-biggest-lie-of-2019-that-china-is-putting-muslims-in-%E2%80%9Ccamps%E2%80%9D
     title: 'The biggest lie of 2019: China putting Muslims in "Camps"'
@@ -1997,10 +1431,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://thegrayzone.com/2019/09/30/reports-china-organ-harvesting-cult-falun-gong/
     title: Reports on China organ harvesting come from far-right cult Falun Gong
@@ -2008,10 +1439,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://www.irishtimes.com/news/world/asia-pacific/china-defends-xinjiang-camps-as-it-takes-reporters-on-tour-1.3750070
     title: China defends Xinjiang camps
@@ -2019,10 +1447,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://www.newcoldwar.org/the-uyghur-issue-how-dare-the-us-lecture-china-about-the-rights-of-muslims
     title: How Dare the US Lecture China About the Rights of Muslims?
@@ -2030,10 +1455,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://journal-neo.org/2019/11/20/nyts-leaked-chinese-files-story-covers-for-terrorism/
     title: NYT "Leaked" Chinese Files Story Covers For Terrorism
@@ -2041,20 +1463,14 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: 'http://www.xinhuanet.com/english/2019-10/30/c_138515796.htm'
     title: Dozens of Countries Oppose US Interfering in China's Internal Affairs
     tags:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://www.thejakartapost.com/academia/2018/09/25/xinjiang-what-a-wonderful-place.html
     title: 'Xinjiang, What A Wonderful Place'
@@ -2062,20 +1478,14 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: 'https://www.globaltimes.cn/content/1159357.shtml'
     title: Fifty Ambassadors Throw Weight Behind China on Xinjiang
     tags:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://thegrayzone.com/2018/08/23/un-did-not-report-china-internment-camps-uighur-muslims/
     title: UN Did Not Report China Has Internment Camps
@@ -2083,10 +1493,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://medium.com/@sunfeiyang/breaking-down-the-bbcs-visit-to-hotan-xinjiang-e284934a7aab
     title: Breaking Down the BBC'S Visit to Xinjiang
@@ -2094,20 +1501,14 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: 'https://www.globaltimes.cn/content/1134972.shtml'
     title: Foreign Diplomats Disover a True Xinjiang
     tags:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://www.theodysseyonline.com/most-what-hear-about-china-red-scare-yellow-peril-propaganda
     title: 'Most Of What We Hear About China Is Red Scare, Yellow Peril Propaganda'
@@ -2115,10 +1516,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://journal-neo.org/2019/01/30/is-china-building-a-police-state-or-countering-western-sponsored-terrorism/
     title: >-
@@ -2128,10 +1526,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://thegrayzone.com/2019/12/21/china-detaining-millions-uyghurs-problems-claims-us-ngo-researcher/
     title: >-
@@ -2141,10 +1536,7 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://newrepublic.com/article/155076/obscure-newspaper-fueling-far-right-europe
     title: The Obscure Newspaper Fueling the Far Right in Europe
@@ -2152,20 +1544,14 @@ resources:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: 'https://news.cgtn.com/news/3d3d774d34457a4d30457a6333566d54/share_p.html'
     title: Xinjiang Vocational Training Centers
     tags:
       - china
       - xinjiang
       - uyghur
-      - prc
-      - deng
       - xiaoping
-      - uighur
   - href: >-
       https://docs.google.com/document/d/1ido70LgXsEhxcnyXE7RVS0wYJZc6aeVTpujCUPQgTrE/edit
     title: Ultimate Research Document
@@ -2180,5 +1566,4 @@ resources:
     tags:
       - list
       - collection
-      - beginners
       - beginner
