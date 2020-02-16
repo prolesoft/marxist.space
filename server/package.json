@@ -19,6 +19,7 @@
     "boring-cluster": "6.0.3",
     "dnscache": "1.0.2",
     "forever": "2.0.0",
+    "fuse.js": "3.4.6",
     "js-yaml": "3.13.1",
     "koa": "2.11.0",
     "koa-mid": "3.0.5",
