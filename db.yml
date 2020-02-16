@@ -1555,3 +1555,7 @@ resources:
       - mastodon
       - social
       - quotes
+  - href: 'https://www.youtube.com/channel/UCs8mbJ-M142ZskR5VR0gBig'
+    title: Yugopnik
+    tags:
+      - youtubw
