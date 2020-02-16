@@ -98,6 +98,7 @@ const db = low(adapter)
 db.defaults({ resources: [] }).write()
 
 const originalResources = db.get('resources').value()
+
 const enrichedResources = originalResources.map((a) => ({
   ...a,
   tags: addTagAliases(a.tags),
