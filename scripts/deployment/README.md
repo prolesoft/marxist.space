@@ -1,8 +1,9 @@
 You can run this app on its own at port 9090, or run as root with `PORT=80 npm
 start` in `/server` (not recommended).
 
-`nginx.conf` is an example for running behind Nginx with certificates (I use
-LetsEncrypt/Certbot for that).
+`nginx.conf` is an example for running behind Nginx. If you use `certbot`, this
+is all you need to provide, it'll fill in a redirect from http to https and
+everything you need for TLS.
 
 To build a Docker image, run `npm run build-docker` from the project root. You
 can run this with `docker run -p 9090:9090 marxist.space:[tag]`, where `tag`
