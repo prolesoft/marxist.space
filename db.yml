@@ -1549,3 +1549,9 @@ resources:
       - list
       - collection
       - beginner
+  - href: 'https://impenetrable.fortress.promo/users/communistquotes'
+    title: Communist Quotes Bot
+    tags:
+      - mastodon
+      - social
+      - quotes
