@@ -92,7 +92,7 @@ const db = low(adapter)
 db.defaults({ resources: [] }).write()
 
 const originalResources = db.get('resources').value()
-const resources = originalResources.map((a) => ({
+const enrichedResources = originalResources.map((a) => ({
   ...a,
   tags: addTagAliases(a.tags),
 }))
@@ -102,12 +102,19 @@ export const getAll = () => originalResources
 export const getTags = () =>
   uniq(originalResources.map(({ tags }) => tags).flat())
 
-export const filterByTags = (tags) =>
-  resources.filter((bm) => tags.every((t) => bm.tags.includes(t)))
+export const getOriginalResourcesByIds = (ids: string[]) =>
+  originalResources.filter((r) => ids.includes(r.id))
 
-const fuse = new Fuse(resources, fuseOptions)
+export const filterByTags = (tags) => {
+  const ids = enrichedResources
+    .filter((bm) => tags.every((t) => bm.tags.includes(t)))
+    .map(({ id }) => id)
+  return getOriginalResourcesByIds(ids)
+}
+
+const fuse = new Fuse(enrichedResources, fuseOptions)
 
 export const fullTextSearch = (text) => {
-  const results = fuse.search(text).map(({ id }) => id)
-  return originalResources.filter((r) => results.includes(r.id))
+  const ids = fuse.search(text).map(({ id }) => id)
+  return getOriginalResourcesByIds(ids)
 }
