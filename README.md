@@ -79,7 +79,7 @@ in Docker, and running in Kubernetes.
 See [CONTRIBUTING](./.github/CONTRIBUTING.md) and the
 [open issues](https://github.com/prolesoft/marxist.space/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
-There's also a [mirror](https://yerbamate.dev/decadesinweeks/marxist.space)
+There's also a [mirror](https://yerbamate.dev/prolesoft/marxist.space)
 for those who would rather not use GitHub, and patches can be emailed directly
 to marxist.space@protonmail.com.
 
