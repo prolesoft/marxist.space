@@ -109,8 +109,6 @@ export const filterByTags = (tags) =>
     .value()
     .filter((bm) => tags.every((t) => bm.tags.includes(t)))
 
-export const fullTextSearch = (text) => {
-  const list = db.get('resources').value()
-  const fuse = new Fuse(list, fuseOptions)
-  return fuse.search(text)
-}
+const fuse = new Fuse(db.get('resources').value(), fuseOptions)
+
+export const fullTextSearch = (text) => fuse.search(text)
