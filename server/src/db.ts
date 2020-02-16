@@ -82,7 +82,6 @@ const adapter = new FileSync(dbPath, {
     const withIds = loaded.resources.map((a) => ({
       ...a,
       id: getUrlHash(a.href),
-      tags: addTagAliases(a.tags),
     }))
     return { resources: withIds }
   },
@@ -92,23 +91,23 @@ const db = low(adapter)
 
 db.defaults({ resources: [] }).write()
 
-export const getAll = () => db.get('resources').value()
+const originalResources = db.get('resources').value()
+const resources = originalResources.map((a) => ({
+  ...a,
+  tags: addTagAliases(a.tags),
+}))
 
-export const getTags = () => {
-  const ts = db
-    .get('resources')
-    .value()
-    .map((a) => a.tags)
-    .flat()
-  return uniq(ts)
-}
+export const getAll = () => originalResources
+
+export const getTags = () =>
+  uniq(originalResources.map(({ tags }) => tags).flat())
 
 export const filterByTags = (tags) =>
-  db
-    .get('resources')
-    .value()
-    .filter((bm) => tags.every((t) => bm.tags.includes(t)))
+  resources.filter((bm) => tags.every((t) => bm.tags.includes(t)))
 
-const fuse = new Fuse(db.get('resources').value(), fuseOptions)
+const fuse = new Fuse(resources, fuseOptions)
 
-export const fullTextSearch = (text) => fuse.search(text)
+export const fullTextSearch = (text) => {
+  const results = fuse.search(text).map(({ id }) => id)
+  return originalResources.filter((r) => results.includes(r.id))
+}
