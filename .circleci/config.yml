@@ -18,7 +18,7 @@ jobs:
       - checkout
       - deploy:
           command: >
-            ssh -o "StrictHostKeyChecking no" root@188.166.76.76
+            ssh -o "StrictHostKeyChecking no" root@marxist.space
             "cd /root/marxist.space && \
                git fetch && \
                git reset --hard origin/master && \
