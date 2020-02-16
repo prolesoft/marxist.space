@@ -4,6 +4,18 @@ import { omit } from 'lodash'
 import * as low from 'lowdb'
 import * as FileSync from 'lowdb/adapters/FileSync'
 import { safeDump, safeLoad } from 'js-yaml'
+import * as Fuse from 'fuse.js'
+
+const fuseOptions = {
+  shouldSort: true,
+  tokenize: true,
+  threshold: 0.4,
+  location: 0,
+  distance: 100,
+  maxPatternLength: 32,
+  minMatchCharLength: 3,
+  keys: ['href', 'title', 'tags', 'excerpts', 'subtitle'],
+}
 
 export const getUrlHash = (url: string) =>
   createHash('md5')
@@ -97,12 +109,8 @@ export const filterByTags = (tags) =>
     .value()
     .filter((bm) => tags.every((t) => bm.tags.includes(t)))
 
-export const fullTextSearch = (text) =>
-  db
-    .get('resources')
-    .value()
-    .filter((obj) =>
-      JSON.stringify(obj)
-        .toLowerCase()
-        .includes(text.toLowerCase())
-    )
+export const fullTextSearch = (text) => {
+  const list = db.get('resources').value()
+  const fuse = new Fuse(list, fuseOptions)
+  return fuse.search(text)
+}
