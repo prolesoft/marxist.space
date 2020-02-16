@@ -5,6 +5,7 @@ import * as low from 'lowdb'
 import * as FileSync from 'lowdb/adapters/FileSync'
 import { safeDump, safeLoad } from 'js-yaml'
 import * as Fuse from 'fuse.js'
+import * as pluralize from 'pluralize'
 
 const fuseOptions = {
   shouldSort: true,
@@ -27,16 +28,14 @@ const dbPath = resolve(__dirname, '..', '..', 'db.yml')
 export const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
 
 const tagAliases = [
-  ['abolition', 'police', 'prison', 'cops', 'policing'],
+  ['abolition', 'police', 'prison', 'cop', 'policing'],
   ['anarchist', 'anarchism', 'anarchy'],
-  ['beginner', 'beginners'],
   ['castro', 'fidel', 'cuba', 'che'],
   ['china', 'prc', 'deng', 'xiaoping'],
   ['debunked', 'debunk', 'debunking', 'myth'],
   ['hk', 'hongkong', 'hong-kong', 'hong kong'],
   ['deng', 'xiaoping'],
-  ['documentary', 'documentaries'],
-  ['glossary', 'definition', 'dictionary', 'dictionaries'],
+  ['glossary', 'definition', 'dictionary'],
   ['health', 'healthcare', 'health care'],
   ['israel', 'palestine'],
   ['latin', 'latam'],
@@ -55,7 +54,7 @@ const tagAliases = [
     'marxism leninism',
   ],
   ['mlm', 'maoist', 'mao', 'maoism'],
-  ['news', 'periodical', 'periodicals', 'media', 'msm'],
+  ['news', 'periodical', 'media', 'msm'],
   ['north-korea', 'dprk', 'korea', 'juche'],
   ['soviet-union', 'ussr', 'soviet'],
   ['trostky', 'trot', 'troskyite', 'troskyism'],
@@ -64,13 +63,20 @@ const tagAliases = [
   ['zapatista', 'ezln'],
 ]
 
+const addPlurals = (tags: string[]): string[] =>
+  uniq(
+    // @ts-ignore
+    tags.map((tag) => [pluralize.plural(tag), pluralize.singular(tag)]).flat()
+  )
+
 const addTagAliases = (tags: string[]): string[] => {
+  const pluralized = addPlurals(tags)
   // @ts-ignore
   const possibleAliases = tagAliases
-    .filter((xs) => xs.find((x) => tags.includes(x) || tags.includes(`${x}s`)))
+    .filter((xs) => xs.find((x) => pluralized.includes(x)))
     // @ts-ignore
     .flat()
-  return uniq([...tags, ...possibleAliases])
+  return uniq([...pluralized, ...possibleAliases])
 }
 
 const adapter = new FileSync(dbPath, {
