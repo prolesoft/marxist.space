@@ -6,7 +6,11 @@ A [ProleSoft](https://prolesoft.github.io) project.
 
 ## Adding Resources
 
-Add your links to the top of `db.yml` under the line `resources:`.
+First please search `db.yml` to make sure what you want to add isn't already in
+there. If it is, and you couldn't find it because the tags were incomplete or
+incorrect or the title or subtitle were incorrect, please change those instead.
+
+Otherwise, add your links to the top of `db.yml` under the line `resources:`.
 
 This is the type of a resource:
 
