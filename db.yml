@@ -1565,3 +1565,20 @@ resources:
     tags:
       - beginner
       - youtube
+  - href: 'https://www.youtube.com/channel/UCnCitqw8cVeluc0tV0CFQjQ/'
+    title: Red Star TV
+    tags:
+      - youtube
+      - news
+      - dprk
+  - href: 'https://www.youtube.com/channel/UCSukNkw4abtjBuumRZKMgCQ'
+    title: Our Nation School
+    tags:
+      - youtube
+      - dprk
+  - href: 'https://www.youtube.com/channel/UCy1886g0kTj-X_psPQQnAqg'
+    title: DPRK Today
+    tags:
+      - news
+      - dprk
+      - youtubw
