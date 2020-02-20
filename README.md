@@ -89,6 +89,12 @@ to marxist.space@protonmail.com.
 
 ## Credits and Tech
 
-Built with React, Koa, TypeScript, Lowdb, Node, and Docker.
+Built with [React](https://reactjs.org/),
+[Koa](https://koajs.com/),
+[TypeScript](https://www.typescriptlang.org/),
+[Lowdb](https://github.com/typicode/lowdb),
+[Node](https://nodejs.org/en/), and
+[Docker](https://www.docker.com/).
+Hosted on [DigitalOcean](https://m.do.co/c/ed9c0a26a7ef).
 A portion of the front-end code is copy-pasted from
 [Asperitas](https://github.com/d11z/asperitas) (MIT licensed).
