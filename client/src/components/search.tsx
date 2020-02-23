@@ -5,6 +5,11 @@ import { debounce } from 'lodash'
 import { transition } from './shared/helpers'
 import { setSearch, clearSearch } from '../actions/filter-search'
 
+const Label = styled.label`
+  width: 0;
+  height: 0;
+`
+
 const Wrapper = styled.div`
   flex-direction: row;
   ${(props) =>
@@ -109,8 +114,10 @@ export class Search extends React.Component<SearchProps, SearchState> {
   render() {
     return (
       <Wrapper header={this.props.header}>
+        <Label htmlFor="search">Search</Label>
         <Input
           onChange={this.handleChange}
+          id="search"
           type="search"
           placeholder="Search"
           value={this.state.search}
