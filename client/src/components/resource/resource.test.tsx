@@ -1,0 +1,27 @@
+/* eslint-env jest */
+
+import * as React from 'react'
+import Resource from '.'
+import { create } from 'react-test-renderer'
+
+describe('resource', () => {
+  test('renders with minimum props', () => {
+    const props = {
+      href: 'https://marxist.space',
+      title: 'marxist.space',
+      tags: ['links', 'collection'],
+    }
+    expect(create(<Resource {...props} />).toJSON()).toMatchSnapshot()
+  })
+
+  test('renders with all props', () => {
+    const props = {
+      href: 'https://marxist.space',
+      title: 'marxist.space',
+      tags: ['links', 'collection'],
+      subtitle: 'Links for you!',
+      excerpts: ['So many good links', 'The best links'],
+    }
+    expect(create(<Resource {...props} />).toJSON()).toMatchSnapshot()
+  })
+})

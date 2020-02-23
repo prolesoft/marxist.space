@@ -1,4 +1,5 @@
 import React from 'react'
+import { lazyload } from 'react-lazyload'
 import styled from 'styled-components/macro'
 import Title from './title'
 import Excerpt from './excerpt'
@@ -16,20 +17,28 @@ const Wrapper = styled.div`
   min-width: 0;
 `
 
-const ResourceContent = (props: Resource) => {
-  const { href, title, subtitle, tags, excerpts } = props
+// approximate height of a resource item with no subtitle
+const resourceHeight = 51
 
-  return (
-    <Wrapper>
-      <Title href={href} title={title} subtitle={subtitle} />
-      {excerpts && excerpts.length
-        ? excerpts.map((text: string, i: number) => (
-            <Excerpt key={i}>{text}</Excerpt>
-          ))
-        : null}
-      <Tags tags={tags} />
-    </Wrapper>
-  )
+// @ts-ignore types on this may be incorrect
+@lazyload({
+  height: resourceHeight,
+  offset: resourceHeight * 4,
+})
+export default class ResourceItem extends React.Component<Resource> {
+  render() {
+    const { href, title, subtitle, tags, excerpts } = this.props
+
+    return (
+      <Wrapper>
+        <Title href={href} title={title} subtitle={subtitle} />
+        {excerpts && excerpts.length
+          ? excerpts.map((text: string, i: number) => (
+              <Excerpt key={i}>{text}</Excerpt>
+            ))
+          : null}
+        <Tags tags={tags} />
+      </Wrapper>
+    )
+  }
 }
-
-export default ResourceContent
