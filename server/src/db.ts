@@ -10,7 +10,8 @@ import * as pluralize from 'pluralize'
 const fuseOptions = {
   shouldSort: true,
   tokenize: true,
-  threshold: 0.4,
+  matchAllTokens: true,
+  threshold: 0.5,
   location: 0,
   distance: 100,
   maxPatternLength: 32,
@@ -32,7 +33,7 @@ const tagAliases = [
   ['anarchist', 'anarchism', 'anarchy'],
   ['castro', 'fidel', 'cuba', 'che'],
   ['china', 'prc', 'deng', 'xiaoping'],
-  ['debunked', 'debunk', 'debunking', 'myth'],
+  ['debunked', 'debunk', 'debunking', 'myth', 'lie'],
   ['hk', 'hongkong', 'hong-kong', 'hong kong'],
   ['deng', 'xiaoping'],
   ['glossary', 'definition', 'dictionary'],

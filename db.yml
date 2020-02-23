@@ -1561,7 +1561,7 @@ resources:
     tags:
       - youtube
   - href: 'https://www.youtube.com/watch?v=vyl2DeKT-Vs'
-    title: The Difference Between Socialism, Communism, and Marxism
+    title: 'The Difference Between Socialism, Communism, and Marxism'
     tags:
       - beginner
       - youtube
@@ -1594,14 +1594,16 @@ resources:
       - cia
       - prc
       - brainwashing
-  - href: 'https://www.reddit.com/r/communism/comments/ef9otz/debunk_of_chinas_crimes_against_uyghurs_by/'
+  - href: >-
+      https://www.reddit.com/r/communism/comments/ef9otz/debunk_of_chinas_crimes_against_uyghurs_by/
     title: Debunk of China's Crimes Against Uyghurs
     tags:
       - debunked
       - uyghurs
       - reddit
       - china
-  - href: 'https://www.reddit.com/r/communism/comments/dape9t/an_assesment_of_the_primary_sources_regarding_the/'
+  - href: >-
+      https://www.reddit.com/r/communism/comments/dape9t/an_assesment_of_the_primary_sources_regarding_the/
     title: An assesment of the primary sources regarding the situation in Xinjiang
     tags:
       - debunked
@@ -1609,7 +1611,7 @@ resources:
       - reddit
       - china
   - href: 'https://www.reddit.com/r/communism/wiki/debunk'
-    title: 'r/communism Debunking Anti-Communism Masterpost'
+    title: r/communism Debunking Anti-Communism Masterpost
     tags:
       - debunked
       - reddit
@@ -1618,8 +1620,11 @@ resources:
       - cuba
       - dprk
       - albania
-  - href: 'https://frso.org/main-documents/looking-back-at-tiananmen-square-the-defeat-of-counter-revolution-in-china/'
-    title: Looking back at Tiananmen Square, the defeat of counter-revolution in China
+  - href: >-
+      https://frso.org/main-documents/looking-back-at-tiananmen-square-the-defeat-of-counter-revolution-in-china/
+    title: >-
+      Looking back at Tiananmen Square, the defeat of counter-revolution in
+      China
     tags:
       - china
       - tiananmen
