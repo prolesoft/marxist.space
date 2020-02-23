@@ -3,7 +3,7 @@ import * as low from 'lowdb'
 import * as FileSync from 'lowdb/adapters/FileSync'
 import { safeDump, safeLoad } from 'js-yaml'
 import * as Fuse from 'fuse.js'
-import * as pluralize from 'pluralize'
+import { uniq, addTagAliases } from './util'
 
 const fuseOptions = {
   shouldSort: true,
@@ -18,60 +18,6 @@ const fuseOptions = {
 }
 
 const dbPath = resolve(__dirname, '..', '..', 'db.yml')
-
-export const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
-
-const tagAliases = [
-  ['abolition', 'police', 'prison', 'cop', 'policing'],
-  ['anarchist', 'anarchism', 'anarchy'],
-  ['castro', 'fidel', 'cuba', 'che'],
-  ['china', 'prc', 'deng', 'xiaoping'],
-  ['debunked', 'debunk', 'debunking', 'myth', 'lie'],
-  ['hk', 'hongkong', 'hong-kong', 'hong kong'],
-  ['deng', 'xiaoping'],
-  ['glossary', 'definition', 'dictionary'],
-  ['health', 'healthcare', 'health care'],
-  ['israel', 'palestine'],
-  ['latin', 'latam'],
-  ['library', 'libraries'],
-  ['list', 'collection'],
-  ['mao', 'zedong', 'tsetung'],
-  [
-    'ml',
-    'marxist-leninist',
-    'leninist',
-    'stalinist',
-    'marxist leninist',
-    'leninism',
-    'stalinism',
-    'marxism-leninism',
-    'marxism leninism',
-  ],
-  ['mlm', 'maoist', 'mao', 'maoism'],
-  ['news', 'periodical', 'media', 'msm'],
-  ['north-korea', 'dprk', 'korea', 'juche'],
-  ['soviet-union', 'ussr', 'soviet'],
-  ['trostky', 'trot', 'troskyite', 'troskyism'],
-  ['uyghur', 'uighur', 'xinjiang'],
-  ['xi', 'jinping'],
-  ['zapatista', 'ezln'],
-]
-
-const addPlurals = (tags: string[]): string[] =>
-  uniq(
-    // @ts-ignore
-    tags.map((tag) => [pluralize.plural(tag), pluralize.singular(tag)]).flat()
-  )
-
-const addTagAliases = (tags: string[]): string[] => {
-  const pluralized = addPlurals(tags)
-  // @ts-ignore
-  const possibleAliases = tagAliases
-    .filter((xs) => xs.find((x) => pluralized.includes(x)))
-    // @ts-ignore
-    .flat()
-  return uniq([...pluralized, ...possibleAliases])
-}
 
 const adapter = new FileSync(dbPath, {
   defaultValue: [],
