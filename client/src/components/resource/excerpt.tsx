@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro'
-import { overflow } from '../../shared/helpers'
+import { overflow } from '../shared/helpers'
 
 const Excerpt = styled.div`
   ${overflow};
