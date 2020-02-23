@@ -1,6 +1,4 @@
-import { createHash } from 'crypto'
 import { resolve } from 'path'
-import { omit } from 'lodash'
 import * as low from 'lowdb'
 import * as FileSync from 'lowdb/adapters/FileSync'
 import { safeDump, safeLoad } from 'js-yaml'
@@ -18,11 +16,6 @@ const fuseOptions = {
   minMatchCharLength: 3,
   keys: ['href', 'title', 'tags', 'excerpts', 'subtitle'],
 }
-
-export const getUrlHash = (url: string) =>
-  createHash('md5')
-    .update(url)
-    .digest('hex')
 
 const dbPath = resolve(__dirname, '..', '..', 'db.yml')
 
@@ -82,16 +75,8 @@ const addTagAliases = (tags: string[]): string[] => {
 
 const adapter = new FileSync(dbPath, {
   defaultValue: [],
-  serialize: (xs) =>
-    safeDump({ resources: xs.resources.map((r) => omit(r, 'id')) }),
-  deserialize: (xs) => {
-    const loaded = safeLoad(xs)
-    const withIds = loaded.resources.map((a) => ({
-      ...a,
-      id: getUrlHash(a.href),
-    }))
-    return { resources: withIds }
-  },
+  serialize: safeDump,
+  deserialize: safeLoad,
 })
 
 const db = low(adapter)
@@ -110,19 +95,19 @@ export const getAll = () => originalResources
 export const getTags = () =>
   uniq(originalResources.map(({ tags }) => tags).flat())
 
-export const getOriginalResourcesByIds = (ids: string[]) =>
-  originalResources.filter((r) => ids.includes(r.id))
+export const getOriginalResourcesByHrefs = (hrefs: string[]) =>
+  originalResources.filter((r) => hrefs.includes(r.href))
 
 export const filterByTags = (tags) => {
-  const ids = enrichedResources
+  const hrefs = enrichedResources
     .filter((bm) => tags.every((t) => bm.tags.includes(t)))
-    .map(({ id }) => id)
-  return getOriginalResourcesByIds(ids)
+    .map(({ href }) => href)
+  return getOriginalResourcesByHrefs(hrefs)
 }
 
 const fuse = new Fuse(enrichedResources, fuseOptions)
 
 export const fullTextSearch = (text) => {
-  const ids = fuse.search(text).map(({ id }) => id)
-  return getOriginalResourcesByIds(ids)
+  const hrefs = fuse.search(text).map(({ href }) => href)
+  return getOriginalResourcesByHrefs(hrefs)
 }
