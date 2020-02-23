@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@koa/router": "8.0.8",
-    "@types/lodash": "4.14.149",
     "boring-cluster": "6.0.3",
     "dnscache": "1.0.2",
     "forever": "2.0.0",
@@ -24,7 +23,6 @@
     "koa": "2.11.0",
     "koa-mid": "3.0.5",
     "koa-simple-static": "4.0.3",
-    "lodash": "4.17.15",
     "lowdb": "1.0.0",
     "pluralize": "8.0.0"
   },
