@@ -1645,3 +1645,9 @@ resources:
     tags:
       - korea
       - news
+  - href: 'https://concentrationcamps.us/'
+    title: Concentration Camps in the US
+    tags:
+      - us
+      - immigration
+      - prison
