@@ -1636,3 +1636,7 @@ resources:
       - cia
       - castro
       - cuba
+  - href: 'https://www.youtube.com/channel/UCkqdVHToEEHVpU4qlksJPjQ/feed'
+    title: Rainer Shea
+    tags:
+      - youtube
