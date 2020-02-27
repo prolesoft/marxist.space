@@ -16,6 +16,7 @@
     "@babel/core": "7.8.4",
     "babel-core": "7.0.0-bridge.0",
     "fetchyeah": "3.0.8",
+    "jest-styled-components": "7.0.0",
     "lodash": "4.17.15",
     "react": "16.12.0",
     "react-app-polyfill": "0.2.1",
@@ -96,7 +97,9 @@
     "setupFiles": [
       "react-app-polyfill/jsdom"
     ],
-    "setupTestFrameworkScriptFile": "<rootDir>/src/setup-tests.ts",
+    "setupFilesAfterEnv": [
+      "<rootDir>/config/jest/setup.js"
+    ],
     "testEnvironment": "jsdom",
     "testMatch": [
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"

@@ -1,11 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`about renders 1`] = `
+.c1 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.c1 a {
+  -webkit-transition: color 0.1s ease;
+  transition: color 0.1s ease;
+  text-underline-position: under;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c1 p {
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  margin: 0 10vw;
+}
+
+@media (max-width:1024px) {
+  .c0 {
+    margin: 0 5vw;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: block;
+    margin: 0;
+  }
+}
+
 <div
-  className="about__Wrapper-c67j3-1 htguOh"
+  className="c0"
 >
   <main
-    className="about__AboutMainSection-c67j3-0 fNkTUf"
+    className="c1"
   >
     <p>
       marxist.space is a
