@@ -9,7 +9,6 @@ process.on('unhandledRejection', (err) => {
 
 require('../config/env')
 
-const fs = require('fs')
 const chalk = require('react-dev-utils/chalk')
 const webpack = require('webpack')
 const WebpackDevServer = require('webpack-dev-server')
@@ -26,7 +25,6 @@ const paths = require('../config/paths')
 const configFactory = require('../config/webpack.config')
 const createDevServerConfig = require('../config/webpack-dev-server.config')
 
-const useYarn = fs.existsSync(paths.yarnLockFile)
 const isInteractive = process.stdout.isTTY
 
 if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
@@ -61,7 +59,7 @@ checkBrowsers(paths.appPath, isInteractive)
     const protocol = process.env.HTTPS === 'true' ? 'https' : 'http'
     const appName = require(paths.appPackageJson).name
     const urls = prepareUrls(protocol, HOST, port)
-    const compiler = createCompiler(webpack, config, appName, urls, useYarn)
+    const compiler = createCompiler(webpack, config, appName, urls)
     const proxySetting = require(paths.appPackageJson).proxy
     const proxyConfig = prepareProxy(proxySetting, paths.appPublic)
     const serverConfig = createDevServerConfig(
