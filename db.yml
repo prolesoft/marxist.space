@@ -82,7 +82,6 @@ resources:
     subtitle: Google doc
     tags:
       - collection
-      - lists
       - misc
       - list
   - href: 'https://github.com/dessalines/essays'
