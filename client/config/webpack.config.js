@@ -225,35 +225,32 @@ module.exports = function(webpackEnv) {
         new WorkboxWebpackPlugin.GenerateSW({
           clientsClaim: true,
           exclude: [/\.map$/, /asset-manifest\.json$/],
-          importWorkboxFrom: 'cdn',
           navigateFallback: `${publicUrl}/index.html`,
-          navigateFallbackBlacklist: [
+          navigateFallbackDenylist: [
             new RegExp('^/api'),
             new RegExp('/[^/]+\\.[^/]+$'),
           ],
         }),
-      // TypeScript type checking -- disabled until types are all fixed
-      false &&
-        new ForkTsCheckerWebpackPlugin({
-          typescript: resolve.sync('typescript', {
-            basedir: paths.appNodeModules,
-          }),
-          async: false,
-          checkSyntacticErrors: true,
-          tsconfig: paths.appTsConfig,
-          compilerOptions: {
-            module: 'esnext',
-            moduleResolution: 'node',
-            resolveJsonModule: true,
-            isolatedModules: true,
-            noEmit: true,
-            jsx: 'preserve',
-          },
-          reportFiles: ['**', '!**/*.json', '!**/?(*.)(spec|test).*'],
-          watch: paths.appSrc,
-          silent: true,
-          formatter: typescriptFormatter,
+      new ForkTsCheckerWebpackPlugin({
+        typescript: resolve.sync('typescript', {
+          basedir: paths.appNodeModules,
         }),
+        async: false,
+        checkSyntacticErrors: true,
+        tsconfig: paths.appTsConfig,
+        compilerOptions: {
+          module: 'esnext',
+          moduleResolution: 'node',
+          resolveJsonModule: true,
+          isolatedModules: true,
+          noEmit: true,
+          jsx: 'preserve',
+        },
+        reportFiles: ['**', '!**/*.json', '!**/?(*.)(spec|test).*'],
+        watch: paths.appSrc,
+        silent: true,
+        formatter: typescriptFormatter,
+      }),
     ].filter(Boolean),
     node: {
       module: 'empty',
