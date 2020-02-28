@@ -22,3 +22,4 @@ core
 /public/static
 /public/*.js
 /public/asset-manifest.json
+/public/*.map
