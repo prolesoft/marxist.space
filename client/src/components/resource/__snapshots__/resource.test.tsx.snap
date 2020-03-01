@@ -9,7 +9,7 @@ exports[`resource renders with all props 1`] = `
     }
   }
 />
-`;
+`
 
 exports[`resource renders with minimum props 1`] = `
 <div
@@ -20,4 +20,4 @@ exports[`resource renders with minimum props 1`] = `
     }
   }
 />
-`;
+`

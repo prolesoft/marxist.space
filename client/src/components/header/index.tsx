@@ -50,7 +50,9 @@ const Header = () => (
   <Wrapper>
     <HeaderLogo />
     <Search header />
-    <JumpButton onClick={scrollToBottom}>&#x1F50E;</JumpButton>
+    <JumpButton title="Search and filter" onClick={scrollToBottom}>
+      &#x1F50E;
+    </JumpButton>
     <DarkButton />
     <HeaderNavLink to="/about">About</HeaderNavLink>
   </Wrapper>
