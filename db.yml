@@ -1651,3 +1651,8 @@ resources:
       - us
       - immigration
       - prison
+  - href: 'http://www.bjreview.com/mindex.html'
+    title: Beijing Review
+    tags:
+      - china
+      - news
