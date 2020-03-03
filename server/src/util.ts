@@ -5,6 +5,7 @@ export const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
 export const tagAliases = [
   ['abolition', 'police', 'prison', 'cop', 'policing'],
   ['anarchist', 'anarchism', 'anarchy'],
+  ['british', 'english', 'britain', 'england', 'uk'],
   ['castro', 'fidel', 'cuba', 'che'],
   ['china', 'prc', 'deng', 'xiaoping'],
   ['debunked', 'debunk', 'debunking', 'myth', 'lie'],

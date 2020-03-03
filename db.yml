@@ -1656,3 +1656,59 @@ resources:
     tags:
       - china
       - news
+  - href: >-
+      https://revolutionary-initiative.com/2015/08/12/class-analysis-and-class-structure-in-canada-second-version/
+    title: Class Analysis and Class Structure in Canada
+    tags:
+      - analysis
+      - canada
+  - href: >-
+      https://monthlyreview.org/2006/07/01/harder-times-undocumented-workers-and-the-u-s-informal-economy/
+    title: 'Harder Times: Undocumented Workers and the U.S. Informal Economy'
+    tags:
+      - economy
+      - us
+  - href: >-
+      https://www.marxists.org/history/etol/writers/callinicos/1983/xx/newmc.html
+    title: The 'New Middle Class' and Socialist Politics
+    tags:
+      - theory
+  - href: >-
+      https://web.archive.org/web/20160501111622/http://anti-imperialism.com/2013/10/29/toward-a-concrete-class-analysis-of-the-united-states/
+    title: Toward a Concret Class Analysis of the United States
+    tags:
+      - analysis
+      - us
+  - href: >-
+      https://archive.cpgb-ml.org/download/publications/ClassSocietyInBritain.pdf
+    title: A Class Analysis of the British Society and the Start of the 21st Centry
+    subtitle: PDF
+    tags:
+      - uk
+      - analysis
+  - href: 'https://archive.org/details/ClassStructureSzymanski/page/n3/mode/2up'
+    title: 'Class Structure: A Critical Perspective'
+    tags:
+      - analysis
+  - href: 'https://www.prisoncensorship.info/archive/etext/mt/imp97/'
+    title: Imperialism and its Class Structure in 1997
+    tags:
+      - analysis
+      - maoist
+  - href: 'https://www.prisoncensorship.info'
+    title: The Maoist International Ministry of Prisons
+    tags:
+      - maoist
+  - href: >-
+      https://www.prisoncensorship.info/archive/books/Economics/DividedWorldDividedClass_ZakCope.pdf
+    title: 'Divided World, Divided Class'
+    subtitle: PDF
+    tags:
+      - analysis
+  - href: >-
+      https://www.prisoncensorship.info/archive/books/Economics/lumpen_in_the_united_states.pdf
+    title: Who is the Lumped in the United States
+    subtitle: PDF
+    tags:
+      - maoist
+      - essay
