@@ -1732,3 +1732,8 @@ resources:
     tags:
       - laos
       - history
+  - href: 'https://peoples-voice.org/'
+    title: The People's Voice
+    tags:
+      - blog
+      - maoist
