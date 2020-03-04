@@ -1717,3 +1717,13 @@ resources:
     tags:
       - xinjiang
       - china
+  - href: 'https://archive.org/details/BypassingCapitalism'
+    title: 'By-Passing Capitalism'
+    tags:
+      - history
+      - mongolia
+  - href: 'https://archive.org/details/HistoryOfTheMPR/page/n1'
+    title: History of the Mongolian People's Republic
+    tags:
+      - history
+      - mongolia
