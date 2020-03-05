@@ -9,6 +9,7 @@
   "scripts": {
     "build": "./scripts/build.sh",
     "build-docker": "./scripts/deployment/build-docker.sh",
+    "clean": "rm -rf node_modules server/node_modules client/node_modules",
     "install-all": "npm ci && cd server && npm ci && cd ../client && npm ci",
     "lint-db": "yamllint db.yml",
     "start": "./scripts/start.sh",
