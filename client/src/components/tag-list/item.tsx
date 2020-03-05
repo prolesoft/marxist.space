@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import { connect } from 'react-redux'
-import { setTag, clearTags } from '../../../actions/filter-search'
+import { setTag, clearTags } from '../../actions/filter-search'
 
 const Item = styled.span`
   padding: 6px;
