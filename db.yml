@@ -1743,3 +1743,7 @@ resources:
     subtitle: Reddit Wiki
     tags:
       - reddit
+  - href: 'http://www.politicalaffairs.net/'
+    title: Political Affairs
+    tags:
+      - blog
