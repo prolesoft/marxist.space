@@ -26,5 +26,6 @@
   "keywords": [],
   "devDependencies": {
     "yaml-lint": "1.2.4"
-  }
+  },
+  "dependencies": {}
 }

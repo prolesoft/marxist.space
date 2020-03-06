@@ -1,11 +1,11 @@
 /* eslint-env jest */
 
 import * as React from 'react'
-import About from './about'
+import Item from './item'
 import { create } from 'react-test-renderer'
 
-describe('About', () => {
+describe('Item', () => {
   test('renders', () => {
-    expect(create(<About />).toJSON()).toMatchSnapshot()
+    expect(create(<Item />).toJSON()).toMatchSnapshot()
   })
 })

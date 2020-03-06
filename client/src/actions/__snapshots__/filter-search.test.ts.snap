@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filterSearch actions clearSearchAction 1`] = `
+Object {
+  "type": "CLEAR_SEARCH",
+}
+`;
+
+exports[`filterSearch actions clearTagsAction 1`] = `
+Object {
+  "type": "CLEAR_TAGS",
+}
+`;
+
+exports[`filterSearch actions setSearchAction 1`] = `
+Object {
+  "payload": "one",
+  "type": "SET_SEARCH",
+}
+`;
+
+exports[`filterSearch actions setTagAction 1`] = `
+Object {
+  "payload": "one",
+  "type": "SET_TAG",
+}
+`;
