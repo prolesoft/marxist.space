@@ -1738,3 +1738,8 @@ resources:
     tags:
       - blog
       - maoist
+  - href: 'https://www.reddit.com/r/PartyofCommunistsUSA/wiki/index'
+    title: Party of Communists USA
+    subtitle: Reddit Wiki
+    tags:
+      - reddit
