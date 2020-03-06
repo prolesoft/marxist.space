@@ -1746,4 +1746,8 @@ resources:
   - href: 'http://www.politicalaffairs.net/'
     title: Political Affairs
     tags:
-      - blog
+      - news
+  - href: 'http://pitchforkcosmonaut.org/'
+    title: Pitchfork Cosmonaut
+    tags:
+      - news
