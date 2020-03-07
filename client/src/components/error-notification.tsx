@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import styled from 'styled-components/macro'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import { transition, smallFont } from './shared/helpers'

@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import getQueryParams from 'get-query-params'
 import { withRouter } from 'react-router-dom'
 import styled from 'styled-components/macro'

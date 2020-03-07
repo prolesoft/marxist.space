@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { ThemeProvider } from 'styled-components'
 import { connect } from 'react-redux'
 import { Router, Route, Switch } from 'react-router-dom'
