@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`resources actions fetchResourcesError 1`] = `
+Object {
+  "error": "oh no",
+  "type": "FETCH_RESOURCES_ERROR",
+}
+`;
+
+exports[`resources actions fetchResourcesRequest 1`] = `
+Object {
+  "type": "FETCH_RESOURCES_REQUEST",
+}
+`;
+
+exports[`resources actions fetchResourcesSuccess 1`] = `
+Object {
+  "resources": Array [
+    "one",
+    "two",
+  ],
+  "type": "FETCH_RESOURCES_SUCCESS",
+}
+`;
+
+exports[`resources actions filterResourcesError 1`] = `
+Object {
+  "error": "oh no",
+  "type": "FILTER_RESOURCES_ERROR",
+}
+`;
+
+exports[`resources actions filterResourcesRequest 1`] = `
+Object {
+  "payload": Array [
+    "one",
+  ],
+  "type": "FILTER_RESOURCES_REQUEST",
+}
+`;
+
+exports[`resources actions filterResourcesSuccess 1`] = `
+Object {
+  "resources": Array [
+    "one",
+    "two",
+  ],
+  "type": "FILTER_RESOURCES_SUCCESS",
+}
+`;
+
+exports[`resources actions searchResourcesError 1`] = `
+Object {
+  "error": "oh no",
+  "type": "SEARCH_RESOURCES_ERROR",
+}
+`;
+
+exports[`resources actions searchResourcesRequest 1`] = `
+Object {
+  "payload": "one",
+  "type": "SEARCH_RESOURCES_REQUEST",
+}
+`;
+
+exports[`resources actions searchResourcesSuccess 1`] = `
+Object {
+  "resources": Array [
+    "one",
+    "two",
+  ],
+  "type": "SEARCH_RESOURCES_SUCCESS",
+}
+`;

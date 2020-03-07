@@ -4,9 +4,9 @@ export const FETCH_TAGS_REQUEST = 'FETCH_TAGS_REQUEST'
 export const FETCH_TAGS_SUCCESS = 'FETCH_TAGS_SUCCESS'
 export const FETCH_TAGS_ERROR = 'FETCH_TAGS_ERROR'
 
-const fetchTagsRequest = { type: FETCH_TAGS_REQUEST }
-const fetchTagsSuccess = (tags) => ({ type: FETCH_TAGS_SUCCESS, tags })
-const fetchTagsError = (error) => ({ type: FETCH_TAGS_ERROR, error })
+export const fetchTagsRequest = { type: FETCH_TAGS_REQUEST }
+export const fetchTagsSuccess = (tags) => ({ type: FETCH_TAGS_SUCCESS, tags })
+export const fetchTagsError = (error) => ({ type: FETCH_TAGS_ERROR, error })
 
 export const fetchTags = () => async (dispatch) => {
   dispatch(fetchTagsRequest)

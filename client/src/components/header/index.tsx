@@ -17,6 +17,7 @@ const JumpButton = styled(Button)`
   background: ${(props) => props.theme.pageBackground};
   color: ${(props) => props.theme.normalText};
 
+  cursor: pointer;
   @media (min-width: 580px) {
     display: none;
   }

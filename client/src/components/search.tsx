@@ -1,16 +1,32 @@
 import * as React from 'react'
+import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import styled from 'styled-components/macro'
-import { debounce } from 'lodash'
-import { transition } from './shared/helpers'
+import getQueryParams from 'get-query-params'
+import { transition, headerItem } from './shared/helpers'
+import Button from './shared/button'
 import { setSearch, clearSearch } from '../actions/filter-search'
+
+const SubmitButton = styled(Button)`
+  ${headerItem};
+  cursor: pointer;
+
+  background: ${(props) => props.theme.pageBackground};
+  color: ${(props) => props.theme.normalText};
+
+  @media (hover: hover) {
+    :hover path {
+      fill: ${(props) => props.theme.accent};
+    }
+  }
+`
 
 const Label = styled.label`
   width: 0;
   height: 0;
 `
 
-const Wrapper = styled.div`
+const Form = styled.form`
   flex-direction: row;
   ${(props) =>
     props.header
@@ -36,12 +52,13 @@ const Wrapper = styled.div`
   `}
 `
 
-const Clear = styled.span`
-  margin-top: auto;
+const Clear = styled(Button)`
+  ${headerItem};
+
+  background: ${(props) => props.theme.pageBackground};
+  color: ${(props) => props.theme.normalText};
   padding-left: 8px;
-  margin-bottom: auto;
   cursor: pointer;
-  color: ${(props) => props.theme.mutedText}:;
 `
 const Input = styled.input`
   ${transition('border', 'box-shadow')};
@@ -85,10 +102,20 @@ type SearchProps = {
   setSearch: (search: string) => void
   clearSearch: () => void
   header: boolean
+  history: {
+    push: (item: string) => void
+  }
+  location: {
+    search?: string
+  }
 }
 
 type SearchState = {
   search: string
+}
+
+type MaybeParams = {
+  search?: string
 }
 
 export class Search extends React.Component<SearchProps, SearchState> {
@@ -96,24 +123,42 @@ export class Search extends React.Component<SearchProps, SearchState> {
     search: '',
   }
 
-  updateSearch = debounce((search) => {
-    this.props.setSearch(search)
-  }, 500)
+  componentDidMount() {
+    if (this.props.location.search) {
+      const params = getQueryParams(this.props.location.search) as MaybeParams
+      if (params.search) {
+        this.setState({ search: params.search })
+        this.props.setSearch(params.search)
+      }
+    }
+  }
 
   handleChange = (e) => {
     const search = e.target.value
     this.setState({ search })
-    this.updateSearch(search)
   }
 
   clearSearch = () => {
     this.setState({ search: '' })
+    // eslint-disable-next-line fp/no-mutating-methods
+    this.props.history.push('/')
     this.props.clearSearch()
+  }
+
+  handleSubmit = (e) => {
+    e.preventDefault()
+    if (this.state.search) {
+      // eslint-disable-next-line fp/no-mutating-methods
+      this.props.history.push(`?search=${this.state.search}`)
+      this.props.setSearch(this.state.search)
+    } else {
+      this.clearSearch()
+    }
   }
 
   render() {
     return (
-      <Wrapper header={this.props.header}>
+      <Form onSubmit={this.handleSubmit} header={this.props.header}>
         <Label htmlFor="search">Search</Label>
         <Input
           onChange={this.handleChange}
@@ -122,8 +167,13 @@ export class Search extends React.Component<SearchProps, SearchState> {
           placeholder="Search"
           value={this.state.search}
         />
-        <Clear onClick={this.clearSearch}>x</Clear>
-      </Wrapper>
+        <SubmitButton title="Search " type="submit">
+          &#x1F50E;
+        </SubmitButton>
+        <Clear title="Clear Search" onClick={this.clearSearch}>
+          X
+        </Clear>
+      </Form>
     )
   }
 }
@@ -133,4 +183,4 @@ const mapDispatchToProps = {
   clearSearch,
 }
 
-export default connect(null, mapDispatchToProps)(Search)
+export default connect(null, mapDispatchToProps)(withRouter(Search))
