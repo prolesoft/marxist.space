@@ -12,14 +12,15 @@ export default (state = initialState, action) => {
     case SET_TAG:
       const newTag = action.payload
       // @ts-ignore
-      if (state.tags.includes(newTag)) {
-        return { ...state, tags: state.tags.filter((t) => t !== newTag) }
-      }
-      return { ...state, tags: state.tags.concat(newTag) }
+      const newTags = state.tags.includes(newTag)
+        ? state.tags.filter((t) => t !== newTag)
+        : [...state.tags, newTag]
+
+      return { ...state, tags: newTags, search: '' }
     case CLEAR_TAGS:
       return { ...state, tags: [] }
     case SET_SEARCH:
-      return { ...state, search: action.payload }
+      return { ...state, search: action.payload, tags: [] }
     case CLEAR_SEARCH:
       return { ...state, search: '' }
     default:
