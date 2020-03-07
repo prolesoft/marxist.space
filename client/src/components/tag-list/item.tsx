@@ -1,4 +1,6 @@
 import React from 'react'
+import getQueryParams from 'get-query-params'
+import { withRouter } from 'react-router-dom'
 import styled from 'styled-components/macro'
 import { connect } from 'react-redux'
 import { setTag, clearTags } from '../../actions/filter-search'
@@ -25,11 +27,50 @@ type TagItemProps = {
   set: (tag: string) => void
   clear: () => void
   currentTags: string[]
+  history: {
+    push: (item: string) => void
+  }
+  location: {
+    search?: string
+  }
 }
 
-const TagItem = ({ tag, set, clear, currentTags }: TagItemProps) => {
-  const handleClick = tag === 'all' ? clear : () => set(tag)
+type MaybeParams = {
+  tags?: string
+}
+
+export const TagItem = ({
+  tag,
+  set,
+  clear,
+  currentTags,
+  history: { push },
+  location: { search },
+}: TagItemProps) => {
   const isActive = currentTags.includes(tag)
+
+  const handleClick = () => {
+    if (tag === 'all') {
+      clear()
+      push('/')
+    } else {
+      const params = getQueryParams(search) as MaybeParams
+      const paramTags = (params.tags || '').split(',')
+      const newParamTags = (paramTags.includes(tag)
+        ? paramTags.filter((t) => t !== tag)
+        : [...paramTags, tag]
+      ).filter(Boolean)
+
+      if (newParamTags.length) {
+        push(`?tags=${newParamTags.join(',')}`)
+      } else {
+        push('/')
+      }
+
+      set(tag)
+    }
+  }
+
   return (
     <Item isActive={isActive} onClick={handleClick}>
       {tag}
@@ -43,4 +84,4 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = { set: setTag, clear: clearTags }
 
-export default connect(mapStateToProps, mapDispatchToProps)(TagItem)
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(TagItem))
