@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components/macro'
 import { connect } from 'react-redux'
 import { Router, Route, Switch } from 'react-router-dom'
 import theme from '../theme'
