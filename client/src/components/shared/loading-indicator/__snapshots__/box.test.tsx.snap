@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box renders 1`] = `
+.c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-animation: jSikFv 1s infinite linear;
+  animation: jSikFv 1s infinite linear;
+  border: 0.3rem solid undefined4d;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+.c0 {
+  position: relative;
+  margin: 48px auto 0;
+  border: 1px solid;
+  border-radius: 2px;
+  width: 72px;
+  height: 72px;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  />
+</div>
+`;

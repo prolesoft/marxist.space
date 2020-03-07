@@ -1,4 +1,4 @@
-import { css, keyframes } from 'styled-components'
+import { css, keyframes } from 'styled-components/macro'
 
 export const smallFont = css`
   font-size: 12px;
