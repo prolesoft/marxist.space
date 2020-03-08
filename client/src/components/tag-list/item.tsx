@@ -7,7 +7,7 @@ import { setTag, clearTags } from '../../actions/filter-search'
 
 const Item = styled.span`
   padding: 6px;
-  font-size: 15px;
+  font-size: 14px;
   text-decoration: none;
   color: ${(props) => props.theme.normalText};
   font-weight: ${(props) => (props.isActive ? 'bold' : 'normal')};

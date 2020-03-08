@@ -7,18 +7,13 @@ import { connect } from 'react-redux'
 import { setTag, clearTags } from '../../actions/filter-search'
 
 const Aside = styled.aside`
-  margin-bottom: 16px;
-  margin-right: 16px;
   border: 1px solid ${(props) => props.theme.border};
   border-radius: 2px;
   background-color: ${(props) => props.theme.foreground};
-  margin-right: 0;
   margin-top: 16px;
-
-  @media (min-width: 600px) {
-    max-width: 300px;
-    margin-top: 0;
-  }
+  width: 100%;
+  max-width: 250px;
+  padding: 8px;
 `
 
 const TagListWrapper = styled.nav`
