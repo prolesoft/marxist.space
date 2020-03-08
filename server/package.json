@@ -13,6 +13,7 @@
     "test:lint": "eslint -c .eslintrc.json src/**/*.ts",
     "test:ts": "tsc --noEmit"
   },
+  "homepage": "https://marxist.space",
   "dependencies": {
     "@koa/router": "8.0.8",
     "boring-cluster": "6.0.3",

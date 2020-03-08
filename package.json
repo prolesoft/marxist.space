@@ -15,7 +15,7 @@
     "start": "./scripts/start.sh",
     "test": "npm run lint-db && cd server && npm t && cd ../client && npm t"
   },
-  "homepage": "https://github.com/prolesoft/marxist.space#readme",
+  "homepage": "https://marxist.space",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prolesoft/marxist.space.git"
@@ -24,8 +24,8 @@
     "url": "https://github.com/prolesoft/marxist.space/issues"
   },
   "keywords": [],
+  "dependencies": {},
   "devDependencies": {
     "yaml-lint": "1.2.4"
-  },
-  "dependencies": {}
+  }
 }

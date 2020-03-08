@@ -225,7 +225,7 @@ module.exports = function(webpackEnv) {
         new WorkboxWebpackPlugin.GenerateSW({
           clientsClaim: true,
           exclude: [/\.map$/, /asset-manifest\.json$/],
-          navigateFallback: `${publicUrl}/index.html`,
+          navigateFallback: `${publicUrl}/`,
           navigateFallbackDenylist: [
             new RegExp('^/api'),
             new RegExp('/[^/]+\\.[^/]+$'),
