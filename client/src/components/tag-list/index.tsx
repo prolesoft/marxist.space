@@ -12,14 +12,12 @@ const Aside = styled.aside`
   border: 1px solid ${(props) => props.theme.border};
   border-radius: 2px;
   background-color: ${(props) => props.theme.foreground};
+  margin-right: 0;
+  margin-top: 16px;
 
-  @media (min-width: 769px) {
+  @media (min-width: 600px) {
     max-width: 300px;
-  }
-
-  @media (max-width: 768px) {
-    margin-right: 0;
-    margin-top: 16px;
+    margin-top: 0;
   }
 `
 

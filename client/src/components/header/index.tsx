@@ -18,7 +18,7 @@ const JumpButton = styled(Button)`
   color: ${(props) => props.theme.normalText};
 
   cursor: pointer;
-  @media (min-width: 580px) {
+  @media (min-width: 600px) {
     display: none;
   }
 `
@@ -33,17 +33,12 @@ const Wrapper = styled.header`
   box-shadow: 0 4px 12px ${(props) => props.theme.shadow};
   border-bottom: 1px solid ${(props) => props.theme.border};
   height: 48px;
-  padding: 0 10vw;
   background-color: ${(props) => props.theme.foreground};
   user-select: none;
 
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     margin-bottom: 16px;
     height: 40px;
-  }
-
-  @media (max-width: 768px) {
-    padding: 0;
   }
 `
 

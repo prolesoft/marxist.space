@@ -11,7 +11,7 @@ exports[`Icon renders 1`] = `
   transition: fill 0.1s ease;
 }
 
-@media (max-width:425px) {
+@media (max-width:600px) {
   .c0 {
     width: 18px;
     height: 18px;
@@ -27,4 +27,4 @@ exports[`Icon renders 1`] = `
     transform="translate(4 4)"
   />
 </svg>
-`
+`;

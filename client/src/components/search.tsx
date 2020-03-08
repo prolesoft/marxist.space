@@ -31,10 +31,10 @@ const Form = styled.form`
   ${(props) =>
     props.header
       ? `
-  @media (min-width: 580px) {
+  @media (min-width: 600px) {
     display: flex;
   }
-  @media (max-width: 580px) {
+  @media (max-width: 600px) {
     display: none;
   }
   `
@@ -43,10 +43,10 @@ const Form = styled.form`
   input {
     max-width: calc(100% - 20px);
   }
-  @media (max-width: 580px) {
+  @media (max-width: 600px) {
     display: flex;
   }
-  @media (min-width: 580px) {
+  @media (min-width: 600px) {
     display: none;
   }
   `}

@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   text-align: center;
   color: ${(props) => props.theme.mutedText};
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     margin-top: -1px;
     border-left: none;
     border-right: none;

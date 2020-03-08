@@ -11,7 +11,7 @@ exports[`Empty renders 1`] = `
   text-align: center;
 }
 
-@media (max-width:768px) {
+@media (max-width:600px) {
   .c0 {
     margin-top: -1px;
     border-left: none;

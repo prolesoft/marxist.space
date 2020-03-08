@@ -34,19 +34,12 @@ exports[`About renders 1`] = `
   -webkit-box-align: flex-start;
   -ms-flex-align: flex-start;
   align-items: flex-start;
-  margin: 0 10vw;
+  margin: 0 2vw;
 }
 
-@media (max-width:1024px) {
+@media (min-width:500px) {
   .c0 {
     margin: 0 5vw;
-  }
-}
-
-@media (max-width:768px) {
-  .c0 {
-    display: block;
-    margin: 0;
   }
 }
 
@@ -141,4 +134,4 @@ exports[`About renders 1`] = `
     </p>
   </main>
 </div>
-`
+`;
