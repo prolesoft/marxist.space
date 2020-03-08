@@ -16,7 +16,7 @@ const List = styled.ul`
   border: 1px solid ${(props) => props.theme.border};
   border-radius: 2px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     border-top: none;
     border-left: none;
     border-right: none;

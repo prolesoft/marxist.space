@@ -12,6 +12,22 @@ exports[`HeaderDarkButton renders 1`] = `
 }
 
 .c0 {
+  -webkit-transition: filter 0.1s ease,box-shadow 0.1s ease;
+  transition: filter 0.1s ease,box-shadow 0.1s ease;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 24px;
+  cursor: pointer;
+  color: #ffffff;
+  outline: none;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -28,14 +44,28 @@ exports[`HeaderDarkButton renders 1`] = `
   cursor: pointer;
 }
 
-@media (max-width:425px) {
+.c0:hover {
+  -webkit-filter: brightness(110%);
+  filter: brightness(110%);
+}
+
+.c0:active {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+}
+
+.c0:focus {
+  box-shadow: 0 0 0 2px undefined4d;
+}
+
+@media (max-width:600px) {
   .c1 {
     width: 18px;
     height: 18px;
   }
 }
 
-@media (max-width:425px) {
+@media (max-width:600px) {
   .c0 {
     padding: 0 8px;
   }
@@ -45,8 +75,8 @@ exports[`HeaderDarkButton renders 1`] = `
 
 }
 
-<span
-  className="c0"
+<button
+  className="button__Button-sc-1l7azcf-0 c0"
 >
   <svg
     className="c1"
@@ -57,5 +87,5 @@ exports[`HeaderDarkButton renders 1`] = `
       transform="translate(4 4)"
     />
   </svg>
-</span>
-`
+</button>
+`;

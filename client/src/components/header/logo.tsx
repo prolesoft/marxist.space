@@ -12,7 +12,7 @@ const Logo = styled(Link)`
   color: ${(props) => props.theme.normalText};
   text-decoration: none;
 
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     font-size: 12px;
     margin: 0;
   }

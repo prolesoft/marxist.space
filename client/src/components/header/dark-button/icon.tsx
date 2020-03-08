@@ -12,7 +12,7 @@ const Icon = styled.svg`
     fill: ${(props) => props.theme.mutedText};
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     width: 18px;
     height: 18px;
   }

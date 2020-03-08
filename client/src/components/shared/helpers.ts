@@ -37,7 +37,7 @@ export const headerItem = css`
   flex-shrink: 0;
   padding: 0 16px;
 
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     padding: 0 8px;
   }
 `
