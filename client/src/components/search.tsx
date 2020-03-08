@@ -27,29 +27,9 @@ const Label = styled.label`
 `
 
 const Form = styled.form`
+  margin-top: 16px;
+  display: flex;
   flex-direction: row;
-  ${(props) =>
-    props.header
-      ? `
-  @media (min-width: 600px) {
-    display: flex;
-  }
-  @media (max-width: 600px) {
-    display: none;
-  }
-  `
-      : `
-  padding-top: 16px;
-  input {
-    max-width: calc(100% - 20px);
-  }
-  @media (max-width: 600px) {
-    display: flex;
-  }
-  @media (min-width: 600px) {
-    display: none;
-  }
-  `}
 `
 
 const Clear = styled(Button)`
@@ -79,7 +59,7 @@ const Input = styled.input`
   `};
   border-radius: 3px;
   width: 100%;
-  max-width: 300px;
+  max-width: 170px;
   padding: 8px;
   background-color: ${(props) => props.theme.inputBackground};
   font-size: 15px;
@@ -101,7 +81,6 @@ const Input = styled.input`
 type SearchProps = {
   setSearch: (search: string) => void
   clearSearch: () => void
-  header: boolean
   history: {
     push: (item: string) => void
   }
@@ -158,7 +137,7 @@ export class Search extends React.Component<SearchProps, SearchState> {
 
   render() {
     return (
-      <Form onSubmit={this.handleSubmit} header={this.props.header}>
+      <Form onSubmit={this.handleSubmit}>
         <Label htmlFor="search">Search</Label>
         <Input
           onChange={this.handleChange}

@@ -3,7 +3,7 @@
 exports[`TagItem renders 1`] = `
 .c0 {
   padding: 6px;
-  font-size: 15px;
+  font-size: 14px;
   -webkit-text-decoration: none;
   text-decoration: none;
   font-weight: normal;
@@ -25,4 +25,4 @@ exports[`TagItem renders 1`] = `
 >
   one
 </span>
-`
+`;
