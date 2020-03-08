@@ -1,26 +1,22 @@
 import styled from 'styled-components/macro'
 import NavLink from '../shared/nav-link'
-import { headerItem, wideFont, link, transition } from '../shared/helpers'
+import { headerItem, wideFont } from '../shared/helpers'
 
 const HeaderNavLink = styled(NavLink)`
   ${headerItem};
   ${wideFont};
-  ${link};
 
   position: relative;
   cursor: pointer;
   color: ${(props) => props.theme.mutedText};
 
   ::after {
-    ${transition('opacity', 'border-bottom-width')};
-
     content: '';
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     opacity: 0;
-    border-bottom: 1px solid ${(props) => props.theme.accent};
   }
 
   :hover::after {
@@ -31,8 +27,10 @@ const HeaderNavLink = styled(NavLink)`
     left: 0;
     right: 0;
     bottom: 0;
-    border-bottom: 3px solid ${(props) => props.theme.accent};
   }
+
+  padding-left: 8px;
+  padding-right: 8px;
 `
 
 export default HeaderNavLink

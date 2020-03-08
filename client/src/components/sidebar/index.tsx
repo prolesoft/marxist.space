@@ -34,7 +34,7 @@ const Toggle = styled(Button)`
 
   background: ${(props) => props.theme.pageBackground};
   color: ${(props) => props.theme.normalText};
-  padding: 0 8px;
+  padding: 16px;
   cursor: pointer;
 
   @media (hover: hover) {
@@ -60,8 +60,9 @@ const Row = styled.div`
 const SidebarContent = () => (
   <SidebarContentWrapper>
     <Row>
-      <DarkButton />
+      <NavLink to="/">Home</NavLink>
       <NavLink to="/about">About</NavLink>
+      <DarkButton />
     </Row>
     <Search />
     <TagList />
