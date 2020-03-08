@@ -12,6 +12,7 @@
     "test:lint": "eslint -c .eslintrc.json --report-unused-disable-directives --ext .js,.ts,.tsx config scripts src",
     "test:ts": "tsc --noEmit"
   },
+  "homepage": "https://marxist.space",
   "dependencies": {
     "@babel/core": "7.8.7",
     "babel-core": "7.0.0-bridge.0",
