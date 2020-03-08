@@ -2,8 +2,6 @@ import * as React from 'react'
 import styled from 'styled-components/macro'
 import { Route } from 'react-router-dom'
 import ResourceList from './resource-list'
-import TagList from './tag-list'
-import Search from './search'
 
 export const HomeMainSection = styled.main`
   flex: 1;
@@ -27,8 +25,6 @@ const Home = () => (
     <HomeMainSection>
       <Route exact path="/" component={ResourceList} />
     </HomeMainSection>
-    <TagList />
-    <Search />
   </Wrapper>
 )
 
