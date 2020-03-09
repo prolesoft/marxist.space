@@ -24,7 +24,7 @@ exports[`HeaderDarkButton renders 1`] = `
   letter-spacing: 0.05em;
   border: none;
   border-radius: 3px;
-  padding: 8px 24px;
+  padding: 8px;
   cursor: pointer;
   color: #ffffff;
   outline: none;
@@ -39,7 +39,7 @@ exports[`HeaderDarkButton renders 1`] = `
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  padding: 0 8px;
+  padding: 8px;
   cursor: pointer;
 }
 

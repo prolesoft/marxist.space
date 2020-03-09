@@ -24,7 +24,7 @@ exports[`HeaderDarkButton renders 1`] = `
   letter-spacing: 0.05em;
   border: none;
   border-radius: 3px;
-  padding: 8px 24px;
+  padding: 8px;
   cursor: pointer;
   color: #ffffff;
   outline: none;

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { lazyload } from 'react-lazyload'
+// import { lazyload } from 'react-lazyload'
 import styled from 'styled-components/macro'
 import Title from './title'
 import Excerpt from './excerpt'
@@ -17,6 +17,7 @@ const Wrapper = styled.div`
   min-width: 0;
 `
 
+/*
 // approximate height of a resource item with no subtitle
 const resourceHeight = 51
 
@@ -25,6 +26,7 @@ const resourceHeight = 51
   height: resourceHeight,
   offset: resourceHeight * 4,
 })
+ */
 export default class ResourceItem extends React.Component<Resource> {
   render() {
     const { href, title, subtitle, tags, excerpts } = this.props

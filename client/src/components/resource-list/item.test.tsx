@@ -6,6 +6,13 @@ import { create } from 'react-test-renderer'
 
 describe('Item', () => {
   test('renders', () => {
-    expect(create(<Item />).toJSON()).toMatchSnapshot()
+    const props = {
+      href: 'https://example.com',
+      title: 'foo',
+      tags: ['one', 'two'],
+      subtitle: 'asdf',
+      excerpts: ['one', 'two', 'three'],
+    }
+    expect(create(<Item {...props} />).toJSON()).toMatchSnapshot()
   })
 })
