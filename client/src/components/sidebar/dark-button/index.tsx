@@ -11,7 +11,7 @@ const DarkButton = styled(Button)`
 
   background: ${(props) => props.theme.pageBackground};
   color: ${(props) => props.theme.normalText};
-  padding: 0 8px;
+  padding: 8px;
   cursor: pointer;
 
   @media (hover: hover) {
