@@ -38,8 +38,7 @@ const enrichedResources = originalResources.map((a) => ({
 
 export const getAll = () => originalResources
 
-export const getTags = () =>
-  uniq(originalResources.map(({ tags }) => tags).flat())
+export const getTags = () => uniq(originalResources.flatMap(({ tags }) => tags))
 
 export const getOriginalResourcesByHrefs = (hrefs: string[]) =>
   originalResources.filter((r) => hrefs.includes(r.href))

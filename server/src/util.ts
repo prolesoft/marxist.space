@@ -43,7 +43,7 @@ export const tagAliases = [
 export const addPlurals = (tags: string[]): string[] =>
   uniq(
     // @ts-ignore
-    tags.map((tag) => [pluralize.plural(tag), pluralize.singular(tag)]).flat()
+    tags.flatMap((tag) => [pluralize.plural(tag), pluralize.singular(tag)])
   )
 
 export const addTagAliases = (tags: string[]): string[] => {

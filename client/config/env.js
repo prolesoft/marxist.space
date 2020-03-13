@@ -20,7 +20,7 @@ process.env.NODE_PATH = (process.env.NODE_PATH || '')
   .map((folder) => path.resolve(appDirectory, folder))
   .join(path.delimiter)
 
-const REACT_APP = /^REACT_APP_/i
+const REACT_APP = /^react_app_/i
 
 const getClientEnvironment = (publicUrl) => {
   const raw = Object.keys(process.env)

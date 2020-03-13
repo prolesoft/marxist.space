@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/no-keyword-prefix */
+
 import * as React from 'react'
 import styled from 'styled-components/macro'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'

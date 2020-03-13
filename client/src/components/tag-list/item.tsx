@@ -56,13 +56,13 @@ export const TagItem = ({
     } else {
       const params = getQueryParams(search) as MaybeParams
       const paramTags = (params.tags || '').split(',')
-      const newParamTags = (paramTags.includes(tag)
+      const nextParamTags = (paramTags.includes(tag)
         ? paramTags.filter((t) => t !== tag)
         : [...paramTags, tag]
       ).filter(Boolean)
 
-      if (newParamTags.length) {
-        push(`?tags=${newParamTags.join(',')}`)
+      if (nextParamTags.length) {
+        push(`?tags=${nextParamTags.join(',')}`)
       } else {
         push('/')
       }

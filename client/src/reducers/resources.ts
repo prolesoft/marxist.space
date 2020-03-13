@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/no-keyword-prefix */
+
 import {
   FETCH_RESOURCES_REQUEST,
   FETCH_RESOURCES_SUCCESS,
