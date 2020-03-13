@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/no-keyword-prefix */
+
 import {
   SET_TAG,
   CLEAR_TAGS,

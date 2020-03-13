@@ -1,7 +1,7 @@
 /* eslint-env jest */
 
 import * as http from 'http'
-import { app } from './'
+import { app } from '.'
 // eslint-disable-next-line node/no-unpublished-import
 import * as request from 'supertest'
 
