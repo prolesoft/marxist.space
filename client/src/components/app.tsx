@@ -8,7 +8,6 @@ import GlobalStyle from '../global-style'
 import Header from './header'
 import ErrorNotification from './error-notification'
 import Home from './home'
-import About from './about'
 import Sidebar from './sidebar'
 import { fetchTags } from '../actions/tags'
 
@@ -33,7 +32,6 @@ class App extends React.Component<AppProps> {
               <Route component={Header} />
               <Route component={ErrorNotification} />
               <Switch>
-                <Route path="/about" component={About} />
                 <Route path="/" component={Home} />
               </Switch>
             </Sidebar>

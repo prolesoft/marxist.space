@@ -6,9 +6,9 @@ import Sidebar from './component'
 import TagList from '../tag-list'
 import Search from '../search'
 import DarkButton from './dark-button'
-import NavLink from './nav-link'
 import Button from '../shared/button'
 import { headerItem } from '../shared/helpers'
+import About from './about'
 
 const ToggleWrapper = styled.header`
   position: sticky;
@@ -52,20 +52,12 @@ const SidebarContentWrapper = styled.aside`
   background: ${(props) => props.theme.pageBackground};
 `
 
-const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-`
-
 const SidebarContent = () => (
   <SidebarContentWrapper>
-    <Row>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <DarkButton />
-    </Row>
+    <DarkButton />
     <Search />
     <TagList />
+    <About />
   </SidebarContentWrapper>
 )
 
