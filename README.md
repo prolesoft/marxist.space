@@ -50,6 +50,7 @@ npm start
 ```
 
 You can also develop without Docker. You'll need Node LTS or Latest and npm.
+**Note** this is not recommended, running with Docker Compose is easier.
 
 ```shell
 git clone git@github.com:prolesoft/marxist.space.git
