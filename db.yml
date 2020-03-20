@@ -1778,3 +1778,36 @@ resources:
       - documentary
       - assata-shakur
       - cuba
+  - href: >-
+      https://www.chicagotribune.com/news/ct-xpm-1997-01-26-9701270002-story.html
+    title: The CIA's Secret War in Tibet
+    tags:
+      - cia
+      - china
+      - tibet
+  - href: >-
+      https://www.reuters.com/article/us-china-tibet/dalai-lamas-pro-independence-brother-dies-in-u-s-idUSPEK19832520080906
+    title: Dalai Lama's Brother Dies In US
+    tags:
+      - tibet
+      - cia
+      - china
+  - href: 'https://www.nybooks.com/daily/2013/04/09/cias-cancelled-war-tibet/'
+    title: 'Tibet: The Cia''s Cancelled War'
+    tags:
+      - tibet
+      - china
+      - cia
+  - href: 'https://www.umsl.edu/~thomaskp/dalai.htm'
+    title: 'The Dalai Lama, Slick Denials, and the CIA'
+    tags:
+      - tibet
+      - china
+      - cia
+  - href: 'https://linx.li/c37la97l.pdf'
+    title: Great Changes In Tibet
+    subtitle: PDF
+    tags:
+      - tibet
+      - china
+      - cia
