@@ -8,6 +8,7 @@ export const tagAliases = [
   ['british', 'english', 'britain', 'england', 'uk'],
   ['castro', 'fidel', 'cuba', 'che'],
   ['china', 'prc', 'deng', 'xiaoping'],
+  ['covid', 'covid19', 'covid-19', 'coronavirus'],
   ['debunked', 'debunk', 'debunking', 'myth', 'lie'],
   ['deng', 'xiaoping'],
   ['glossary', 'definition', 'dictionary'],
