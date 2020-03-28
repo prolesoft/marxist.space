@@ -26,7 +26,7 @@ type TagItemProps = {
   tag: string
   set: (tag: string) => void
   clear: () => void
-  currentTags: string[]
+  currentTags: Array<string>
   history: {
     push: (item: string) => void
   }

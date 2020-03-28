@@ -40,7 +40,7 @@ export const getAll = () => originalResources
 
 export const getTags = () => uniq(originalResources.flatMap(({ tags }) => tags))
 
-export const getOriginalResourcesByHrefs = (hrefs: string[]) =>
+export const getOriginalResourcesByHrefs = (hrefs: Array<string>) =>
   originalResources.filter((r) => hrefs.includes(r.href))
 
 export const filterByTags = (tags) => {

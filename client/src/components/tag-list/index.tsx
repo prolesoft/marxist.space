@@ -27,7 +27,7 @@ const mapTags = (tags) =>
 
 type TagListProps = {
   isFetching: boolean
-  tags: string[]
+  tags: Array<string>
   history: {
     push: (item: string) => void
   }
@@ -53,7 +53,7 @@ export class TagList extends React.Component<TagListProps> {
     }
   }
 
-  setTags = (tags: string[]) => {
+  setTags = (tags: Array<string>) => {
     // eslint-disable-next-line fp/no-mutating-methods
     this.props.history.push(`?tags=${tags.join(',')}`)
     tags.forEach((tag) => {

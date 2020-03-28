@@ -32,7 +32,7 @@ export const FILTER_RESOURCES_REQUEST = 'FILTER_RESOURCES_REQUEST'
 export const FILTER_RESOURCES_SUCCESS = 'FILTER_RESOURCES_SUCCESS'
 export const FILTER_RESOURCES_ERROR = 'FILTER_RESOURCES_ERROR'
 
-export const filterResourcesRequest = (tags: string[]) => ({
+export const filterResourcesRequest = (tags: Array<string>) => ({
   type: FILTER_RESOURCES_REQUEST,
   payload: tags,
 })
@@ -45,7 +45,7 @@ export const filterResourcesError = (error) => ({
   error,
 })
 
-export const filterResources = (tags: string[]) => async (dispatch) => {
+export const filterResources = (tags: Array<string>) => async (dispatch) => {
   dispatch(filterResourcesRequest(tags))
   try {
     const resources = await _filterResources(tags)
