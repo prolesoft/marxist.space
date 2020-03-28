@@ -26,10 +26,10 @@ const List = styled.ul`
 
 type ResourceListProps = {
   fetchResources: () => void
-  filterResources: (tags: string[]) => void
-  filters?: string[]
+  filterResources: (tags: Array<string>) => void
+  filters?: Array<string>
   isFetching: boolean
-  resources: Resource[]
+  resources: Array<Resource>
   search?: string
   searchResources: (text: string) => void
 }

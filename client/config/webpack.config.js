@@ -20,7 +20,7 @@ const typescriptFormatter = require('react-dev-utils/typescriptFormatter')
 
 const useTypeScript = true
 
-module.exports = function(webpackEnv) {
+module.exports = function (webpackEnv) {
   const isEnvDevelopment = webpackEnv === 'development'
   const isEnvProduction = webpackEnv === 'production'
 

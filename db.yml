@@ -1808,7 +1808,8 @@ resources:
     tags:
       - youtube
       - beginner
-  - href: 'https://docs.google.com/document/d/1-DLnAY5r-f4DRLZgndR_Bu47nqHVtAOKem5QRmbz7bg/mobilebasic'
+  - href: >-
+      https://docs.google.com/document/d/1-DLnAY5r-f4DRLZgndR_Bu47nqHVtAOKem5QRmbz7bg/mobilebasic
     title: 'Treating Yellow Peril: Resources to Address Coronavirus Racism'
     tags:
       - china

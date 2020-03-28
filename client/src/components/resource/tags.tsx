@@ -11,7 +11,7 @@ const Span = styled.span`
 `
 
 type Props = {
-  tags: string[]
+  tags: Array<string>
 }
 
 const Tags = (props: Props) => <Span>Tags: {props.tags.join(' ')}</Span>
