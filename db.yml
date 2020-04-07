@@ -1837,14 +1837,21 @@ resources:
       - twitter
       - marxism
   - href: 'https://www.youtube.com/watch?v=gR3igiwaeyc'
-    title: 'Karl Marx & Conflict Theory'
+    title: Karl Marx & Conflict Theory
     subtitle: Crash Course Sociology
     tags:
       - marxism
       - beginners
       - youtube
-  - href: 'https://web.archive.org/web/20160501111622/http://anti-imperialism.com/2013/10/29/toward-a-concrete-class-analysis-of-the-united-states/'
+  - href: >-
+      https://web.archive.org/web/20160501111622/http://anti-imperialism.com/2013/10/29/toward-a-concrete-class-analysis-of-the-united-states/
     title: Toward a Concrete Class Analysis of the United States
     tags:
       - analysis
       - usa
+  - href: >-
+      https://www.liberationnews.org/why-has-no-one-in-vietnam-died-from-coronavirus/
+    title: Why has no one in Vietnam died from Coronavirus?
+    tags:
+      - coronavirus
+      - vietnam
