@@ -1,7 +1,7 @@
 /* eslint-env jest */
 
 import * as React from 'react'
-import Collapse from './about'
+import Collapse from './collapse'
 import { create } from 'react-test-renderer'
 
 describe('Collapse', () => {
