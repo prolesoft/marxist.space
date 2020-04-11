@@ -5,7 +5,8 @@ import SubmitButton from './submit-button'
 import Form from './form'
 
 const Label = styled.label`
-  margin-bottom: 8px;
+  width: 0;
+  height: 0;
 `
 
 const ResourceForm = styled(Form)`
