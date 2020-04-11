@@ -10,6 +10,7 @@ import DarkButton from './dark-button'
 import Button from '../shared/button'
 import { headerItem } from '../shared/helpers'
 import About from './about'
+import Collapse from './collapse'
 
 const ToggleWrapper = styled.header`
   position: sticky;
@@ -57,9 +58,15 @@ const SidebarContent = () => (
   <SidebarContentWrapper>
     <DarkButton />
     <Search />
-    <TagList />
-    <NewResource />
-    <About />
+    <Collapse title="Tags">
+      <TagList />
+    </Collapse>
+    <Collapse title="Submit New Link">
+      <NewResource />
+    </Collapse>
+    <Collapse title="About">
+      <About />
+    </Collapse>
   </SidebarContentWrapper>
 )
 
