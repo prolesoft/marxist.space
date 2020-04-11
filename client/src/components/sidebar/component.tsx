@@ -1,6 +1,11 @@
 // @ts-nocheck
 
 import * as React from 'react'
+import styled from 'styled-components/macro'
+
+const MainWrapper = styled.div`
+  background: ${(props) => props.theme.pageBackground};
+`
 
 const defaultStyles = {
   root: {
@@ -148,9 +153,9 @@ class Sidebar extends React.Component<SidebarProps, SidebarState> {
     /* eslint-disable jsx-a11y/click-events-have-key-events */
     return (
       <div {...rootProps}>
-        <div style={sidebarStyle} ref={this.saveSidebarRef}>
+        <MainWrapper style={sidebarStyle} ref={this.saveSidebarRef}>
           {this.props.sidebar}
-        </div>
+        </MainWrapper>
         <div style={overlayStyle} onClick={this.overlayClicked} />
         <div style={contentStyle}>{this.props.children}</div>
       </div>
