@@ -25,9 +25,7 @@ jobs:
                npm run install-all && \
                npm run build && \
                cd server && \
-               ./node_modules/.bin/forever restart 0 && \
-               sleep 2 && \
-               ./node_modules/.bin/forever logs 0"
+               ./node_modules/.bin/forever restart 0
 
 workflows:
   version: 2
