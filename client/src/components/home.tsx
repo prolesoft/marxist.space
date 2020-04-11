@@ -12,11 +12,11 @@ const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin: 0 2vw;
+  margin: 0 16px;
 
   @media (min-width: 600px) {
     flex-direction: row;
-    margin: 0 5vw;
+    margin: 0 42px;
   }
 `
 
