@@ -10,7 +10,7 @@ const Logo = styled(Link)`
   font-weight: 500;
   color: ${(props) => props.theme.normalText};
   text-decoration: none;
-  margin-right: 48px;
+  margin-left: 42px;
 `
 
 const HeaderLogo = () => <Logo to="/">marxist.space</Logo>
