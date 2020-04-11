@@ -6,30 +6,12 @@ import getQueryParams from 'get-query-params'
 import { transition, headerItem } from './shared/helpers'
 import Button from './shared/button'
 import { setSearch, clearSearch } from '../actions/filter-search'
-
-const SubmitButton = styled(Button)`
-  ${headerItem};
-  cursor: pointer;
-
-  background: ${(props) => props.theme.pageBackground};
-  color: ${(props) => props.theme.normalText};
-
-  @media (hover: hover) {
-    :hover path {
-      fill: ${(props) => props.theme.accent};
-    }
-  }
-`
+import SubmitButton from './submit-button'
+import Form from './form'
 
 const Label = styled.label`
   width: 0;
   height: 0;
-`
-
-const Form = styled.form`
-  margin-top: 16px;
-  display: flex;
-  flex-direction: row;
 `
 
 const Clear = styled(Button)`

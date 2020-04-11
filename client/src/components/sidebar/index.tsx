@@ -5,6 +5,7 @@ import styled from 'styled-components/macro'
 import Sidebar from './component'
 import TagList from '../tag-list'
 import Search from '../search'
+import NewResource from '../new-resource'
 import DarkButton from './dark-button'
 import Button from '../shared/button'
 import { headerItem } from '../shared/helpers'
@@ -57,6 +58,7 @@ const SidebarContent = () => (
     <DarkButton />
     <Search />
     <TagList />
+    <NewResource />
     <About />
   </SidebarContentWrapper>
 )
