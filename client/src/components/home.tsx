@@ -6,6 +6,7 @@ import ResourceList from './resource-list'
 export const HomeMainSection = styled.main`
   flex: 1;
   min-width: 0;
+  max-width: 100vw;
 `
 
 const Wrapper = styled.div`
