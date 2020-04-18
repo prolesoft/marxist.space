@@ -3,7 +3,7 @@ import * as pluralize from 'pluralize'
 export const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
 
 export const tagAliases = [
-  ['abolition', 'police', 'prison', 'cop', 'policing'],
+  ['abolition', 'police', 'prison', 'cop', 'policing', 'jail'],
   ['anarchist', 'anarchism', 'anarchy'],
   ['british', 'english', 'britain', 'england', 'uk'],
   ['castro', 'fidel', 'cuba', 'che'],
