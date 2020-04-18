@@ -1873,3 +1873,30 @@ resources:
     tags:
       - coronavirus
       - prison
+  - href: 'https://www.blackandpink.org/'
+    title: Black And Pink
+    tags:
+      - abolition
+  - href: 'https://www.beyond-prisons.com/'
+    title: Beyond Prisons
+    tags:
+      - abolition
+  - href: 'https://www.swopbehindbars.org/'
+    title: SWOP Behind Bars
+    tags:
+      - sex-work
+      - abolition
+  - href: 'https://survivedandpunished.org/'
+    title: Survived + Punished
+    tags:
+      - abolition
+  - href: 'https://incarceratedworkers.org/'
+    title: Incarcerated Workers Organizing Committee
+    tags:
+      - prison
+      - iww
+  - href: 'https://shutdownicenow.org/'
+    title: Shut Down Ice
+    tags:
+      - abolition
+      - ice

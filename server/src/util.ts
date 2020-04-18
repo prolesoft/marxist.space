@@ -34,6 +34,7 @@ export const tagAliases = [
   ['news', 'periodical', 'media', 'msm'],
   ['north-korea', 'dprk', 'korea', 'juche'],
   ['soviet-union', 'ussr', 'soviet'],
+  ['sw', 'sex-work', 'sex work'],
   ['trostky', 'trot', 'troskyite', 'troskyism'],
   ['usa', 'us', 'america', 'united states', 'united-states'],
   ['uyghur', 'uighur', 'xinjiang'],
