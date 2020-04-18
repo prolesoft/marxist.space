@@ -1863,3 +1863,8 @@ resources:
     tags:
       - coronavirus
       - china
+  - href: 'https://coronavirusinprisons.wordpress.com/'
+    title: Coronaviris in Prisons
+    tags:
+      - coronavirus
+      - prison
