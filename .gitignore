@@ -23,4 +23,5 @@ core
 /public/*.js
 /public/asset-manifest.json
 /public/*.map
+/public/report.html
 /x
