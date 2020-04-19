@@ -29,7 +29,8 @@ const db = low(adapter)
 
 db.defaults({ resources: [] }).write()
 
-const originalResources = db.get('resources').value()
+// eslint-disable-next-line fp/no-mutating-methods
+const originalResources = [...db.get('resources').value()].reverse()
 
 const enrichedResources = originalResources.map((a) => ({
   ...a,
@@ -38,6 +39,7 @@ const enrichedResources = originalResources.map((a) => ({
 
 export const getAll = () => originalResources
 
+// @ts-ignore
 export const getTags = () => uniq(originalResources.flatMap(({ tags }) => tags))
 
 export const getOriginalResourcesByHrefs = (hrefs: Array<string>) =>
