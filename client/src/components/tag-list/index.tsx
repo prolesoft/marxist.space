@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { withRouter } from 'react-router-dom'
-import getQueryParams from 'get-query-params'
 import styled from 'styled-components/macro'
 import TagItem from './item'
 import { connect } from 'react-redux'
@@ -43,16 +42,6 @@ type MaybeParams = {
 }
 
 export class TagList extends React.Component<TagListProps> {
-  componentDidMount() {
-    if (this.props.location.search) {
-      const params = getQueryParams(this.props.location.search) as MaybeParams
-      if (params.tags) {
-        const tags = params.tags.split(',')
-        this.setTags(tags)
-      }
-    }
-  }
-
   setTags = (tags: Array<string>) => {
     // eslint-disable-next-line fp/no-mutating-methods
     this.props.history.push(`?tags=${tags.join(',')}`)
