@@ -1,7 +1,11 @@
 // @ts-nocheck
 
 import * as React from 'react'
+import { connect } from 'react-redux'
 import styled from 'styled-components/macro'
+import { withRouter } from 'react-router-dom'
+import getQueryParams from 'get-query-params'
+import { setTag } from '../../actions/filter-search'
 import Sidebar from './component'
 import TagList from '../tag-list'
 import Search from '../search'
@@ -72,7 +76,21 @@ const SidebarContent = () => (
 
 const mql = window.matchMedia('(min-width: 600px)')
 
-export default class Thing extends React.Component {
+type MaybeParams = {
+  tags?: string
+}
+
+type ThingProps = {
+  history: {
+    push: (item: string) => void
+  }
+  location: {
+    search?: string
+  }
+  setTag: (tag: string) => void
+}
+
+export class Thing extends React.Component<ThingProps> {
   state = {
     docked: mql.matches,
     open: false,
@@ -84,6 +102,24 @@ export default class Thing extends React.Component {
 
   componentWillUnmount() {
     mql.removeListener(this.mediaQueryChanged)
+  }
+
+  componentDidMount() {
+    if (this.props.location.search) {
+      const params = getQueryParams(this.props.location.search) as MaybeParams
+      if (params.tags) {
+        const tags = params.tags.split(',')
+        this.setTags(tags)
+      }
+    }
+  }
+
+  setTags = (tags: Array<string>) => {
+    // eslint-disable-next-line fp/no-mutating-methods
+    this.props.history.push(`?tags=${tags.join(',')}`)
+    tags.forEach((tag) => {
+      this.props.setTag(tag)
+    })
   }
 
   onSetOpen = (open) => {
@@ -129,3 +165,7 @@ export default class Thing extends React.Component {
     )
   }
 }
+
+const mapDispatchToProps = { setTag }
+
+export default connect(null, mapDispatchToProps)(withRouter(Thing))
