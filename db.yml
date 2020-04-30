@@ -1968,3 +1968,9 @@ resources:
       - youtube
       - documentary
       - dprk
+  - href: 'https://peoplesworld.org/article/surviving-covid-19-in-vietnam-the-safest-place-in-the-world/'
+    title: Surviving COVID-19 in Vietnam
+    subtitle: The Safest Place in the World
+    tags:
+      - coronavirus
+      - vietnam
