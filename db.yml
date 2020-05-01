@@ -801,11 +801,6 @@ resources:
     tags:
       - news
       - misc
-  - href: 'https://anticonquista.com/'
-    title: Anticonquista
-    tags:
-      - news
-      - latam
   - href: 'http://global.chinadaily.com.cn/'
     title: China Daily
     tags:
