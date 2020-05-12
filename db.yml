@@ -1976,3 +1976,7 @@ resources:
       - twitter
       - coronavirus
       - usa
+  - href: 'https://www.redtexts.org/'
+    title: 'red texts: communist text files'
+    tags:
+      - library
