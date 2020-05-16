@@ -375,9 +375,9 @@ resources:
       - latam
   - href: 'https://en.wikipedia.org/wiki/13TH_(film)'
     title: 13th
-    subtitle: Documentary
     tags:
       - abolition
+      - documentary
       - prison
       - police
   - href: >-
