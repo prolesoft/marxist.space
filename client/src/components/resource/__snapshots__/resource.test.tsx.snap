@@ -58,6 +58,7 @@ exports[`resource renders with all props 1`] = `
   border-left: 1px solid;
   padding: 8px;
   min-width: 0;
+  margin-bottom: 8px;
 }
 
 <div
@@ -143,6 +144,7 @@ exports[`resource renders with minimum props 1`] = `
   border-left: 1px solid;
   padding: 8px;
   min-width: 0;
+  margin-bottom: 8px;
 }
 
 <div

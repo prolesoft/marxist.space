@@ -15,6 +15,7 @@ const Wrapper = styled.div`
   border-left: 1px solid ${(props) => props.theme.border};
   padding: 8px;
   min-width: 0;
+  margin-bottom: 8px;
 `
 
 /*
