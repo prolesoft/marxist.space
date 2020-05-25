@@ -1,9 +1,6 @@
 import styled from 'styled-components/macro'
-import { overflow } from '../shared/helpers'
 
 const Excerpt = styled.div`
-  ${overflow};
-
   max-width: 800px;
   padding-bottom: 1px;
   padding-left: 8px;

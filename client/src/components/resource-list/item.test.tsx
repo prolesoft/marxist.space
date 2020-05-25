@@ -10,7 +10,7 @@ describe('Item', () => {
       href: 'https://example.com',
       title: 'foo',
       tags: ['one', 'two'],
-      subtitle: 'asdf',
+      description: 'asdf',
       excerpts: ['one', 'two', 'three'],
     }
     expect(create(<Item {...props} />).toJSON()).toMatchSnapshot()
