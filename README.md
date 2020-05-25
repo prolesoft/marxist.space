@@ -8,7 +8,7 @@ A [ProleSoft](https://prolesoft.github.io) project.
 
 First please search `db.yml` to make sure what you want to add isn't already in
 there. If it is, and you couldn't find it because the tags were incomplete or
-incorrect or the title or subtitle were incorrect, please change those instead.
+incorrect or the title or description were incorrect, please change those instead.
 
 Otherwise, add your links to the bottom of `db.yml`. This is the type of a
 resource:
@@ -17,8 +17,8 @@ resource:
 interface Resource {
   href: string
   title: string
-  subtitle?: string
   tags: string[]
+  description?: string
   excerpts?: string[]
 }
 ```
@@ -29,7 +29,7 @@ An example would be:
 resources: # this line is already there, needs to stay at the top
   - href: https://example.com
     title: Example Domain
-    subtitle: It's an Example # subtitle is optional
+    description: It's an Example # description is optional
     tags:
       - best
       - website

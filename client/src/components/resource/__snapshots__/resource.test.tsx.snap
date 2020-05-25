@@ -6,13 +6,6 @@ exports[`resource renders with all props 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
@@ -38,9 +31,6 @@ exports[`resource renders with all props 1`] = `
 }
 
 .c2 {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   max-width: 800px;
   padding-bottom: 1px;
   padding-left: 8px;
@@ -51,9 +41,6 @@ exports[`resource renders with all props 1`] = `
 .c3 {
   font-size: 12px;
   margin-top: auto;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .c0 {
@@ -112,13 +99,6 @@ exports[`resource renders with minimum props 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
@@ -146,9 +126,6 @@ exports[`resource renders with minimum props 1`] = `
 .c2 {
   font-size: 12px;
   margin-top: auto;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .c0 {

@@ -1,12 +1,8 @@
 import * as React from 'react'
 import styled from 'styled-components/macro'
-import { overflow, link } from '../shared/helpers'
+import { link } from '../shared/helpers'
 
 const A = styled.a`
-  display: flex;
-
-  ${overflow};
-
   display: flex;
   flex-direction: column;
   font-size: 16px;
@@ -25,13 +21,13 @@ const A = styled.a`
 type Props = {
   title: string
   href: string
-  subtitle?: string
+  description?: string
 }
 
-const Title = ({ title, href, subtitle }: Props) => (
+const Title = ({ title, href, description }: Props) => (
   <A target="_blank" rel="nofollow noopener noreferrer" href={href}>
     {title}
-    {subtitle ? <small>{subtitle}</small> : null}
+    {description ? <small>{description}</small> : null}
   </A>
 )
 

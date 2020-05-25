@@ -14,7 +14,7 @@ resources:
       - dprk
   - href: 'https://communism.lemmy.ml'
     title: Communism on Lemmy.ml
-    subtitle: FOSS Reddit-alike primarily for Communists
+    description: FOSS Reddit-alike primarily for Communists
     tags:
       - social
       - reddit
@@ -25,30 +25,30 @@ resources:
       - social
   - href: 'https://www.youtube.com/channel/UCvfeZJmLFo2o90A0v3ce2_Q'
     title: Audible Socialism
-    subtitle: On YouTube
+    description: On YouTube
     tags:
       - audiobooks
       - youtube
   - href: 'https://www.marxists.org/audiobooks/'
     title: Audiobooks
-    subtitle: On Marxists.org
+    description: On Marxists.org
     tags:
       - audiobooks
   - href: 'https://www.youtube.com/channel/UCSuBGV3Qme4aZJajbYCXh0Q'
     title: Dank Audio Stash
-    subtitle: On YouTube
+    description: On YouTube
     tags:
       - audiobooks
       - youtube
   - href: 'https://github.com/dessalines/essays/blob/master/audiobooks.md'
     title: Dessaline's Audiobooks List
-    subtitle: YouTube and Torrents
+    description: YouTube and Torrents
     tags:
       - audiobooks
       - youtube
   - href: 'https://librivox.org/'
     title: LibriVox
-    subtitle: Public Domain Audiobooks
+    description: Public Domain Audiobooks
     tags:
       - audiobooks
   - href: 'https://mega.nz/#F!kQoj3aAB!pzO-m_eoVvBv1bSMj60NdQ'
@@ -72,14 +72,14 @@ resources:
   - href: >-
       https://docs.google.com/document/d/1Gxwhh-vdeB--47HM-20cEVRC9eAMhrapbNf0Sk8VSOs/edit
     title: Anti-Communist Myths Debunked
-    subtitle: Google doc
+    description: Google doc
     tags:
       - misc
       - debunked
   - href: >-
       https://docs.google.com/document/d/1k-OPPy9UM9ApPuWVIsPcvX3zQh1LUsVbPQocD9mUhyA/edit
     title: Collection of Reading Lists
-    subtitle: Google doc
+    description: Google doc
     tags:
       - collection
       - misc
@@ -136,7 +136,7 @@ resources:
   - href: >-
       https://docs.google.com/document/d/1KMAZopkLyjP74vOssz6XAdPxvMh-1rJRptFnFD54bPg/edit?usp=sharing
     title: Socialism in Asia Master Source List
-    subtitle: Google doc
+    description: Google doc
     tags:
       - asia
       - mao
@@ -194,7 +194,7 @@ resources:
       - youtube
   - href: 'https://www.youtube.com/playlist?list=PLXIlvfed_WgkHz6aXkTXeWQb3E8WnNxbb'
     title: Michael Parenti Lectures
-    subtitle: Playlist
+    description: Playlist
     tags:
       - youtube
       - lectures
@@ -271,7 +271,7 @@ resources:
   - href: >-
       https://leftistcritic.wordpress.com/2017/06/28/something-which-most-other-developing-countries-would-envy-the-dprks-healthcare-system/
     title: Something which most other developing countries would envy
-    subtitle: The DPRK's healthcare system
+    description: The DPRK's healthcare system
     tags:
       - dprk
       - healthcare
@@ -283,7 +283,7 @@ resources:
       - article
   - href: 'https://drive.google.com/file/d/1QQn3q4OZwMh44qTmYhzHYSpokYoOEa_v/view'
     title: DPRK Reading Guide
-    subtitle: Google doc
+    description: Google doc
     tags:
       - list
       - dprk
@@ -502,7 +502,7 @@ resources:
   - href: >-
       https://docs.google.com/document/d/1GmEGaiEYvxYe-8N31-l_aKs3xVD9eATZJhD__hVbptA/mobilebasic
     title: Iran Readings
-    subtitle: Google doc
+    description: Google doc
     tags:
       - iran
   - href: 'http://www.bannedthought.net/'
@@ -596,7 +596,7 @@ resources:
   - href: >-
       https://docs.google.com/document/d/1qeYeYeLN7uKxfMdoe7TAmOMD2fmgyZdU_urvW6eAsRg/mobilebasic
     title: Soviet Union Reading List
-    subtitle: Google doc
+    description: Google doc
     tags:
       - ussr
       - list
@@ -740,7 +740,7 @@ resources:
       - debunked
   - href: 'https://www.reddit.com/r/BeardTube/'
     title: BeardTube
-    subtitle: BreadTube but with more communistm
+    description: BreadTube but with more communistm
     tags:
       - reddit
       - youtube
@@ -775,7 +775,7 @@ resources:
       - debunked
   - href: 'https://www.reddit.com/r/socialism/'
     title: Socialism
-    subtitle: 'Catchall Socialist sub, some demsocs and anarchists here'
+    description: 'Catchall Socialist sub, some demsocs and anarchists here'
     tags:
       - reddit
   - href: 'https://www.reddit.com/r/Socialism_101/'
@@ -838,12 +838,12 @@ resources:
       - watchdog
   - href: 'https://www.liberationnews.org/'
     title: Liberation news
-    subtitle: PSL
+    description: PSL
     tags:
       - news
   - href: 'https://liberationschool.org/'
     title: Liberation School
-    subtitle: PSL
+    description: PSL
     tags:
       - blog
   - href: 'http://mediaryugyong.com.kp/index.php/first/select_language/2/1'
@@ -1264,13 +1264,13 @@ resources:
       - ussr
   - href: 'https://www.youtube.com/watch?v=-349HTKhPno'
     title: The Act Of Killing
-    subtitle: Also see The Look Of Silence
+    description: Also see The Look Of Silence
     tags:
       - documentary
       - indonesia
   - href: 'https://www.youtube.com/watch?v=9iNcQFPECDc'
     title: The Look Of Silence
-    subtitle: Also see The Act Of Killing
+    description: Also see The Act Of Killing
     tags:
       - documentary
       - indonesia
@@ -1357,7 +1357,7 @@ resources:
       - hongkong
   - href: 'https://bitbucket.org/TheCrypticMan/hong-kong-riots'
     title: TheCrypticMan Wiki
-    subtitle: 'Mirror, possibly removed by US censors'
+    description: 'Mirror, possibly removed by US censors'
     tags:
       - china
       - reddit
@@ -1365,7 +1365,7 @@ resources:
       - hongkong
   - href: 'https://bitbucket.org/TheCrypticMan/hong-kong-protests'
     title: TheCrypticMan Wiki
-    subtitle: 'Mirror, possibly removed by US censors'
+    description: 'Mirror, possibly removed by US censors'
     tags:
       - china
       - reddit
@@ -1373,7 +1373,7 @@ resources:
       - hongkong
   - href: 'https://github.com/TheCrypticMan/Essays/wiki/Hong-Kong-Protests'
     title: TheCrypticMan Wiki
-    subtitle: 'Mirror, possibly removed by US censors'
+    description: 'Mirror, possibly removed by US censors'
     tags:
       - china
       - reddit
@@ -1381,7 +1381,7 @@ resources:
   - href: >-
       https://www.reddit.com/r/Sino/wiki/faq/hong-kong-taiwan/summer-2019-protests
     title: TheCrypticMan Wiki
-    subtitle: 'Mirror, possibly removed by US censors'
+    description: 'Mirror, possibly removed by US censors'
     tags:
       - china
       - reddit
@@ -1529,14 +1529,14 @@ resources:
   - href: >-
       https://docs.google.com/document/d/1ido70LgXsEhxcnyXE7RVS0wYJZc6aeVTpujCUPQgTrE/edit
     title: Ultimate Research Document
-    subtitle: Google doc
+    description: Google doc
     tags:
       - list
       - collection
   - href: >-
       https://docs.google.com/document/d/1kwDGZFH2-jFr4xZ2ynxQkihYwIVh_uZlp1-Q73uXzso/edit
     title: Massive Reading List
-    subtitle: Google doc
+    description: Google doc
     tags:
       - list
       - collection
@@ -1674,7 +1674,7 @@ resources:
   - href: >-
       https://archive.cpgb-ml.org/download/publications/ClassSocietyInBritain.pdf
     title: A Class Analysis of the British Society and the Start of the 21st Centry
-    subtitle: PDF
+    description: PDF
     tags:
       - uk
       - analysis
@@ -1694,13 +1694,13 @@ resources:
   - href: >-
       https://www.prisoncensorship.info/archive/books/Economics/DividedWorldDividedClass_ZakCope.pdf
     title: 'Divided World, Divided Class'
-    subtitle: PDF
+    description: PDF
     tags:
       - analysis
   - href: >-
       https://www.prisoncensorship.info/archive/books/Economics/lumpen_in_the_united_states.pdf
     title: Who is the Lumped in the United States
-    subtitle: PDF
+    description: PDF
     tags:
       - maoist
       - essay
@@ -1732,7 +1732,7 @@ resources:
       - maoist
   - href: 'https://www.reddit.com/r/PartyofCommunistsUSA/wiki/index'
     title: Party of Communists USA
-    subtitle: Reddit Wiki
+    description: Reddit Wiki
     tags:
       - reddit
   - href: 'http://www.politicalaffairs.net/'
@@ -1788,7 +1788,7 @@ resources:
       - cia
   - href: 'https://linx.li/c37la97l.pdf'
     title: Great Changes In Tibet
-    subtitle: PDF
+    description: PDF
     tags:
       - tibet
       - china
@@ -1828,7 +1828,7 @@ resources:
       - marxism
   - href: 'https://www.youtube.com/watch?v=gR3igiwaeyc'
     title: Karl Marx & Conflict Theory
-    subtitle: Crash Course Sociology
+    description: Crash Course Sociology
     tags:
       - marxism
       - beginners
@@ -1958,14 +1958,15 @@ resources:
       - youtube
       - documentary
       - dprk
-  - href: 'https://peoplesworld.org/article/surviving-covid-19-in-vietnam-the-safest-place-in-the-world/'
+  - href: >-
+      https://peoplesworld.org/article/surviving-covid-19-in-vietnam-the-safest-place-in-the-world/
     title: Surviving COVID-19 in Vietnam
-    subtitle: The Safest Place in the World
+    description: The Safest Place in the World
     tags:
       - coronavirus
       - vietnam
   - href: 'https://twitter.com/jhal9000/status/1222197952468226048'
-    title: Thread on Coronavirus, US, etc
+    title: 'Thread on Coronavirus, US, etc'
     tags:
       - twitter
       - coronavirus

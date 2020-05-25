@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 `
 
 /*
-// approximate height of a resource item with no subtitle
+// approximate height of a resource item with no description
 const resourceHeight = 51
 
 // @ts-ignore types on this may be incorrect
@@ -29,11 +29,11 @@ const resourceHeight = 51
  */
 export default class ResourceItem extends React.Component<Resource> {
   render() {
-    const { href, title, subtitle, tags, excerpts } = this.props
+    const { href, title, description, tags, excerpts } = this.props
 
     return (
       <Wrapper>
-        <Title href={href} title={title} subtitle={subtitle} />
+        <Title href={href} title={title} description={description} />
         {excerpts && excerpts.length
           ? excerpts.map((text: string, i: number) => (
               <Excerpt key={i}>{text}</Excerpt>
