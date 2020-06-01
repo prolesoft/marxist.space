@@ -78,6 +78,16 @@ Check out <http://localhost:9090>
 See [this doc](./scripts/deployment/README.md) for details on deploying, running
 in Docker, and running in Kubernetes.
 
+## Releasing
+
+* First, make sure your changes are good. You can run `npm t` in the project
+  root to just run all the tests, or run `npm run build` in project root to run
+  tests and build for production (important to verify if you're making changes
+  to the build setup or dependencies).
+* In the project root, run `npm version patch`, then
+  `git push origin master --follow-tags`. The project will be deployed by
+  Circle.
+
 ## Contributing
 
 See [CONTRIBUTING](./.github/CONTRIBUTING.md) and the
