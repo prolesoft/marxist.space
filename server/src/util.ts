@@ -7,7 +7,7 @@ export const tagAliases = [
   ['anarchist', 'anarchism', 'anarchy'],
   ['british', 'english', 'britain', 'england', 'uk'],
   ['castro', 'fidel', 'cuba', 'che'],
-  ['china', 'prc', 'deng', 'xiaoping'],
+  ['china', 'prc', 'deng', 'xiaoping', 'ccp', 'cpc'],
   ['covid', 'covid19', 'covid-19', 'coronavirus'],
   ['debunked', 'debunk', 'debunking', 'myth', 'lie'],
   ['deng', 'xiaoping'],
