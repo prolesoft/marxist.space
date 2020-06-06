@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>note</title>
+  <style type="text/css">
+    body, textarea, input, #tools {
+      background-color: #020f12;
+      color: #a1d4d4;
+      font-size: 1.0rem;
+      line-height: 1.4;
+      font-family: monospace;
+      padding: 0;
+      margin: 0;
+    }
+
+    #t {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      outline: none;
+      border: none;
+      box-sizing: border-box;
+      padding: 60px 30px 30px 30px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #6be7be;
+    }
+
+    #tools {
+      text-align: center;
+      padding: 20px;
+      z-index: 1000;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      box-sizing: border-box;
+    }
+
+    input {
+      display: none;
+      margin-top: 5px;
+      width: 100%;
+      border: 1px solid #268bd2;
+      padding: 5px;
+      border-radius: 3px;
+    }
+
+    @media (min-width: 600px) {
+      #tools {
+        padding: 10px 20px 0 0;
+        right: 0;
+        width: auto;
+        background: none;
+      }
+
+      body:before {
+        margin-top: 30px;
+        width: 50px;
+      }
+
+      #t { padding: 30px 50px 30px 50px; }
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="tools">
+    <a href="#" id="share">Share</a> |
+    <a href="#" id="new">New</a> |
+    <a href="#" id="download" download="p.txt">Download</a> |
+    <input id="urlInput">
+  </div>
+
+  <textarea spellcheck="false" id="t">
+    Write whatever you need to here.
+    It will never be saved on any server.
+  </textarea>
+
+  <script type="text/javascript" src="lz-string.min.js"></script>
+  <script type="text/javascript">
+    var textarea = document.getElementById('t');
+    var urlInput = document.getElementById('urlInput');
+    var download = document.getElementById('download');
+    var f;
+
+    var content = LZString.decompressFromBase64(window.location.hash.slice(1))
+    if (content) {
+      textarea.value = content
+    }
+
+    processContent() // Update urlInput and download link
+
+    function processContent () {
+      window.location.hash = hash()
+      urlInput.value = window.location
+      document.title = title()
+      download.setAttribute('download', filename())
+      download.href = downloadUri()
+    }
+
+    function hash () {
+      return LZString.compressToBase64(textarea.value)
+    }
+    function title() {
+      return textarea.value ? textarea.value.slice(0,30) : 'p'
+    }
+    function filename () {
+      return title().replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.txt'
+    }
+    function downloadUri () {
+      return "data:text/plain," + encodeURIComponent(textarea.value)
+    }
+
+    function contentChanged () {
+      clearInterval(f)
+      f = setTimeout(function () {
+        processContent()
+      }, 500)
+    }
+
+    function share () {
+      urlInput.style.display = 'block'
+      urlInput.select()
+      return false
+    }
+
+    function unshare () {
+      urlInput.style.display = 'none'
+    }
+
+    function clear () {
+      textarea.value = ''
+      unshare()
+      textarea.focus()
+      processContent()
+      return false
+    }
+
+    textarea.onkeyup = contentChanged
+    textarea.onpaste = contentChanged
+    textarea.onfocus = unshare
+    document.getElementById('share').onclick = share
+    document.getElementById('new').onclick   = clear
+  </script>
+</body>
+</html>
