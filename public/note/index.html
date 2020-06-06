@@ -6,8 +6,8 @@
   <title>note</title>
   <style type="text/css">
     body, textarea, input, #tools {
-      background-color: #020f12;
-      color: #a1d4d4;
+      background-color: #121212;
+      color: #cdcdcd;
       font-size: 1.0rem;
       line-height: 1.4;
       font-family: monospace;
@@ -29,8 +29,7 @@
     }
 
     a {
-      text-decoration: none;
-      color: #6be7be;
+      color: #ededed;
     }
 
     #tools {
@@ -67,29 +66,28 @@
 
       #t { padding: 30px 50px 30px 50px; }
     }
-
   </style>
 </head>
 
 <body>
   <div id="tools">
-    <a href="#" id="share">Share</a> |
-    <a href="#" id="new">New</a> |
-    <a href="#" id="download" download="p.txt">Download</a> |
+    <a href="#" id="share">Share</a> &middot;
+    <a href="#" id="new">New</a> &middot;
+    <a href="#" id="download" download="note.txt">Download</a>
     <input id="urlInput">
   </div>
 
   <textarea spellcheck="false" id="t">
-    Write whatever you need to here.
-    It will never be saved on any server.
+Write whatever you need to here.
+It will never be saved on any server.
   </textarea>
 
   <script type="text/javascript" src="lz-string.min.js"></script>
   <script type="text/javascript">
-    var textarea = document.getElementById('t');
-    var urlInput = document.getElementById('urlInput');
-    var download = document.getElementById('download');
-    var f;
+    var textarea = document.getElementById('t')
+    var urlInput = document.getElementById('urlInput')
+    var download = document.getElementById('download')
+    var f
 
     var content = LZString.decompressFromBase64(window.location.hash.slice(1))
     if (content) {
@@ -109,12 +107,15 @@
     function hash () {
       return LZString.compressToBase64(textarea.value)
     }
+
     function title() {
-      return textarea.value ? textarea.value.slice(0,30) : 'p'
+      return textarea.value ? textarea.value.slice(0, 10) : 'note'
     }
+
     function filename () {
       return title().replace(/[^a-z0-9]/gi, '_').toLowerCase() + '.txt'
     }
+
     function downloadUri () {
       return "data:text/plain," + encodeURIComponent(textarea.value)
     }
