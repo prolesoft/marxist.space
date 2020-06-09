@@ -14,6 +14,7 @@ export const tagAliases = [
   ['glossary', 'definition', 'dictionary'],
   ['health', 'healthcare', 'health care'],
   ['hk', 'hongkong', 'hong-kong', 'hong kong'],
+  ['imperialism', 'anti-imperialism', 'decolonization', 'colonization'],
   ['israel', 'palestine'],
   ['latin', 'latam'],
   ['library', 'libraries'],
