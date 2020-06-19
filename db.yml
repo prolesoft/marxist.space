@@ -2004,3 +2004,8 @@ resources:
     tags:
       - police
       - prison
+  - href: 'http://dprkportal.kp/'
+    title: DPRK Portal
+    tags:
+      - dprk
+      - news
