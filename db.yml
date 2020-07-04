@@ -1984,8 +1984,9 @@ resources:
     tags:
       - abolition
       - coronavirus
-  - href: 'https://afroazizam.wordpress.com/2017/09/08/marxism-leninism-anti-imperialism-sources/'
-    title: 'Marxism Leninism / Anti-imperialism sources'
+  - href: >-
+      https://afroazizam.wordpress.com/2017/09/08/marxism-leninism-anti-imperialism-sources/
+    title: Marxism Leninism / Anti-imperialism sources
     tags:
       - list
       - collection
@@ -2009,7 +2010,8 @@ resources:
     tags:
       - dprk
       - news
-  - href: 'https://www.scmp.com/comment/opinion/article/3091438/us-has-been-exposed-funding-last-years-hong-kong-protests'
-    title: "US has been exposed for funding last year’s Hong Kong protests"
+  - href: >-
+      https://www.scmp.com/comment/opinion/article/3091438/us-has-been-exposed-funding-last-years-hong-kong-protests
+    title: US has been exposed for funding last year’s Hong Kong protests
     tags:
       - hongkong
