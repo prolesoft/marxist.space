@@ -2015,3 +2015,8 @@ resources:
     title: US has been exposed for funding last year’s Hong Kong protests
     tags:
       - hongkong
+  - href: 'https://sundown.tougaloo.edu/sundowntowns.php'
+    title: Sundown Towns Map
+    tags:
+      - racism
+      - map
