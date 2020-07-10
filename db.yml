@@ -2024,6 +2024,10 @@ resources:
     title: 'George Floyd Uprisings: Anatomy of a Counterinsurgency'
     tags:
       - protests
-      - george-floyd
       - police
       - usa
+  - href: 'https://www.amwenglish.com/'
+    title: Abolition Media Worldwide English
+    tags:
+      - news
+      - abolition
