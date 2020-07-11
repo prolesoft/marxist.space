@@ -1,6 +1,6 @@
 # marxist.space
 
-[![CircleCI](https://circleci.com/gh/prolesoft/marxist.space.svg?style=svg)](https://circleci.com/gh/prolesoft/marxist.space) [![codecov](https://codecov.io/gh/prolesoft/marxist.space/branch/master/graph/badge.svg)](https://codecov.io/gh/prolesoft/marxist.space) [![Maintainability](https://api.codeclimate.com/v1/badges/af5ebb6ca8951512bec3/maintainability)](https://codeclimate.com/github/prolesoft/marxist.space/maintainability) [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0) [![Uptime Robot ratio (7 days)](https://img.shields.io/uptimerobot/ratio/7/m784341127-9b6c6e8e28a344b9e533fa4e)](https://stats.uptimerobot.com/5Alqxc0QYg) ![PageSpeed](https://api.speedbadge.io/v1?url=marxist.space)
+[![CircleCI](https://circleci.com/gh/prolesoft/marxist.space.svg?style=svg)](https://circleci.com/gh/prolesoft/marxist.space) [![codecov](https://codecov.io/gh/prolesoft/marxist.space/branch/master/graph/badge.svg)](https://codecov.io/gh/prolesoft/marxist.space) [![Maintainability](https://api.codeclimate.com/v1/badges/af5ebb6ca8951512bec3/maintainability)](https://codeclimate.com/github/prolesoft/marxist.space/maintainability) [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 A [ProleSoft](https://prolesoft.github.io) project.
 
@@ -48,31 +48,6 @@ npm run install-all
 npm start
 ```
 
-You can also develop without Docker. You'll need Node LTS or Latest and npm.
-**Note** this is not recommended, running with Docker Compose is easier.
-
-```shell
-git clone git@github.com:prolesoft/marxist.space.git
-cd marxist.space
-npm run install-all
-npm start
-```
-
-Go to <http://localhost:3000>
-
-## Building and Running
-
-```shell
-npm run install-all
-npm run build
-npm start
-```
-
-Check out <http://localhost:9090>
-
-See [this doc](./scripts/deployment/README.md) for details on deploying, running
-in Docker, and running in Kubernetes.
-
 ## Releasing
 
 * First, make sure your changes are good. You can run `npm t` in the project
@@ -88,18 +63,10 @@ in Docker, and running in Kubernetes.
 See [CONTRIBUTING](./.github/CONTRIBUTING.md) and the
 [open issues](https://github.com/prolesoft/marxist.space/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
 
-There's also a [mirror](https://yerbamate.dev/prolesoft/marxist.space)
-for those who would rather not use GitHub, and patches can be emailed directly
-to marxist.space@protonmail.com.
-
 ## Credits and Tech
 
 Built with [React](https://reactjs.org/),
-[Koa](https://koajs.com/),
 [TypeScript](https://www.typescriptlang.org/),
-[Lowdb](https://github.com/typicode/lowdb),
-[Node](https://nodejs.org/en/), and
-[Docker](https://www.docker.com/).
-Hosted on [DigitalOcean](https://m.do.co/c/ed9c0a26a7ef).
+and [Lowdb](https://github.com/typicode/lowdb).
 A portion of the front-end code is copy-pasted from
 [Asperitas](https://github.com/d11z/asperitas) (MIT licensed).
