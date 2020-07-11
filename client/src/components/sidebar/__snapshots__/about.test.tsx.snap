@@ -89,35 +89,7 @@ exports[`About renders 1`] = `
       Contributions
     </a>
      
-    are welcome. You can also email
-     
-    <a
-      href="mailto:marxist.space@protonmail"
-      rel="nofollow noopener noreferrer"
-      target="_blank"
-    >
-      marxist.space@protonmail.com
-    </a>
-     
-    or join the discussion on
-     
-    <a
-      href="https://matrix.to/#/!TUENHHyVTWHKRxKiSm:matrix.org?via=matrix.org"
-      rel="nofollow noopener noreferrer"
-      target="_blank"
-    >
-      Matrix
-    </a>
-  </p>
-  <p>
-    <a
-      href="https://stats.uptimerobot.com/5Alqxc0QYg"
-      rel="nofollow noopener noreferrer"
-      target="_blank"
-    >
-      Status Page
-    </a>
-    .
+    are welcome.
   </p>
 </article>
 `;

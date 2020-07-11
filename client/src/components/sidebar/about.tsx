@@ -63,23 +63,7 @@ const About = () => (
         href="https://github.com/prolesoft/marxist.space/blob/master/.github/CONTRIBUTING.md"
         title="Contributions"
       />{' '}
-      are welcome. You can also email{' '}
-      <ExternalLink
-        href="mailto:marxist.space@protonmail"
-        title="marxist.space@protonmail.com"
-      />{' '}
-      or join the discussion on{' '}
-      <ExternalLink
-        href="https://matrix.to/#/!TUENHHyVTWHKRxKiSm:matrix.org?via=matrix.org"
-        title="Matrix"
-      />
-    </p>
-    <p>
-      <ExternalLink
-        href="https://stats.uptimerobot.com/5Alqxc0QYg"
-        title="Status Page"
-      />
-      .
+      are welcome.
     </p>
   </AboutSection>
 )

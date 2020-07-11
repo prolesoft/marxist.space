@@ -9,7 +9,6 @@ import { setTag } from '../../actions/filter-search'
 import Sidebar from './component'
 import TagList from '../tag-list'
 import Search from '../search'
-import NewResource from '../new-resource'
 import DarkButton from './dark-button'
 import Button from '../shared/button'
 import { headerItem } from '../shared/helpers'
@@ -64,9 +63,6 @@ const SidebarContent = () => (
     <Search />
     <Collapse title="Tags">
       <TagList />
-    </Collapse>
-    <Collapse title="Submit New Link">
-      <NewResource />
     </Collapse>
     <Collapse title="About">
       <About />

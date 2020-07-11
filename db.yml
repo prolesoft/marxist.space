@@ -2020,7 +2020,8 @@ resources:
     tags:
       - racism
       - map
-  - href: 'https://www.amwenglish.com/articles/george-floyd-uprisings-anatomy-of-a-counterinsurgency/'
+  - href: >-
+      https://www.amwenglish.com/articles/george-floyd-uprisings-anatomy-of-a-counterinsurgency/
     title: 'George Floyd Uprisings: Anatomy of a Counterinsurgency'
     tags:
       - protests

@@ -1,9 +1,7 @@
-import 'isomorphic-fetch'
 import * as http from 'http'
 import { resolve } from 'path'
 import * as Koa from 'koa'
 import * as Router from '@koa/router'
-import { postJson } from 'fetchyeah'
 import * as mid from 'koa-mid'
 import serve from 'koa-simple-static'
 import * as db from './db'
@@ -32,31 +30,6 @@ router.get('/search', async (ctx) => {
 
 router.get('/all', async (ctx) => {
   ctx.body = JSON.stringify(db.getAll())
-})
-
-router.post('/create-issue', async (ctx) => {
-  const { content } = ctx.request.body
-  try {
-    await postJson(
-      'https://api.github.com/repos/prolesoft/marxist.space/issues',
-      {
-        // @ts-ignore
-        headers: {
-          authorization: `token ${process.env.GITHUB_TOKEN}`,
-        },
-        body: {
-          title: 'New Resource',
-          body: content,
-          labels: ['resource'],
-        },
-      }
-    )
-    ctx.status = 201
-    ctx.body = JSON.stringify('created')
-  } catch (e) {
-    ctx.status = e.status || e.code || 500
-    ctx.body = e.message || 'Something went wrong'
-  }
 })
 
 const errorHandler = async (ctx, next) => {

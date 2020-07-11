@@ -1,5 +1,3 @@
-/* eslint-disable unicorn/no-keyword-prefix */
-
 import {
   FETCH_RESOURCES_REQUEST,
   FETCH_RESOURCES_SUCCESS,
@@ -19,7 +17,7 @@ export default (state = initialState, action) => {
     case FETCH_RESOURCES_REQUEST:
     case FILTER_RESOURCES_REQUEST:
     case SEARCH_RESOURCES_REQUEST:
-      return { ...state, isFetching: true, resource: null, newResource: null }
+      return { ...state, isFetching: true, resource: null }
     case FETCH_RESOURCES_SUCCESS:
     case FILTER_RESOURCES_SUCCESS:
     case SEARCH_RESOURCES_SUCCESS:
