@@ -10,32 +10,8 @@ jobs:
       - run: npm run install-all && npm t
       - run: bash <(curl -s https://codecov.io/bash)
 
-  deploy:
-    docker:
-      - image: circleci/node:14
-    working_directory: ~/repo
-    steps:
-      - checkout
-      - deploy:
-          command: >
-            ssh -o "StrictHostKeyChecking no" root@marxist.space
-            "cd /root/marxist.space && \
-               git fetch && \
-               git reset --hard origin/master && \
-               npm run install-all && \
-               npm run build && \
-               nohup npm run prd &"
-
 workflows:
   version: 2
   test:
     jobs:
       - test
-  deploy:
-    jobs:
-      - deploy:
-          filters:
-            branches:
-              ignore: /.*/
-            tags:
-              only: /^v.*/

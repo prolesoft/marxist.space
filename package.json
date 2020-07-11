@@ -15,6 +15,8 @@
     "prd": "luvi -r public -p 9090 -n",
     "prestart": "npm run build-db",
     "pretest": "npm run build-db",
+    "prebuild": "rm -rf docs/",
+    "postbuild": "cp -r public docs",
     "start": "./scripts/start.sh",
     "test": "npm run lint-db && cd client && npm t"
   },
