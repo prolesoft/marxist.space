@@ -11,7 +11,6 @@ import Sidebar from './sidebar'
 import { fetchTags } from '../actions/tags'
 
 type AppProps = {
-  dark: boolean
   fetchTags: () => void
 }
 
@@ -21,9 +20,8 @@ class App extends React.Component<AppProps> {
   }
 
   render() {
-    const { dark } = this.props
     return (
-      <ThemeProvider theme={theme(dark)}>
+      <ThemeProvider theme={theme}>
         <Router history={history}>
           <React.Fragment>
             <GlobalStyle />
@@ -41,6 +39,5 @@ class App extends React.Component<AppProps> {
 }
 
 const mapDispatchToProps = { fetchTags }
-const mapStateToProps = (state) => ({ dark: state.theme.dark })
 
-export default connect(mapStateToProps, mapDispatchToProps)(App)
+export default connect(null, mapDispatchToProps)(App)

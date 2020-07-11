@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro'
 
 const Form = styled.form`
-  margin-top: 16px;
+  margin-top: 8px;
   display: flex;
   flex-direction: row;
 `

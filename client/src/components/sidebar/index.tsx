@@ -9,7 +9,6 @@ import { setTag } from '../../actions/filter-search'
 import Sidebar from './component'
 import TagList from '../tag-list'
 import Search from '../search'
-import DarkButton from './dark-button'
 import Button from '../shared/button'
 import { headerItem } from '../shared/helpers'
 import About from './about'
@@ -59,7 +58,6 @@ const SidebarContentWrapper = styled.aside`
 
 const SidebarContent = () => (
   <SidebarContentWrapper>
-    <DarkButton />
     <Search />
     <Collapse title="Tags">
       <TagList />

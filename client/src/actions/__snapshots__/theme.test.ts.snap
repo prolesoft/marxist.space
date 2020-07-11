@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`theme actions toggleDarkTheme 1`] = `
-Object {
-  "type": "TOGGLE_DARK_THEME",
-}
-`
