@@ -16,3 +16,4 @@ jobs:
           node-version: 14.x
       - run: npm run install-all
       - run: npm run build
+      - run: git add . && git commit -am 'build' && git push
