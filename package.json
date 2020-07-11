@@ -17,7 +17,7 @@
     "pretest": "npm run build-db",
     "prebuild": "rm -rf docs/",
     "postbuild": "cp -r public docs",
-    "start": "./scripts/start.sh",
+    "start": "cd client && npm start",
     "test": "npm run lint-db && cd client && npm t"
   },
   "homepage": "https://marxist.space",

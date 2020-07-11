@@ -42,7 +42,7 @@ resources: # this line is already there, needs to stay at the top
 
 ## Developing
 
-Prerequisites: Node LTS or Latest, npm, Docker, Docker Compose
+Prerequisites: Node LTS or Latest and npm
 
 ```shell
 git clone git@github.com:prolesoft/marxist.space.git
