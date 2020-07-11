@@ -3,7 +3,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/node:13
+      - image: circleci/node:14
     working_directory: ~/repo
     steps:
       - checkout
@@ -12,7 +12,7 @@ jobs:
 
   deploy:
     docker:
-      - image: circleci/node:13
+      - image: circleci/node:14
     working_directory: ~/repo
     steps:
       - checkout
@@ -24,7 +24,7 @@ jobs:
                git reset --hard origin/master && \
                npm run install-all && \
                npm run build && \
-               npm run prd
+               nohup npm run prd &"
 
 workflows:
   version: 2
