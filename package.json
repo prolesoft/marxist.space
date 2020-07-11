@@ -10,7 +10,6 @@
     "build": "run-s -s build-db build-client",
     "build-client": "node scripts/build.js",
     "build-db": "./scripts/build-db.sh",
-    "clean": "rm -rf node_modules client/node_modules",
     "lint-db": "yamllint db.yml",
     "postbuild": "npm run postbuild-client && cp -r public docs",
     "postbuild-client": "rm -rf ../public/static && mv -f build/* ../public/",
