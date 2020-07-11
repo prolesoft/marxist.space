@@ -10,12 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup node 12
+      - name: Setup node
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
+      - run: mv docs/CNAME .
       - run: npm run install-all
       - run: npm run build
+      - run: mv CNAME docs/
       - run: |
           git config --global user.name "ProleSoft"
           git config --global user.email "marxist.space@protonmail.com"
