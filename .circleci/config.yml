@@ -24,8 +24,7 @@ jobs:
                git reset --hard origin/master && \
                npm run install-all && \
                npm run build && \
-               cd server && \
-               ./node_modules/.bin/forever restart 0"
+               npm run prd
 
 workflows:
   version: 2

@@ -15,7 +15,6 @@ keys
 node_modules
 tmp
 /tags
-/db
 core
 /_site
 /public/index.html

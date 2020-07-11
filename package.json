@@ -8,12 +8,15 @@
   "main": "index.js",
   "scripts": {
     "build": "./scripts/build.sh",
-    "build-docker": "./scripts/deployment/build-docker.sh",
-    "clean": "rm -rf node_modules server/node_modules client/node_modules",
-    "install-all": "npm ci && cd server && npm ci && cd ../client && npm ci",
+    "build-db": "./scripts/build-db.sh",
+    "clean": "rm -rf node_modules client/node_modules",
+    "install-all": "npm ci && cd client && npm ci",
     "lint-db": "yamllint db.yml",
+    "prd": "luvi -r public -p 9090 -n",
+    "prestart": "npm run build-db",
+    "pretest": "npm run build-db",
     "start": "./scripts/start.sh",
-    "test": "npm run lint-db && cd server && npm t && cd ../client && npm t"
+    "test": "npm run lint-db && cd client && npm t"
   },
   "homepage": "https://marxist.space",
   "repository": {
@@ -24,7 +27,10 @@
     "url": "https://github.com/prolesoft/marxist.space/issues"
   },
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "js-yaml": "3.14.0",
+    "luvi": "4.1.0"
+  },
   "devDependencies": {
     "yaml-lint": "1.2.4"
   }
