@@ -16,4 +16,7 @@ jobs:
           node-version: 14.x
       - run: npm run install-all
       - run: npm run build
-      - run: git add . && git commit -am 'build' && git push
+      - run: |
+          git config --global user.name "ProleSoft"
+          git config --global user.email "marxist.space@protonmail.com"
+          git add . && git commit -am 'build' && git push origin master

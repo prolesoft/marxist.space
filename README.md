@@ -57,9 +57,10 @@ npm start
   root to just run all the tests, or run `npm run build` in project root to run
   tests and build for production (important to verify if you're making changes
   to the build setup or dependencies).
-* In the project root, run `npm version patch`, then
-  `git push origin master --follow-tags`. The project will be deployed by
-  Circle.
+* Merge to master, or commit to master, and the project will be built and
+  deployed automatically. For code changes, please `npm version LEVEL` and
+  `git push origin master --follow -tags`, where `LEVEL` is one of
+  `patch|minor|major`.
 
 ## Contributing
 
