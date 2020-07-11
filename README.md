@@ -58,9 +58,9 @@ npm start
   tests and build for production (important to verify if you're making changes
   to the build setup or dependencies).
 * Merge to master, or commit to master, and the project will be built and
-  deployed automatically. For code changes, please `npm version LEVEL` and
-  `git push origin master --follow -tags`, where `LEVEL` is one of
-  `patch|minor|major`.
+  deployed automatically by a GitHub Action. For code changes, please `npm
+  version LEVEL` and `git push origin master --follow -tags`, where `LEVEL` is
+  one of `patch|minor|major`.
 
 ## Contributing
 
