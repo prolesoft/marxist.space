@@ -1,9 +1,8 @@
-import { resolve } from 'path'
 import * as low from 'lowdb'
-import * as FileSync from 'lowdb/adapters/FileSync'
-import { safeDump, safeLoad } from 'js-yaml'
+import * as BrowserAdapater from 'lowdb/adapters/LocalStorage'
 import * as Fuse from 'fuse.js'
 import { uniq, addTagAliases } from './util'
+import initialDb from './db'
 
 const fuseOptions = {
   shouldSort: true,
@@ -17,17 +16,11 @@ const fuseOptions = {
   keys: ['href', 'title', 'tags', 'excerpts', 'description'],
 }
 
-const dbPath = resolve(__dirname, '..', '..', 'db.yml')
-
-const adapter = new FileSync(dbPath, {
-  defaultValue: [],
-  serialize: safeDump,
-  deserialize: safeLoad,
-})
+const adapter = new BrowserAdapater('marxist.space')
 
 const db = low(adapter)
 
-db.defaults({ resources: [] }).write()
+db.defaults({ resources: initialDb.resources }).write()
 
 // eslint-disable-next-line fp/no-mutating-methods
 const originalResources = [...db.get('resources').value()].reverse()
@@ -52,6 +45,7 @@ export const filterByTags = (tags) => {
   return getOriginalResourcesByHrefs(hrefs)
 }
 
+// @ts-ignore
 const fuse = new Fuse(enrichedResources, fuseOptions)
 
 export const fullTextSearch = (text) => {

@@ -1,21 +1,5 @@
 version: "3"
 services:
-  server:
-    image: node:12-alpine
-    working_dir: /marxist.space/server
-    volumes:
-      - ./server:/marxist.space/server:cached
-      - ./db.yml:/marxist.space/db.yml:cached
-      - ./public:/marxist.space/public:cached
-    command: npm run dev
-    environment:
-      NODE_ENV: development
-      PORT: 9090
-    ports:
-      - 9090:9090
-    expose:
-      - 9090
-
   client:
     image: node:12-alpine
     working_dir: /client

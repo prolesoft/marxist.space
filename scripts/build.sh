@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 set -e
 
-cd server && npm run build
-cd ..
+npm run build-db
 cd client && npm run build

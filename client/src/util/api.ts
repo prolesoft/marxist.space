@@ -1,14 +1,11 @@
-import { getJson as _getJson } from 'fetchyeah'
+import { getTags, getAll, fullTextSearch, filterByTags } from '../db'
 
-const baseUrl = '/api'
+export const fetchResources = () => Promise.resolve(getAll())
 
-const getJson = (url) => _getJson(`${baseUrl}/${url}`)
+export const fetchTags = () => Promise.resolve(getTags())
 
-export const fetchResources = () => getJson('all')
-
-export const fetchTags = () => getJson('tags')
-
-export const searchResources = (text = '') => getJson(`search?text=${text}`)
+export const searchResources = (text = '') =>
+  Promise.resolve(fullTextSearch(text))
 
 export const filterResources = (tags: Array<string> = []) =>
-  getJson(`filter?tags=${tags.join(',')}`)
+  Promise.resolve(filterByTags(tags))

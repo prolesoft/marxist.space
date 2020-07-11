@@ -55,11 +55,6 @@ You can also develop without Docker. You'll need Node LTS or Latest and npm.
 git clone git@github.com:prolesoft/marxist.space.git
 cd marxist.space
 npm run install-all
-# Edit proxy in package.json to be http://localhost:9090
-cd server
-npm start
-# In another terminal
-cd client
 npm start
 ```
 
@@ -70,7 +65,7 @@ Go to <http://localhost:3000>
 ```shell
 npm run install-all
 npm run build
-cd server && npm start
+npm start
 ```
 
 Check out <http://localhost:9090>

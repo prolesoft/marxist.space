@@ -17,9 +17,12 @@
     "@babel/core": "7.10.4",
     "babel-core": "7.0.0-bridge.0",
     "fetchyeah": "3.1.1",
+    "fuse.js": "3.6.1",
     "get-query-params": "1.0.5",
     "jest-styled-components": "7.0.2",
     "lodash": "4.17.19",
+    "lowdb": "1.0.0",
+    "pluralize": "8.0.0",
     "react": "16.13.1",
     "react-app-polyfill": "1.0.6",
     "react-dev-utils": "7.0.3",
@@ -116,7 +119,6 @@
       "react-app"
     ]
   },
-  "proxy": "http://server:9090",
   "lint-staged": {
     "*.js": [
       "prettier --write"
