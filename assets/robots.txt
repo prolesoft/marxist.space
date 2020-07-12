@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://marxist.space/sitemap.xml
