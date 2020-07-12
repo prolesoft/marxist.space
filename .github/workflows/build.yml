@@ -19,4 +19,4 @@ jobs:
       - run: |
           git config --global user.name "zacanger"
           git config --global user.email "zac@zacanger.com"
-          git add . && git commit -am 'build' && git push origin master
+          git add . && git commit -m 'build' --allow-empty && git push origin master
