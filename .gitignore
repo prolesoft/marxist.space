@@ -15,8 +15,4 @@ node_modules
 tmp
 /tags
 core
-/public/static
-/docs/report.html
-/public/*.js
-/public/*.map
 report.html
