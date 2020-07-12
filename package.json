@@ -15,7 +15,7 @@
     "postbuild-assets": "cp -f assets/* docs/",
     "postbuild-client": "mkdir -p docs && cp -f dev-index.html public",
     "prd": "luvi -r public -p 9090 -n",
-    "prebuild": "rm -rf docs/",
+    "prebuild": "rm -rf docs/ && npm run build-db",
     "prestart": "npm run build-db",
     "pretest": "npm run build-db",
     "start": "node scripts/start.js",
