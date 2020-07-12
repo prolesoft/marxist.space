@@ -17,6 +17,6 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: |
-          git config --global user.name "ProleSoft"
-          git config --global user.email "marxist.space@protonmail.com"
+          git config --global user.name "zacanger"
+          git config --global user.email "zac@zacanger.com"
           git add . && git commit -am 'build' && git push origin master
