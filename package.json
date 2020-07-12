@@ -7,18 +7,24 @@
   "license": "LGPL-3.0",
   "main": "index.js",
   "scripts": {
-    "build": "./scripts/build.sh",
+    "build": "run-s -s build-db build-client",
+    "build-client": "node scripts/build.js",
     "build-db": "./scripts/build-db.sh",
-    "clean": "rm -rf node_modules client/node_modules",
-    "install-all": "npm ci && cd client && npm ci",
     "lint-db": "yamllint db.yml",
+    "postbuild": "npm run postbuild-client && cp -r public docs && npm run postbuild-assets",
+    "postbuild-assets": "cp -f assets/* docs/",
+    "postbuild-client": "mkdir -p docs && cp -f dev-index.html public",
     "prd": "luvi -r public -p 9090 -n",
+    "prebuild": "rm -rf docs/",
     "prestart": "npm run build-db",
     "pretest": "npm run build-db",
-    "prebuild": "rm -rf docs/",
-    "postbuild": "cp -r public docs",
-    "start": "./scripts/start.sh",
-    "test": "npm run lint-db && cd client && npm t"
+    "start": "node scripts/start.js",
+    "test": "run-s -s lint-db test-client",
+    "test-client": "run-s -s test:ts test:lint test:cover",
+    "test:cover": "npm run test:jest -- --coverage --no-cache",
+    "test:jest": "node scripts/test.js",
+    "test:lint": "eslint -c .eslintrc.json --report-unused-disable-directives --ext .js,.ts,.tsx config scripts src",
+    "test:ts": "tsc --noEmit"
   },
   "homepage": "https://marxist.space",
   "repository": {
@@ -30,10 +36,131 @@
   },
   "keywords": [],
   "dependencies": {
+    "@babel/core": "7.10.4",
+    "babel-core": "7.0.0-bridge.0",
+    "fetchyeah": "3.1.1",
+    "fuse.js": "3.6.1",
+    "get-query-params": "1.0.5",
+    "jest-styled-components": "7.0.2",
     "js-yaml": "3.14.0",
-    "luvi": "4.1.0"
+    "lodash": "4.17.19",
+    "lowdb": "1.0.0",
+    "luvi": "4.1.0",
+    "pluralize": "8.0.0",
+    "react": "16.13.1",
+    "react-app-polyfill": "1.0.6",
+    "react-dev-utils": "7.0.3",
+    "react-dom": "16.13.1",
+    "react-lazyload": "3.0.0",
+    "react-markdown": "4.3.1",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.2.0",
+    "react-transition-group": "4.4.1",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "resolve": "1.17.0",
+    "safer-web-storage": "1.1.0",
+    "styled-components": "5.1.1",
+    "styled-reset": "4.2.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "5.4.0",
+    "@types/jest": "26.0.4",
+    "@types/lodash": "4.14.157",
+    "@types/node": "14.0.22",
+    "@types/react": "16.9.42",
+    "@types/react-dom": "16.9.8",
+    "@types/react-lazyload": "2.6.0",
+    "@types/react-test-renderer": "16.9.2",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "26.1.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-named-asset-import": "0.3.6",
+    "babel-preset-react-app": "9.1.2",
+    "bfj": "7.0.2",
+    "case-sensitive-paths-webpack-plugin": "2.3.0",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
+    "eslint": "7.4.0",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-zacanger": "2.0.4",
+    "fork-ts-checker-webpack-plugin-alt": "0.4.14",
+    "fs-extra": "9.0.1",
+    "html-webpack-plugin": "4.3.0",
+    "husky": "4.2.5",
+    "jest": "26.1.0",
+    "lint-staged": "10.2.11",
+    "mq-polyfill": "1.1.8",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.0.5",
+    "react-test-renderer": "16.13.1",
+    "redux-mock-store": "1.5.4",
+    "sortpack": "2.1.5",
+    "terser-webpack-plugin": "3.0.6",
+    "typescript": "3.9.6",
+    "webpack": "4.43.0",
+    "webpack-bundle-analyzer": "3.8.0",
+    "webpack-dev-server": "3.11.0",
     "yaml-lint": "1.2.4"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx",
+      "json",
+      "jsx"
+    ],
+    "setupFiles": [
+      "react-app-polyfill/jsdom"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/config/jest/setup.js"
+    ],
+    "testEnvironment": "jsdom",
+    "testMatch": [
+      "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,ts,tsx}"
+    ],
+    "testURL": "http://localhost",
+    "transform": {
+      "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write"
+    ],
+    "*.ts": [
+      "prettier --write"
+    ],
+    "*.tsx": [
+      "prettier --write"
+    ],
+    "package.json": [
+      "sortpack"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
