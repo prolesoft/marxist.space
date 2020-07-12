@@ -15,11 +15,8 @@ node_modules
 tmp
 /tags
 core
-/_site
 /public/static
 /docs/report.html
 /public/*.js
-/public/asset-manifest.json
 /public/*.map
-/public/report.html
-/x
+report.html
