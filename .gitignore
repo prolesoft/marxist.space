@@ -17,8 +17,8 @@ tmp
 /tags
 core
 /_site
-/public/index.html
 /public/static
+/docs/report.html
 /public/*.js
 /public/asset-manifest.json
 /public/*.map
