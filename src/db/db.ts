@@ -2013,5 +2013,11 @@ export default {
       title: 'Abolition Media Worldwide English',
       tags: ['news', 'abolition'],
     },
+    {
+      href: 'https://www.globaltimes.cn/content/1158473.shtml',
+      title:
+        'Nearly 100 scholars, religious leaders in Xinjiang refute Pompeo with joint letter',
+      tags: ['xinjiang'],
+    },
   ],
 }
