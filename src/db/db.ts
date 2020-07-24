@@ -2019,5 +2019,16 @@ export default {
         'Nearly 100 scholars, religious leaders in Xinjiang refute Pompeo with joint letter',
       tags: ['xinjiang'],
     },
+    {
+      href: 'https://fatalencounters.org/',
+      title: 'Fatal Encounters',
+      tags: ['police'],
+    },
+    {
+      href: 'https://unsettlingamerica.wordpress.com/',
+      title: 'Unsettling America',
+      description: 'Decolonization in Theory & Practice',
+      tags: ['imperialism', 'colonization'],
+    },
   ],
 }
