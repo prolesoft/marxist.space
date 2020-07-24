@@ -2041,7 +2041,7 @@ resources:
     tags:
       - police
   - href: 'https://unsettlingamerica.wordpress.com/'
-    tags: Unsettling America
+    title: Unsettling America
     description: 'Decolonization in Theory & Practice'
     tags:
       - imperialism
