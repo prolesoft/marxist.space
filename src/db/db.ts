@@ -2030,5 +2030,10 @@ export default {
       description: 'Decolonization in Theory & Practice',
       tags: ['imperialism', 'colonization'],
     },
+    {
+      href: 'https://freedomarchives.org/',
+      title: 'Freedom Archives',
+      tags: ['library'],
+    },
   ],
 }
