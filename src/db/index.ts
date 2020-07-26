@@ -1,5 +1,5 @@
 import * as low from 'lowdb'
-import * as BrowserAdapater from 'lowdb/adapters/LocalStorage'
+import * as Adapter from 'lowdb/adapters/Memory'
 import * as Fuse from 'fuse.js'
 import { uniq, addTagAliases } from './util'
 import initialDb from './db'
@@ -16,7 +16,7 @@ const fuseOptions = {
   keys: ['href', 'title', 'tags', 'excerpts', 'description'],
 }
 
-const adapter = new BrowserAdapater('marxist.space')
+const adapter = new Adapter('marxist.space')
 
 const db = low(adapter)
 
