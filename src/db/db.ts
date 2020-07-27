@@ -1633,12 +1633,6 @@ export default {
     },
     {
       href:
-        'https://web.archive.org/web/20160501111622/http://anti-imperialism.com/2013/10/29/toward-a-concrete-class-analysis-of-the-united-states/',
-      title: 'Toward a Concret Class Analysis of the United States',
-      tags: ['analysis', 'us'],
-    },
-    {
-      href:
         'https://archive.cpgb-ml.org/download/publications/ClassSocietyInBritain.pdf',
       title:
         'A Class Analysis of the British Society and the Start of the 21st Centry',
