@@ -2035,5 +2035,10 @@ export default {
       title: 'Freedom Archives',
       tags: ['library'],
     },
+    {
+      href: 'https://www.revaim.org/',
+      title: 'Revolutionary Anti-Imperialist Movement',
+      tags: ['organization'],
+    },
   ],
 }
