@@ -31,14 +31,6 @@ exports[`Item renders 1`] = `
 }
 
 .c3 {
-  max-width: 800px;
-  padding-bottom: 1px;
-  padding-left: 8px;
-  font-size: 13px;
-  line-height: 19px;
-}
-
-.c4 {
   font-size: 12px;
   margin-top: auto;
 }
@@ -82,23 +74,8 @@ exports[`Item renders 1`] = `
         asdf
       </small>
     </a>
-    <div
-      className="c3"
-    >
-      one
-    </div>
-    <div
-      className="c3"
-    >
-      two
-    </div>
-    <div
-      className="c3"
-    >
-      three
-    </div>
     <span
-      className="c4"
+      className="c3"
     >
       Tags: 
       one two

@@ -3,5 +3,4 @@ export interface Resource {
   title: string
   tags: Array<string>
   description?: string
-  excerpts?: Array<string>
 }

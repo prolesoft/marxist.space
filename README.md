@@ -21,7 +21,6 @@ interface Resource {
   title: string
   tags: string[]
   description?: string
-  excerpts?: string[]
 }
 ```
 
@@ -35,8 +34,6 @@ resources: # this line is already there, needs to stay at the top
     tags:
       - best
       - website
-    excerpts: # this list is optional
-      - This domin is for use in illustrative examples in documents.
 ```
 
 ## Developing

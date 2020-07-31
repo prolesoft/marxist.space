@@ -31,14 +31,6 @@ exports[`resource renders with all props 1`] = `
 }
 
 .c2 {
-  max-width: 800px;
-  padding-bottom: 1px;
-  padding-left: 8px;
-  font-size: 13px;
-  line-height: 19px;
-}
-
-.c3 {
   font-size: 12px;
   margin-top: auto;
 }
@@ -75,18 +67,8 @@ exports[`resource renders with all props 1`] = `
       Links for you!
     </small>
   </a>
-  <div
-    className="c2"
-  >
-    So many good links
-  </div>
-  <div
-    className="c2"
-  >
-    The best links
-  </div>
   <span
-    className="c3"
+    className="c2"
   >
     Tags: 
     links collection

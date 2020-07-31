@@ -11,7 +11,6 @@ describe('Item', () => {
       title: 'foo',
       tags: ['one', 'two'],
       description: 'asdf',
-      excerpts: ['one', 'two', 'three'],
     }
     expect(create(<Item {...props} />).toJSON()).toMatchSnapshot()
   })

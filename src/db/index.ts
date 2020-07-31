@@ -10,7 +10,7 @@ const fuseOptions = {
   threshold: 0.4,
   ignoreLocation: true,
   minMatchCharLength: 3,
-  keys: ['href', 'title', 'tags', 'excerpts', 'description'],
+  keys: ['href', 'title', 'tags', 'description'],
 }
 
 const adapter = new Adapter('marxist.space')

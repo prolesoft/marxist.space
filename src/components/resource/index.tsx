@@ -2,7 +2,6 @@ import * as React from 'react'
 // import { lazyload } from 'react-lazyload'
 import styled from 'styled-components/macro'
 import Title from './title'
-import Excerpt from './excerpt'
 import Tags from './tags'
 import { Resource } from '../../interfaces'
 
@@ -30,16 +29,11 @@ const resourceHeight = 51
  */
 export default class ResourceItem extends React.Component<Resource> {
   render() {
-    const { href, title, description, tags, excerpts } = this.props
+    const { href, title, description, tags } = this.props
 
     return (
       <Wrapper>
         <Title href={href} title={title} description={description} />
-        {excerpts && excerpts.length
-          ? excerpts.map((text: string, i: number) => (
-              <Excerpt key={i}>{text}</Excerpt>
-            ))
-          : null}
         <Tags tags={tags} />
       </Wrapper>
     )

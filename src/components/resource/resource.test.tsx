@@ -20,7 +20,6 @@ describe('resource', () => {
       title: 'marxist.space',
       tags: ['links', 'collection'],
       description: 'Links for you!',
-      excerpts: ['So many good links', 'The best links'],
     }
     expect(create(<Resource {...props} />).toJSON()).toMatchSnapshot()
   })
