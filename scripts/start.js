@@ -9,10 +9,8 @@ process.on('unhandledRejection', (err) => {
 
 require('../config/env')
 
-const chalk = require('react-dev-utils/chalk')
 const webpack = require('webpack')
 const WebpackDevServer = require('webpack-dev-server')
-const clearConsole = require('react-dev-utils/clearConsole')
 const checkRequiredFiles = require('react-dev-utils/checkRequiredFiles')
 const {
   choosePort,
@@ -20,10 +18,15 @@ const {
   prepareProxy,
   prepareUrls,
 } = require('react-dev-utils/WebpackDevServerUtils')
-const openBrowser = require('react-dev-utils/openBrowser')
 const paths = require('../config/paths')
 const configFactory = require('../config/webpack.config')
 const createDevServerConfig = require('../config/webpack-dev-server.config')
+
+const clearConsole = () => {
+  process.stdout.write(
+    process.platform === 'win32' ? '\x1B[2J\x1B[0f' : '\x1B[2J\x1B[3J\x1B[H'
+  )
+}
 
 const isInteractive = process.stdout.isTTY
 
@@ -36,11 +39,7 @@ const HOST = process.env.HOST || '0.0.0.0'
 
 if (process.env.HOST) {
   console.log(
-    chalk.cyan(
-      `Attempting to bind to HOST environment variable: ${chalk.yellow(
-        chalk.bold(process.env.HOST)
-      )}`
-    )
+    `Attempting to bind to HOST environment variable: ${process.env.HOST}`
   )
   console.log(
     `If this was unintentional, check that you haven't mistakenly set it in your shell.`
@@ -59,7 +58,7 @@ checkBrowsers(paths.appPath, isInteractive)
     const protocol = process.env.HTTPS === 'true' ? 'https' : 'http'
     const appName = require(paths.appPackageJson).name
     const urls = prepareUrls(protocol, HOST, port)
-    const compiler = createCompiler(webpack, config, appName, urls)
+    const compiler = createCompiler({ webpack, config, appName, urls })
     const proxySetting = require(paths.appPackageJson).proxy
     const proxyConfig = prepareProxy(proxySetting, paths.appPublic)
     const serverConfig = createDevServerConfig(
@@ -75,8 +74,7 @@ checkBrowsers(paths.appPath, isInteractive)
       if (isInteractive) {
         clearConsole()
       }
-      console.log(chalk.cyan('Starting the development server\n'))
-      openBrowser(urls.localUrlForBrowser)
+      console.log('Starting the development server\n')
     })
     ;['SIGINT', 'SIGTERM'].forEach((sig) => {
       process.on(sig, () => {

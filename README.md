@@ -50,6 +50,8 @@ npm run install-all
 npm start
 ```
 
+Go to <http://localhost:3000>
+
 ## Releasing
 
 * First, make sure your changes are good. You can run `npm t` in the project

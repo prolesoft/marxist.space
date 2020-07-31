@@ -2,7 +2,6 @@
 
 const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware')
 const evalSourceMapMiddleware = require('react-dev-utils/evalSourceMapMiddleware')
-const noopServiceWorkerMiddleware = require('react-dev-utils/noopServiceWorkerMiddleware')
 const ignoredFiles = require('react-dev-utils/ignoredFiles')
 const paths = require('./paths')
 
@@ -37,8 +36,6 @@ module.exports = function (proxy, allowedHost) {
     before(app, server) {
       app.use(evalSourceMapMiddleware(server))
       app.use(errorOverlayMiddleware())
-      // Don't cache in dev
-      app.use(noopServiceWorkerMiddleware())
     },
   }
 }

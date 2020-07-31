@@ -47,7 +47,7 @@
     "pluralize": "8.0.0",
     "react": "16.13.1",
     "react-app-polyfill": "1.0.6",
-    "react-dev-utils": "7.0.3",
+    "react-dev-utils": "9.1.0",
     "react-dom": "16.13.1",
     "react-lazyload": "3.0.0",
     "react-markdown": "4.3.1",
