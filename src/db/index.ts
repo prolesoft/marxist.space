@@ -1,17 +1,14 @@
 import * as low from 'lowdb'
 import * as Adapter from 'lowdb/adapters/Memory'
-import * as Fuse from 'fuse.js'
+import Fuse from 'fuse.js'
 import { uniq, addTagAliases } from './util'
 import initialDb from './db'
 
 const fuseOptions = {
   shouldSort: true,
   tokenize: true,
-  matchAllTokens: true,
   threshold: 0.4,
-  location: 0,
-  distance: 100,
-  maxPatternLength: 32,
+  ignoreLocation: true,
   minMatchCharLength: 3,
   keys: ['href', 'title', 'tags', 'excerpts', 'description'],
 }
@@ -49,6 +46,7 @@ export const filterByTags = (tags) => {
 const fuse = new Fuse(enrichedResources, fuseOptions)
 
 export const fullTextSearch = (text) => {
-  const hrefs = fuse.search(text).map(({ href }) => href)
+  const hrefs = fuse.search(text).map(({ item }) => item.href)
+
   return getOriginalResourcesByHrefs(hrefs)
 }

@@ -1,3 +1,4 @@
 *.snap.*
 *.snap
 docs/*
+public/
