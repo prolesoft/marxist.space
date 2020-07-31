@@ -16,7 +16,6 @@ jobs:
           node-version: 14.x
       - run: npm ci
       - run: npm run build
-      - run: bash <(curl -s https://codecov.io/bash)
       - run: |
           git config --global user.name "zacanger"
           git config --global user.email "zac@zacanger.com"
