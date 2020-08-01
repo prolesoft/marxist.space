@@ -16,6 +16,7 @@ const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin')
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin-alt')
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter')
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer')
+const UnusedWebpackPlugin = require('unused-webpack-plugin')
 
 const useTypeScript = true
 
@@ -237,6 +238,23 @@ module.exports = function (webpackEnv) {
         watch: paths.appSrc,
         silent: true,
         formatter: typescriptFormatter,
+      }),
+      new UnusedWebpackPlugin({
+        // Source directories
+        // eslint-disable-next-line no-undef
+        directories: [path.join(__dirname, '..', 'src')],
+        // Exclude patterns
+        exclude: [
+          '*.test.ts',
+          '*.test.tsx',
+          '*.snap',
+          '*.d.ts',
+          'interfaces.ts',
+        ],
+        // Root directory (optional)
+        // eslint-disable-next-line no-undef
+        root: path.join(__dirname, '..'),
+        failOnUnused: true,
       }),
     ].filter(Boolean),
     node: {
