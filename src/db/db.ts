@@ -2034,5 +2034,10 @@ export default {
       title: 'Revolutionary Anti-Imperialist Movement',
       tags: ['organization'],
     },
+    {
+      href: 'https://twitter.com/RodericDay/status/1287411708374454273',
+      title: 'Twitter Thread on Accusations against China about Xinjiang',
+      tags: ['twitter', 'xinjiang'],
+    },
   ],
 }
