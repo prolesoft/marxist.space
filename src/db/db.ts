@@ -2039,5 +2039,10 @@ export default {
       title: 'Twitter Thread on Accusations against China about Xinjiang',
       tags: ['twitter', 'xinjiang'],
     },
+    {
+      href: 'https://twitter.com/Truth_Informant/status/1291524726142238720',
+      title: 'Another Twitter Thread on Xinjiang',
+      tags: ['twitter', 'xinjiang'],
+    },
   ],
 }
