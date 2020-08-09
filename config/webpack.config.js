@@ -73,13 +73,8 @@ module.exports = function (webpackEnv) {
             compress: {
               ecma: 5,
               warnings: false,
-              // Disabled:
-              // https://github.com/facebook/create-react-app/issues/2376
               // https://github.com/mishoo/UglifyJS2/issues/2011
               comparisons: false,
-              // Disabled:
-              // https://github.com/facebook/create-react-app/issues/5250
-              // https://github.com/terser-js/terser/issues/120
               inline: 2,
             },
             mangle: {
@@ -88,7 +83,6 @@ module.exports = function (webpackEnv) {
             output: {
               ecma: 5,
               comments: false,
-              // https://github.com/facebook/create-react-app/issues/2488
               ascii_only: true,
             },
           },
