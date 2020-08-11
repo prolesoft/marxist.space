@@ -7,7 +7,7 @@ import initialDb from './db'
 const fuseOptions = {
   shouldSort: true,
   tokenize: true,
-  threshold: 0.4,
+  threshold: 0.3,
   ignoreLocation: true,
   minMatchCharLength: 3,
   keys: ['href', 'title', 'tags', 'description'],
