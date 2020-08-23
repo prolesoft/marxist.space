@@ -2044,5 +2044,10 @@ export default {
       title: 'Another Twitter Thread on Xinjiang',
       tags: ['twitter', 'xinjiang'],
     },
+    {
+      href: 'http://en.people.cn/dengxp/vol2/text/b1470.html',
+      title: 'Interview with Deng Xiaoping',
+      tags: ['deng', 'mao'],
+    },
   ],
 }
