@@ -2069,7 +2069,12 @@ resources:
       - twitter
       - xinjiang
   - href: 'https://twitter.com/_tchiek/status/1299386623390617601'
-    title: Twitter Thread  on Xinjiang
+    title: Twitter Thread on Xinjiang
+    tags:
+      - twitter
+      - xinjiang
+  - href: 'https://twitter.com/whoiszhu/status/1302301579333308416'
+    title: Another Xinjiang Twitter Thread
     tags:
       - twitter
       - xinjiang
