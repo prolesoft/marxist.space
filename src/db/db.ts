@@ -2064,5 +2064,12 @@ export default {
       title: 'Another Xinjiang Twitter Thread',
       tags: ['twitter', 'xinjiang'],
     },
+    {
+      href:
+        'https://docs.google.com/document/d/1_ef5kHPvQRkR_cgGlJvMZY0EWGiy8MXZAOvLQxKDHgI/edit',
+      title:
+        'Xinjiang Uyghur Autonomous Region: Debunking And Analysing Myths of “Concentration Camps”',
+      tags: ['xinjiang'],
+    },
   ],
 }
