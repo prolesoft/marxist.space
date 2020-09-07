@@ -37,10 +37,6 @@ type TagListProps = {
   clearTags: () => void
 }
 
-type MaybeParams = {
-  tags?: string
-}
-
 export class TagList extends React.Component<TagListProps> {
   setTags = (tags: Array<string>) => {
     // eslint-disable-next-line fp/no-mutating-methods
