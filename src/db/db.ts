@@ -2071,5 +2071,20 @@ export default {
         'Xinjiang Uyghur Autonomous Region: Debunking And Analysing Myths of “Concentration Camps”',
       tags: ['xinjiang'],
     },
+    {
+      href: 'http://www.massline.info/',
+      title: 'The Mass Line and Having a Mass Perspective',
+      tags: ['library', 'maoist'],
+    },
+    {
+      href: 'https://www.massline.org',
+      title: 'Massline',
+      tags: ['library', 'maoist'],
+    },
+    {
+      href: 'https://historyisaweapon.com',
+      title: 'History Is A Weapon',
+      tags: ['library'],
+    },
   ],
 }
