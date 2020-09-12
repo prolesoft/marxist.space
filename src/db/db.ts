@@ -2086,5 +2086,10 @@ export default {
       title: 'History Is A Weapon',
       tags: ['library'],
     },
+    {
+      href: 'https://twitter.com/comradekelley/status/1304837535189864448',
+      title: 'Twitter Thread Debunking Xinjiang Concentration Camps',
+      tags: ['xinjiang', 'twitter'],
+    },
   ],
 }
