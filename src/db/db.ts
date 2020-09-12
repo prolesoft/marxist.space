@@ -2091,5 +2091,10 @@ export default {
       title: 'Twitter Thread Debunking Xinjiang Concentration Camps',
       tags: ['xinjiang', 'twitter'],
     },
+    {
+      href: 'https://twitter.com/Truth2Upeople/status/1286194974657191937',
+      title: 'Twitter Thread on so-called Uygur Activists',
+      tags: ['xinjiang', 'twitter'],
+    },
   ],
 }
