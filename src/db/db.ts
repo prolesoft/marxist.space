@@ -2096,5 +2096,10 @@ export default {
       title: 'Twitter Thread on so-called Uygur Activists',
       tags: ['xinjiang', 'twitter'],
     },
+    {
+      href: 'https://twitter.com/ChengxinPan/status/1310051540397297665',
+      title: 'Thread Debunking ASPI Nonsense',
+      tags: ['xinjiang', 'twitter'],
+    },
   ],
 }
