@@ -2101,5 +2101,10 @@ export default {
       title: 'Thread Debunking ASPI Nonsense',
       tags: ['xinjiang', 'twitter'],
     },
+    {
+      href: 'https://twitter.com/moghilemear13/status/1309215562766180355',
+      title: 'Another Thread on ASPI Lies',
+      tags: ['xinjiang', 'twitter'],
+    },
   ],
 }
