@@ -2106,5 +2106,11 @@ export default {
       title: 'Another Thread on ASPI Lies',
       tags: ['xinjiang', 'twitter'],
     },
+    {
+      href:
+        'https://www.thecanary.co/global/world-analysis/2020/10/23/leaked-emails-suggest-shocking-us-mercenary-plot-in-bolivia/',
+      title: 'Leaked emails suggest shocking US mercenary plot in Bolivia',
+      tags: ['bolivia'],
+    },
   ],
 }
