@@ -2131,5 +2131,10 @@ export default {
       title: 'Bolivia fights, sheds blood to resist the coup',
       tags: ['bolivia'],
     },
+    {
+      href: 'https://atun-rsia.org/',
+      title: 'Autonomous Tenants Union Network',
+      tags: ['union', 'renters', 'tenants'],
+    },
   ],
 }
