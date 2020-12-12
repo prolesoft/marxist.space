@@ -2140,3 +2140,7 @@ resources:
       - union
       - renters
       - tenants
+  - href: 'https://redsails.org/'
+    title: Red Sails
+    tags:
+      - blog
