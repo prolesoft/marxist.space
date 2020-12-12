@@ -2136,5 +2136,10 @@ export default {
       title: 'Autonomous Tenants Union Network',
       tags: ['union', 'renters', 'tenants'],
     },
+    {
+      href: 'https://redsails.org/',
+      title: 'Red Sails',
+      tags: ['blog'],
+    },
   ],
 }
