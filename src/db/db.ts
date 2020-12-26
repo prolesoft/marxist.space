@@ -1102,7 +1102,7 @@ export default {
       href:
         'https://www.theguardian.com/commentisfree/2009/feb/10/tibet-china-feudalism',
       title: "What we don't hear about Tibet",
-      tags: ['china'],
+      tags: ['tibet'],
     },
     {
       href:
@@ -2140,6 +2140,13 @@ export default {
       href: 'https://redsails.org/',
       title: 'Red Sails',
       tags: ['blog'],
+    },
+    {
+      href:
+        'https://news.cgtn.com/news/2020-10-16/How-Tibet-eliminated-absolute-poverty-despite-harsh-climate--UDkSdO4J5S/index.html',
+      title:
+        "Tibet: How China's toughest battleground defeated absolute poverty?",
+      tags: ['tibet'],
     },
   ],
 }

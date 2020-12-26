@@ -1088,7 +1088,7 @@ resources:
       https://www.theguardian.com/commentisfree/2009/feb/10/tibet-china-feudalism
     title: What we don't hear about Tibet
     tags:
-      - china
+      - tibet
   - href: >-
       https://www.theatlantic.com/international/archive/2013/01/why-do-chinese-billionaires-keep-ending-up-in-prison/272633/
     title: Why Do Chinese Billionaires Keep Ending Up in Prison?
@@ -2144,3 +2144,7 @@ resources:
     title: Red Sails
     tags:
       - blog
+  - href: 'https://news.cgtn.com/news/2020-10-16/How-Tibet-eliminated-absolute-poverty-despite-harsh-climate--UDkSdO4J5S/index.html'
+    title: "Tibet: How China's toughest battleground defeated absolute poverty?"
+    tags:
+      - tibet
