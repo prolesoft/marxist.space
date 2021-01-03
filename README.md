@@ -46,8 +46,7 @@ cd marxist.space
 ## Releasing
 
 * Merge or push changes, that's it! If making real code changes, please tag
-  appropriately using `npm version`. `npm version` will also check the db.yml
-  file for errors, and will fail if you haven't run `npm ci` yet.
+  appropriately using `npm version`, and run `npm t` to double-check db.yml.
 
 ## Contributing
 
