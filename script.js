@@ -1,78 +1,12 @@
-/**
- * Filter Table plugin Originally from
- * https://github.com/sunnywalker/jQuery.FilterTable/blob/master/jquery.filtertable.js,
- * MIT licensed, modified.
- */
-;(function ($) {
-  // define the plugin
-  $.fn.filterTable = function () {
-    const doFiltering = (table, q) => {
-      // cache the tbody element
-      const tbody = table.find('tbody')
-      // if the filtering query is blank
-      if (q.trim() === '') {
-        // show all rows
-        tbody.find('tr').show()
-      } else {
-        // if the filter query is not blank
-        const allTds = tbody.find('td')
-        // hide all rows, assuming none were found
-        tbody.find('tr').hide()
-        // show rows
-
-        allTds.filter((index, element) =>
-          $(element).text().toLowerCase().includes(q.trim().toLowerCase())
-        ).closest('tr').show()
-      }
-    }
-
-    return this.each(function () {
-      // cache the table
-      const t = $(this)
-      // cache the tbody
-      const tbody = t.find('tbody')
-
-      // create the filter input field (and container)
-      // build the container tag for the filter field
-      const container = $('<p />')
-      // add the label for the filter field
-      container.prepend('Filter: ')
-      // build the filter field
-      const filter = $(`<input type="search" placeholder="marxism" name="search" />`)
-
-      // prevent return in the filter field from submitting any forms
-      filter.on('keydown', (ev) => {
-        if ((ev.keyCode || ev.which) === 13) {
-          ev.preventDefault()
-          return false
-        }
-      })
-
-      // bind doFiltering() to events
-      filter.bind('keyup click search input paste blur', function () {
-        doFiltering(t, $(this).val())
-      })
-
-      // add the filter field to the container
-      container.append(filter)
-
-      // add the container to just before the table
-      t.before(container)
-    })
-  }
-})(jQuery);
-
-
 /* This code initially used fuse.js and lowdb from a Koa server,
  * then the same libraries but client-side in a React app, and
- * now it's using the above jquery table filter plugin instead.
+ * now it's using jquery.
  * Bringing fuse back might have some benefits for fuzzy search,
  * at some point, and move the aliases and pluralization out of
- * the DOM and into the filter function above.
+ * the DOM and into the filter function.
  */
 ;(function($) {
-  const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
-
+  /* Utilities */
   const tagAliases = [
     ['abolition', 'police', 'prison', 'cop', 'policing', 'jail'],
     ['anarchist', 'anarchism', 'anarchy'],
@@ -105,7 +39,11 @@
     ['zapatista', 'ezln'],
   ]
 
-  const addPlurals = (tags) => uniq(tags.flatMap((tag) => [pluralize.plural(tag), pluralize.singular(tag)]))
+  const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
+
+  const addPlurals = (tags) =>
+    uniq(tags.flatMap((tag) =>
+      [pluralize.plural(tag), pluralize.singular(tag)]))
 
   const addTagAliases = (tags) => {
     const pluralized = addPlurals(tags)
@@ -115,6 +53,7 @@
     return uniq([...pluralized, ...possibleAliases])
   }
 
+  // get the db, convert to js
   window.fetch('/db.yml')
     .then((res) => res.text())
     .then((text) => jsyaml.load(text))
@@ -123,20 +62,63 @@
       // enrich resource with plurals and tag aliases, used in a hidden span by the filter
       const enrichedResources = resources.map((a) => ({ ...a, tags: addTagAliases(a.tags) }))
 
-      // build the table elements from the original resources, enriched with the
-      // tags from above, and then reverse it since new resources are added to
-      // the bottom of the yaml file
-      const table = resources.map((resource) => {
+      // set up filtering code
+      const addListFilter = () => {
+        const ul = $(document.body).find('ul')
+
+        // actual filtering function
+        const filterRows = (query) => {
+          if (query.trim() === '') {
+            ul.find('li').show()
+          } else {
+            const allLis = ul.find('li')
+            // assume nothing found, then just show found rows
+            // this should be refactored
+            ul.find('li').hide()
+            allLis.filter((index, element) => {
+              const href = $(element).find('a').attr('href')
+              const enriched = enrichedResources.find((r) => r.href === href)
+              return JSON.stringify(enriched).toLowerCase().includes(query.trim().toLowerCase())
+            }).show()
+          }
+        }
+
+        // create the input, container, and label
+        const container = $('<p />')
+        container.prepend('Filter: ')
+        const filter = $(`<input type="search" placeholder="marxism" name="search" />`)
+
+        // don't try to submit a form on enter
+        filter.on('keydown', (ev) => {
+          if ((ev.keyCode || ev.which) === 13) {
+            ev.preventDefault()
+            return false
+          }
+        })
+
+        // bind the filter to the events
+        filter.on('keyup click search input paste blur', (evt) => {
+          filterRows(evt.target.value)
+        })
+
+        // add field to container and container to body
+        container.append(filter)
+        ul.before(container)
+      }
+
+      // build the table elements from the original resources, flip it since new
+      // links are added to the end of the yaml file
+      const items = resources.map((resource) => {
         const enrichedTags = enrichedResources.find((r) => r.href === resource.href).tags
         const link = `<a href="${resource.href}" rel="noopener noreferrer nofollower" target="_blank">${resource.title}</a/>`
-        const tags = `<small>${resource.tags.join(' ')}<span hidden>${enrichedTags.join(' ')}</span></small>`
-        const row = `<tr><td>${link}</td><td>${resource.description || ''}</td><td>${tags}</td></tr>`
+        const tags = `<small>${resource.tags.join(' ')}</small>`
+        const description = resource.description ? `<br>${resource.description}` : ''
+        const row = `<li>${link}${description}<br>${tags}</li>`
         return row
       }).reverse()
 
-      $('tbody').html(table)
+      // append all the items and add the filter
+      $('ul').html(items)
+      addListFilter()
     })
-
-
-  $('table').filterTable()
 })(jQuery);

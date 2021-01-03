@@ -41,30 +41,23 @@ input {
   -webkit-appearance: none;
 }
 
-/* table */
-table {
-  border-collapse: collapse;
-  table-layout: fixed;
-  width: 100%;
-  max-width: 800px;
+/* item cards */
+ul {
+  list-style: none;
+  padding: 0;
 }
-th, td {
-  padding: 0.75rem;
-  vertical-align: top;
-  border-top: 1px solid #eceeef;
+li {
+  width: calc(100vw - 32px);
+  max-width: 600px;
+  background: #fefefe;
+  margin: 16px 0;
+  padding: 8px;
+  box-shadow: 1px 1px 2px #ddd;
+  transition: all .2s ease;
 }
-th {
-  border-bottom: 2px solid #999;
-  background-color: #eee;
-  vertical-align: bottom;
-  text-align: left;
-}
-td {
-  border-bottom: 1px solid #ccc;
-}
-thead th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #eceeef;
+li:hover {
+  box-shadow: 2px 2px 3px #ccc;
+  transition: all .2s ease;
 }
 
 /* links */
@@ -86,9 +79,6 @@ a:active  {
 }
 
 /* misc */
-[hidden] {
-  display: none;
-}
 header {
   padding: 0.75em;
   max-width: 600px;
