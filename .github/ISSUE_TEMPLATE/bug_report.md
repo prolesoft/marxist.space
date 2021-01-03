@@ -15,4 +15,4 @@ assignees: ''
 
 **Screenshots if applicable**
 
-**Environment info if applicable** (browser, Node version, etc.)
+**Environment info if applicable**

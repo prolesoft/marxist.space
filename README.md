@@ -1,9 +1,5 @@
 # marxist.space
 
-[![Build Status](https://github.com/prolesoft/marxist.space/workflows/build/badge.svg)](https://github.com/prolesoft/marxist.space/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/af5ebb6ca8951512bec3/maintainability)](https://codeclimate.com/github/prolesoft/marxist.space/maintainability)
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-
 A [ProleSoft](https://prolesoft.github.io) project.
 
 ## Adding Resources
@@ -38,37 +34,22 @@ resources: # this line is already there, needs to stay at the top
 
 ## Developing
 
-Prerequisites: Node LTS or Latest and npm
+Run a local web server and open in the browser. For example, `npx luvi` or
+`serve-static` would work.
 
 ```shell
 git clone git@github.com:prolesoft/marxist.space.git
 cd marxist.space
-npm run install-all
-npm start
+# run your prefered local development server
 ```
-
-Go to <http://localhost:3000>
 
 ## Releasing
 
-* First, make sure your changes are good. You can run `npm t` in the project
-  root to just run all the tests, or run `npm run build` in project root to run
-  tests and build for production (important to verify if you're making changes
-  to the build setup or dependencies).
-* Merge to master, or commit to master, and the project will be built and
-  deployed automatically by a GitHub Action. For code changes, please `npm
-  version LEVEL` and `git push origin master --follow -tags`, where `LEVEL` is
-  one of `patch|minor|major`.
+* Merge or push changes, that's it! If making real code changes, please tag
+  appropriately using `npm version`. `npm version` will also check the db.yml
+  file for errors, and will fail if you haven't run `npm ci` yet.
 
 ## Contributing
 
 See [CONTRIBUTING](./.github/CONTRIBUTING.md) and the
 [open issues](https://github.com/prolesoft/marxist.space/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
-
-## Credits and Tech
-
-Built with [React](https://reactjs.org/),
-[TypeScript](https://www.typescriptlang.org/),
-and [Lowdb](https://github.com/typicode/lowdb).
-A portion of the front-end code is copy-pasted from
-[Asperitas](https://github.com/d11z/asperitas) (MIT licensed).
