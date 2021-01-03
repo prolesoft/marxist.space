@@ -1,9 +1,17 @@
+/* Incorporates some code from normalize.css v8.0.1, | MIT License */
+
+/* setup */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
 body {
+  margin: 0;
   -webkit-font-smoothing: antialiased;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 100%;
@@ -12,24 +20,38 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #111111;
 }
-h1 {
-  margin-top: 1em;
-  padding-top: 1em;
-  border-bottom: 2px solid #eee;
+
+/* input */
+input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
 }
-li {
-  margin-bottom: 0.5em;
+input {
+  overflow: visible;
 }
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* table */
 table {
   border-collapse: collapse;
-  width: 100%;
   table-layout: fixed;
   width: 100%;
   max-width: 800px;
 }
 th, td {
-  padding: 4px;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #eceeef;
 }
 th {
   border-bottom: 2px solid #999;
@@ -40,10 +62,48 @@ th {
 td {
   border-bottom: 1px solid #ccc;
 }
-.nope {
+thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #eceeef;
+}
+
+/* links */
+a {
+  background-color: transparent;
+  transition: color .2s;
+  color: #2a6893;
+}
+a:link,
+a:visited {
+  color: #2a6893;
+}
+a:hover {
+  color: #35aedd;
+}
+a:active  {
+  transition: color .2s;
+  color: #1b77c6;
+}
+
+/* misc */
+[hidden] {
   display: none;
 }
 header {
   max-width: 600px;
   margin-bottom: 16px;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  border-bottom: 2px solid #eee;
+}
+strong {
+  font-weight: bolder;
+}
+small {
+  font-size: 80%;
+}
+noscript {
+  border: 2px solid #992f06;
 }

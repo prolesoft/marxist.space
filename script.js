@@ -38,7 +38,7 @@
       // add the label for the filter field
       container.prepend('Filter: ')
       // build the filter field
-      const filter = $(`<input type="search" placeholder="Find resources" name="search" />`)
+      const filter = $(`<input type="search" placeholder="marxism" name="search" />`)
 
       // prevent return in the filter field from submitting any forms
       filter.on('keydown', (ev) => {
@@ -129,7 +129,7 @@
       const table = resources.map((resource) => {
         const enrichedTags = enrichedResources.find((r) => r.href === resource.href).tags
         const link = `<a href="${resource.href}" rel="noopener noreferrer nofollower" target="_blank">${resource.title}</a/>`
-        const tags = `<small>${resource.tags.join(' ')}<span class="nope">${enrichedTags.join(' ')}</span></small>`
+        const tags = `<small>${resource.tags.join(' ')}<span hidden>${enrichedTags.join(' ')}</span></small>`
         const row = `<tr><td>${link}</td><td>${resource.description || ''}</td><td>${tags}</td></tr>`
         return row
       }).reverse()
