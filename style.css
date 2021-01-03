@@ -90,6 +90,7 @@ a:active  {
   display: none;
 }
 header {
+  padding: 0.75em;
   max-width: 600px;
   margin-bottom: 16px;
 }
