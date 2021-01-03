@@ -4,75 +4,25 @@
  * MIT licensed, modified.
  */
 ;(function ($) {
-  // define the filter
-  // a = element, i = match1, m = match2?
-  $.expr.filters.marxistSpaceCustomFilter = (a, i, m) =>
-    $(a)
-      .text()
-      .toUpperCase()
-      .indexOf(
-        m[3]
-        .toUpperCase()
-        .replace(/"""/g, '"')
-        .replace(/"\\"/g, "\\")
-      ) >= 0
-
-
   // define the plugin
   $.fn.filterTable = function () {
-    const settings = {
-      // callback function: function (term, table) {  }
-      callback: null,
-
-      // jQuery expression method to use for filtering
-      filterExpression: 'marxistSpaceCustomFilter',
-
-      // name of filter input field
-      inputName: '',
-
-      // tag name of the filter input tag
-      inputType: 'search',
-
-      // text to precede the filter input tag
-      label: 'Filter:',
-
-      // HTML5 placeholder text for the filter field
-      placeholder: 'Find resources',
-
-      // class applied to visible rows
-      visibleClass: 'visible'
-    }
-
-    // mimic PHP's htmlspecialchars() function
-    const hsc = (text) =>
-      text
-        .replace(/&/g, '&amp;')
-        .replace(/"/g, '&quot;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-
-    const doFiltering = function (table, q) {
+    const doFiltering = (table, q) => {
       // cache the tbody element
       const tbody = table.find('tbody')
       // if the filtering query is blank
-      if (q === '') {
+      if (q.trim() === '') {
         // show all rows
-        tbody.find('tr').show().addClass(settings.visibleClass)
+        tbody.find('tr').show()
       } else {
         // if the filter query is not blank
         const allTds = tbody.find('td')
         // hide all rows, assuming none were found
-        tbody.find('tr').hide().removeClass(settings.visibleClass)
+        tbody.find('tr').hide()
         // show rows
-        allTds.filter(':' + settings.filterExpression + '("' + q + '")')
-          .closest('tr')
-          .show()
-          .addClass(settings.visibleClass)
-      }
 
-      // call the callback function
-      if (settings.callback) {
-        settings.callback(q, table)
+        allTds.filter((index, element) =>
+          $(element).text().toLowerCase().includes(q.trim().toLowerCase())
+        ).closest('tr').show()
       }
     }
 
@@ -81,73 +31,45 @@
       const t = $(this)
       // cache the tbody
       const tbody = t.find('tbody')
-      // placeholder for the filter field container DOM node
-      let container = null
-      // placeholder for the field field DOM node
-      let filter = null
-      // was the filter created or chosen from an existing element?
-      let created_filter = true
 
-      // only if object is a table and there's a tbody and hasn't already had a filter added
-      if (
-        t[0].nodeName === 'TABLE' &&
-        tbody.length > 0
-      ) {
-        // create the filter input field (and container)
-        // build the container tag for the filter field
-        container = $('<p />')
-        // add the label for the filter field
-        container.prepend(settings.label + ' ');
-        // build the filter field
-        filter = $('<input type="' + settings.inputType + '" placeholder="' + settings.placeholder + '" name="' + settings.inputName + '" />');
+      // create the filter input field (and container)
+      // build the container tag for the filter field
+      const container = $('<p />')
+      // add the label for the filter field
+      container.prepend('Filter: ')
+      // build the filter field
+      const filter = $(`<input type="search" placeholder="Find resources" name="search" />`)
 
-        // prevent return in the filter field from submitting any forms
-        filter.on('keydown', (ev) => {
-          if ((ev.keyCode || ev.which) === 13) {
-            ev.preventDefault();
-            return false
-          }
-        })
-
-        // does bindWithDelay() exist?
-        if ($.fn.bindWithDelay) {
-          // bind doFiltering() to keyup (delayed)
-          filter.bindWithDelay('keyup', function () {
-            doFiltering(t, $(this).val());
-          }, 200);
-        } else {
-          // just bind to onKeyUp
-          // bind doFiltering() to keyup
-          filter.bind('keyup', function () {
-            doFiltering(t, $(this).val());
-          });
+      // prevent return in the filter field from submitting any forms
+      filter.on('keydown', (ev) => {
+        if ((ev.keyCode || ev.which) === 13) {
+          ev.preventDefault()
+          return false
         }
+      })
 
-        // bind doFiltering() to additional events
-        filter.bind('click search input paste blur', function () {
-          doFiltering(t, $(this).val());
-        })
+      // bind doFiltering() to events
+      filter.bind('keyup click search input paste blur', function () {
+        doFiltering(t, $(this).val())
+      })
 
-        // add the filter field to the container if it was created by the plugin
-        if (created_filter) {
-          container.append(filter)
-        }
+      // add the filter field to the container
+      container.append(filter)
 
-        // add the filter field and quick list container to just before the table if it was created by the plugin
-        if (created_filter) {
-          t.before(container)
-        }
-      }
+      // add the container to just before the table
+      t.before(container)
     })
   }
 })(jQuery);
 
 
-/*
- * My code
+/* This code initially used fuse.js and lowdb from a Koa server,
+ * then the same libraries but client-side in a React app, and
+ * now it's using the above jquery table filter plugin instead.
+ * Bringing fuse back might have some benefits for fuzzy search,
+ * at some point, and move the aliases and pluralization out of
+ * the DOM and into the filter function above.
  */
-
-
 ;(function($) {
   const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
 
@@ -198,11 +120,12 @@
     .then((text) => jsyaml.load(text))
     .then((obj) => obj.resources)
     .then((resources) => {
-      const enrichedResources = resources.map((a) => ({
-        ...a,
-        tags: addTagAliases(a.tags),
-      }))
+      // enrich resource with plurals and tag aliases, used in a hidden span by the filter
+      const enrichedResources = resources.map((a) => ({ ...a, tags: addTagAliases(a.tags) }))
 
+      // build the table elements from the original resources, enriched with the
+      // tags from above, and then reverse it since new resources are added to
+      // the bottom of the yaml file
       const table = resources.map((resource) => {
         const enrichedTags = enrichedResources.find((r) => r.href === resource.href).tags
         const link = `<a href="${resource.href}" rel="noopener noreferrer nofollower" target="_blank">${resource.title}</a/>`
