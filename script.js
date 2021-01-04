@@ -1,10 +1,5 @@
-/* This code initially used fuse.js and lowdb from a Koa server,
- * then the same libraries but client-side in a React app, and
- * now it's using jquery.
- * Bringing fuse back might have some benefits for fuzzy search,
- * at some point, and move the aliases and pluralization out of
- * the DOM and into the filter function.
- */
+// Bringing fuse back might have some value later on, see:
+// https://github.com/prolesoft/marxist.space/blob/b17b891f4e7213b1d3b1494f3110bbe1bd8efa3f/src/db/index.ts
 ;(function($) {
   /* Utilities */
   const tagAliases = [
@@ -39,7 +34,7 @@
     ['zapatista', 'ezln'],
   ]
 
-  const uniq = (xs) => xs.filter((v, i, s) => s.indexOf(v) === i)
+  const uniq = (xs) => [...new Set(xs)]
 
   const addPlurals = (tags) =>
     uniq(tags.flatMap((tag) =>
@@ -48,10 +43,17 @@
   const addTagAliases = (tags) => {
     const pluralized = addPlurals(tags)
     const possibleAliases = tagAliases
-      .filter((xs) => xs.find((x) => pluralized.includes(x)))
+      .filter((xs) =>
+        xs.find((x) =>
+          pluralized.includes(x)))
       .flat()
+
     return uniq([...pluralized, ...possibleAliases])
   }
+
+  const enrichResources = (resources) =>
+    resources.map((a) =>
+      ({ ...a, extraTags: addTagAliases(a.tags) }))
 
   // get the db, convert to js
   window.fetch('/db.yml')
@@ -59,8 +61,8 @@
     .then((text) => jsyaml.load(text))
     .then((obj) => obj.resources)
     .then((resources) => {
-      // enrich resource with plurals and tag aliases, used in a hidden span by the filter
-      const enrichedResources = resources.map((a) => ({ ...a, tags: addTagAliases(a.tags) }))
+      // enrich resource with plurals and tag aliases from functions above
+      const enrichedResources = enrichResources(resources)
 
       // set up filtering code
       const addListFilter = () => {
@@ -68,9 +70,11 @@
 
         // actual filtering function
         const filterRows = (query) => {
+          // show all items if no query
           if (query.trim() === '') {
             ul.find('li').show()
           } else {
+            // otherwise, do the search
             const allLis = ul.find('li')
             // assume nothing found, then just show found rows
             // this should be refactored
@@ -83,39 +87,20 @@
           }
         }
 
-        // create the input, container, and label
-        const container = $('<p />')
-        container.prepend('Filter: ')
-        const filter = $(`<input type="search" placeholder="marxism" name="search" />`)
-
-        // don't try to submit a form on enter
-        filter.on('keydown', (ev) => {
-          if ((ev.keyCode || ev.which) === 13) {
-            ev.preventDefault()
-            return false
-          }
-        })
-
-        // bind the filter to the events
-        filter.on('keyup click search input paste blur', (evt) => {
+        $('#filter').on('keyup click search input paste blur', (evt) => {
           filterRows(evt.target.value)
         })
-
-        // add field to container and container to body
-        container.append(filter)
-        ul.before(container)
       }
 
-      // build the table elements from the original resources, flip it since new
+      // build the elements from the resources, and flip it since new
       // links are added to the end of the yaml file
-      const items = resources.map((resource) => {
-        const enrichedTags = enrichedResources.find((r) => r.href === resource.href).tags
-        const link = `<a href="${resource.href}" rel="noopener noreferrer nofollower" target="_blank">${resource.title}</a/>`
-        const tags = `<small>${resource.tags.join(' ')}</small>`
-        const description = resource.description ? `<br>${resource.description}` : ''
-        const row = `<li>${link}${description}<br>${tags}</li>`
-        return row
-      }).reverse()
+      const buildResource = ({ href, title, tags, description }) => {
+        const link = `<a href="${href}" rel="noopener noreferrer nofollower" target="_blank">${title}</a/>`
+        const tagList = `<small>tags: ${tags.join(' ')}</small>`
+        return `<li>${[link, description, tagList].filter(Boolean).join('<br>')}</li>`
+      }
+
+      const items = enrichedResources.map(buildResource).reverse()
 
       // append all the items and add the filter
       $('ul').html(items)
