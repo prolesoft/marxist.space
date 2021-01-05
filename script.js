@@ -1,5 +1,3 @@
-// Bringing fuse back might have some value later on, see:
-// https://github.com/prolesoft/marxist.space/blob/b17b891f4e7213b1d3b1494f3110bbe1bd8efa3f/src/db/index.ts
 ;(function($) {
   /* Utilities */
   const tagAliases = [
@@ -55,6 +53,12 @@
     resources.map((a) =>
       ({ ...a, extraTags: addTagAliases(a.tags) }))
 
+  const buildResourceItem = ({ href, title, tags, description }) => {
+    const link = `<a href="${href}" rel="noopener noreferrer nofollower" target="_blank">${title}</a/>`
+    const tagList = `<small>tags: ${tags.join(' ')}</small>`
+    return `<li>${[link, description, tagList].filter(Boolean).join('<br>')}</li>`
+  }
+
   // get the db, convert to js
   window.fetch('/db.yml')
     .then((res) => res.text())
@@ -82,6 +86,8 @@
             allLis.filter((index, element) => {
               const href = $(element).find('a').attr('href')
               const enriched = enrichedResources.find((r) => r.href === href)
+              // TODO: bring back Fuse for the search? See:
+              // https://github.com/prolesoft/marxist.space/blob/b17b891f4e7213b1d3b1494f3110bbe1bd8efa3f/src/db/index.ts
               return JSON.stringify(enriched).toLowerCase().includes(query.trim().toLowerCase())
             }).show()
           }
@@ -94,13 +100,7 @@
 
       // build the elements from the resources, and flip it since new
       // links are added to the end of the yaml file
-      const buildResource = ({ href, title, tags, description }) => {
-        const link = `<a href="${href}" rel="noopener noreferrer nofollower" target="_blank">${title}</a/>`
-        const tagList = `<small>tags: ${tags.join(' ')}</small>`
-        return `<li>${[link, description, tagList].filter(Boolean).join('<br>')}</li>`
-      }
-
-      const items = enrichedResources.map(buildResource).reverse()
+      const items = enrichedResources.map(buildResourceItem).reverse()
 
       // append all the items and add the filter
       $('ul').html(items)
