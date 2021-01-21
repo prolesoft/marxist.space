@@ -1,5 +1,14 @@
 ;(function($) {
   /* Utilities */
+  const fuseOptions = {
+    shouldSort: true,
+    tokenize: true,
+    threshold: 0.3,
+    ignoreLocation: true,
+    minMatchCharLength: 3,
+    keys: ['href', 'title', 'tags', 'description'],
+  }
+
   const tagAliases = [
     ['abolition', 'police', 'prison', 'cop', 'policing', 'jail'],
     ['anarchist', 'anarchism', 'anarchy'],
@@ -68,34 +77,35 @@
       // enrich resource with plurals and tag aliases from functions above
       const enrichedResources = enrichResources(resources)
 
+      const fuse = new window.Fuse(enrichedResources, fuseOptions)
+
       // set up filtering code
       const addListFilter = () => {
         const ul = $(document.body).find('ul')
 
         // actual filtering function
-        const filterRows = (query) => {
+        const filterRows = (evt) => {
+          const query = evt.target.value.trim()
           // show all items if no query
-          if (query.trim() === '') {
+          if (query === '') {
             ul.find('li').show()
           } else {
             // otherwise, do the search
+            const fuseResults = fuse.search(query)
+              .map((a) => a.item)
+              .map((a) => a.href)
             const allLis = ul.find('li')
             // assume nothing found, then just show found rows
             // this should be refactored
             ul.find('li').hide()
             allLis.filter((index, element) => {
               const href = $(element).find('a').attr('href')
-              const enriched = enrichedResources.find((r) => r.href === href)
-              // TODO: bring back Fuse for the search? See:
-              // https://github.com/prolesoft/marxist.space/blob/b17b891f4e7213b1d3b1494f3110bbe1bd8efa3f/src/db/index.ts
-              return JSON.stringify(enriched).toLowerCase().includes(query.trim().toLowerCase())
+              return fuseResults.find((l) => l === href)
             }).show()
           }
         }
 
-        $('#filter').on('keyup click search input paste blur', (evt) => {
-          filterRows(evt.target.value)
-        })
+        $('#filter').on('keyup', filterRows)
       }
 
       // build the elements from the resources, and flip it since new
