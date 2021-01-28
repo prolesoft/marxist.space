@@ -2148,3 +2148,29 @@ resources:
     title: "Tibet: How China's toughest battleground defeated absolute poverty?"
     tags:
       - tibet
+  - href: 'http://www.viet-myths.net/BuiTin.htm'
+    title: 'How North Vietnam Won The War'
+    tags:
+      - vietnam
+  - href: 'https://defendkorea.com/'
+    title: Paektu Solidarity Alliance
+    tags:
+      - dprk
+  - href: 'https://www.kfausa.org/'
+    title: Korean Friendship Association USA
+    tags:
+      - dprk
+  - href: 'https://www.uriminzokkiri.com/index.php?lang=eng'
+    title: Uriminzokkiri
+    tags:
+      - dprk
+      - news
+  - href: 'http://pflp-documents.org/'
+    title: Historical Documents of the PFLP
+    tags:
+      - palestine
+  - href: 'https://www.breakthroughnews.org'
+    title: Breakthrough News
+    description: Progressive, not necessarily communist, news
+    tags:
+      - news
