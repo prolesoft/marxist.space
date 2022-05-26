@@ -2174,3 +2174,8 @@ resources:
     description: Progressive, not necessarily communist, news
     tags:
       - news
+  - href: 'https://en.prolewiki.org/wiki/ProleWiki:Main_page'
+    title: ProleWiki
+    description: Marxist-Leninist collaborative encyclopedia
+    tags:
+      - wiki
