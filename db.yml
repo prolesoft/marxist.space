@@ -164,16 +164,6 @@ resources:
     title: BadMouseProductions
     tags:
       - youtube
-  - href: 'https://www.youtube.com/channel/UCZ1zgx9IxzrMf545npclq1Q)'
-    title: Black Internationalist
-    tags:
-      - youtube
-  - href: 'https://www.youtube.com/channel/UCpYZYH_1VTB9q8Leg0TrROA)'
-    title: Black Red Guard
-    tags:
-      - youtube
-      - mao
-      - maoism
   - href: 'https://www.youtube.com/user/shanelawrence86'
     title: Juche Gang
     tags:
@@ -188,37 +178,13 @@ resources:
     tags:
       - youtube
       - theory
-  - href: 'https://www.youtube.com/user/saraj00n'
-    title: Means TV
-    tags:
-      - youtube
-  - href: 'https://www.youtube.com/playlist?list=PLXIlvfed_WgkHz6aXkTXeWQb3E8WnNxbb'
-    title: Michael Parenti Lectures
-    description: Playlist
-    tags:
-      - youtube
-      - lectures
   - href: 'https://www.youtube.com/channel/UCCN3WVjzdNd_CDgXn258FVw'
     title: Natalie Revolts
     tags:
       - youtube
       - dprk
-  - href: 'https://www.youtube.com/channel/UCi7apW6MGw6u3UlsJclkN3Q'
-    title: New Anticapitalist Film Gallery
-    tags:
-      - youtube
-      - documentary
-  - href: 'https://www.youtube.com/channel/UCkZFKKK-0YB0FvwoS8P7nHg'
-    title: NonCompete
-    tags:
-      - youtube
-      - anarchy
   - href: 'https://www.youtube.com/channel/UCTVqVQpikHxgLaPf8kguMHg'
     title: Polinkazh
-    tags:
-      - youtube
-  - href: 'https://www.youtube.com/channel/UCSX5GRWdk2Vxwqk0yRg7adg'
-    title: Premier Liles
     tags:
       - youtube
   - href: 'https://www.youtube.com/channel/UCEBbylt9Rax3nOP_hyPnMPA'
@@ -247,17 +213,8 @@ resources:
     title: Danov
     tags:
       - youtube
-  - href: 'https://www.youtube.com/channel/UCP5_cAbRgjsZjkhrHBq84xQ'
-    title: Echo DPRK
-    tags:
-      - youtube
-      - dprk
   - href: 'https://www.youtube.com/channel/UCG29FnXZm4F5U8xpqs1cs1Q'
     title: Empire Files
-    tags:
-      - youtube
-  - href: 'https://www.youtube.com/channel/UCT669OCFMjwMzUdpoXl2FIw'
-    title: Flea Market Socialist
     tags:
       - youtube
   - href: 'https://www.youtube.com/channel/UChKGZBVdKbiBGgn2yhhcmSA'
@@ -1555,23 +1512,6 @@ resources:
     title: 'The Difference Between Socialism, Communism, and Marxism'
     tags:
       - beginner
-      - youtube
-  - href: 'https://www.youtube.com/channel/UCnCitqw8cVeluc0tV0CFQjQ/'
-    title: Red Star TV
-    tags:
-      - youtube
-      - news
-      - dprk
-  - href: 'https://www.youtube.com/channel/UCSukNkw4abtjBuumRZKMgCQ'
-    title: Our Nation School
-    tags:
-      - youtube
-      - dprk
-  - href: 'https://www.youtube.com/channel/UCy1886g0kTj-X_psPQQnAqg'
-    title: DPRK Today
-    tags:
-      - news
-      - dprk
       - youtube
   - href: 'https://anonymousfiles.io/yI8hV8Me/'
     title: Brainwashing (Mirror)
