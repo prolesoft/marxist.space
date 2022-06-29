@@ -2119,3 +2119,7 @@ resources:
     description: Marxist-Leninist collaborative encyclopedia
     tags:
       - wiki
+  - href: 'https://littleredlibrary.cc/'
+    title: Marx2Mao Mirror
+    tags:
+      - library
