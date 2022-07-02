@@ -364,12 +364,6 @@ resources:
       - prison
       - abolition
       - police
-  - href: 'https://killedbypolice.net/'
-    title: Killed By Police
-    tags:
-      - police
-      - abolition
-      - prison
   - href: 'https://mappingpoliceviolence.org/'
     title: Mapping Police Violence
     tags:
