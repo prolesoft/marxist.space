@@ -60,15 +60,26 @@
        are welcome.
     </header>
 
+    <button id="scroll-top">
+      Top
+    </button>
+
+
     <main>
-      <p style="padding-left: 8px;">
-        Filter: <input id="filter" type="search" placeholder="marxism" name="search">
+      <p class="filtering">
+        <input placeholder="marxism" type="search" name="search" id="query">
+        <button id="filter">Filter</button>
       </p>
 
       <ul>
         <!-- filled from fetch -->
       </ul>
     </main>
+
+    <!-- quick scroll to top button -->
+    <script>
+      document.getElementById("scroll-top").onclick = function() {window.scrollTo(0, 0);}
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pluralize/8.0.0/pluralize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
