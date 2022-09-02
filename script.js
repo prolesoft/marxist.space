@@ -59,7 +59,7 @@
     return uniq([...pluralized, ...possibleAliases])
   }
 
-   enrichResources = (resources) => (
+   const enrichResources = (resources) => (
     resources.map((a) =>
       ({ ...a, extraTags: addTagAliases(a.tags) }))
   )
