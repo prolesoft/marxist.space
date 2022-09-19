@@ -2117,3 +2117,8 @@ resources:
     title: Marx2Mao Mirror
     tags:
       - library
+  - href: 'https://redsails.org/the-xinjiang-atrocity-propaganda-blitz/'
+    title: The Xinjiang Atrocity Propaganda Blitz
+    description: 'Thoroughly debunking propaganda about Xinjiang (backup: archive.ph/mWEgm)'
+    tags:
+      - xinjiang
