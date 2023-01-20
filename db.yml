@@ -2122,3 +2122,15 @@ resources:
     description: 'Thoroughly debunking propaganda about Xinjiang (backup: archive.ph/mWEgm)'
     tags:
       - xinjiang
+  - href: 'https://comintersection.net'
+    title: "Communist Intersection"
+    description: "Anti-Imperialist, Communist friendly content aggregator"
+    tags:
+      - aggregator
+      - news
+      - anti-imperialist
+  - href: 'https://kawsachunnews.com/'
+    title: "Kawsachun News"
+    description: "Based in Bolivia and provides news reporting and analysis on Latin America"
+    tags:
+      - news
