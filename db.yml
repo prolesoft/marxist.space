@@ -2129,3 +2129,8 @@ resources:
       - aggregator
       - news
       - anti-imperialist
+  - href: 'https://kawsachunnews.com/'
+    title: "Kawsachun News"
+    description: "Based in Bolivia and provides news reporting and analysis on Latin America"
+    tags:
+      - news
