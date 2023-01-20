@@ -2134,3 +2134,4 @@ resources:
     description: "Based in Bolivia and provides news reporting and analysis on Latin America"
     tags:
       - news
+      - bolivia
