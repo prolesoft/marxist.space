@@ -59,7 +59,7 @@
     return uniq([...pluralized, ...possibleAliases])
   }
 
-   const enrichResources = (resources) => (
+  const enrichResources = (resources) => (
     resources.map((a) =>
       ({ ...a, extraTags: addTagAliases(a.tags) }))
   )
@@ -72,31 +72,26 @@
 
   const fetchy = (resources) => {
     // enrich resource with plurals and tag aliases from functions above
-    const enrichedResources = enrichResources(resList)
+    const enrichedResources = enrichResources(resources)
 
-    const fuse = new window.Fuse(enrichResources(resList), fuseOptions)
+    const fuse = new window.Fuse(enrichedResources, fuseOptions)
 
     // set up filtering code
     const addListFilter = () => {
+      const filterButton = $('#filter')
       const ul = $(document.body).find('ul')
 
       // actual filtering function
-      const filterRows = (e) => {
-        //console.log("I wanna show all of it!")
-  
-        var completeList = itemsList.concat(items)
-        //console.log(completeList)
+      const filterRows = () => {
+        const completeList = items
 
         $('ul').html(completeList)
-        addListFilter()
 
         const query = document.getElementById("query").value.trim()
-        //const query = e.target.value.trim()
         // show all items if no query
         if (query === '') {
           ul.find('li').show()
         } else {
-          
           const fuseResults = fuse.search(query)
             .map((a) => a.item)
             .map((a) => a.href)
@@ -104,7 +99,7 @@
           // assume nothing found, then just show found rows
           // this should be refactored
           ul.find('li').hide()
-          allLis.filter((i, element) => {
+          allLis.filter((_i, element) => {
             const href = $(element).find('a').attr('href')
             return fuseResults.find((l) => l === href)
           }).show()
@@ -112,25 +107,20 @@
       }
 
       $('#filter').on('click', filterRows)
+      $('#query').on('keyup', (e) => {
+        if (e.keyCode === 13) {
+          filterRows()
+        }
+      })
     }
 
     // build the elements from the resources, and flip it since new
     // links are added to the end of the yaml file
     const items = enrichedResources.map(buildResourceItem).reverse()
 
-    const itemsList = items.splice(0,15)
-
     // append all the items and add the filter
-    $('ul').html(itemsList)
+    $('ul').html(items)
     addListFilter()
-
-    window.onscroll = function(e) {
-      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-          itemsList.push(...items.splice(0,15))
-
-          $('ul').html(itemsList.concat(resList.splice(0,15)))
-      }
-    }
   }
 
   // get the db, convert to js
@@ -139,7 +129,6 @@
     .then((text) => jsyaml.load(text))
     .then((obj) => obj.resources)
     .then((resources) => {
-      resList = resources
       fetchy(resources)
     })
 })(jQuery);

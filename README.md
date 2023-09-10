@@ -2,6 +2,11 @@
 
 A [ProleSoft](https://prolesoft.github.io) project.
 
+### Abandoned
+
+Please feel free to fork, use the db in your own project, or do whatever you
+want; I'm archiving this because I don't have the time to maintain it.
+
 ## Adding Resources
 
 First please search `db.yml` to make sure what you want to add isn't already in
